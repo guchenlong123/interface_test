@@ -1,0 +1,81 @@
+{
+  "uid" : "4b1cacb3bdf46bd6",
+  "name" : "test014获取系统联动类公式详情",
+  "fullName" : "testcase.Test_excel_case.TestExcel#test_run",
+  "historyId" : "b22c510412455b311c512c844bfe1db9",
+  "time" : {
+    "start" : 1609725744809,
+    "stop" : 1609725744847,
+    "duration" : 38
+  },
+  "description" : "<font color='red'>请求URL: </font> http://192.168.40.234:5000/admin/action.ashx?prefix=admin&action=GetMonitorIndexFormulaList<Br/><font color='red'>请求类型: </font>POST<Br/><font color='red'>期望结果: </font>ClassType': 0, 'Ext': '', 'ID': 3, 'SystemId': 1<Br/><font color='red'>实际结果: </font>{'code': 200, 'body': {'MonitorIndexFormulaList': [{'ClassType': 0, 'Ext': '', 'ID': 3, 'SystemId': 1, 'SystemName': '配电自动化', 'FormulaName': '配电自动化系统联动', 'AnalyzeType': 6, 'AnalyzeName': '系统联动类', 'SourceID': '1', 'DeviceName': '配电自动化', 'IndexType': 301, 'IndexName': '系统联动', 'IndexFormula': 'YC_20002000=10', 'FormulaParam': '0', 'IsExeute': 1, 'Description': '', 'isPushEAM': 0, 'BounceTime': 0}, {'ClassType': 0, 'Ext': '{\"StartTime\":\"00:00:00\",\"EndTime\":\"23:59:59\",\"EndDate\":\"same\"}', 'ID': 9, 'SystemId': 1, 'SystemName': '配电自动化', 'FormulaName': '配电自动化系统联动1', 'AnalyzeType': 6, 'AnalyzeName': '系统联动类', 'SourceID': '1', 'DeviceName': '配电自动化', 'IndexType': 301, 'IndexName': '系统联动', 'IndexFormula': 'YC_20004000=30', 'FormulaParam': '0', 'IsExeute': 1, 'Description': '', 'isPushEAM': 0, 'BounceTime': 0}, {'ClassType': 0, 'Ext': '', 'ID': 10, 'SystemId': 1, 'SystemName': '配电自动化', 'FormulaName': '配电自动化系统联动2', 'AnalyzeType': 6, 'AnalyzeName': '系统联动类', 'SourceID': '1', 'DeviceName': '配电自动化', 'IndexType': 301, 'IndexName': '系统联动', 'IndexFormula': 'YC_20006000=15', 'FormulaParam': '0', 'IsExeute': 1, 'Description': '', 'isPushEAM': 0, 'BounceTime': 0}], 'Page': {'Current': 1, 'Total': 3}, 'ActionInfo': {'Success': True, 'ExceptionMsg': None, 'ExtendContent': None, 'IsExistsDevice': False, 'ActionUser': '', 'LogType': 0, 'ActionDateTime': '/Date(1609725744841+0800)/', 'ActionModel': None, 'LogParams': None, 'FunctionPoint': None}}}",
+  "descriptionHtml" : "<p><font color='red'>请求URL: </font> http://192.168.40.234:5000/admin/action.ashx?prefix=admin&amp;action=GetMonitorIndexFormulaList<Br/><font color='red'>请求类型: </font>POST<Br/><font color='red'>期望结果: </font>ClassType': 0, 'Ext': '', 'ID': 3, 'SystemId': 1<Br/><font color='red'>实际结果: </font>{'code': 200, 'body': {'MonitorIndexFormulaList': [{'ClassType': 0, 'Ext': '', 'ID': 3, 'SystemId': 1, 'SystemName': '配电自动化', 'FormulaName': '配电自动化系统联动', 'AnalyzeType': 6, 'AnalyzeName': '系统联动类', 'SourceID': '1', 'DeviceName': '配电自动化', 'IndexType': 301, 'IndexName': '系统联动', 'IndexFormula': 'YC_20002000=10', 'FormulaParam': '0', 'IsExeute': 1, 'Description': '', 'isPushEAM': 0, 'BounceTime': 0}, {'ClassType': 0, 'Ext': '{&quot;StartTime&quot;:&quot;00:00:00&quot;,&quot;EndTime&quot;:&quot;23:59:59&quot;,&quot;EndDate&quot;:&quot;same&quot;}', 'ID': 9, 'SystemId': 1, 'SystemName': '配电自动化', 'FormulaName': '配电自动化系统联动1', 'AnalyzeType': 6, 'AnalyzeName': '系统联动类', 'SourceID': '1', 'DeviceName': '配电自动化', 'IndexType': 301, 'IndexName': '系统联动', 'IndexFormula': 'YC_20004000=30', 'FormulaParam': '0', 'IsExeute': 1, 'Description': '', 'isPushEAM': 0, 'BounceTime': 0}, {'ClassType': 0, 'Ext': '', 'ID': 10, 'SystemId': 1, 'SystemName': '配电自动化', 'FormulaName': '配电自动化系统联动2', 'AnalyzeType': 6, 'AnalyzeName': '系统联动类', 'SourceID': '1', 'DeviceName': '配电自动化', 'IndexType': 301, 'IndexName': '系统联动', 'IndexFormula': 'YC_20006000=15', 'FormulaParam': '0', 'IsExeute': 1, 'Description': '', 'isPushEAM': 0, 'BounceTime': 0}], 'Page': {'Current': 1, 'Total': 3}, 'ActionInfo': {'Success': True, 'ExceptionMsg': None, 'ExtendContent': None, 'IsExistsDevice': False, 'ActionUser': '', 'LogType': 0, 'ActionDateTime': '/Date(1609725744841+0800)/', 'ActionModel': None, 'LogParams': None, 'FunctionPoint': None}}}</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "<font color='red'>请求URL: </font> http://192.168.40.234:5000/admin/action.ashx?prefix=admin&action=GetMonitorIndexFormulaList<Br/><font color='red'>请求类型: </font>POST<Br/><font color='red'>期望结果: </font>ClassType': 0, 'Ext': '', 'ID': 3, 'SystemId': 1<Br/><font color='red'>实际结果: </font>{'code': 200, 'body': {'MonitorIndexFormulaList': [{'ClassType': 0, 'Ext': '', 'ID': 3, 'SystemId': 1, 'SystemName': '配电自动化', 'FormulaName': '配电自动化系统联动', 'AnalyzeType': 6, 'AnalyzeName': '系统联动类', 'SourceID': '1', 'DeviceName': '配电自动化', 'IndexType': 301, 'IndexName': '系统联动', 'IndexFormula': 'YC_20002000=10', 'FormulaParam': '0', 'IsExeute': 1, 'Description': '', 'isPushEAM': 0, 'BounceTime': 0}, {'ClassType': 0, 'Ext': '{\"StartTime\":\"00:00:00\",\"EndTime\":\"23:59:59\",\"EndDate\":\"same\"}', 'ID': 9, 'SystemId': 1, 'SystemName': '配电自动化', 'FormulaName': '配电自动化系统联动1', 'AnalyzeType': 6, 'AnalyzeName': '系统联动类', 'SourceID': '1', 'DeviceName': '配电自动化', 'IndexType': 301, 'IndexName': '系统联动', 'IndexFormula': 'YC_20004000=30', 'FormulaParam': '0', 'IsExeute': 1, 'Description': '', 'isPushEAM': 0, 'BounceTime': 0}, {'ClassType': 0, 'Ext': '', 'ID': 10, 'SystemId': 1, 'SystemName': '配电自动化', 'FormulaName': '配电自动化系统联动2', 'AnalyzeType': 6, 'AnalyzeName': '系统联动类', 'SourceID': '1', 'DeviceName': '配电自动化', 'IndexType': 301, 'IndexName': '系统联动', 'IndexFormula': 'YC_20006000=15', 'FormulaParam': '0', 'IsExeute': 1, 'Description': '', 'isPushEAM': 0, 'BounceTime': 0}], 'Page': {'Current': 1, 'Total': 3}, 'ActionInfo': {'Success': True, 'ExceptionMsg': None, 'ExtendContent': None, 'IsExistsDevice': False, 'ActionUser': '', 'LogType': 0, 'ActionDateTime': '/Date(1609725744841+0800)/', 'ActionModel': None, 'LogParams': None, 'FunctionPoint': None}}}",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ab20087613ca9ba2",
+      "name" : "log",
+      "source" : "ab20087613ca9ba2.txt",
+      "type" : "text/plain",
+      "size" : 52
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "IMS后台接口自动化测试"
+  }, {
+    "name" : "story",
+    "value" : "基础公式配置\n(系统联动类)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "Test_excel_case"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestExcel"
+  }, {
+    "name" : "host",
+    "value" : "IMSIMS"
+  }, {
+    "name" : "thread",
+    "value" : "12168-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.Test_excel_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "{'用例ID': 'test014', '模块': '基础公式配置\\n(系统联动类)', '接口名称': '获取系统联动类公式详情', '请求URL': '/admin/action.ashx?prefix=admin&action=GetMonitorIndexFormulaList', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{FormulaName:\\'\\',PageSize:10,PageCurrent:1,AnalyzeType:6}\"}', '预期结果': \"ClassType': 0, 'Ext': '', 'ID': 3, 'SystemId': 1\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': '', '备注': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4b1cacb3bdf46bd6.json",
+  "parameterValues" : [ "{'用例ID': 'test014', '模块': '基础公式配置\\n(系统联动类)', '接口名称': '获取系统联动类公式详情', '请求URL': '/admin/action.ashx?prefix=admin&action=GetMonitorIndexFormulaList', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{FormulaName:\\'\\',PageSize:10,PageCurrent:1,AnalyzeType:6}\"}', '预期结果': \"ClassType': 0, 'Ext': '', 'ID': 3, 'SystemId': 1\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': '', '备注': ''}" ]
+}

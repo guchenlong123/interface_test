@@ -1,0 +1,81 @@
+{
+  "uid" : "a38fc9d0232c62b2",
+  "name" : "test032组地址名称精确查询",
+  "fullName" : "testcase.Test_excel_case.TestExcel#test_run",
+  "historyId" : "c0921a6809454f3f8a4b83e40ab2a52f",
+  "time" : {
+    "start" : 1609725745975,
+    "stop" : 1609725746134,
+    "duration" : 159
+  },
+  "description" : "<font color='red'>请求URL: </font> http://192.168.40.234:5000/admin/action.ashx?prefix=admin&action=GetGroupAddrInfo<Br/><font color='red'>请求类型: </font>POST<Br/><font color='red'>期望结果: </font>GateWay': 3, 'GateWayName': '网关3'<Br/><font color='red'>实际结果: </font>{'code': 200, 'body': {'GroupAddrList': [{'GateWay': 3, 'GateWayName': '网关3', 'DataSource': None, 'AddressType': 0, 'RWRight': 0, 'Address': '1/0/1', 'DataType': 1, 'DataTypeName': 'Boolean', 'dataSource': {'BaseNo': 1, 'TableNo': 18, 'FieldNo': 10, 'RecordNo': 20002000, 'PrjID': 1, 'StationID': 1, 'DeviceID': 1}, 'strDataSource': '[我的工程.前置厂站1.模拟量表.VALUE]模拟量点1', 'OperaType': None, 'Id': 1, 'Cname': '组地址1'}], 'ActionInfo': {'Success': True, 'ExceptionMsg': None, 'ExtendContent': None, 'IsExistsDevice': False, 'ActionUser': '', 'LogType': 0, 'ActionDateTime': '/Date(1609725746128+0800)/', 'ActionModel': None, 'LogParams': None, 'FunctionPoint': None}, 'Page': {'Current': 1, 'Total': 1}, 'CurrentMaxId': 3}}",
+  "descriptionHtml" : "<p><font color='red'>请求URL: </font> http://192.168.40.234:5000/admin/action.ashx?prefix=admin&amp;action=GetGroupAddrInfo<Br/><font color='red'>请求类型: </font>POST<Br/><font color='red'>期望结果: </font>GateWay': 3, 'GateWayName': '网关3'<Br/><font color='red'>实际结果: </font>{'code': 200, 'body': {'GroupAddrList': [{'GateWay': 3, 'GateWayName': '网关3', 'DataSource': None, 'AddressType': 0, 'RWRight': 0, 'Address': '1/0/1', 'DataType': 1, 'DataTypeName': 'Boolean', 'dataSource': {'BaseNo': 1, 'TableNo': 18, 'FieldNo': 10, 'RecordNo': 20002000, 'PrjID': 1, 'StationID': 1, 'DeviceID': 1}, 'strDataSource': '[我的工程.前置厂站1.模拟量表.VALUE]模拟量点1', 'OperaType': None, 'Id': 1, 'Cname': '组地址1'}], 'ActionInfo': {'Success': True, 'ExceptionMsg': None, 'ExtendContent': None, 'IsExistsDevice': False, 'ActionUser': '', 'LogType': 0, 'ActionDateTime': '/Date(1609725746128+0800)/', 'ActionModel': None, 'LogParams': None, 'FunctionPoint': None}, 'Page': {'Current': 1, 'Total': 1}, 'CurrentMaxId': 3}}</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "<font color='red'>请求URL: </font> http://192.168.40.234:5000/admin/action.ashx?prefix=admin&action=GetGroupAddrInfo<Br/><font color='red'>请求类型: </font>POST<Br/><font color='red'>期望结果: </font>GateWay': 3, 'GateWayName': '网关3'<Br/><font color='red'>实际结果: </font>{'code': 200, 'body': {'GroupAddrList': [{'GateWay': 3, 'GateWayName': '网关3', 'DataSource': None, 'AddressType': 0, 'RWRight': 0, 'Address': '1/0/1', 'DataType': 1, 'DataTypeName': 'Boolean', 'dataSource': {'BaseNo': 1, 'TableNo': 18, 'FieldNo': 10, 'RecordNo': 20002000, 'PrjID': 1, 'StationID': 1, 'DeviceID': 1}, 'strDataSource': '[我的工程.前置厂站1.模拟量表.VALUE]模拟量点1', 'OperaType': None, 'Id': 1, 'Cname': '组地址1'}], 'ActionInfo': {'Success': True, 'ExceptionMsg': None, 'ExtendContent': None, 'IsExistsDevice': False, 'ActionUser': '', 'LogType': 0, 'ActionDateTime': '/Date(1609725746128+0800)/', 'ActionModel': None, 'LogParams': None, 'FunctionPoint': None}, 'Page': {'Current': 1, 'Total': 1}, 'CurrentMaxId': 3}}",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "820a0b20f939399f",
+      "name" : "log",
+      "source" : "820a0b20f939399f.txt",
+      "type" : "text/plain",
+      "size" : 52
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "IMS后台接口自动化测试"
+  }, {
+    "name" : "story",
+    "value" : "组地址维护"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "Test_excel_case"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestExcel"
+  }, {
+    "name" : "host",
+    "value" : "IMSIMS"
+  }, {
+    "name" : "thread",
+    "value" : "12168-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.Test_excel_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "{'用例ID': 'test032', '模块': '组地址维护', '接口名称': '组地址名称精确查询', '请求URL': '/admin/action.ashx?prefix=admin&action=GetGroupAddrInfo', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{PageCurrent:1,PageSize:10,CName:\\'组地址1\\'}\"}', '预期结果': \"GateWay': 3, 'GateWayName': '网关3'\", '实际结果': '', '是否运行': 'y', 'headers': '{\"Content-Type\": \\n\"application/x-www-form-urlencoded; charset=UTF-8\"}', 'cookies': '', '返回状态码': '200', '数据库验证': '', '备注': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a38fc9d0232c62b2.json",
+  "parameterValues" : [ "{'用例ID': 'test032', '模块': '组地址维护', '接口名称': '组地址名称精确查询', '请求URL': '/admin/action.ashx?prefix=admin&action=GetGroupAddrInfo', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{PageCurrent:1,PageSize:10,CName:\\'组地址1\\'}\"}', '预期结果': \"GateWay': 3, 'GateWayName': '网关3'\", '实际结果': '', '是否运行': 'y', 'headers': '{\"Content-Type\": \\n\"application/x-www-form-urlencoded; charset=UTF-8\"}', 'cookies': '', '返回状态码': '200', '数据库验证': '', '备注': ''}" ]
+}

@@ -1,0 +1,81 @@
+{
+  "uid" : "7d20f1fed41266f5",
+  "name" : "test030网关新增成功",
+  "fullName" : "testcase.Test_excel_case.TestExcel#test_run",
+  "historyId" : "3175be363eff85798e437d869b215285",
+  "time" : {
+    "start" : 1609725745873,
+    "stop" : 1609725745919,
+    "duration" : 46
+  },
+  "description" : "<font color='red'>请求URL: </font> http://192.168.40.234:5000/admin/action.ashx?prefix=admin&action=InsertGateway<Br/><font color='red'>请求类型: </font>POST<Br/><font color='red'>期望结果: </font>Success': True, 'ExceptionMsg': '新增成功！'<Br/><font color='red'>实际结果: </font>{'code': 200, 'body': {'Success': True, 'ExceptionMsg': '新增成功！', 'ExtendContent': None, 'IsExistsDevice': False, 'ActionUser': '', 'LogType': 0, 'ActionDateTime': '/Date(1609725745914+0800)/', 'ActionModel': None, 'LogParams': None, 'FunctionPoint': None}}",
+  "descriptionHtml" : "<p><font color='red'>请求URL: </font> http://192.168.40.234:5000/admin/action.ashx?prefix=admin&amp;action=InsertGateway<Br/><font color='red'>请求类型: </font>POST<Br/><font color='red'>期望结果: </font>Success': True, 'ExceptionMsg': '新增成功！'<Br/><font color='red'>实际结果: </font>{'code': 200, 'body': {'Success': True, 'ExceptionMsg': '新增成功！', 'ExtendContent': None, 'IsExistsDevice': False, 'ActionUser': '', 'LogType': 0, 'ActionDateTime': '/Date(1609725745914+0800)/', 'ActionModel': None, 'LogParams': None, 'FunctionPoint': None}}</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "<font color='red'>请求URL: </font> http://192.168.40.234:5000/admin/action.ashx?prefix=admin&action=InsertGateway<Br/><font color='red'>请求类型: </font>POST<Br/><font color='red'>期望结果: </font>Success': True, 'ExceptionMsg': '新增成功！'<Br/><font color='red'>实际结果: </font>{'code': 200, 'body': {'Success': True, 'ExceptionMsg': '新增成功！', 'ExtendContent': None, 'IsExistsDevice': False, 'ActionUser': '', 'LogType': 0, 'ActionDateTime': '/Date(1609725745914+0800)/', 'ActionModel': None, 'LogParams': None, 'FunctionPoint': None}}",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "5e71948a279bc3a7",
+      "name" : "log",
+      "source" : "5e71948a279bc3a7.txt",
+      "type" : "text/plain",
+      "size" : 52
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "IMS后台接口自动化测试"
+  }, {
+    "name" : "story",
+    "value" : "网关配置"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "Test_excel_case"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestExcel"
+  }, {
+    "name" : "host",
+    "value" : "IMSIMS"
+  }, {
+    "name" : "thread",
+    "value" : "12168-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.Test_excel_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "{'用例ID': 'test030', '模块': '网关配置', '接口名称': '网关新增成功', '请求URL': '/admin/action.ashx?prefix=admin&action=InsertGateway', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{Cname:\\'网关5\\',Ipaddress:\\'192.168.40.95\\',Portno:80,Description:111}\"}', '预期结果': \"Success': True, 'ExceptionMsg': '新增成功！'\", '实际结果': '', '是否运行': 'y', 'headers': '{\"Content-Type\": \\n\"application/x-www-form-urlencoded; charset=UTF-8\"}', 'cookies': '', '返回状态码': '200', '数据库验证': '', '备注': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7d20f1fed41266f5.json",
+  "parameterValues" : [ "{'用例ID': 'test030', '模块': '网关配置', '接口名称': '网关新增成功', '请求URL': '/admin/action.ashx?prefix=admin&action=InsertGateway', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{Cname:\\'网关5\\',Ipaddress:\\'192.168.40.95\\',Portno:80,Description:111}\"}', '预期结果': \"Success': True, 'ExceptionMsg': '新增成功！'\", '实际结果': '', '是否运行': 'y', 'headers': '{\"Content-Type\": \\n\"application/x-www-form-urlencoded; charset=UTF-8\"}', 'cookies': '', '返回状态码': '200', '数据库验证': '', '备注': ''}" ]
+}

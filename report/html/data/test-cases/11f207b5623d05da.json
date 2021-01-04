@@ -1,0 +1,91 @@
+{
+  "uid" : "11f207b5623d05da",
+  "name" : "test054查看告警实时/历史数据",
+  "fullName" : "testcase.Test_excel_case.TestExcel#test_run",
+  "historyId" : "06a8e2defb1cdb1f8043ed90a5a123cc",
+  "time" : {
+    "start" : 1609726749719,
+    "stop" : 1609726749782,
+    "duration" : 63
+  },
+  "description" : "<font color='red'>请求URL: </font> http://192.168.40.234:5000/action.ashx?action=GetAlarmTablenum<Br/><font color='red'>请求类型: </font>POST<Br/><font color='red'>期望结果: </font>TableNum': 19, 'IsDeviceAlarm': '0'<Br/><font color='red'>实际结果: </font>{'code': 200, 'body': {'ActionInfo': {'ErrorCode': 0, 'Success': True, 'ExceptionMsg': None, 'ActionName': None, 'ActionUser': None, 'ActionTime': '/Date(1609726749750+0800)/', 'LogType': 0, 'ActionDateTime': '/Date(1609726749781+0800)/', 'ActionModel': None, 'LogParams': None, 'FunctionPoint': None}, 'TableNum': 19, 'IsDeviceAlarm': '0'}}",
+  "descriptionHtml" : "<p><font color='red'>请求URL: </font> http://192.168.40.234:5000/action.ashx?action=GetAlarmTablenum<Br/><font color='red'>请求类型: </font>POST<Br/><font color='red'>期望结果: </font>TableNum': 19, 'IsDeviceAlarm': '0'<Br/><font color='red'>实际结果: </font>{'code': 200, 'body': {'ActionInfo': {'ErrorCode': 0, 'Success': True, 'ExceptionMsg': None, 'ActionName': None, 'ActionUser': None, 'ActionTime': '/Date(1609726749750+0800)/', 'LogType': 0, 'ActionDateTime': '/Date(1609726749781+0800)/', 'ActionModel': None, 'LogParams': None, 'FunctionPoint': None}, 'TableNum': 19, 'IsDeviceAlarm': '0'}}</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "<font color='red'>请求URL: </font> http://192.168.40.234:5000/action.ashx?action=GetAlarmTablenum<Br/><font color='red'>请求类型: </font>POST<Br/><font color='red'>期望结果: </font>TableNum': 19, 'IsDeviceAlarm': '0'<Br/><font color='red'>实际结果: </font>{'code': 200, 'body': {'ActionInfo': {'ErrorCode': 0, 'Success': True, 'ExceptionMsg': None, 'ActionName': None, 'ActionUser': None, 'ActionTime': '/Date(1609726749750+0800)/', 'LogType': 0, 'ActionDateTime': '/Date(1609726749781+0800)/', 'ActionModel': None, 'LogParams': None, 'FunctionPoint': None}, 'TableNum': 19, 'IsDeviceAlarm': '0'}}",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "fc3bf2b62d873469",
+      "name" : "log",
+      "source" : "fc3bf2b62d873469.txt",
+      "type" : "text/plain",
+      "size" : 52
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "IMS前台接口自动化测试"
+  }, {
+    "name" : "story",
+    "value" : "告警查询"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "Test_excel_case"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestExcel"
+  }, {
+    "name" : "host",
+    "value" : "IMSIMS"
+  }, {
+    "name" : "thread",
+    "value" : "11724-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.Test_excel_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "{'用例ID': 'test054', '模块': '告警查询', '接口名称': '查看告警实时/历史数据', '请求URL': '/action.ashx?action=GetAlarmTablenum', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{Id:\\'e815175d-3051-4d8e-a52e-c97d498bed7e\\'}\"}', '预期结果': \"TableNum': 19, 'IsDeviceAlarm': '0'\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '{\"userid\":\"admin\"}', '返回状态码': '200', '数据库验证': '', '备注': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "8ad58a82a31ca205",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609725748250,
+        "stop" : 1609725748338,
+        "duration" : 88
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "11f207b5623d05da.json",
+  "parameterValues" : [ "{'用例ID': 'test054', '模块': '告警查询', '接口名称': '查看告警实时/历史数据', '请求URL': '/action.ashx?action=GetAlarmTablenum', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{Id:\\'e815175d-3051-4d8e-a52e-c97d498bed7e\\'}\"}', '预期结果': \"TableNum': 19, 'IsDeviceAlarm': '0'\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '{\"userid\":\"admin\"}', '返回状态码': '200', '数据库验证': '', '备注': ''}" ]
+}

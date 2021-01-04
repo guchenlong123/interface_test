@@ -1,0 +1,91 @@
+{
+  "uid" : "356d50b0596d327a",
+  "name" : "test020智能照明有效设备名称查询",
+  "fullName" : "testcase.Test_excel_case.TestExcel#test_run",
+  "historyId" : "cb54e164b386644f4612193a8c7f8749",
+  "time" : {
+    "start" : 1609726731518,
+    "stop" : 1609726731768,
+    "duration" : 250
+  },
+  "description" : "<font color='red'>请求URL: </font> http://192.168.40.234:5000/action.ashx?action=GetSampleDeviceAndPoint<Br/><font color='red'>请求类型: </font>POST<Br/><font color='red'>期望结果: </font>Page': {'Current': 1, 'Total': 1}<Br/><font color='red'>实际结果: </font>{'code': 200, 'body': {'ActionInfo': {'ErrorCode': 0, 'Success': True, 'ExceptionMsg': '', 'ExtendContent': None}, 'Page': {'Current': 1, 'Total': 1}, 'list': [{'DeviceId': 11, 'CName': '1设备11：', 'subSystem': '智能照明', 'tableList': [{'tableName': '模拟量表', 'tableNo': 18, 'recordList': [{'recordName': '模拟量点1', 'recordId': 20022000}, {'recordName': '模拟量点2', 'recordId': 20022001}, {'recordName': '模拟量点3', 'recordId': 20022002}, {'recordName': '模拟量点4', 'recordId': 20022003}, {'recordName': '模拟量点5', 'recordId': 20022004}]}, {'tableName': '脉冲量表', 'tableNo': 20, 'recordList': [{'recordName': '脉冲量点1', 'recordId': 20022000}, {'recordName': '脉冲量点2', 'recordId': 20022001}, {'recordName': '脉冲量点3', 'recordId': 20022002}, {'recordName': '脉冲量点4', 'recordId': 20022003}, {'recordName': '脉冲量点5', 'recordId': 20022004}]}]}]}}",
+  "descriptionHtml" : "<p><font color='red'>请求URL: </font> http://192.168.40.234:5000/action.ashx?action=GetSampleDeviceAndPoint<Br/><font color='red'>请求类型: </font>POST<Br/><font color='red'>期望结果: </font>Page': {'Current': 1, 'Total': 1}<Br/><font color='red'>实际结果: </font>{'code': 200, 'body': {'ActionInfo': {'ErrorCode': 0, 'Success': True, 'ExceptionMsg': '', 'ExtendContent': None}, 'Page': {'Current': 1, 'Total': 1}, 'list': [{'DeviceId': 11, 'CName': '1设备11：', 'subSystem': '智能照明', 'tableList': [{'tableName': '模拟量表', 'tableNo': 18, 'recordList': [{'recordName': '模拟量点1', 'recordId': 20022000}, {'recordName': '模拟量点2', 'recordId': 20022001}, {'recordName': '模拟量点3', 'recordId': 20022002}, {'recordName': '模拟量点4', 'recordId': 20022003}, {'recordName': '模拟量点5', 'recordId': 20022004}]}, {'tableName': '脉冲量表', 'tableNo': 20, 'recordList': [{'recordName': '脉冲量点1', 'recordId': 20022000}, {'recordName': '脉冲量点2', 'recordId': 20022001}, {'recordName': '脉冲量点3', 'recordId': 20022002}, {'recordName': '脉冲量点4', 'recordId': 20022003}, {'recordName': '脉冲量点5', 'recordId': 20022004}]}]}]}}</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "<font color='red'>请求URL: </font> http://192.168.40.234:5000/action.ashx?action=GetSampleDeviceAndPoint<Br/><font color='red'>请求类型: </font>POST<Br/><font color='red'>期望结果: </font>Page': {'Current': 1, 'Total': 1}<Br/><font color='red'>实际结果: </font>{'code': 200, 'body': {'ActionInfo': {'ErrorCode': 0, 'Success': True, 'ExceptionMsg': '', 'ExtendContent': None}, 'Page': {'Current': 1, 'Total': 1}, 'list': [{'DeviceId': 11, 'CName': '1设备11：', 'subSystem': '智能照明', 'tableList': [{'tableName': '模拟量表', 'tableNo': 18, 'recordList': [{'recordName': '模拟量点1', 'recordId': 20022000}, {'recordName': '模拟量点2', 'recordId': 20022001}, {'recordName': '模拟量点3', 'recordId': 20022002}, {'recordName': '模拟量点4', 'recordId': 20022003}, {'recordName': '模拟量点5', 'recordId': 20022004}]}, {'tableName': '脉冲量表', 'tableNo': 20, 'recordList': [{'recordName': '脉冲量点1', 'recordId': 20022000}, {'recordName': '脉冲量点2', 'recordId': 20022001}, {'recordName': '脉冲量点3', 'recordId': 20022002}, {'recordName': '脉冲量点4', 'recordId': 20022003}, {'recordName': '脉冲量点5', 'recordId': 20022004}]}]}]}}",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "8a1002634e025ea0",
+      "name" : "log",
+      "source" : "8a1002634e025ea0.txt",
+      "type" : "text/plain",
+      "size" : 52
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "IMS前台接口自动化测试"
+  }, {
+    "name" : "story",
+    "value" : "运行数据"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "Test_excel_case"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestExcel"
+  }, {
+    "name" : "host",
+    "value" : "IMSIMS"
+  }, {
+    "name" : "thread",
+    "value" : "11724-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.Test_excel_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "{'用例ID': 'test020', '模块': '运行数据', '接口名称': '智能照明有效设备名称查询', '请求URL': '/action.ashx?action=GetSampleDeviceAndPoint', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{CName:\\'1设备11\\',MCode:\\'M014\\',pageCurrent:1,PageSize:10}\"}', '预期结果': \"Page': {'Current': 1, 'Total': 1}\", '实际结果': '', '是否运行': 'y', 'headers': '{\"Content-Type\": \\n\"application/x-www-form-urlencoded; charset=UTF-8\"}', 'cookies': '', '返回状态码': '200', '数据库验证': '', '备注': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "bacec21432d9ed61",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609725745145,
+        "stop" : 1609725745315,
+        "duration" : 170
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "356d50b0596d327a.json",
+  "parameterValues" : [ "{'用例ID': 'test020', '模块': '运行数据', '接口名称': '智能照明有效设备名称查询', '请求URL': '/action.ashx?action=GetSampleDeviceAndPoint', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{CName:\\'1设备11\\',MCode:\\'M014\\',pageCurrent:1,PageSize:10}\"}', '预期结果': \"Page': {'Current': 1, 'Total': 1}\", '实际结果': '', '是否运行': 'y', 'headers': '{\"Content-Type\": \\n\"application/x-www-form-urlencoded; charset=UTF-8\"}', 'cookies': '', '返回状态码': '200', '数据库验证': '', '备注': ''}" ]
+}

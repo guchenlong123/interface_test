@@ -1,0 +1,751 @@
+[ {
+  "uid" : "1ab5ecca8ebc8e0f",
+  "name" : "test038实时数据，点位已配置越线量",
+  "time" : {
+    "start" : 1609726739018,
+    "stop" : 1609726739065,
+    "duration" : 47
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d71b4d88bdc5e393",
+  "name" : "test015下载月报表",
+  "time" : {
+    "start" : 1609726730596,
+    "stop" : 1609726730768,
+    "duration" : 172
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e9305d2628fceac3",
+  "name" : "test060新增联动场景",
+  "time" : {
+    "start" : 1609725749041,
+    "stop" : 1609725749117,
+    "duration" : 76
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ede8fe0b3f294a90",
+  "name" : "test026有效设备名称数据查询",
+  "time" : {
+    "start" : 1609726734002,
+    "stop" : 1609726734987,
+    "duration" : 985
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "98eaea8076c18cf3",
+  "name" : "test008新增相同名称报表",
+  "time" : {
+    "start" : 1609726725502,
+    "stop" : 1609726725518,
+    "duration" : 16
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2cefdf966fc94df",
+  "name" : "test034查询系统模块为变配电的在线测量设备",
+  "time" : {
+    "start" : 1609726737299,
+    "stop" : 1609726738330,
+    "duration" : 1031
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "de142814e02f2e60",
+  "name" : "test033查询通讯状态为离线的测量设备",
+  "time" : {
+    "start" : 1609726736190,
+    "stop" : 1609726737284,
+    "duration" : 1094
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3907458acc43dfc1",
+  "name" : "test063联动场景名称已存在，新增失败",
+  "time" : {
+    "start" : 1609725749268,
+    "stop" : 1609725749345,
+    "duration" : 77
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7bb062b88de43960",
+  "name" : "test025无效设备名称数据查询",
+  "time" : {
+    "start" : 1609726732955,
+    "stop" : 1609726733987,
+    "duration" : 1032
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8f8eff0e630f019a",
+  "name" : "test052全部导出告警记录",
+  "time" : {
+    "start" : 1609726748610,
+    "stop" : 1609726749235,
+    "duration" : 625
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "44b770d3c54fbfc3",
+  "name" : "test017一页展示20条数据",
+  "time" : {
+    "start" : 1609726730846,
+    "stop" : 1609726730877,
+    "duration" : 31
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "dc9f74c101b8500b",
+  "name" : "test062修改联动条件并保存",
+  "time" : {
+    "start" : 1609725749181,
+    "stop" : 1609725749259,
+    "duration" : 78
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d5da742fceb3221",
+  "name" : "test007新增报表",
+  "time" : {
+    "start" : 1609726725408,
+    "stop" : 1609726725502,
+    "duration" : 94
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3efc1774693413df",
+  "name" : "test067获取区域树结构信息",
+  "time" : {
+    "start" : 1609725749487,
+    "stop" : 1609725749612,
+    "duration" : 125
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "233cf4562de5b906",
+  "name" : "test018无效设备名称查询",
+  "time" : {
+    "start" : 1609726730908,
+    "stop" : 1609726731237,
+    "duration" : 329
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "74fb86218c7a9288",
+  "name" : "test044导出数据",
+  "time" : {
+    "start" : 1609726740435,
+    "stop" : 1609726741075,
+    "duration" : 640
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1808aee4486ff55a",
+  "name" : "test069调出新增区域信息弹窗",
+  "time" : {
+    "start" : 1609725749691,
+    "stop" : 1609725749731,
+    "duration" : 40
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c804dbe78de4d9e2",
+  "name" : "test024数据导出，时间颗粒度为天",
+  "time" : {
+    "start" : 1609726732830,
+    "stop" : 1609726732955,
+    "duration" : 125
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "88b2b37cc3807cc7",
+  "name" : "test023数据导出，时间颗粒度为小时",
+  "time" : {
+    "start" : 1609726732658,
+    "stop" : 1609726732815,
+    "duration" : 157
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3920e73f9e352cd4",
+  "name" : "test036查询系统模块为变配电的设备",
+  "time" : {
+    "start" : 1609726738627,
+    "stop" : 1609726738877,
+    "duration" : 250
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ee9c669953cf7958",
+  "name" : "test055告警类别为告警等级",
+  "time" : {
+    "start" : 1609726749797,
+    "stop" : 1609726750266,
+    "duration" : 469
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1a3db4118551b721",
+  "name" : "test070同一层节点名称重复，新增失败",
+  "time" : {
+    "start" : 1609725749740,
+    "stop" : 1609725749801,
+    "duration" : 61
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "140cc439077a2e6",
+  "name" : "test072树节点下再新增节点",
+  "time" : {
+    "start" : 1609725752126,
+    "stop" : 1609725754932,
+    "duration" : 2806
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f361de4982590c97",
+  "name" : "test019变配电有效设备名称查询",
+  "time" : {
+    "start" : 1609726731252,
+    "stop" : 1609726731502,
+    "duration" : 250
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d78635c18f29f170",
+  "name" : "test016首页跳转至第二页",
+  "time" : {
+    "start" : 1609726730768,
+    "stop" : 1609726730815,
+    "duration" : 47
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "e4fbbee2650051f6",
+  "name" : "test045无效数据的告警查询",
+  "time" : {
+    "start" : 1609726741091,
+    "stop" : 1609726741969,
+    "duration" : 878
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9efd1754a223a2d7",
+  "name" : "test056告警类别为告警类型",
+  "time" : {
+    "start" : 1609726750266,
+    "stop" : 1609726750407,
+    "duration" : 141
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "923f3328b4fb0e13",
+  "name" : "test022数据导出，时间颗粒度为10分钟",
+  "time" : {
+    "start" : 1609726732143,
+    "stop" : 1609726732643,
+    "duration" : 500
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "65ee352770669c9b",
+  "name" : "test053删除设备信息",
+  "time" : {
+    "start" : 1609725748625,
+    "stop" : 1609725748687,
+    "duration" : 62
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4992d26c7ca644b2",
+  "name" : "test058启用场景",
+  "time" : {
+    "start" : 1609725748887,
+    "stop" : 1609725748955,
+    "duration" : 68
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fe43d6a58c9da90f",
+  "name" : "test009报表预览页面，查询",
+  "time" : {
+    "start" : 1609726725533,
+    "stop" : 1609726729690,
+    "duration" : 4157
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6468ebd475f44356",
+  "name" : "test053查看告警记录详情",
+  "time" : {
+    "start" : 1609726749235,
+    "stop" : 1609726749719,
+    "duration" : 484
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c5a618502cbbcf70",
+  "name" : "test066无效树节点名称查询",
+  "time" : {
+    "start" : 1609725749445,
+    "stop" : 1609725749478,
+    "duration" : 33
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "988a75ebc023ba6a",
+  "name" : "test001首页选择“新增报表”",
+  "time" : {
+    "start" : 1609726724955,
+    "stop" : 1609726725033,
+    "duration" : 78
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8cec25c38cf50b5e",
+  "name" : "test073校验是否新增成功",
+  "time" : {
+    "start" : 1609725754941,
+    "stop" : 1609725755017,
+    "duration" : 76
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ee5d4e3877328873",
+  "name" : "test075检验是否删除成功",
+  "time" : {
+    "start" : 1609725755085,
+    "stop" : 1609725755140,
+    "duration" : 55
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2bd5be333dca28e5",
+  "name" : "test057无效场景名称查询",
+  "time" : {
+    "start" : 1609725748850,
+    "stop" : 1609725748878,
+    "duration" : 28
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a055fd7b00e4a4ce",
+  "name" : "test049查询状态为已确认的告警记录",
+  "time" : {
+    "start" : 1609726743719,
+    "stop" : 1609726744250,
+    "duration" : 531
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "80b9340b71f37496",
+  "name" : "test014下载日报表",
+  "time" : {
+    "start" : 1609726730221,
+    "stop" : 1609726730580,
+    "duration" : 359
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d50e8a3ab2e1948b",
+  "name" : "test064删除联动场景",
+  "time" : {
+    "start" : 1609725749352,
+    "stop" : 1609725749394,
+    "duration" : 42
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6136f0d015ad0fa7",
+  "name" : "test006设备名称选择“1设备1:”",
+  "time" : {
+    "start" : 1609726725330,
+    "stop" : 1609726725408,
+    "duration" : 78
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2adccec44ce94090",
+  "name" : "test041最大值，10分钟颗粒度查询历史数据",
+  "time" : {
+    "start" : 1609726739158,
+    "stop" : 1609726739892,
+    "duration" : 734
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "732a644a60d79391",
+  "name" : "test057获取告警统计弹窗数据",
+  "time" : {
+    "start" : 1609726750407,
+    "stop" : 1609726750797,
+    "duration" : 390
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e081b8259ebee4a0",
+  "name" : "test040历史数据，点位已配置越线量",
+  "time" : {
+    "start" : 1609726739112,
+    "stop" : 1609726739143,
+    "duration" : 31
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4fa74826b0eed734",
+  "name" : "test054区域名称精确查询",
+  "time" : {
+    "start" : 1609725748697,
+    "stop" : 1609725748741,
+    "duration" : 44
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5ad70571644b39cb",
+  "name" : "test035无效数据查询",
+  "time" : {
+    "start" : 1609726738346,
+    "stop" : 1609726738627,
+    "duration" : 281
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d1b8465ecd448dea",
+  "name" : "test061调出修改场景信息弹窗",
+  "time" : {
+    "start" : 1609725749126,
+    "stop" : 1609725749171,
+    "duration" : 45
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "467c28186400543c",
+  "name" : "test013月报表查询",
+  "time" : {
+    "start" : 1609726730143,
+    "stop" : 1609726730190,
+    "duration" : 47
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "84b704066127ec23",
+  "name" : "test042平均值，一小时颗粒度查询历史数据",
+  "time" : {
+    "start" : 1609726739892,
+    "stop" : 1609726740017,
+    "duration" : 125
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c213c9e30b622795",
+  "name" : "test037实时数据，点位未配置越线量",
+  "time" : {
+    "start" : 1609726738893,
+    "stop" : 1609726739018,
+    "duration" : 125
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "60c2299ee25f3f65",
+  "name" : "test074删除视频监控树节点",
+  "time" : {
+    "start" : 1609725755027,
+    "stop" : 1609725755077,
+    "duration" : 50
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dc4c6030477d7d8",
+  "name" : "test051选中导出告警记录",
+  "time" : {
+    "start" : 1609726744563,
+    "stop" : 1609726748594,
+    "duration" : 4031
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1ef12fcfef7160ab",
+  "name" : "test039历史数据，点位未配置越线量",
+  "time" : {
+    "start" : 1609726739080,
+    "stop" : 1609726739112,
+    "duration" : 32
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6b08a1f052c3ae67",
+  "name" : "test055查询不存在的区域名称",
+  "time" : {
+    "start" : 1609725748750,
+    "stop" : 1609725748792,
+    "duration" : 42
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4d59e157fb6de83f",
+  "name" : "test047查询等级为次要的告警记录",
+  "time" : {
+    "start" : 1609726742594,
+    "stop" : 1609726743172,
+    "duration" : 578
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b1d0e44003639413",
+  "name" : "test005厂站名称选择“前置厂站1”",
+  "time" : {
+    "start" : 1609726725205,
+    "stop" : 1609726725315,
+    "duration" : 110
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ee2b96b6a69633a9",
+  "name" : "test071新增视频监控树节点",
+  "time" : {
+    "start" : 1609725749809,
+    "stop" : 1609725752118,
+    "duration" : 2309
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f123495ec381902a",
+  "name" : "test056场景名称精确查询",
+  "time" : {
+    "start" : 1609725748801,
+    "stop" : 1609725748840,
+    "duration" : 39
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "44b0933bf49faa6d",
+  "name" : "test004有效数据进行查询",
+  "time" : {
+    "start" : 1609726725158,
+    "stop" : 1609726725190,
+    "duration" : 32
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "73212ecd87d1769d",
+  "name" : "test050用户未登录",
+  "time" : {
+    "start" : 1609726744266,
+    "stop" : 1609726744532,
+    "duration" : 266
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "6145e59b7fba7cfa",
+  "name" : "test011删除报表",
+  "time" : {
+    "start" : 1609726729768,
+    "stop" : 1609726729846,
+    "duration" : 78
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "133bde6ce73ef928",
+  "name" : "test048查询状态为正在告警的告警记录",
+  "time" : {
+    "start" : 1609726743172,
+    "stop" : 1609726743719,
+    "duration" : 547
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "66ff2ca04f0ae255",
+  "name" : "test021刷新运行数据页面",
+  "time" : {
+    "start" : 1609726731783,
+    "stop" : 1609726732143,
+    "duration" : 360
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2545ffb29abb77e2",
+  "name" : "test059停用场景",
+  "time" : {
+    "start" : 1609725748965,
+    "stop" : 1609725749034,
+    "duration" : 69
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "20fe07ab1d3ed38c",
+  "name" : "test010修改报表",
+  "time" : {
+    "start" : 1609726729705,
+    "stop" : 1609726729752,
+    "duration" : 47
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3f4630d1e990a965",
+  "name" : "test068获取区域列表信息",
+  "time" : {
+    "start" : 1609725749621,
+    "stop" : 1609725749681,
+    "duration" : 60
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "417a53aecd0a35a1",
+  "name" : "test003无效数据进行查询",
+  "time" : {
+    "start" : 1609726725112,
+    "stop" : 1609726725158,
+    "duration" : 46
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "356d50b0596d327a",
+  "name" : "test020智能照明有效设备名称查询",
+  "time" : {
+    "start" : 1609726731518,
+    "stop" : 1609726731768,
+    "duration" : 250
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "41cc88a41083d4e5",
+  "name" : "test046通过设备名称查询告警",
+  "time" : {
+    "start" : 1609726741969,
+    "stop" : 1609726742594,
+    "duration" : 625
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3c0bf9d0b184dd39",
+  "name" : "test043导出历史数据",
+  "time" : {
+    "start" : 1609726740017,
+    "stop" : 1609726740419,
+    "duration" : 402
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "11f207b5623d05da",
+  "name" : "test054查看告警实时/历史数据",
+  "time" : {
+    "start" : 1609726749719,
+    "stop" : 1609726749782,
+    "duration" : 63
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d4e538473b8541eb",
+  "name" : "test032查询通讯状态为在线的测量设备",
+  "time" : {
+    "start" : 1609726735002,
+    "stop" : 1609726736190,
+    "duration" : 1188
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "51f1a366c5ed2804",
+  "name" : "test012日报表查询",
+  "time" : {
+    "start" : 1609726729862,
+    "stop" : 1609726729971,
+    "duration" : 109
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "2b9ca9ac2cc51c11",
+  "name" : "test065树节点名称精确查询",
+  "time" : {
+    "start" : 1609725749402,
+    "stop" : 1609725749437,
+    "duration" : 35
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6d04b9eaa432c6e4",
+  "name" : "test002刷新页面",
+  "time" : {
+    "start" : 1609726725049,
+    "stop" : 1609726725112,
+    "duration" : 63
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

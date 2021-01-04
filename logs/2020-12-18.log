@@ -1,0 +1,654 @@
+2020-12-18 09:20:28,781 Requests DEBUG 发送post请求 
+2020-12-18 09:22:14,317 Requests DEBUG 发送post请求 
+2020-12-18 09:23:31,488 Requests DEBUG 发送post请求 
+2020-12-18 09:26:25,687 Requests DEBUG 发送post请求 
+2020-12-18 09:26:44,765 Requests DEBUG 发送post请求 
+2020-12-18 09:27:34,447 Requests DEBUG 发送post请求 
+2020-12-18 09:31:21,965 Requests DEBUG 发送post请求 
+2020-12-18 09:31:39,516 Requests DEBUG 发送post请求 
+2020-12-18 09:31:46,806 Requests DEBUG 发送post请求 
+2020-12-18 09:31:46,836 AssertUtil ERROR 不包含或者body是错误，body is {'Success': False, 'ExceptionMsg': '新增失败！出现重复的名称或IP地址', 'ExtendContent': None, 'IsExistsDevice': False, 'ActionUser': '', 'LogType': 0, 'ActionDateTime': '/Date(1608255106831+0800)/', 'ActionModel': None, 'LogParams': None, 'FunctionPoint': None},expected_body is 'Success': False, 'ExceptionMsg': '新增失败 ！出现重复的名称或IP地址' 
+2020-12-18 09:32:33,990 Requests DEBUG 发送post请求 
+2020-12-18 09:33:55,837 Requests DEBUG 发送post请求 
+2020-12-18 09:34:59,695 Requests DEBUG 发送post请求 
+2020-12-18 09:34:59,726 Requests DEBUG 发送post请求 
+2020-12-18 09:38:36,510 Requests DEBUG 发送post请求 
+2020-12-18 09:39:10,713 Requests DEBUG 发送post请求 
+2020-12-18 09:43:30,429 Requests DEBUG 发送post请求 
+2020-12-18 09:45:05,098 Requests DEBUG 发送post请求 
+2020-12-18 09:46:27,937 Requests DEBUG 发送post请求 
+2020-12-18 09:46:27,990 Requests DEBUG 发送post请求 
+2020-12-18 09:59:53,505 Requests DEBUG 发送post请求 
+2020-12-18 10:00:33,914 Requests DEBUG 发送post请求 
+2020-12-18 10:01:31,182 Requests DEBUG 发送post请求 
+2020-12-18 10:01:50,290 Requests DEBUG 发送post请求 
+2020-12-18 10:11:35,946 Requests DEBUG 发送post请求 
+2020-12-18 10:12:03,715 Requests DEBUG 发送post请求 
+2020-12-18 10:13:17,665 Requests DEBUG 发送post请求 
+2020-12-18 10:13:17,726 Requests DEBUG 发送post请求 
+2020-12-18 10:17:08,709 Requests DEBUG 发送post请求 
+2020-12-18 10:17:43,477 Requests DEBUG 发送post请求 
+2020-12-18 10:21:02,741 Requests DEBUG 发送post请求 
+2020-12-18 10:21:19,153 Requests DEBUG 发送post请求 
+2020-12-18 10:21:19,992 AssertUtil ERROR 不包含或者body是错误，body is <?xml version="1.0" encoding="UTF-8"?>
+<root label='数据来源列表'>
+<dataSou label='1设备1：' id='1' type='NTS-240GS'/>
+<dataSou label='1设备2：' id='2' type='NTS-240GS'/>
+<dataSou label='1设备3：' id='3' type='NTS-240GS'/>
+<dataSou label='1设备4：' id='4' type='NTS-240GS'/>
+<dataSou label='1设备5：' id='5' type='NTS-240GS'/>
+<dataSou label='1设备6：' id='6' type='NTS-240GS'/>
+<dataSou label='1设备7：' id='7' type='NTS-240GS'/>
+<dataSou label='1设备8：' id='8' type='NTS-240GS'/>
+<dataSou label='1设备9：' id='9' type='NTS-240GS'/>
+<dataSou label='1设备10：' id='10' type='NTS-240GS'/>
+<dataSou label='1设备11：' id='11' type='NTS-240GS'/>
+<dataSou label='1设备12：' id='12' type='NTS-240GS'/>
+<dataSou label='1设备13：' id='13' type='NTS-240GS'/>
+<dataSou label='1设备14：' id='14' type='NTS-240GS'/>
+<dataSou label='1设备15：' id='15' type='NTS-240GS'/>
+<dataSou label='1设备16：' id='16' type='NTS-240GS'/>
+<dataSou label='1设备17：' id='17' type='NTS-240GS'/>
+<dataSou label='1设备18：' id='18' type='NTS-240GS'/>
+<dataSou label='1设备19：' id='19' type='NTS-240GS'/>
+<dataSou label='1设备20：' id='20' type='NTS-240GS'/>
+<dataSou label='1设备21：' id='21' type='NTS-240GS'/>
+<dataSou label='1设备22：' id='22' type='NTS-240GS'/>
+<dataSou label='1设备23：' id='23' type='NTS-240GS'/>
+<dataSou label='1设备24：' id='24' type='NTS-240GS'/>
+<dataSou label='1设备25：' id='25' type='NTS-240GS'/>
+<dataSou label='1设备26：' id='26' type='NTS-240GS'/>
+<dataSou label='1设备27：' id='27' type='NTS-240GS'/>
+<dataSou label='1设备28：' id='28' type='NTS-240GS'/>
+<dataSou label='1设备29：' id='29' type='NTS-240GS'/>
+<dataSou label='1设备30：' id='30' type='NTS-240GS'/>
+<dataSou label='1设备31：' id='31' type='NTS-240GS'/>
+<dataSou label='1设备32：' id='32' type='NTS-240GS'/>
+<dataSou label='1设备33：' id='33' type='NTS-240GS'/>
+<dataSou label='1设备34：' id='34' type='NTS-240GS'/>
+<dataSou label='1设备35：' id='35' type='NTS-240GS'/>
+<dataSou label='1设备36：' id='36' type='NTS-240GS'/>
+<dataSou label='1设备37：' id='37' type='NTS-240GS'/>
+<dataSou label='1设备38：' id='38' type='NTS-240GS'/>
+<dataSou label='1设备39：' id='39' type='NTS-240GS'/>
+<dataSou label='1设备40：' id='40' type='NTS-240GS'/>
+<dataSou label='1设备41：' id='41' type='NTS-240GS'/>
+<dataSou label='1设备42：' id='42' type='NTS-240GS'/>
+<dataSou label='1设备43：' id='43' type='NTS-240GS'/>
+<dataSou label='1设备44：' id='44' type='NTS-240GS'/>
+<dataSou label='1设备45：' id='45' type='NTS-240GS'/>
+<dataSou label='1设备46：' id='46' type='NTS-240GS'/>
+<dataSou label='1设备47：' id='47' type='NTS-240GS'/>
+<dataSou label='1设备48：' id='48' type='NTS-240GS'/>
+<dataSou label='1设备49：' id='49' type='NTS-240GS'/>
+<dataSou label='1设备50：' id='50' type='NTS-240GS'/>
+<dataSou label='1设备51：' id='51' type='NTS-240GS'/>
+<dataSou label='1设备52：' id='52' type='NTS-240GS'/>
+<dataSou label='1设备53：' id='53' type='NTS-240GS'/>
+<dataSou label='1设备54：' id='54' type='NTS-240GS'/>
+<dataSou label='1设备55：' id='55' type='NTS-240GS'/>
+<dataSou label='1设备56：' id='56' type='NTS-240GS'/>
+<dataSou label='1设备57：' id='57' type='NTS-240GS'/>
+<dataSou label='1设备58：' id='58' type='NTS-240GS'/>
+<dataSou label='1设备59：' id='59' type='NTS-240GS'/>
+<dataSou label='1设备60：' id='60' type='NTS-240GS'/>
+<dataSou label='1设备61：' id='61' type='NTS-240GS'/>
+<dataSou label='1设备62：' id='62' type='NTS-240GS'/>
+<dataSou label='1设备63：' id='63' type='NTS-240GS'/>
+<dataSou label='1设备64：' id='64' type='NTS-240GS'/>
+<dataSou label='1设备65：' id='65' type='NTS-240GS'/>
+<dataSou label='1设备66：' id='66' type='NTS-240GS'/>
+<dataSou label='1设备67：' id='67' type='NTS-240GS'/>
+<dataSou label='1设备68：' id='68' type='NTS-240GS'/>
+<dataSou label='1设备69：' id='69' type='NTS-240GS'/>
+<dataSou label='1设备70：' id='70' type='NTS-240GS'/>
+<dataSou label='1设备71：' id='71' type='NTS-240GS'/>
+<dataSou label='1设备72：' id='72' type='NTS-240GS'/>
+<dataSou label='1设备73：' id='73' type='NTS-240GS'/>
+<dataSou label='1设备74：' id='74' type='NTS-240GS'/>
+<dataSou label='1设备75：' id='75' type='NTS-240GS'/>
+<dataSou label='1设备76：' id='76' type='NTS-240GS'/>
+<dataSou label='1设备77：' id='77' type='NTS-240GS'/>
+<dataSou label='1设备78：' id='78' type='NTS-240GS'/>
+<dataSou label='1设备79：' id='79' type='NTS-240GS'/>
+<dataSou label='1设备80：' id='80' type='NTS-240GS'/>
+<dataSou label='1设备81：' id='81' type='NTS-240GS'/>
+<dataSou label='1设备82：' id='82' type='NTS-240GS'/>
+<dataSou label='1设备83：' id='83' type='NTS-240GS'/>
+<dataSou label='1设备84：' id='84' type='NTS-240GS'/>
+<dataSou label='1设备85：' id='85' type='NTS-240GS'/>
+<dataSou label='1设备86：' id='86' type='NTS-240GS'/>
+<dataSou label='1设备87：' id='87' type='NTS-240GS'/>
+<dataSou label='1设备88：' id='88' type='NTS-240GS'/>
+<dataSou label='1设备89：' id='89' type='NTS-240GS'/>
+<dataSou label='1设备90：' id='90' type='NTS-240GS'/>
+<dataSou label='1设备91：' id='91' type='NTS-240GS'/>
+<dataSou label='1设备92：' id='92' type='NTS-240GS'/>
+<dataSou label='1设备93：' id='93' type='NTS-240GS'/>
+<dataSou label='1设备94：' id='94' type='NTS-240GS'/>
+<dataSou label='1设备95：' id='95' type='NTS-240GS'/>
+<dataSou label='1设备96：' id='96' type='NTS-240GS'/>
+<dataSou label='1设备97：' id='97' type='NTS-240GS'/>
+<dataSou label='1设备98：' id='98' type='NTS-240GS'/>
+<dataSou label='1设备99：' id='99' type='NTS-240GS'/>
+<dataSou label='1设备100：' id='100' type='NTS-240GS'/>
+<dataSou label='1设备101：' id='101' type='NTS-240GS'/>
+<dataSou label='1设备102：' id='102' type='NTS-240GS'/>
+<dataSou label='1设备103：' id='103' type='NTS-240GS'/>
+<dataSou label='1设备104：' id='104' type='NTS-240GS'/>
+<dataSou label='1设备105：' id='105' type='NTS-240GS'/>
+<dataSou label='1设备106：' id='106' type='NTS-240GS'/>
+<dataSou label='1设备107：' id='107' type='NTS-240GS'/>
+<dataSou label='1设备108：' id='108' type='NTS-240GS'/>
+<dataSou label='1设备109：' id='109' type='NTS-240GS'/>
+<dataSou label='1设备110：' id='110' type='NTS-240GS'/>
+<dataSou label='1设备111：' id='111' type='NTS-240GS'/>
+<dataSou label='1设备112：' id='112' type='NTS-240GS'/>
+<dataSou label='1设备113：' id='113' type='NTS-240GS'/>
+<dataSou label='1设备114：' id='114' type='NTS-240GS'/>
+<dataSou label='1设备115：' id='115' type='NTS-240GS'/>
+<dataSou label='1设备116：' id='116' type='NTS-240GS'/>
+<dataSou label='1设备117：' id='117' type='NTS-240GS'/>
+<dataSou label='1设备118：' id='118' type='NTS-240GS'/>
+<dataSou label='1设备119：' id='119' type='NTS-240GS'/>
+<dataSou label='1设备120：' id='120' type='NTS-240GS'/>
+<dataSou label='1设备121：' id='121' type='NTS-240GS'/>
+<dataSou label='1设备122：' id='122' type='NTS-240GS'/>
+<dataSou label='1设备123：' id='123' type='NTS-240GS'/>
+<dataSou label='1设备124：' id='124' type='NTS-240GS'/>
+<dataSou label='1设备125：' id='125' type='NTS-240GS'/>
+<dataSou label='1设备126：' id='126' type='NTS-240GS'/>
+<dataSou label='1设备127：' id='127' type='NTS-240GS'/>
+<dataSou label='1设备128：' id='128' type='NTS-240GS'/>
+<dataSou label='1设备129：' id='129' type='NTS-240GS'/>
+<dataSou label='1设备130：' id='130' type='NTS-240GS'/>
+<dataSou label='1设备131：' id='131' type='NTS-240GS'/>
+<dataSou label='1设备132：' id='132' type='NTS-240GS'/>
+<dataSou label='1设备133：' id='133' type='NTS-240GS'/>
+<dataSou label='1设备134：' id='134' type='NTS-240GS'/>
+<dataSou label='1设备135：' id='135' type='NTS-240GS'/>
+<dataSou label='1设备136：' id='136' type='NTS-240GS'/>
+<dataSou label='1设备137：' id='137' type='NTS-240GS'/>
+<dataSou label='1设备138：' id='138' type='NTS-240GS'/>
+<dataSou label='1设备139：' id='139' type='NTS-240GS'/>
+<dataSou label='1设备140：' id='140' type='NTS-240GS'/>
+<dataSou label='1设备141：' id='141' type='NTS-240GS'/>
+<dataSou label='1设备142：' id='142' type='NTS-240GS'/>
+<dataSou label='1设备143：' id='143' type='NTS-240GS'/>
+<dataSou label='1设备144：' id='144' type='NTS-240GS'/>
+<dataSou label='1设备145：' id='145' type='NTS-240GS'/>
+<dataSou label='1设备146：' id='146' type='NTS-240GS'/>
+<dataSou label='1设备147：' id='147' type='NTS-240GS'/>
+<dataSou label='1设备148：' id='148' type='NTS-240GS'/>
+<dataSou label='1设备149：' id='149' type='NTS-240GS'/>
+<dataSou label='1设备150：' id='150' type='NTS-240GS'/>
+<dataSou label='1设备151：' id='151' type='NTS-240GS'/>
+<dataSou label='1设备152：' id='152' type='NTS-240GS'/>
+<dataSou label='1设备153：' id='153' type='NTS-240GS'/>
+<dataSou label='1设备154：' id='154' type='NTS-240GS'/>
+<dataSou label='1设备155：' id='155' type='NTS-240GS'/>
+<dataSou label='1设备156：' id='156' type='NTS-240GS'/>
+<dataSou label='1设备157：' id='157' type='NTS-240GS'/>
+<dataSou label='1设备158：' id='158' type='NTS-240GS'/>
+<dataSou label='1设备159：' id='159' type='NTS-240GS'/>
+<dataSou label='1设备160：' id='160' type='NTS-240GS'/>
+<dataSou label='1设备161：' id='161' type='NTS-240GS'/>
+<dataSou label='1设备162：' id='162' type='NTS-240GS'/>
+<dataSou label='1设备163：' id='163' type='NTS-240GS'/>
+<dataSou label='1设备164：' id='164' type='NTS-240GS'/>
+<dataSou label='1设备165：' id='165' type='NTS-240GS'/>
+<dataSou label='1设备166：' id='166' type='NTS-240GS'/>
+<dataSou label='1设备167：' id='167' type='NTS-240GS'/>
+<dataSou label='1设备168：' id='168' type='NTS-240GS'/>
+<dataSou label='1设备169：' id='169' type='NTS-240GS'/>
+<dataSou label='1设备170：' id='170' type='NTS-240GS'/>
+<dataSou label='1设备171：' id='171' type='NTS-240GS'/>
+<dataSou label='1设备172：' id='172' type='NTS-240GS'/>
+<dataSou label='1设备173：' id='173' type='NTS-240GS'/>
+<dataSou label='1设备174：' id='174' type='NTS-240GS'/>
+<dataSou label='1设备175：' id='175' type='NTS-240GS'/>
+<dataSou label='1设备176：' id='176' type='NTS-240GS'/>
+<dataSou label='1设备177：' id='177' type='NTS-240GS'/>
+<dataSou label='1设备178：' id='178' type='NTS-240GS'/>
+<dataSou label='1设备179：' id='179' type='NTS-240GS'/>
+<dataSou label='1设备180：' id='180' type='NTS-240GS'/>
+<dataSou label='1设备181：' id='181' type='NTS-240GS'/>
+<dataSou label='1设备182：' id='182' type='NTS-240GS'/>
+<dataSou label='1设备183：' id='183' type='NTS-240GS'/>
+<dataSou label='1设备184：' id='184' type='NTS-240GS'/>
+<dataSou label='1设备185：' id='185' type='NTS-240GS'/>
+<dataSou label='1设备186：' id='186' type='NTS-240GS'/>
+<dataSou label='1设备187：' id='187' type='NTS-240GS'/>
+<dataSou label='1设备188：' id='188' type='NTS-240GS'/>
+<dataSou label='1设备189：' id='189' type='NTS-240GS'/>
+<dataSou label='1设备190：' id='190' type='NTS-240GS'/>
+<dataSou label='1设备191：' id='191' type='NTS-240GS'/>
+<dataSou label='1设备192：' id='192' type='NTS-240GS'/>
+<dataSou label='1设备193：' id='193' type='NTS-240GS'/>
+<dataSou label='1设备194：' id='194' type='NTS-240GS'/>
+<dataSou label='1设备195：' id='195' type='NTS-240GS'/>
+<dataSou label='1设备196：' id='196' type='NTS-240GS'/>
+<dataSou label='1设备197：' id='197' type='NTS-240GS'/>
+<dataSou label='1设备198：' id='198' type='NTS-240GS'/>
+<dataSou label='1设备199：' id='199' type='NTS-240GS'/>
+<dataSou label='1设备200：' id='200' type='NTS-240GS'/>
+<dataSou label='1设备201：' id='201' type='NTS-240GS'/>
+<dataSou label='1设备202：' id='202' type='NTS-240GS'/>
+<dataSou label='1设备203：' id='203' type='NTS-240GS'/>
+<dataSou label='1设备204：' id='204' type='NTS-240GS'/>
+<dataSou label='1设备205：' id='205' type='NTS-240GS'/>
+<dataSou label='1设备206：' id='206' type='NTS-240GS'/>
+<dataSou label='1设备207：' id='207' type='NTS-240GS'/>
+<dataSou label='1设备208：' id='208' type='NTS-240GS'/>
+<dataSou label='1设备209：' id='209' type='NTS-240GS'/>
+<dataSou label='1设备210：' id='210' type='NTS-240GS'/>
+<dataSou label='1设备211：' id='211' type='NTS-240GS'/>
+<dataSou label='1设备212：' id='212' type='NTS-240GS'/>
+<dataSou label='1设备213：' id='213' type='NTS-240GS'/>
+<dataSou label='1设备214：' id='214' type='NTS-240GS'/>
+<dataSou label='1设备215：' id='215' type='NTS-240GS'/>
+<dataSou label='1设备216：' id='216' type='NTS-240GS'/>
+<dataSou label='1设备217：' id='217' type='NTS-240GS'/>
+<dataSou label='1设备218：' id='218' type='NTS-240GS'/>
+<dataSou label='1设备219：' id='219' type='NTS-240GS'/>
+<dataSou label='1设备220：' id='220' type='NTS-240GS'/>
+<dataSou label='1设备221：' id='221' type='NTS-240GS'/>
+<dataSou label='1设备222：' id='222' type='NTS-240GS'/>
+<dataSou label='1设备223：' id='223' type='NTS-240GS'/>
+<dataSou label='1设备224：' id='224' type='NTS-240GS'/>
+<dataSou label='1设备225：' id='225' type='NTS-240GS'/>
+<dataSou label='1设备226：' id='226' type='NTS-240GS'/>
+<dataSou label='1设备227：' id='227' type='NTS-240GS'/>
+<dataSou label='1设备228：' id='228' type='NTS-240GS'/>
+<dataSou label='1设备229：' id='229' type='NTS-240GS'/>
+<dataSou label='1设备230：' id='230' type='NTS-240GS'/>
+<dataSou label='1设备231：' id='231' type='NTS-240GS'/>
+<dataSou label='1设备232：' id='232' type='NTS-240GS'/>
+<dataSou label='1设备233：' id='233' type='NTS-240GS'/>
+<dataSou label='1设备234：' id='234' type='NTS-240GS'/>
+<dataSou label='1设备235：' id='235' type='NTS-240GS'/>
+<dataSou label='1设备236：' id='236' type='NTS-240GS'/>
+<dataSou label='1设备237：' id='237' type='NTS-240GS'/>
+<dataSou label='1设备238：' id='238' type='NTS-240GS'/>
+<dataSou label='1设备239：' id='239' type='NTS-240GS'/>
+<dataSou label='1设备240：' id='240' type='NTS-240GS'/>
+<dataSou label='1设备241：' id='241' type='NTS-240GS'/>
+<dataSou label='1设备242：' id='242' type='NTS-240GS'/>
+<dataSou label='1设备243：' id='243' type='NTS-240GS'/>
+<dataSou label='1设备244：' id='244' type='NTS-240GS'/>
+<dataSou label='1设备245：' id='245' type='NTS-240GS'/>
+<dataSou label='1设备246：' id='246' type='NTS-240GS'/>
+<dataSou label='1设备247：' id='247' type='NTS-240GS'/>
+<dataSou label='1设备248：' id='248' type='NTS-240GS'/>
+<dataSou label='1设备249：' id='249' type='NTS-240GS'/>
+<dataSou label='1设备250：' id='250' type='NTS-240GS'/>
+<dataSou label='1设备251：' id='251' type='NTS-240GS'/>
+<dataSou label='1设备252：' id='252' type='NTS-240GS'/>
+<dataSou label='1设备253：' id='253' type='NTS-240GS'/>
+<dataSou label='1设备254：' id='254' type='NTS-240GS'/>
+<dataSou label='1设备255：' id='255' type='NTS-240GS'/>
+<dataSou label='1设备256：' id='256' type='NTS-240GS'/>
+<dataSou label='1设备257：' id='257' type='NTS-240GS'/>
+<dataSou label='1设备258：' id='258' type='NTS-240GS'/>
+<dataSou label='1设备259：' id='259' type='NTS-240GS'/>
+<dataSou label='1设备260：' id='260' type='NTS-240GS'/>
+<dataSou label='1设备261：' id='261' type='NTS-240GS'/>
+<dataSou label='1设备262：' id='262' type='NTS-240GS'/>
+<dataSou label='1设备263：' id='263' type='NTS-240GS'/>
+<dataSou label='1设备264：' id='264' type='NTS-240GS'/>
+<dataSou label='1设备265：' id='265' type='NTS-240GS'/>
+<dataSou label='1设备266：' id='266' type='NTS-240GS'/>
+<dataSou label='1设备267：' id='267' type='NTS-240GS'/>
+<dataSou label='1设备268：' id='268' type='NTS-240GS'/>
+<dataSou label='1设备269：' id='269' type='NTS-240GS'/>
+<dataSou label='1设备270：' id='270' type='NTS-240GS'/>
+<dataSou label='1设备271：' id='271' type='NTS-240GS'/>
+<dataSou label='1设备272：' id='272' type='NTS-240GS'/>
+<dataSou label='1设备273：' id='273' type='NTS-240GS'/>
+<dataSou label='1设备274：' id='274' type='NTS-240GS'/>
+<dataSou label='1设备275：' id='275' type='NTS-240GS'/>
+<dataSou label='1设备276：' id='276' type='NTS-240GS'/>
+<dataSou label='1设备277：' id='277' type='NTS-240GS'/>
+<dataSou label='1设备278：' id='278' type='NTS-240GS'/>
+<dataSou label='1设备279：' id='279' type='NTS-240GS'/>
+<dataSou label='1设备280：' id='280' type='NTS-240GS'/>
+<dataSou label='1设备281：' id='281' type='NTS-240GS'/>
+<dataSou label='1设备282：' id='282' type='NTS-240GS'/>
+<dataSou label='1设备283：' id='283' type='NTS-240GS'/>
+<dataSou label='1设备284：' id='284' type='NTS-240GS'/>
+<dataSou label='1设备285：' id='285' type='NTS-240GS'/>
+<dataSou label='1设备286：' id='286' type='NTS-240GS'/>
+<dataSou label='1设备287：' id='287' type='NTS-240GS'/>
+<dataSou label='1设备288：' id='288' type='NTS-240GS'/>
+<dataSou label='1设备289：' id='289' type='NTS-240GS'/>
+<dataSou label='1设备290：' id='290' type='NTS-240GS'/>
+<dataSou label='1设备291：' id='291' type='NTS-240GS'/>
+<dataSou label='1设备292：' id='292' type='NTS-240GS'/>
+<dataSou label='1设备293：' id='293' type='NTS-240GS'/>
+<dataSou label='1设备294：' id='294' type='NTS-240GS'/>
+<dataSou label='1设备295：' id='295' type='NTS-240GS'/>
+<dataSou label='1设备296：' id='296' type='NTS-240GS'/>
+<dataSou label='1设备297：' id='297' type='NTS-240GS'/>
+<dataSou label='1设备298：' id='298' type='NTS-240GS'/>
+<dataSou label='1设备299：' id='299' type='NTS-240GS'/>
+<dataSou label='1设备300：' id='300' type='NTS-240GS'/>
+</root>
+,expected_body is <root label='数据来 源列表'> 
+2020-12-18 10:21:39,229 Requests DEBUG 发送post请求 
+2020-12-18 10:26:40,054 Requests DEBUG 发送post请求 
+2020-12-18 10:26:40,480 AssertUtil ERROR 不包含或者body是错误，body is <?xml version="1.0" encoding="UTF-8"?>
+<root label='数据来源列表'/>
+,expected_body is <root label='数据来源列表'> 
+2020-12-18 10:26:51,827 Requests DEBUG 发送post请求 
+2020-12-18 10:27:10,825 Requests DEBUG 发送post请求 
+2020-12-18 10:28:03,926 Requests DEBUG 发送post请求 
+2020-12-18 10:29:09,852 Requests DEBUG 发送post请求 
+2020-12-18 10:32:33,482 Requests DEBUG 发送post请求 
+2020-12-18 10:32:56,058 Requests DEBUG 发送post请求 
+2020-12-18 10:33:47,904 Requests DEBUG 发送post请求 
+2020-12-18 10:33:49,324 Requests DEBUG 发送post请求 
+2020-12-18 10:33:50,317 Requests DEBUG 发送post请求 
+2020-12-18 10:45:16,835 Requests DEBUG 发送post请求 
+2020-12-18 10:46:08,261 Requests DEBUG 发送post请求 
+2020-12-18 10:46:15,498 Requests DEBUG 发送post请求 
+2020-12-18 10:46:15,525 AssertUtil ERROR 不包含或者body是错误，body is {'Success': False, 'ExceptionMsg': '组地址名称为：组地址1--已经配置该组地址', 'ExtendContent': None, 'IsExistsDevice': True, 'ActionUser': '', 'LogType': 0, 'ActionDateTime': '/Date(1608259575518+0800)/', 'ActionModel': None, 'LogParams': None, 'FunctionPoint': None},expected_body is 'Success': Fals e, 'ExceptionMsg': '组地址名称为：组地址1--已经配置该组地址' 
+2020-12-18 10:46:20,416 Requests DEBUG 发送post请求 
+2020-12-18 10:48:11,142 Requests DEBUG 发送post请求 
+2020-12-18 10:55:09,282 Requests DEBUG 发送post请求 
+2020-12-18 11:01:38,173 Requests DEBUG 发送post请求 
+2020-12-18 11:02:27,557 Requests DEBUG 发送post请求 
+2020-12-18 11:02:57,044 Requests DEBUG 发送post请求 
+2020-12-18 11:03:34,511 Requests DEBUG 发送post请求 
+2020-12-18 11:05:33,492 Requests DEBUG 发送post请求 
+2020-12-18 11:05:33,586 Requests DEBUG 发送post请求 
+2020-12-18 11:10:22,223 Requests DEBUG 发送post请求 
+2020-12-18 11:10:22,333 Requests DEBUG 发送post请求 
+2020-12-18 11:15:43,202 Requests DEBUG 发送post请求 
+2020-12-18 11:15:43,280 Requests DEBUG 发送post请求 
+2020-12-18 11:15:43,343 Requests DEBUG 发送post请求 
+2020-12-18 11:15:43,405 Requests DEBUG 发送post请求 
+2020-12-18 11:44:39,519 Requests DEBUG 发送post请求 
+2020-12-18 11:45:03,623 Requests DEBUG 发送post请求 
+2020-12-18 11:45:59,249 Requests DEBUG 发送post请求 
+2020-12-18 14:00:31,839 Requests DEBUG 发送post请求 
+2020-12-18 14:07:52,414 Requests DEBUG 发送post请求 
+2020-12-18 14:07:52,477 Requests DEBUG 发送post请求 
+2020-12-18 14:12:05,686 Requests DEBUG 发送post请求 
+2020-12-18 14:12:30,614 Requests DEBUG 发送post请求 
+2020-12-18 14:12:59,742 Requests DEBUG 发送post请求 
+2020-12-18 14:13:28,605 Requests DEBUG 发送post请求 
+2020-12-18 14:15:25,408 Requests DEBUG 发送post请求 
+2020-12-18 14:24:43,592 Requests DEBUG 发送post请求 
+2020-12-18 14:28:02,570 Requests DEBUG 发送post请求 
+2020-12-18 14:33:47,168 Requests DEBUG 发送post请求 
+2020-12-18 14:37:19,493 Requests DEBUG 发送post请求 
+2020-12-18 14:38:46,820 Requests DEBUG 发送post请求 
+2020-12-18 14:39:21,167 Requests DEBUG 发送post请求 
+2020-12-18 14:42:24,312 Requests DEBUG 发送post请求 
+2020-12-18 14:42:44,493 Requests DEBUG 发送post请求 
+2020-12-18 14:47:06,564 Requests DEBUG 发送post请求 
+2020-12-18 14:54:39,491 Requests DEBUG 发送post请求 
+2020-12-18 14:56:32,576 Requests DEBUG 发送post请求 
+2020-12-18 14:56:56,367 Requests DEBUG 发送post请求 
+2020-12-18 15:01:01,943 Requests DEBUG 发送post请求 
+2020-12-18 15:12:49,182 Requests DEBUG 发送post请求 
+2020-12-18 15:15:17,673 Requests DEBUG 发送post请求 
+2020-12-18 15:21:13,700 Requests DEBUG 发送post请求 
+2020-12-18 15:21:52,336 Requests DEBUG 发送post请求 
+2020-12-18 15:26:27,972 Requests DEBUG 发送post请求 
+2020-12-18 15:30:43,548 Requests DEBUG 发送post请求 
+2020-12-18 15:31:22,270 Requests DEBUG 发送post请求 
+2020-12-18 15:31:33,286 Requests DEBUG 发送post请求 
+2020-12-18 15:31:48,630 Requests DEBUG 发送post请求 
+2020-12-18 15:58:02,696 Requests DEBUG 发送post请求 
+2020-12-18 16:00:15,416 Requests DEBUG 发送post请求 
+2020-12-18 16:01:52,119 Requests DEBUG 发送post请求 
+2020-12-18 16:04:27,814 Requests DEBUG 发送post请求 
+2020-12-18 16:04:58,237 Requests DEBUG 发送post请求 
+2020-12-18 16:05:04,330 Requests DEBUG 发送post请求 
+2020-12-18 16:05:34,897 Requests DEBUG 发送post请求 
+2020-12-18 16:06:01,027 Requests DEBUG 发送post请求 
+2020-12-18 16:06:16,404 Requests DEBUG 发送post请求 
+2020-12-18 16:07:10,420 Requests DEBUG 发送post请求 
+2020-12-18 16:25:41,786 Requests DEBUG 发送post请求 
+2020-12-18 16:27:14,512 Requests DEBUG 发送post请求 
+2020-12-18 16:27:14,544 AssertUtil ERROR 不包含或者body是错误，body is {'Success': False, 'ExceptionMsg': '摄像头IP出现重复，请重设！', 'ExtendContent': None, 'IsExistsDevice': False, 'ActionUser': '', 'LogType': 0, 'ActionDateTime': '/Date(1608280034528+0800)/', 'ActionModel': None, 'LogParams': None, 'FunctionPoint': None},expected_body is Success': True, 'ExceptionMsg': '新增成功！' 
+2020-12-18 16:28:16,951 Requests DEBUG 发送post请求 
+2020-12-18 16:28:17,029 Requests DEBUG 发送post请求 
+2020-12-18 16:28:17,045 AssertUtil ERROR code error,code is 200,expected_code is  
+2020-12-18 16:29:41,592 Requests DEBUG 发送post请求 
+2020-12-18 16:29:41,608 AssertUtil ERROR code error,code is 200,expected_code is  
+2020-12-18 16:29:52,557 Requests DEBUG 发送post请求 
+2020-12-18 16:30:14,268 Requests DEBUG 发送post请求 
+2020-12-18 16:30:39,055 Requests DEBUG 发送post请求 
+2020-12-18 16:30:39,086 AssertUtil ERROR code error,code is 200,expected_code is  
+2020-12-18 16:31:07,411 Requests DEBUG 发送post请求 
+2020-12-18 16:31:38,962 Requests DEBUG 发送post请求 
+2020-12-18 16:38:16,490 Requests DEBUG 发送post请求 
+2020-12-18 16:39:21,471 Requests DEBUG 发送post请求 
+2020-12-18 16:41:09,204 Requests DEBUG 发送post请求 
+2020-12-18 16:41:27,005 Requests DEBUG 发送post请求 
+2020-12-18 16:42:29,939 Requests DEBUG 发送post请求 
+2020-12-18 16:42:30,007 Requests DEBUG 发送post请求 
+2020-12-18 16:44:31,428 Requests DEBUG 发送post请求 
+2020-12-18 16:44:31,647 Requests DEBUG 发送post请求 
+2020-12-18 16:44:31,740 Requests DEBUG 发送post请求 
+2020-12-18 16:44:31,850 Requests DEBUG 发送post请求 
+2020-12-18 16:44:31,897 Requests DEBUG 发送post请求 
+2020-12-18 16:44:32,038 Requests DEBUG 发送post请求 
+2020-12-18 16:44:32,132 Requests DEBUG 发送post请求 
+2020-12-18 16:44:32,366 Requests DEBUG 发送post请求 
+2020-12-18 16:44:32,445 Requests DEBUG 发送post请求 
+2020-12-18 16:44:32,570 Requests DEBUG 发送post请求 
+2020-12-18 16:44:32,632 Requests DEBUG 发送post请求 
+2020-12-18 16:44:32,695 Requests DEBUG 发送post请求 
+2020-12-18 16:44:32,726 Requests DEBUG 发送post请求 
+2020-12-18 16:44:32,804 Requests DEBUG 发送post请求 
+2020-12-18 16:44:32,851 Requests DEBUG 发送post请求 
+2020-12-18 16:44:32,898 Requests DEBUG 发送post请求 
+2020-12-18 16:44:32,945 Requests DEBUG 发送post请求 
+2020-12-18 16:44:33,241 AssertUtil ERROR 不包含或者body是错误，body is {'GroupAddrList': [{'GateWay': 3, 'GateWayName': '网关3', 'DataSource': None, 'AddressType': 0, 'RWRight': 0, 'Address': '1/0/1', 'DataType': 1, 'DataTypeName': 'Boolean', 'dataSource': {'BaseNo': 1, 'TableNo': 18, 'FieldNo': 10, 'RecordNo': 20002000, 'PrjID': 1, 'StationID': 1, 'DeviceID': 1}, 'strDataSource': '[我的工程.前置厂站1.模拟量表.VALUE]模拟量点1', 'OperaType': None, 'Id': 1, 'Cname': '组地址1'}], 'ActionInfo': {'Success': True, 'ExceptionMsg': None, 'ExtendContent': None, 'IsExistsDevice': False, 'ActionUser': '', 'LogType': 0, 'ActionDateTime': '/Date(1608281073226+0800)/', 'ActionModel': None, 'LogParams': None, 'FunctionPoint': None}, 'Page': {'Current': 1, 'Total': 1}, 'CurrentMaxId': 3},expected_body is GateWay': 1, 'GateWayName': '网关1' 
+2020-12-18 16:44:33,366 Requests DEBUG 发送post请求 
+2020-12-18 16:44:33,398 Requests DEBUG 发送post请求 
+2020-12-18 16:44:34,195 Requests DEBUG 发送post请求 
+2020-12-18 16:44:34,554 Requests DEBUG 发送post请求 
+2020-12-18 16:44:35,241 Requests DEBUG 发送post请求 
+2020-12-18 16:44:35,335 Requests DEBUG 发送post请求 
+2020-12-18 16:44:35,429 Requests DEBUG 发送post请求 
+2020-12-18 16:44:35,476 Requests DEBUG 发送post请求 
+2020-12-18 16:44:35,523 AssertUtil ERROR code error,code is 200,expected_code is  
+2020-12-18 16:44:35,554 Requests DEBUG 发送post请求 
+2020-12-18 16:44:35,601 Requests DEBUG 发送post请求 
+2020-12-18 16:44:35,648 Requests DEBUG 发送post请求 
+2020-12-18 16:44:35,710 Requests DEBUG 发送post请求 
+2020-12-18 16:44:35,741 Requests DEBUG 发送post请求 
+2020-12-18 16:44:35,788 D:\Users\Administrator\PycharmProjects\InterfaceTest\utils\LogUtil.py INFO 报告地址 
+2020-12-18 16:49:58,477 Requests DEBUG 发送post请求 
+2020-12-18 16:49:58,523 Requests DEBUG 发送post请求 
+2020-12-18 16:49:58,617 Requests DEBUG 发送post请求 
+2020-12-18 16:49:58,664 Requests DEBUG 发送post请求 
+2020-12-18 16:49:58,711 Requests DEBUG 发送post请求 
+2020-12-18 16:49:58,789 Requests DEBUG 发送post请求 
+2020-12-18 16:49:58,852 Requests DEBUG 发送post请求 
+2020-12-18 16:49:58,945 Requests DEBUG 发送post请求 
+2020-12-18 16:49:59,008 Requests DEBUG 发送post请求 
+2020-12-18 16:49:59,039 Requests DEBUG 发送post请求 
+2020-12-18 16:49:59,086 Requests DEBUG 发送post请求 
+2020-12-18 16:49:59,117 Requests DEBUG 发送post请求 
+2020-12-18 16:49:59,164 Requests DEBUG 发送post请求 
+2020-12-18 16:49:59,242 Requests DEBUG 发送post请求 
+2020-12-18 16:49:59,289 Requests DEBUG 发送post请求 
+2020-12-18 16:49:59,508 Requests DEBUG 发送post请求 
+2020-12-18 16:49:59,648 Requests DEBUG 发送post请求 
+2020-12-18 16:49:59,695 AssertUtil ERROR 不包含或者body是错误，body is {'GroupAddrList': [{'GateWay': 3, 'GateWayName': '网关3', 'DataSource': None, 'AddressType': 0, 'RWRight': 0, 'Address': '1/0/1', 'DataType': 1, 'DataTypeName': 'Boolean', 'dataSource': {'BaseNo': 1, 'TableNo': 18, 'FieldNo': 10, 'RecordNo': 20002000, 'PrjID': 1, 'StationID': 1, 'DeviceID': 1}, 'strDataSource': '[我的工程.前置厂站1.模拟量表.VALUE]模拟量点1', 'OperaType': None, 'Id': 1, 'Cname': '组地址1'}], 'ActionInfo': {'Success': True, 'ExceptionMsg': None, 'ExtendContent': None, 'IsExistsDevice': False, 'ActionUser': '', 'LogType': 0, 'ActionDateTime': '/Date(1608281399695+0800)/', 'ActionModel': None, 'LogParams': None, 'FunctionPoint': None}, 'Page': {'Current': 1, 'Total': 1}, 'CurrentMaxId': 3},expected_body is GateWay': 1, 'GateWayName': '网关1' 
+2020-12-18 16:49:59,852 Requests DEBUG 发送post请求 
+2020-12-18 16:49:59,883 Requests DEBUG 发送post请求 
+2020-12-18 16:50:00,555 Requests DEBUG 发送post请求 
+2020-12-18 16:50:01,336 Requests DEBUG 发送post请求 
+2020-12-18 16:50:01,602 Requests DEBUG 发送post请求 
+2020-12-18 16:50:01,648 Requests DEBUG 发送post请求 
+2020-12-18 16:50:01,711 Requests DEBUG 发送post请求 
+2020-12-18 16:50:01,742 Requests DEBUG 发送post请求 
+2020-12-18 16:50:01,758 AssertUtil ERROR code error,code is 200,expected_code is  
+2020-12-18 16:50:01,789 Requests DEBUG 发送post请求 
+2020-12-18 16:50:01,820 Requests DEBUG 发送post请求 
+2020-12-18 16:50:01,852 Requests DEBUG 发送post请求 
+2020-12-18 16:50:01,930 Requests DEBUG 发送post请求 
+2020-12-18 16:50:01,961 Requests DEBUG 发送post请求 
+2020-12-18 16:50:02,023 D:\Users\Administrator\PycharmProjects\InterfaceTest\utils\LogUtil.py INFO 报告地址 
+2020-12-18 16:53:09,145 Requests DEBUG 发送post请求 
+2020-12-18 16:53:09,176 AssertUtil ERROR 不包含或者body是错误，body is {'GroupAddrList': [{'GateWay': 3, 'GateWayName': '网关3', 'DataSource': None, 'AddressType': 0, 'RWRight': 0, 'Address': '1/0/1', 'DataType': 1, 'DataTypeName': 'Boolean', 'dataSource': {'BaseNo': 1, 'TableNo': 18, 'FieldNo': 10, 'RecordNo': 20002000, 'PrjID': 1, 'StationID': 1, 'DeviceID': 1}, 'strDataSource': '[我的工程.前置厂站1.模拟量表.VALUE]模拟量点1', 'OperaType': None, 'Id': 1, 'Cname': '组地址1'}], 'ActionInfo': {'Success': True, 'ExceptionMsg': None, 'ExtendContent': None, 'IsExistsDevice': False, 'ActionUser': '', 'LogType': 0, 'ActionDateTime': '/Date(1608281589160+0800)/', 'ActionModel': None, 'LogParams': None, 'FunctionPoint': None}, 'Page': {'Current': 1, 'Total': 1}, 'CurrentMaxId': 3},expected_body is GateWay': 1, 'GateWayName': '网关1' 
+2020-12-18 16:56:23,778 Requests DEBUG 发送post请求 
+2020-12-18 16:59:10,295 Requests DEBUG 发送post请求 
+2020-12-18 16:59:10,326 Requests DEBUG 发送post请求 
+2020-12-18 16:59:10,420 Requests DEBUG 发送post请求 
+2020-12-18 16:59:10,467 Requests DEBUG 发送post请求 
+2020-12-18 16:59:10,498 Requests DEBUG 发送post请求 
+2020-12-18 16:59:10,560 Requests DEBUG 发送post请求 
+2020-12-18 16:59:10,623 Requests DEBUG 发送post请求 
+2020-12-18 16:59:10,670 AssertUtil ERROR 不包含或者body是错误，body is {'IsSucess': False, 'TreeName': None, 'ExceptionMeg': "系统检测到重复提交\r\n公式名称为'配电自动化系统联动5'公式是否有此类指标公式配置数据\r\n或者对象ID和指标是否重复\r\n"},expected_body is IsSucess': True 
+2020-12-18 16:59:10,795 Requests DEBUG 发送post请求 
+2020-12-18 16:59:10,857 Requests DEBUG 发送post请求 
+2020-12-18 16:59:10,888 Requests DEBUG 发送post请求 
+2020-12-18 16:59:10,935 Requests DEBUG 发送post请求 
+2020-12-18 16:59:10,967 Requests DEBUG 发送post请求 
+2020-12-18 16:59:11,013 Requests DEBUG 发送post请求 
+2020-12-18 16:59:11,076 Requests DEBUG 发送post请求 
+2020-12-18 16:59:11,170 Requests DEBUG 发送post请求 
+2020-12-18 16:59:11,217 Requests DEBUG 发送post请求 
+2020-12-18 16:59:11,263 Requests DEBUG 发送post请求 
+2020-12-18 16:59:11,326 Requests DEBUG 发送post请求 
+2020-12-18 16:59:11,357 Requests DEBUG 发送post请求 
+2020-12-18 16:59:11,842 Requests DEBUG 发送post请求 
+2020-12-18 16:59:12,045 Requests DEBUG 发送post请求 
+2020-12-18 16:59:12,890 Requests DEBUG 发送post请求 
+2020-12-18 16:59:12,921 Requests DEBUG 发送post请求 
+2020-12-18 16:59:12,984 Requests DEBUG 发送post请求 
+2020-12-18 16:59:13,015 Requests DEBUG 发送post请求 
+2020-12-18 16:59:13,062 AssertUtil ERROR code error,code is 200,expected_code is  
+2020-12-18 16:59:13,093 Requests DEBUG 发送post请求 
+2020-12-18 16:59:13,155 Requests DEBUG 发送post请求 
+2020-12-18 16:59:13,202 Requests DEBUG 发送post请求 
+2020-12-18 16:59:13,278 Requests DEBUG 发送post请求 
+2020-12-18 16:59:13,309 Requests DEBUG 发送post请求 
+2020-12-18 17:00:37,665 Requests DEBUG 发送post请求 
+2020-12-18 17:00:37,712 Requests DEBUG 发送post请求 
+2020-12-18 17:00:37,759 Requests DEBUG 发送post请求 
+2020-12-18 17:00:37,821 Requests DEBUG 发送post请求 
+2020-12-18 17:00:37,853 Requests DEBUG 发送post请求 
+2020-12-18 17:00:37,931 Requests DEBUG 发送post请求 
+2020-12-18 17:00:37,993 Requests DEBUG 发送post请求 
+2020-12-18 17:00:38,024 AssertUtil ERROR 不包含或者body是错误，body is {'IsSucess': False, 'TreeName': None, 'ExceptionMeg': "系统检测到重复提交\r\n公式名称为'配电自动化系统联动5'公式是否有此类指标公式配置数据\r\n或者对象ID和指标是否重复\r\n"},expected_body is IsSucess': True 
+2020-12-18 17:00:38,149 Requests DEBUG 发送post请求 
+2020-12-18 17:00:38,196 Requests DEBUG 发送post请求 
+2020-12-18 17:00:38,228 Requests DEBUG 发送post请求 
+2020-12-18 17:00:38,290 Requests DEBUG 发送post请求 
+2020-12-18 17:00:38,321 Requests DEBUG 发送post请求 
+2020-12-18 17:00:38,353 Requests DEBUG 发送post请求 
+2020-12-18 17:00:38,399 Requests DEBUG 发送post请求 
+2020-12-18 17:00:38,462 Requests DEBUG 发送post请求 
+2020-12-18 17:00:38,509 Requests DEBUG 发送post请求 
+2020-12-18 17:00:38,571 Requests DEBUG 发送post请求 
+2020-12-18 17:00:38,618 Requests DEBUG 发送post请求 
+2020-12-18 17:00:38,665 Requests DEBUG 发送post请求 
+2020-12-18 17:00:40,165 Requests DEBUG 发送post请求 
+2020-12-18 17:00:40,353 Requests DEBUG 发送post请求 
+2020-12-18 17:00:41,212 Requests DEBUG 发送post请求 
+2020-12-18 17:00:41,243 Requests DEBUG 发送post请求 
+2020-12-18 17:00:41,306 Requests DEBUG 发送post请求 
+2020-12-18 17:00:41,353 Requests DEBUG 发送post请求 
+2020-12-18 17:00:41,400 AssertUtil ERROR code error,code is 200,expected_code is  
+2020-12-18 17:00:41,431 Requests DEBUG 发送post请求 
+2020-12-18 17:00:41,478 Requests DEBUG 发送post请求 
+2020-12-18 17:00:41,525 Requests DEBUG 发送post请求 
+2020-12-18 17:00:41,587 Requests DEBUG 发送post请求 
+2020-12-18 17:00:41,634 Requests DEBUG 发送post请求 
+2020-12-18 17:00:41,712 D:\Users\Administrator\PycharmProjects\InterfaceTest\utils\LogUtil.py INFO 报告地址 
+2020-12-18 17:02:08,161 Requests DEBUG 发送post请求 
+2020-12-18 17:02:08,177 AssertUtil ERROR 不包含或者body是错误，body is {'IsSucess': False, 'TreeName': None, 'ExceptionMeg': "系统检测到重复提交\r\n公式名称为'配电自动化系统联动5'公式是否有此类指标公式配置数据\r\n或者对象ID和指标是否重复\r\n"},expected_body is IsSucess': True 
+2020-12-18 17:02:08,271 D:\Users\Administrator\PycharmProjects\InterfaceTest\utils\LogUtil.py INFO 报告地址 
+2020-12-18 17:03:39,074 Requests DEBUG 发送post请求 
+2020-12-18 17:03:39,106 AssertUtil ERROR code error,code is 200,expected_code is  
+2020-12-18 17:04:32,416 Requests DEBUG 发送post请求 
+2020-12-18 17:05:00,738 Requests DEBUG 发送post请求 
+2020-12-18 17:05:00,784 AssertUtil ERROR 不包含或者body是错误，body is {'IsSucess': False, 'TreeName': None, 'ExceptionMeg': "系统检测到重复提交\r\n公式名称为'配电自动化系统联动5'公式是否有此类指标公式配置数据\r\n或者对象ID和指标是否重复\r\n"},expected_body is IsSucess': True 
+2020-12-18 17:06:18,831 Requests DEBUG 发送post请求 
+2020-12-18 17:08:01,216 Requests DEBUG 发送post请求 
+2020-12-18 17:08:36,941 Requests DEBUG 发送post请求 
+2020-12-18 17:09:58,611 Requests DEBUG 发送post请求 
+2020-12-18 17:09:58,657 Requests DEBUG 发送post请求 
+2020-12-18 17:09:58,704 Requests DEBUG 发送post请求 
+2020-12-18 17:09:58,751 Requests DEBUG 发送post请求 
+2020-12-18 17:09:58,782 Requests DEBUG 发送post请求 
+2020-12-18 17:09:58,861 Requests DEBUG 发送post请求 
+2020-12-18 17:09:58,923 Requests DEBUG 发送post请求 
+2020-12-18 17:09:59,017 Requests DEBUG 发送post请求 
+2020-12-18 17:09:59,079 Requests DEBUG 发送post请求 
+2020-12-18 17:09:59,111 Requests DEBUG 发送post请求 
+2020-12-18 17:09:59,189 Requests DEBUG 发送post请求 
+2020-12-18 17:09:59,220 Requests DEBUG 发送post请求 
+2020-12-18 17:09:59,267 Requests DEBUG 发送post请求 
+2020-12-18 17:09:59,314 Requests DEBUG 发送post请求 
+2020-12-18 17:09:59,361 Requests DEBUG 发送post请求 
+2020-12-18 17:09:59,407 Requests DEBUG 发送post请求 
+2020-12-18 17:09:59,454 Requests DEBUG 发送post请求 
+2020-12-18 17:09:59,517 Requests DEBUG 发送post请求 
+2020-12-18 17:09:59,548 Requests DEBUG 发送post请求 
+2020-12-18 17:09:59,939 Requests DEBUG 发送post请求 
+2020-12-18 17:10:01,001 Requests DEBUG 发送post请求 
+2020-12-18 17:10:02,001 Requests DEBUG 发送post请求 
+2020-12-18 17:10:02,033 Requests DEBUG 发送post请求 
+2020-12-18 17:10:02,095 Requests DEBUG 发送post请求 
+2020-12-18 17:10:02,126 Requests DEBUG 发送post请求 
+2020-12-18 17:10:02,173 Requests DEBUG 发送post请求 
+2020-12-18 17:10:02,236 Requests DEBUG 发送post请求 
+2020-12-18 17:10:02,298 Requests DEBUG 发送post请求 
+2020-12-18 17:10:02,376 Requests DEBUG 发送post请求 
+2020-12-18 17:10:02,408 Requests DEBUG 发送post请求 
+2020-12-18 17:10:02,454 D:\Users\Administrator\PycharmProjects\InterfaceTest\utils\LogUtil.py INFO 报告地址 
+2020-12-18 17:12:02,984 Requests DEBUG 发送post请求 
+2020-12-18 17:12:03,031 AssertUtil ERROR 不包含或者body是错误，body is {'IsSucess': False, 'TreeName': None, 'ExceptionMeg': "系统检测到重复提交\r\n公式名称为'配电自动化系统联动5'公式是否有此类指标公式配置数据\r\n或者对象ID和指标是否重复\r\n"},expected_body is IsSucess': True 
+2020-12-18 17:14:57,661 Requests DEBUG 发送post请求 
+2020-12-18 17:18:38,013 Requests DEBUG 发送post请求 
+2020-12-18 17:18:38,107 Requests DEBUG 发送post请求 
+2020-12-18 17:18:38,154 AssertUtil ERROR 不包含或者body是错误，body is {'IsSucess': False, 'TreeName': None, 'ExceptionMeg': "系统检测到重复提交\r\n公式名称为'配电自动化系统联动5'公式是否有此类指标公式配置数据\r\n或者对象ID和指标是否重复\r\n"},expected_body is IsSucess': false 
+2020-12-18 17:19:12,532 Requests DEBUG 发送post请求 
+2020-12-18 17:19:12,579 AssertUtil ERROR 不包含或者body是错误，body is {'IsSucess': False, 'TreeName': None, 'ExceptionMeg': "系统检测到重复提交\r\n公式名称为'配电自动化系统联动5'公式是否有此类指标公式配置数据\r\n或者对象ID和指标是否重复\r\n"},expected_body is IsSucess': false 
+2020-12-18 17:19:48,693 Requests DEBUG 发送post请求 
+2020-12-18 17:20:33,131 Requests DEBUG 发送post请求 
+2020-12-18 17:20:33,209 Requests DEBUG 发送post请求 
+2020-12-18 17:22:25,478 Requests DEBUG 发送post请求 
+2020-12-18 17:22:25,572 Requests DEBUG 发送post请求 
+2020-12-18 17:22:25,618 Requests DEBUG 发送post请求 
+2020-12-18 17:24:22,590 Requests DEBUG 发送post请求 
+2020-12-18 17:24:22,652 Requests DEBUG 发送post请求 
+2020-12-18 17:24:22,715 Requests DEBUG 发送post请求 
+2020-12-18 17:24:22,777 Requests DEBUG 发送post请求 
+2020-12-18 17:24:22,808 Requests DEBUG 发送post请求 
+2020-12-18 17:24:22,855 Requests DEBUG 发送post请求 
+2020-12-18 17:24:22,918 Requests DEBUG 发送post请求 
+2020-12-18 17:24:23,027 Requests DEBUG 发送post请求 
+2020-12-18 17:24:23,090 Requests DEBUG 发送post请求 
+2020-12-18 17:24:23,137 Requests DEBUG 发送post请求 
+2020-12-18 17:24:23,168 Requests DEBUG 发送post请求 
+2020-12-18 17:24:23,230 Requests DEBUG 发送post请求 
+2020-12-18 17:24:23,262 Requests DEBUG 发送post请求 
+2020-12-18 17:24:23,324 Requests DEBUG 发送post请求 
+2020-12-18 17:24:23,387 Requests DEBUG 发送post请求 
+2020-12-18 17:24:23,433 Requests DEBUG 发送post请求 
+2020-12-18 17:24:23,480 Requests DEBUG 发送post请求 
+2020-12-18 17:24:23,512 Requests DEBUG 发送post请求 
+2020-12-18 17:24:23,574 Requests DEBUG 发送post请求 
+2020-12-18 17:24:23,637 Requests DEBUG 发送post请求 
+2020-12-18 17:24:24,277 Requests DEBUG 发送post请求 
+2020-12-18 17:24:24,433 Requests DEBUG 发送post请求 
+2020-12-18 17:24:25,324 Requests DEBUG 发送post请求 
+2020-12-18 17:24:25,355 Requests DEBUG 发送post请求 
+2020-12-18 17:24:25,433 Requests DEBUG 发送post请求 
+2020-12-18 17:24:25,465 Requests DEBUG 发送post请求 
+2020-12-18 17:24:25,512 Requests DEBUG 发送post请求 
+2020-12-18 17:24:25,605 Requests DEBUG 发送post请求 
+2020-12-18 17:24:25,652 Requests DEBUG 发送post请求 
+2020-12-18 17:24:25,715 Requests DEBUG 发送post请求 
+2020-12-18 17:24:25,762 Requests DEBUG 发送post请求 
+2020-12-18 17:24:25,809 D:\Users\Administrator\PycharmProjects\InterfaceTest\utils\LogUtil.py INFO 报告地址 

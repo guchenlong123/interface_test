@@ -1,0 +1,81 @@
+{
+  "uid" : "b84618353485d0bb",
+  "name" : "test048删除摄像头信息",
+  "fullName" : "testcase.Test_excel_case.TestExcel#test_run",
+  "historyId" : "6a46a3794d95994c44a52e4688e44347",
+  "time" : {
+    "start" : 1609725748215,
+    "stop" : 1609725748244,
+    "duration" : 29
+  },
+  "description" : "<font color='red'>请求URL: </font> http://192.168.40.234:5000/admin/action.ashx?prefix=admin&action=DeleteCamera<Br/><font color='red'>请求类型: </font>POST<Br/><font color='red'>期望结果: </font>Success': True, 'ExceptionMsg': '删除成功！'<Br/><font color='red'>实际结果: </font>{'code': 200, 'body': {'Success': True, 'ExceptionMsg': '删除成功！', 'ExtendContent': None, 'IsExistsDevice': False, 'ActionUser': '', 'LogType': 0, 'ActionDateTime': '/Date(1609725748239+0800)/', 'ActionModel': None, 'LogParams': None, 'FunctionPoint': None}}",
+  "descriptionHtml" : "<p><font color='red'>请求URL: </font> http://192.168.40.234:5000/admin/action.ashx?prefix=admin&amp;action=DeleteCamera<Br/><font color='red'>请求类型: </font>POST<Br/><font color='red'>期望结果: </font>Success': True, 'ExceptionMsg': '删除成功！'<Br/><font color='red'>实际结果: </font>{'code': 200, 'body': {'Success': True, 'ExceptionMsg': '删除成功！', 'ExtendContent': None, 'IsExistsDevice': False, 'ActionUser': '', 'LogType': 0, 'ActionDateTime': '/Date(1609725748239+0800)/', 'ActionModel': None, 'LogParams': None, 'FunctionPoint': None}}</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "<font color='red'>请求URL: </font> http://192.168.40.234:5000/admin/action.ashx?prefix=admin&action=DeleteCamera<Br/><font color='red'>请求类型: </font>POST<Br/><font color='red'>期望结果: </font>Success': True, 'ExceptionMsg': '删除成功！'<Br/><font color='red'>实际结果: </font>{'code': 200, 'body': {'Success': True, 'ExceptionMsg': '删除成功！', 'ExtendContent': None, 'IsExistsDevice': False, 'ActionUser': '', 'LogType': 0, 'ActionDateTime': '/Date(1609725748239+0800)/', 'ActionModel': None, 'LogParams': None, 'FunctionPoint': None}}",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "67c8ff523d4a1c2c",
+      "name" : "log",
+      "source" : "67c8ff523d4a1c2c.txt",
+      "type" : "text/plain",
+      "size" : 52
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "IMS后台接口自动化测试"
+  }, {
+    "name" : "story",
+    "value" : "相机参数"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "Test_excel_case"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestExcel"
+  }, {
+    "name" : "host",
+    "value" : "IMSIMS"
+  }, {
+    "name" : "thread",
+    "value" : "12168-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.Test_excel_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "{'用例ID': 'test048', '模块': '相机参数', '接口名称': '删除摄像头信息', '请求URL': '/admin/action.ashx?prefix=admin&action=DeleteCamera', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{Id:15}\"}', '预期结果': \"Success': True, 'ExceptionMsg': '删除成功！'\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': '', '备注': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b84618353485d0bb.json",
+  "parameterValues" : [ "{'用例ID': 'test048', '模块': '相机参数', '接口名称': '删除摄像头信息', '请求URL': '/admin/action.ashx?prefix=admin&action=DeleteCamera', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{Id:15}\"}', '预期结果': \"Success': True, 'ExceptionMsg': '删除成功！'\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': '', '备注': ''}" ]
+}

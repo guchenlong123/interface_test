@@ -1,0 +1,91 @@
+{
+  "uid" : "84b704066127ec23",
+  "name" : "test042平均值，一小时颗粒度查询历史数据",
+  "fullName" : "testcase.Test_excel_case.TestExcel#test_run",
+  "historyId" : "e84f047c6ff1af3c456e10502a537219",
+  "time" : {
+    "start" : 1609726739892,
+    "stop" : 1609726740017,
+    "duration" : 125
+  },
+  "description" : "<font color='red'>请求URL: </font> http://192.168.40.234:5000/action.ashx?action=GetHistoryMonitor<Br/><font color='red'>请求类型: </font>POST<Br/><font color='red'>期望结果: </font>Items': [{'ItemName': '模拟量点1', 'ItemValue': 10.0, 'Unit': 'V'}]<Br/><font color='red'>实际结果: </font>{'code': 200, 'body': {'ActionInfo': {'ErrorCode': 0, 'Success': True, 'ExceptionMsg': None, 'ActionName': None, 'ActionUser': None, 'ActionTime': '/Date(1609726739954+0800)/', 'LogType': 0, 'ActionDateTime': '/Date(1609726740001+0800)/', 'ActionModel': None, 'LogParams': None, 'FunctionPoint': None}, 'HistoryCharts': {'xAxisTime': [1599580800000, 1599584400000, 1599588000000, 1599591600000, 1599595200000, 1599598800000, 1599602400000, 1599606000000, 1599609600000, 1599613200000, 1599616800000], 'unit': 1, 'series': [{'name': '模拟量点1', 'data': [10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0], 'dataStatus': None, 'dataAttach': None, 'yAxis': 0, 'colors': None, 'dataReal': None}], 'yAxisItems': [{'title': '模拟量点1', 'Unit': 'V'}]}, 'HistoryList': [{'SeriesName': '模拟量点1', 'MaxValue': '10(2020-09-09 00:00:00)', 'MinValue': '10(2020-09-09 10:00:00)', 'TotalCumulative': None}], 'HistoryTable': [{'Order': 1, 'Tm': '2020-09-09 00:00:00', 'Items': [{'ItemName': '模拟量点1', 'ItemValue': 10.0, 'Unit': 'V'}]}, {'Order': 2, 'Tm': '2020-09-09 01:00:00', 'Items': [{'ItemName': '模拟量点1', 'ItemValue': 10.0, 'Unit': 'V'}]}, {'Order': 3, 'Tm': '2020-09-09 02:00:00', 'Items': [{'ItemName': '模拟量点1', 'ItemValue': 10.0, 'Unit': 'V'}]}, {'Order': 4, 'Tm': '2020-09-09 03:00:00', 'Items': [{'ItemName': '模拟量点1', 'ItemValue': 10.0, 'Unit': 'V'}]}, {'Order': 5, 'Tm': '2020-09-09 04:00:00', 'Items': [{'ItemName': '模拟量点1', 'ItemValue': 10.0, 'Unit': 'V'}]}, {'Order': 6, 'Tm': '2020-09-09 05:00:00', 'Items': [{'ItemName': '模拟量点1', 'ItemValue': 10.0, 'Unit': 'V'}]}, {'Order': 7, 'Tm': '2020-09-09 06:00:00', 'Items': [{'ItemName': '模拟量点1', 'ItemValue': 10.0, 'Unit': 'V'}]}, {'Order': 8, 'Tm': '2020-09-09 07:00:00', 'Items': [{'ItemName': '模拟量点1', 'ItemValue': 10.0, 'Unit': 'V'}]}, {'Order': 9, 'Tm': '2020-09-09 08:00:00', 'Items': [{'ItemName': '模拟量点1', 'ItemValue': 10.0, 'Unit': 'V'}]}, {'Order': 10, 'Tm': '2020-09-09 09:00:00', 'Items': [{'ItemName': '模拟量点1', 'ItemValue': 10.0, 'Unit': 'V'}]}, {'Order': 11, 'Tm': '2020-09-09 10:00:00', 'Items': [{'ItemName': '模拟量点1', 'ItemValue': 10.0, 'Unit': 'V'}]}], 'IndexList': {'模拟量点1': []}}}",
+  "descriptionHtml" : "<p><font color='red'>请求URL: </font> http://192.168.40.234:5000/action.ashx?action=GetHistoryMonitor<Br/><font color='red'>请求类型: </font>POST<Br/><font color='red'>期望结果: </font>Items': [{'ItemName': '模拟量点1', 'ItemValue': 10.0, 'Unit': 'V'}]<Br/><font color='red'>实际结果: </font>{'code': 200, 'body': {'ActionInfo': {'ErrorCode': 0, 'Success': True, 'ExceptionMsg': None, 'ActionName': None, 'ActionUser': None, 'ActionTime': '/Date(1609726739954+0800)/', 'LogType': 0, 'ActionDateTime': '/Date(1609726740001+0800)/', 'ActionModel': None, 'LogParams': None, 'FunctionPoint': None}, 'HistoryCharts': {'xAxisTime': [1599580800000, 1599584400000, 1599588000000, 1599591600000, 1599595200000, 1599598800000, 1599602400000, 1599606000000, 1599609600000, 1599613200000, 1599616800000], 'unit': 1, 'series': [{'name': '模拟量点1', 'data': [10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0], 'dataStatus': None, 'dataAttach': None, 'yAxis': 0, 'colors': None, 'dataReal': None}], 'yAxisItems': [{'title': '模拟量点1', 'Unit': 'V'}]}, 'HistoryList': [{'SeriesName': '模拟量点1', 'MaxValue': '10(2020-09-09 00:00:00)', 'MinValue': '10(2020-09-09 10:00:00)', 'TotalCumulative': None}], 'HistoryTable': [{'Order': 1, 'Tm': '2020-09-09 00:00:00', 'Items': [{'ItemName': '模拟量点1', 'ItemValue': 10.0, 'Unit': 'V'}]}, {'Order': 2, 'Tm': '2020-09-09 01:00:00', 'Items': [{'ItemName': '模拟量点1', 'ItemValue': 10.0, 'Unit': 'V'}]}, {'Order': 3, 'Tm': '2020-09-09 02:00:00', 'Items': [{'ItemName': '模拟量点1', 'ItemValue': 10.0, 'Unit': 'V'}]}, {'Order': 4, 'Tm': '2020-09-09 03:00:00', 'Items': [{'ItemName': '模拟量点1', 'ItemValue': 10.0, 'Unit': 'V'}]}, {'Order': 5, 'Tm': '2020-09-09 04:00:00', 'Items': [{'ItemName': '模拟量点1', 'ItemValue': 10.0, 'Unit': 'V'}]}, {'Order': 6, 'Tm': '2020-09-09 05:00:00', 'Items': [{'ItemName': '模拟量点1', 'ItemValue': 10.0, 'Unit': 'V'}]}, {'Order': 7, 'Tm': '2020-09-09 06:00:00', 'Items': [{'ItemName': '模拟量点1', 'ItemValue': 10.0, 'Unit': 'V'}]}, {'Order': 8, 'Tm': '2020-09-09 07:00:00', 'Items': [{'ItemName': '模拟量点1', 'ItemValue': 10.0, 'Unit': 'V'}]}, {'Order': 9, 'Tm': '2020-09-09 08:00:00', 'Items': [{'ItemName': '模拟量点1', 'ItemValue': 10.0, 'Unit': 'V'}]}, {'Order': 10, 'Tm': '2020-09-09 09:00:00', 'Items': [{'ItemName': '模拟量点1', 'ItemValue': 10.0, 'Unit': 'V'}]}, {'Order': 11, 'Tm': '2020-09-09 10:00:00', 'Items': [{'ItemName': '模拟量点1', 'ItemValue': 10.0, 'Unit': 'V'}]}], 'IndexList': {'模拟量点1': []}}}</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "<font color='red'>请求URL: </font> http://192.168.40.234:5000/action.ashx?action=GetHistoryMonitor<Br/><font color='red'>请求类型: </font>POST<Br/><font color='red'>期望结果: </font>Items': [{'ItemName': '模拟量点1', 'ItemValue': 10.0, 'Unit': 'V'}]<Br/><font color='red'>实际结果: </font>{'code': 200, 'body': {'ActionInfo': {'ErrorCode': 0, 'Success': True, 'ExceptionMsg': None, 'ActionName': None, 'ActionUser': None, 'ActionTime': '/Date(1609726739954+0800)/', 'LogType': 0, 'ActionDateTime': '/Date(1609726740001+0800)/', 'ActionModel': None, 'LogParams': None, 'FunctionPoint': None}, 'HistoryCharts': {'xAxisTime': [1599580800000, 1599584400000, 1599588000000, 1599591600000, 1599595200000, 1599598800000, 1599602400000, 1599606000000, 1599609600000, 1599613200000, 1599616800000], 'unit': 1, 'series': [{'name': '模拟量点1', 'data': [10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0], 'dataStatus': None, 'dataAttach': None, 'yAxis': 0, 'colors': None, 'dataReal': None}], 'yAxisItems': [{'title': '模拟量点1', 'Unit': 'V'}]}, 'HistoryList': [{'SeriesName': '模拟量点1', 'MaxValue': '10(2020-09-09 00:00:00)', 'MinValue': '10(2020-09-09 10:00:00)', 'TotalCumulative': None}], 'HistoryTable': [{'Order': 1, 'Tm': '2020-09-09 00:00:00', 'Items': [{'ItemName': '模拟量点1', 'ItemValue': 10.0, 'Unit': 'V'}]}, {'Order': 2, 'Tm': '2020-09-09 01:00:00', 'Items': [{'ItemName': '模拟量点1', 'ItemValue': 10.0, 'Unit': 'V'}]}, {'Order': 3, 'Tm': '2020-09-09 02:00:00', 'Items': [{'ItemName': '模拟量点1', 'ItemValue': 10.0, 'Unit': 'V'}]}, {'Order': 4, 'Tm': '2020-09-09 03:00:00', 'Items': [{'ItemName': '模拟量点1', 'ItemValue': 10.0, 'Unit': 'V'}]}, {'Order': 5, 'Tm': '2020-09-09 04:00:00', 'Items': [{'ItemName': '模拟量点1', 'ItemValue': 10.0, 'Unit': 'V'}]}, {'Order': 6, 'Tm': '2020-09-09 05:00:00', 'Items': [{'ItemName': '模拟量点1', 'ItemValue': 10.0, 'Unit': 'V'}]}, {'Order': 7, 'Tm': '2020-09-09 06:00:00', 'Items': [{'ItemName': '模拟量点1', 'ItemValue': 10.0, 'Unit': 'V'}]}, {'Order': 8, 'Tm': '2020-09-09 07:00:00', 'Items': [{'ItemName': '模拟量点1', 'ItemValue': 10.0, 'Unit': 'V'}]}, {'Order': 9, 'Tm': '2020-09-09 08:00:00', 'Items': [{'ItemName': '模拟量点1', 'ItemValue': 10.0, 'Unit': 'V'}]}, {'Order': 10, 'Tm': '2020-09-09 09:00:00', 'Items': [{'ItemName': '模拟量点1', 'ItemValue': 10.0, 'Unit': 'V'}]}, {'Order': 11, 'Tm': '2020-09-09 10:00:00', 'Items': [{'ItemName': '模拟量点1', 'ItemValue': 10.0, 'Unit': 'V'}]}], 'IndexList': {'模拟量点1': []}}}",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "6920722ebf5219c5",
+      "name" : "log",
+      "source" : "6920722ebf5219c5.txt",
+      "type" : "text/plain",
+      "size" : 52
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "IMS前台接口自动化测试"
+  }, {
+    "name" : "story",
+    "value" : "全局搜索"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "Test_excel_case"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestExcel"
+  }, {
+    "name" : "host",
+    "value" : "IMSIMS"
+  }, {
+    "name" : "thread",
+    "value" : "11724-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.Test_excel_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "{'用例ID': 'test042', '模块': '全局搜索', '接口名称': '平均值，一小时颗粒度查询历史数据', '请求URL': '/action.ashx?action=GetHistoryMonitor', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{particle:1,Unit:1,QueryType:\\'avg\\',StartTime:\\'2020-09-09 00:00:00\\',EndTime:\\'2020-09-09 10:51:59\\',DeviceId:1,SampleType:1,NumList:[\\'20002000\\']}\"}', '预期结果': \"Items': [{'ItemName': '模拟量点1', 'ItemValue': 10.0, 'Unit': 'V'}]\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': '', '备注': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "18eef86dc61ca254",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609725747442,
+        "stop" : 1609725747473,
+        "duration" : 31
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "84b704066127ec23.json",
+  "parameterValues" : [ "{'用例ID': 'test042', '模块': '全局搜索', '接口名称': '平均值，一小时颗粒度查询历史数据', '请求URL': '/action.ashx?action=GetHistoryMonitor', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{particle:1,Unit:1,QueryType:\\'avg\\',StartTime:\\'2020-09-09 00:00:00\\',EndTime:\\'2020-09-09 10:51:59\\',DeviceId:1,SampleType:1,NumList:[\\'20002000\\']}\"}', '预期结果': \"Items': [{'ItemName': '模拟量点1', 'ItemValue': 10.0, 'Unit': 'V'}]\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': '', '备注': ''}" ]
+}

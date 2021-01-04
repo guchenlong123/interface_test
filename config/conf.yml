@@ -1,0 +1,11 @@
+BASE:
+ #log等级
+ log_level: "debug"
+ #扩展名
+ log_extension: ".log"
+ test:
+  url: "http://192.168.40.234:5000"
+  case_file: "data.xlsx"
+#  case_sheet: "IMS前台接口自动化测试"
+  case_sheet: "IMS后台接口自动化测试"
+

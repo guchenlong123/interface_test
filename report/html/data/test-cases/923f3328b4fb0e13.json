@@ -1,0 +1,91 @@
+{
+  "uid" : "923f3328b4fb0e13",
+  "name" : "test022数据导出，时间颗粒度为10分钟",
+  "fullName" : "testcase.Test_excel_case.TestExcel#test_run",
+  "historyId" : "9ad2354e4e7c141a5a7256e498d5a53f",
+  "time" : {
+    "start" : 1609726732143,
+    "stop" : 1609726732643,
+    "duration" : 500
+  },
+  "description" : "<font color='red'>请求URL: </font> http://192.168.40.234:5000/action.ashx?action=ExportDeviceHistoryData<Br/><font color='red'>请求类型: </font>POST<Br/><font color='red'>期望结果: </font>status': 'success'<Br/><font color='red'>实际结果: </font>{'code': 200, 'body': {'status': 'success', 'msg': '/temp_file/20210104101852/设备历史数据报表.xls'}}",
+  "descriptionHtml" : "<p><font color='red'>请求URL: </font> http://192.168.40.234:5000/action.ashx?action=ExportDeviceHistoryData<Br/><font color='red'>请求类型: </font>POST<Br/><font color='red'>期望结果: </font>status': 'success'<Br/><font color='red'>实际结果: </font>{'code': 200, 'body': {'status': 'success', 'msg': '/temp_file/20210104101852/设备历史数据报表.xls'}}</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "<font color='red'>请求URL: </font> http://192.168.40.234:5000/action.ashx?action=ExportDeviceHistoryData<Br/><font color='red'>请求类型: </font>POST<Br/><font color='red'>期望结果: </font>status': 'success'<Br/><font color='red'>实际结果: </font>{'code': 200, 'body': {'status': 'success', 'msg': '/temp_file/20210104101852/设备历史数据报表.xls'}}",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "3c57a81aebeca973",
+      "name" : "log",
+      "source" : "3c57a81aebeca973.txt",
+      "type" : "text/plain",
+      "size" : 52
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "IMS前台接口自动化测试"
+  }, {
+    "name" : "story",
+    "value" : "运行数据"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "Test_excel_case"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestExcel"
+  }, {
+    "name" : "host",
+    "value" : "IMSIMS"
+  }, {
+    "name" : "thread",
+    "value" : "11724-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.Test_excel_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "{'用例ID': 'test022', '模块': '运行数据', '接口名称': '数据导出，时间颗粒度为10分钟', '请求URL': '/action.ashx?action=ExportDeviceHistoryData', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{Unit:0,StartTime:\\'2020-09-08 00:00\\',EndTime:\\'2020-09-08 11:09\\',MinutesNum:10,DeviceList:[{DeviceId:1,DeviceName:\\'1设备1：\\',NumList:[{SampleType:18,RecordNo:20002000}]}]}\"}', '预期结果': \"status': 'success'\", '实际结果': '', '是否运行': 'y', 'headers': '{\"Content-Type\": \\n\"application/x-www-form-urlencoded; charset=UTF-8\"}', 'cookies': '', '返回状态码': '200', '数据库验证': '', '备注': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "38c9a91879262109",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609725745390,
+        "stop" : 1609725745523,
+        "duration" : 133
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "923f3328b4fb0e13.json",
+  "parameterValues" : [ "{'用例ID': 'test022', '模块': '运行数据', '接口名称': '数据导出，时间颗粒度为10分钟', '请求URL': '/action.ashx?action=ExportDeviceHistoryData', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{Unit:0,StartTime:\\'2020-09-08 00:00\\',EndTime:\\'2020-09-08 11:09\\',MinutesNum:10,DeviceList:[{DeviceId:1,DeviceName:\\'1设备1：\\',NumList:[{SampleType:18,RecordNo:20002000}]}]}\"}', '预期结果': \"status': 'success'\", '实际结果': '', '是否运行': 'y', 'headers': '{\"Content-Type\": \\n\"application/x-www-form-urlencoded; charset=UTF-8\"}', 'cookies': '', '返回状态码': '200', '数据库验证': '', '备注': ''}" ]
+}

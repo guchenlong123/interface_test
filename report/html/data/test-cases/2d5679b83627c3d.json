@@ -1,0 +1,81 @@
+{
+  "uid" : "2d5679b83627c3d",
+  "name" : "test039删除组地址",
+  "fullName" : "testcase.Test_excel_case.TestExcel#test_run",
+  "historyId" : "2d86b76c6f15f7ad05190087d39d8998",
+  "time" : {
+    "start" : 1609725747553,
+    "stop" : 1609725747586,
+    "duration" : 33
+  },
+  "description" : "<font color='red'>请求URL: </font> http://192.168.40.234:5000/admin/action.ashx?prefix=admin&action=DeleteGroupAddrInfo<Br/><font color='red'>请求类型: </font>POST<Br/><font color='red'>期望结果: </font>Success': True, 'ExceptionMsg': '删除成功!请重启服务'<Br/><font color='red'>实际结果: </font>{'code': 200, 'body': {'Success': True, 'ExceptionMsg': '删除成功!请重启服务', 'ExtendContent': None, 'IsExistsDevice': True, 'ActionUser': '', 'LogType': 0, 'ActionDateTime': '/Date(1609725747581+0800)/', 'ActionModel': None, 'LogParams': None, 'FunctionPoint': None}}",
+  "descriptionHtml" : "<p><font color='red'>请求URL: </font> http://192.168.40.234:5000/admin/action.ashx?prefix=admin&amp;action=DeleteGroupAddrInfo<Br/><font color='red'>请求类型: </font>POST<Br/><font color='red'>期望结果: </font>Success': True, 'ExceptionMsg': '删除成功!请重启服务'<Br/><font color='red'>实际结果: </font>{'code': 200, 'body': {'Success': True, 'ExceptionMsg': '删除成功!请重启服务', 'ExtendContent': None, 'IsExistsDevice': True, 'ActionUser': '', 'LogType': 0, 'ActionDateTime': '/Date(1609725747581+0800)/', 'ActionModel': None, 'LogParams': None, 'FunctionPoint': None}}</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "<font color='red'>请求URL: </font> http://192.168.40.234:5000/admin/action.ashx?prefix=admin&action=DeleteGroupAddrInfo<Br/><font color='red'>请求类型: </font>POST<Br/><font color='red'>期望结果: </font>Success': True, 'ExceptionMsg': '删除成功!请重启服务'<Br/><font color='red'>实际结果: </font>{'code': 200, 'body': {'Success': True, 'ExceptionMsg': '删除成功!请重启服务', 'ExtendContent': None, 'IsExistsDevice': True, 'ActionUser': '', 'LogType': 0, 'ActionDateTime': '/Date(1609725747581+0800)/', 'ActionModel': None, 'LogParams': None, 'FunctionPoint': None}}",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "bb039796eea08744",
+      "name" : "log",
+      "source" : "bb039796eea08744.txt",
+      "type" : "text/plain",
+      "size" : 52
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "IMS后台接口自动化测试"
+  }, {
+    "name" : "story",
+    "value" : "组地址维护"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "Test_excel_case"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestExcel"
+  }, {
+    "name" : "host",
+    "value" : "IMSIMS"
+  }, {
+    "name" : "thread",
+    "value" : "12168-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.Test_excel_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "{'用例ID': 'test039', '模块': '组地址维护', '接口名称': '删除组地址', '请求URL': '/admin/action.ashx?prefix=admin&action=DeleteGroupAddrInfo', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"[{Id:5}]\"}', '预期结果': \"Success': True, 'ExceptionMsg': '删除成功!请重启服务'\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': '', '备注': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2d5679b83627c3d.json",
+  "parameterValues" : [ "{'用例ID': 'test039', '模块': '组地址维护', '接口名称': '删除组地址', '请求URL': '/admin/action.ashx?prefix=admin&action=DeleteGroupAddrInfo', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"[{Id:5}]\"}', '预期结果': \"Success': True, 'ExceptionMsg': '删除成功!请重启服务'\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': '', '备注': ''}" ]
+}

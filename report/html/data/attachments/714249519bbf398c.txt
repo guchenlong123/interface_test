@@ -1,0 +1,2 @@
+DEBUG    Requests:RequestUtil.py:56 发送post请求
+ERROR    AssertUtil:AssertUtil.py:57 不包含或者body是错误，body is {'Success': False, 'ExceptionMsg': '登录超时，请重新登录', 'Exception': 9527},expected_body is Success': False, 'Msg': '登录超时，请重新登录'

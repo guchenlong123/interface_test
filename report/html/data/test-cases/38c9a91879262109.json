@@ -1,0 +1,81 @@
+{
+  "uid" : "38c9a91879262109",
+  "name" : "test022修改公式",
+  "fullName" : "testcase.Test_excel_case.TestExcel#test_run",
+  "historyId" : "9ad2354e4e7c141a5a7256e498d5a53f",
+  "time" : {
+    "start" : 1609725745390,
+    "stop" : 1609725745523,
+    "duration" : 133
+  },
+  "description" : "<font color='red'>请求URL: </font> http://192.168.40.234:5000/admin/action.ashx?prefix=admin&action=UpdateMonitorIndexFormula<Br/><font color='red'>请求类型: </font>POST<Br/><font color='red'>期望结果: </font>IsSucess': True<Br/><font color='red'>实际结果: </font>{'code': 200, 'body': {'IsSucess': True, 'TreeName': None, 'ExceptionMeg': ''}}",
+  "descriptionHtml" : "<p><font color='red'>请求URL: </font> http://192.168.40.234:5000/admin/action.ashx?prefix=admin&amp;action=UpdateMonitorIndexFormula<Br/><font color='red'>请求类型: </font>POST<Br/><font color='red'>期望结果: </font>IsSucess': True<Br/><font color='red'>实际结果: </font>{'code': 200, 'body': {'IsSucess': True, 'TreeName': None, 'ExceptionMeg': ''}}</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "<font color='red'>请求URL: </font> http://192.168.40.234:5000/admin/action.ashx?prefix=admin&action=UpdateMonitorIndexFormula<Br/><font color='red'>请求类型: </font>POST<Br/><font color='red'>期望结果: </font>IsSucess': True<Br/><font color='red'>实际结果: </font>{'code': 200, 'body': {'IsSucess': True, 'TreeName': None, 'ExceptionMeg': ''}}",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "afe2c7205932df16",
+      "name" : "log",
+      "source" : "afe2c7205932df16.txt",
+      "type" : "text/plain",
+      "size" : 52
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "IMS后台接口自动化测试"
+  }, {
+    "name" : "story",
+    "value" : "基础公式配置\n(系统联动类)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "Test_excel_case"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestExcel"
+  }, {
+    "name" : "host",
+    "value" : "IMSIMS"
+  }, {
+    "name" : "thread",
+    "value" : "12168-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.Test_excel_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "{'用例ID': 'test022', '模块': '基础公式配置\\n(系统联动类)', '接口名称': '修改公式', '请求URL': '/admin/action.ashx?prefix=admin&action=UpdateMonitorIndexFormula', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"inputs\":\"{IndexFormulaList:[{OprationType:1,ID:92,SystemId:1,FormulaName:\\'配电自动化系统联动5\\',AnalyzeType:6,SourceID:1,IndexType:301,IndexFormula:\\'YC_20002000=0\\',FormulaParm:0,IsExeute:1,isPushEAM:null,BounceTime:null,ClassType:null,Ext:\\'{\\\\\"StartTime\\\\\":\\\\\"00:00:00\\\\\",\\\\\"EndTime\\\\\":\\\\\"23:59:59\\\\\",\\\\\"EndDate\\\\\":\\\\\"same\\\\\"}\\',Description:\\'\\',UpdateTime:\\'2020-12-31 17:2:18\\'}]}\"}', '预期结果': \"IsSucess': True\", '实际结果': '', '是否运行': 'y', 'headers': '{\"Content-Type\":\"application/x-www-form-urlencoded;charset=UTF-8\",\"Accept-Language\":\"zh-CN,zh;q=0.9\"}', 'cookies': '', '返回状态码': '200', '数据库验证': '', '备注': '脚本执行结束后，ID需要+3'}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "38c9a91879262109.json",
+  "parameterValues" : [ "{'用例ID': 'test022', '模块': '基础公式配置\\n(系统联动类)', '接口名称': '修改公式', '请求URL': '/admin/action.ashx?prefix=admin&action=UpdateMonitorIndexFormula', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"inputs\":\"{IndexFormulaList:[{OprationType:1,ID:92,SystemId:1,FormulaName:\\'配电自动化系统联动5\\',AnalyzeType:6,SourceID:1,IndexType:301,IndexFormula:\\'YC_20002000=0\\',FormulaParm:0,IsExeute:1,isPushEAM:null,BounceTime:null,ClassType:null,Ext:\\'{\\\\\"StartTime\\\\\":\\\\\"00:00:00\\\\\",\\\\\"EndTime\\\\\":\\\\\"23:59:59\\\\\",\\\\\"EndDate\\\\\":\\\\\"same\\\\\"}\\',Description:\\'\\',UpdateTime:\\'2020-12-31 17:2:18\\'}]}\"}', '预期结果': \"IsSucess': True\", '实际结果': '', '是否运行': 'y', 'headers': '{\"Content-Type\":\"application/x-www-form-urlencoded;charset=UTF-8\",\"Accept-Language\":\"zh-CN,zh;q=0.9\"}', 'cookies': '', '返回状态码': '200', '数据库验证': '', '备注': '脚本执行结束后，ID需要+3'}" ]
+}

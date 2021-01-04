@@ -1,0 +1,81 @@
+{
+  "uid" : "726573cb97f7d910",
+  "name" : "test026网关名称精确查询",
+  "fullName" : "testcase.Test_excel_case.TestExcel#test_run",
+  "historyId" : "78d9d54db7a44d9d3f7af2c7c733e775",
+  "time" : {
+    "start" : 1609725745691,
+    "stop" : 1609725745725,
+    "duration" : 34
+  },
+  "description" : "<font color='red'>请求URL: </font> http://192.168.40.234:5000/admin/action.ashx?prefix=admin&action=GetGateway<Br/><font color='red'>请求类型: </font>POST<Br/><font color='red'>期望结果: </font>ItemList': [{'Id': 1, 'Cname': '网关1', 'Ipaddress': '192.168.40.91', 'Portno': 80, 'Description': '11'}]<Br/><font color='red'>实际结果: </font>{'code': 200, 'body': {'ResultInfo': {'Success': True, 'ExceptionMsg': None, 'ExtendContent': None, 'IsExistsDevice': False, 'ActionUser': '', 'LogType': 0, 'ActionDateTime': '/Date(1609725745719+0800)/', 'ActionModel': None, 'LogParams': None, 'FunctionPoint': None}, 'ItemList': [{'Id': 1, 'Cname': '网关1', 'Ipaddress': '192.168.40.91', 'Portno': 80, 'Description': '11'}], 'Page': {'Current': 1, 'Total': 1}}}",
+  "descriptionHtml" : "<p><font color='red'>请求URL: </font> http://192.168.40.234:5000/admin/action.ashx?prefix=admin&amp;action=GetGateway<Br/><font color='red'>请求类型: </font>POST<Br/><font color='red'>期望结果: </font>ItemList': [{'Id': 1, 'Cname': '网关1', 'Ipaddress': '192.168.40.91', 'Portno': 80, 'Description': '11'}]<Br/><font color='red'>实际结果: </font>{'code': 200, 'body': {'ResultInfo': {'Success': True, 'ExceptionMsg': None, 'ExtendContent': None, 'IsExistsDevice': False, 'ActionUser': '', 'LogType': 0, 'ActionDateTime': '/Date(1609725745719+0800)/', 'ActionModel': None, 'LogParams': None, 'FunctionPoint': None}, 'ItemList': [{'Id': 1, 'Cname': '网关1', 'Ipaddress': '192.168.40.91', 'Portno': 80, 'Description': '11'}], 'Page': {'Current': 1, 'Total': 1}}}</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "<font color='red'>请求URL: </font> http://192.168.40.234:5000/admin/action.ashx?prefix=admin&action=GetGateway<Br/><font color='red'>请求类型: </font>POST<Br/><font color='red'>期望结果: </font>ItemList': [{'Id': 1, 'Cname': '网关1', 'Ipaddress': '192.168.40.91', 'Portno': 80, 'Description': '11'}]<Br/><font color='red'>实际结果: </font>{'code': 200, 'body': {'ResultInfo': {'Success': True, 'ExceptionMsg': None, 'ExtendContent': None, 'IsExistsDevice': False, 'ActionUser': '', 'LogType': 0, 'ActionDateTime': '/Date(1609725745719+0800)/', 'ActionModel': None, 'LogParams': None, 'FunctionPoint': None}, 'ItemList': [{'Id': 1, 'Cname': '网关1', 'Ipaddress': '192.168.40.91', 'Portno': 80, 'Description': '11'}], 'Page': {'Current': 1, 'Total': 1}}}",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "7417bc1e845fc372",
+      "name" : "log",
+      "source" : "7417bc1e845fc372.txt",
+      "type" : "text/plain",
+      "size" : 52
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "IMS后台接口自动化测试"
+  }, {
+    "name" : "story",
+    "value" : "网关配置"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "Test_excel_case"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestExcel"
+  }, {
+    "name" : "host",
+    "value" : "IMSIMS"
+  }, {
+    "name" : "thread",
+    "value" : "12168-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.Test_excel_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "{'用例ID': 'test026', '模块': '网关配置', '接口名称': '网关名称精确查询', '请求URL': '/admin/action.ashx?prefix=admin&action=GetGateway', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{GatewayName:\\'网关1\\',PaddingInfo:{Page:1,PageSize:10}}\"}', '预期结果': \"ItemList': [{'Id': 1, 'Cname': '网关1', 'Ipaddress': '192.168.40.91', 'Portno': 80, 'Description': '11'}]\", '实际结果': '', '是否运行': 'y', 'headers': '{\"Content-Type\": \\n\"application/x-www-form-urlencoded; charset=UTF-8\"}', 'cookies': '', '返回状态码': '200', '数据库验证': '', '备注': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "726573cb97f7d910.json",
+  "parameterValues" : [ "{'用例ID': 'test026', '模块': '网关配置', '接口名称': '网关名称精确查询', '请求URL': '/admin/action.ashx?prefix=admin&action=GetGateway', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{GatewayName:\\'网关1\\',PaddingInfo:{Page:1,PageSize:10}}\"}', '预期结果': \"ItemList': [{'Id': 1, 'Cname': '网关1', 'Ipaddress': '192.168.40.91', 'Portno': 80, 'Description': '11'}]\", '实际结果': '', '是否运行': 'y', 'headers': '{\"Content-Type\": \\n\"application/x-www-form-urlencoded; charset=UTF-8\"}', 'cookies': '', '返回状态码': '200', '数据库验证': '', '备注': ''}" ]
+}

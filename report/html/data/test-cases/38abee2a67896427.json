@@ -1,0 +1,81 @@
+{
+  "uid" : "38abee2a67896427",
+  "name" : "test003重复提交，新增失败",
+  "fullName" : "testcase.Test_excel_case.TestExcel#test_run",
+  "historyId" : "3f8d5c07bb0da0d4f6b4222e8b6cab3f",
+  "time" : {
+    "start" : 1609725743865,
+    "stop" : 1609725743905,
+    "duration" : 40
+  },
+  "description" : "<font color='red'>请求URL: </font> http://192.168.40.234:5000/admin/action.ashx?prefix=admin&action=AddMonitorIndexFormula<Br/><font color='red'>请求类型: </font>POST<Br/><font color='red'>期望结果: </font>IsSucess': False<Br/><font color='red'>实际结果: </font>{'code': 200, 'body': {'IsSucess': False, 'TreeName': None, 'ExceptionMeg': \"系统检测到重复提交\\r\\n公式名称为'配电自动化(1)1设备1：越下限'公式是否有此类指标公式配置数据\\r\\n或者对象ID和指标是否重复\\r\\n\"}}",
+  "descriptionHtml" : "<p><font color='red'>请求URL: </font> http://192.168.40.234:5000/admin/action.ashx?prefix=admin&amp;action=AddMonitorIndexFormula<Br/><font color='red'>请求类型: </font>POST<Br/><font color='red'>期望结果: </font>IsSucess': False<Br/><font color='red'>实际结果: </font>{'code': 200, 'body': {'IsSucess': False, 'TreeName': None, 'ExceptionMeg': &quot;系统检测到重复提交\\r\\n公式名称为'配电自动化(1)1设备1：越下限'公式是否有此类指标公式配置数据\\r\\n或者对象ID和指标是否重复\\r\\n&quot;}}</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "<font color='red'>请求URL: </font> http://192.168.40.234:5000/admin/action.ashx?prefix=admin&action=AddMonitorIndexFormula<Br/><font color='red'>请求类型: </font>POST<Br/><font color='red'>期望结果: </font>IsSucess': False<Br/><font color='red'>实际结果: </font>{'code': 200, 'body': {'IsSucess': False, 'TreeName': None, 'ExceptionMeg': \"系统检测到重复提交\\r\\n公式名称为'配电自动化(1)1设备1：越下限'公式是否有此类指标公式配置数据\\r\\n或者对象ID和指标是否重复\\r\\n\"}}",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d4dfb08a75d16c65",
+      "name" : "log",
+      "source" : "d4dfb08a75d16c65.txt",
+      "type" : "text/plain",
+      "size" : 52
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "IMS后台接口自动化测试"
+  }, {
+    "name" : "story",
+    "value" : "基础公式配置\n(实时告警类)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "Test_excel_case"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestExcel"
+  }, {
+    "name" : "host",
+    "value" : "IMSIMS"
+  }, {
+    "name" : "thread",
+    "value" : "12168-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.Test_excel_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "{'用例ID': 'test003', '模块': '基础公式配置\\n(实时告警类)', '接口名称': '重复提交，新增失败', '请求URL': '/admin/action.ashx?prefix=admin&action=AddMonitorIndexFormula', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"inputs\":\"{IndexFormulaList:[{OprationType:0,ID:null,\\'SystemId\\':1,FormulaName:\\'配电自动化(1)1设备1：越下限\\',AnalyzeType:5,SourceName:\\'\\',SourceID:1,IndexType:\\'405\\',IndexFormula:\\'YC_20002000=10\\',FormulaParm:0,IsExeute:1,isPushEAM:0,BounceTime:15,ClassType:0,Ext:\\'{\\\\\"StartTime\\\\\":\\\\\"00:00:00\\\\\",\\\\\"EndTime\\\\\":\\\\\"23:59:59\\\\\",\\\\\"EndDate\\\\\":\\\\\"same\\\\\"}\\',Description:\\'测试告警\\',UpdateTime:\\'2020-12-31 10:24:51\\'}]}\"}', '预期结果': \"IsSucess': False\", '实际结果': '', '是否运行': 'y', 'headers': '{\"Content-Type\":\"application/x-www-form-urlencoded;charset=UTF-8\",\"Accept-Language\":\"zh-CN,zh;q=0.9\"}', 'cookies': '', '返回状态码': '200', '数据库验证': '', '备注': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "38abee2a67896427.json",
+  "parameterValues" : [ "{'用例ID': 'test003', '模块': '基础公式配置\\n(实时告警类)', '接口名称': '重复提交，新增失败', '请求URL': '/admin/action.ashx?prefix=admin&action=AddMonitorIndexFormula', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"inputs\":\"{IndexFormulaList:[{OprationType:0,ID:null,\\'SystemId\\':1,FormulaName:\\'配电自动化(1)1设备1：越下限\\',AnalyzeType:5,SourceName:\\'\\',SourceID:1,IndexType:\\'405\\',IndexFormula:\\'YC_20002000=10\\',FormulaParm:0,IsExeute:1,isPushEAM:0,BounceTime:15,ClassType:0,Ext:\\'{\\\\\"StartTime\\\\\":\\\\\"00:00:00\\\\\",\\\\\"EndTime\\\\\":\\\\\"23:59:59\\\\\",\\\\\"EndDate\\\\\":\\\\\"same\\\\\"}\\',Description:\\'测试告警\\',UpdateTime:\\'2020-12-31 10:24:51\\'}]}\"}', '预期结果': \"IsSucess': False\", '实际结果': '', '是否运行': 'y', 'headers': '{\"Content-Type\":\"application/x-www-form-urlencoded;charset=UTF-8\",\"Accept-Language\":\"zh-CN,zh;q=0.9\"}', 'cookies': '', '返回状态码': '200', '数据库验证': '', '备注': ''}" ]
+}

@@ -1,0 +1,91 @@
+{
+  "uid" : "74fb86218c7a9288",
+  "name" : "test044导出数据",
+  "fullName" : "testcase.Test_excel_case.TestExcel#test_run",
+  "historyId" : "2d86b76c6f15f7ad05190087d39d8998",
+  "time" : {
+    "start" : 1609726740435,
+    "stop" : 1609726741075,
+    "duration" : 640
+  },
+  "description" : "<font color='red'>请求URL: </font> http://192.168.40.234:5000/action.ashx?action=ExportMonitorAnalyze<Br/><font color='red'>请求类型: </font>POST<Br/><font color='red'>期望结果: </font>status': 'success'<Br/><font color='red'>实际结果: </font>{'code': 200, 'body': {'status': 'success', 'msg': '/temp_file/20210104101901/设备总供冷量(kW).xls'}}",
+  "descriptionHtml" : "<p><font color='red'>请求URL: </font> http://192.168.40.234:5000/action.ashx?action=ExportMonitorAnalyze<Br/><font color='red'>请求类型: </font>POST<Br/><font color='red'>期望结果: </font>status': 'success'<Br/><font color='red'>实际结果: </font>{'code': 200, 'body': {'status': 'success', 'msg': '/temp_file/20210104101901/设备总供冷量(kW).xls'}}</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "<font color='red'>请求URL: </font> http://192.168.40.234:5000/action.ashx?action=ExportMonitorAnalyze<Br/><font color='red'>请求类型: </font>POST<Br/><font color='red'>期望结果: </font>status': 'success'<Br/><font color='red'>实际结果: </font>{'code': 200, 'body': {'status': 'success', 'msg': '/temp_file/20210104101901/设备总供冷量(kW).xls'}}",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "33012fbf73c60c2b",
+      "name" : "log",
+      "source" : "33012fbf73c60c2b.txt",
+      "type" : "text/plain",
+      "size" : 52
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "IMS前台接口自动化测试"
+  }, {
+    "name" : "story",
+    "value" : "综合监控分析"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "Test_excel_case"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestExcel"
+  }, {
+    "name" : "host",
+    "value" : "IMSIMS"
+  }, {
+    "name" : "thread",
+    "value" : "11724-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.Test_excel_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "{'用例ID': 'test044', '模块': '综合监控分析', '接口名称': '导出数据', '请求URL': '/action.ashx?action=ExportMonitorAnalyze', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{SystemId:1,SystemName:\\'配电自动化\\',AnalyzeType:2,AnalyzeTypeName:\\'设备指标类\\',IndexType:1,IndexTypeName:\\'总供冷量(kW)\\',SourceList:[{devType:\\'CODE1-1\\',devTypeName:\\'配电设备1\\'}],StartTime:\\'2020-09-09\\',EndTime:\\'2020-09-09\\',TimeGranule:0,DataType:0,RatioType:0}\"}', '预期结果': \"status': 'success'\", '实际结果': '', '是否运行': 'y', 'headers': '{\"Content-Type\": \\n\"application/x-www-form-urlencoded; charset=UTF-8\"}', 'cookies': '', '返回状态码': '200', '数据库验证': '', '备注': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "2d5679b83627c3d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609725747553,
+        "stop" : 1609725747586,
+        "duration" : 33
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "74fb86218c7a9288.json",
+  "parameterValues" : [ "{'用例ID': 'test044', '模块': '综合监控分析', '接口名称': '导出数据', '请求URL': '/action.ashx?action=ExportMonitorAnalyze', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{SystemId:1,SystemName:\\'配电自动化\\',AnalyzeType:2,AnalyzeTypeName:\\'设备指标类\\',IndexType:1,IndexTypeName:\\'总供冷量(kW)\\',SourceList:[{devType:\\'CODE1-1\\',devTypeName:\\'配电设备1\\'}],StartTime:\\'2020-09-09\\',EndTime:\\'2020-09-09\\',TimeGranule:0,DataType:0,RatioType:0}\"}', '预期结果': \"status': 'success'\", '实际结果': '', '是否运行': 'y', 'headers': '{\"Content-Type\": \\n\"application/x-www-form-urlencoded; charset=UTF-8\"}', 'cookies': '', '返回状态码': '200', '数据库验证': '', '备注': ''}" ]
+}

@@ -1,0 +1,91 @@
+{
+  "uid" : "3920e73f9e352cd4",
+  "name" : "test036查询系统模块为变配电的设备",
+  "fullName" : "testcase.Test_excel_case.TestExcel#test_run",
+  "historyId" : "8f9bbfae8fb61307c3d26f0d35d10980",
+  "time" : {
+    "start" : 1609726738627,
+    "stop" : 1609726738877,
+    "duration" : 250
+  },
+  "description" : "<font color='red'>请求URL: </font> http://192.168.40.234:5000/action.ashx?action=GetDeviceBySysAndName<Br/><font color='red'>请求类型: </font>POST<Br/><font color='red'>期望结果: </font>Page': {'Current': 1, 'Total': 10}<Br/><font color='red'>实际结果: </font>{'code': 200, 'body': {'ActionInfo': {'ErrorCode': 0, 'Success': True, 'ExceptionMsg': '', 'ExtendContent': None}, 'Page': {'Current': 1, 'Total': 10}, 'list': [{'DevPos': None, 'Linklist': [{'info': None, 'pageLink': None, 'projId': 'd6156905-2134-3ef5-ecbc-c64866ceaf6f', 'pageId': 'af947599-0134-3ef5-f98c-3cab8aa0cf57', 'elementId': '194c740e-8134-3ef3-1077-2e57afe24a50', 'nodeId': '', 'x': 0.0, 'y': 0.0, 'devId': '1', 'deviceLab': '1设备1：', 'type': 0, 'recordName': None, 'CallIndex': 'monitor_airConditioner', 'PageName': '弹窗2#', 'Url': 'monitor_airConditioner.html?projId=d6156905-2134-3ef5-ecbc-c64866ceaf6f&pageId=af947599-0134-3ef5-f98c-3cab8aa0cf57&elementId=194c740e-8134-3ef3-1077-2e57afe24a50&nodeId=', 'Name': '弹窗2#-1设备1：'}, {'info': None, 'pageLink': None, 'projId': 'd6156905-2134-3ef5-ecbc-c64866ceaf6f', 'pageId': '9f1812bb-f134-3ef2-a0d4-c428604b64fc', 'elementId': 'a106dbb6-f134-3ef4-103e-da9b5e22296b', 'nodeId': '17', 'x': 0.0, 'y': 0.0, 'devId': '1', 'deviceLab': '1设备1：', 'type': 0, 'recordName': None, 'CallIndex': 'monitor_airConditioner', 'PageName': '2#', 'Url': 'monitor_airConditioner.html?projId=d6156905-2134-3ef5-ecbc-c64866ceaf6f&pageId=9f1812bb-f134-3ef2-a0d4-c428604b64fc&elementId=a106dbb6-f134-3ef4-103e-da9b5e22296b&nodeId=17', 'Name': '2#-1设备1：'}, {'info': None, 'pageLink': None, 'projId': 'd6156905-2134-3ef5-ecbc-c64866ceaf6f', 'pageId': '0312ac51-5134-3ef1-a1ae-8124607193b3', 'elementId': '40cc0cd2-e134-3ef1-da5d-30362448ccc9', 'nodeId': '', 'x': 0.0, 'y': 0.0, 'devId': '1', 'deviceLab': '1设备1：', 'type': 0, 'recordName': None, 'CallIndex': 'monitor_airConditioner', 'PageName': '弹窗1#', 'Url': 'monitor_airConditioner.html?projId=d6156905-2134-3ef5-ecbc-c64866ceaf6f&pageId=0312ac51-5134-3ef1-a1ae-8124607193b3&elementId=40cc0cd2-e134-3ef1-da5d-30362448ccc9&nodeId=', 'Name': '弹窗1#-1设备1：'}], 'SysName': '配电自动化', 'DevId': 1, 'DevName': '1设备1：', 'SPACENAME': '101室', 'Focus': 0}, {'DevPos': None, 'Linklist': [{'info': None, 'pageLink': None, 'projId': 'd6156905-2134-3ef5-ecbc-c64866ceaf6f', 'pageId': 'af947599-0134-3ef5-f98c-3cab8aa0cf57', 'elementId': '61f0da97-4134-3ef4-82cb-46a2134d834e', 'nodeId': '', 'x': 0.0, 'y': 0.0, 'devId': '2', 'deviceLab': '1设备2：', 'type': 0, 'recordName': None, 'CallIndex': 'monitor_airConditioner', 'PageName': '弹窗2#', 'Url': 'monitor_airConditioner.html?projId=d6156905-2134-3ef5-ecbc-c64866ceaf6f&pageId=af947599-0134-3ef5-f98c-3cab8aa0cf57&elementId=61f0da97-4134-3ef4-82cb-46a2134d834e&nodeId=', 'Name': '弹窗2#-1设备2：'}], 'SysName': '配电自动化', 'DevId': 2, 'DevName': '1设备2：', 'SPACENAME': '101室/102室', 'Focus': 0}, {'DevPos': None, 'Linklist': [], 'SysName': '配电自动化', 'DevId': 3, 'DevName': '1设备3：', 'SPACENAME': '101室/102室/103室', 'Focus': 0}, {'DevPos': None, 'Linklist': [], 'SysName': '配电自动化', 'DevId': 4, 'DevName': '1设备4：', 'SPACENAME': '101室/102室/103室/104室', 'Focus': 0}, {'DevPos': None, 'Linklist': [], 'SysName': '配电自动化', 'DevId': 5, 'DevName': '1设备5：', 'SPACENAME': '101室/102室/103室/104室/105室', 'Focus': 0}, {'DevPos': None, 'Linklist': [], 'SysName': '配电自动化', 'DevId': 6, 'DevName': '1设备6：', 'SPACENAME': '101室/102室/103室/104室/105室/106室', 'Focus': 0}, {'DevPos': None, 'Linklist': [], 'SysName': '配电自动化', 'DevId': 7, 'DevName': '1设备7：', 'SPACENAME': '101室/102室/103室/104室/105室/106室/107室', 'Focus': 0}, {'DevPos': None, 'Linklist': [], 'SysName': '配电自动化', 'DevId': 8, 'DevName': '1设备8：', 'SPACENAME': '101室/102室/103室/104室/105室/106室/107室/108室', 'Focus': 0}, {'DevPos': None, 'Linklist': [], 'SysName': '配电自动化', 'DevId': 9, 'DevName': '1设备9：', 'SPACENAME': '101室/102室/103室/104室/105室/106室/107室/108室/109室', 'Focus': 0}, {'DevPos': None, 'Linklist': [], 'SysName': '配电自动化', 'DevId': 10, 'DevName': '1设备10：', 'SPACENAME': '101室/102室/103室/104室/105室/106室/107室/108室/109室/110室', 'Focus': 0}]}}",
+  "descriptionHtml" : "<p><font color='red'>请求URL: </font> http://192.168.40.234:5000/action.ashx?action=GetDeviceBySysAndName<Br/><font color='red'>请求类型: </font>POST<Br/><font color='red'>期望结果: </font>Page': {'Current': 1, 'Total': 10}<Br/><font color='red'>实际结果: </font>{'code': 200, 'body': {'ActionInfo': {'ErrorCode': 0, 'Success': True, 'ExceptionMsg': '', 'ExtendContent': None}, 'Page': {'Current': 1, 'Total': 10}, 'list': [{'DevPos': None, 'Linklist': [{'info': None, 'pageLink': None, 'projId': 'd6156905-2134-3ef5-ecbc-c64866ceaf6f', 'pageId': 'af947599-0134-3ef5-f98c-3cab8aa0cf57', 'elementId': '194c740e-8134-3ef3-1077-2e57afe24a50', 'nodeId': '', 'x': 0.0, 'y': 0.0, 'devId': '1', 'deviceLab': '1设备1：', 'type': 0, 'recordName': None, 'CallIndex': 'monitor_airConditioner', 'PageName': '弹窗2#', 'Url': 'monitor_airConditioner.html?projId=d6156905-2134-3ef5-ecbc-c64866ceaf6f&amp;pageId=af947599-0134-3ef5-f98c-3cab8aa0cf57&amp;elementId=194c740e-8134-3ef3-1077-2e57afe24a50&amp;nodeId=', 'Name': '弹窗2#-1设备1：'}, {'info': None, 'pageLink': None, 'projId': 'd6156905-2134-3ef5-ecbc-c64866ceaf6f', 'pageId': '9f1812bb-f134-3ef2-a0d4-c428604b64fc', 'elementId': 'a106dbb6-f134-3ef4-103e-da9b5e22296b', 'nodeId': '17', 'x': 0.0, 'y': 0.0, 'devId': '1', 'deviceLab': '1设备1：', 'type': 0, 'recordName': None, 'CallIndex': 'monitor_airConditioner', 'PageName': '2#', 'Url': 'monitor_airConditioner.html?projId=d6156905-2134-3ef5-ecbc-c64866ceaf6f&amp;pageId=9f1812bb-f134-3ef2-a0d4-c428604b64fc&amp;elementId=a106dbb6-f134-3ef4-103e-da9b5e22296b&amp;nodeId=17', 'Name': '2#-1设备1：'}, {'info': None, 'pageLink': None, 'projId': 'd6156905-2134-3ef5-ecbc-c64866ceaf6f', 'pageId': '0312ac51-5134-3ef1-a1ae-8124607193b3', 'elementId': '40cc0cd2-e134-3ef1-da5d-30362448ccc9', 'nodeId': '', 'x': 0.0, 'y': 0.0, 'devId': '1', 'deviceLab': '1设备1：', 'type': 0, 'recordName': None, 'CallIndex': 'monitor_airConditioner', 'PageName': '弹窗1#', 'Url': 'monitor_airConditioner.html?projId=d6156905-2134-3ef5-ecbc-c64866ceaf6f&amp;pageId=0312ac51-5134-3ef1-a1ae-8124607193b3&amp;elementId=40cc0cd2-e134-3ef1-da5d-30362448ccc9&amp;nodeId=', 'Name': '弹窗1#-1设备1：'}], 'SysName': '配电自动化', 'DevId': 1, 'DevName': '1设备1：', 'SPACENAME': '101室', 'Focus': 0}, {'DevPos': None, 'Linklist': [{'info': None, 'pageLink': None, 'projId': 'd6156905-2134-3ef5-ecbc-c64866ceaf6f', 'pageId': 'af947599-0134-3ef5-f98c-3cab8aa0cf57', 'elementId': '61f0da97-4134-3ef4-82cb-46a2134d834e', 'nodeId': '', 'x': 0.0, 'y': 0.0, 'devId': '2', 'deviceLab': '1设备2：', 'type': 0, 'recordName': None, 'CallIndex': 'monitor_airConditioner', 'PageName': '弹窗2#', 'Url': 'monitor_airConditioner.html?projId=d6156905-2134-3ef5-ecbc-c64866ceaf6f&amp;pageId=af947599-0134-3ef5-f98c-3cab8aa0cf57&amp;elementId=61f0da97-4134-3ef4-82cb-46a2134d834e&amp;nodeId=', 'Name': '弹窗2#-1设备2：'}], 'SysName': '配电自动化', 'DevId': 2, 'DevName': '1设备2：', 'SPACENAME': '101室/102室', 'Focus': 0}, {'DevPos': None, 'Linklist': [], 'SysName': '配电自动化', 'DevId': 3, 'DevName': '1设备3：', 'SPACENAME': '101室/102室/103室', 'Focus': 0}, {'DevPos': None, 'Linklist': [], 'SysName': '配电自动化', 'DevId': 4, 'DevName': '1设备4：', 'SPACENAME': '101室/102室/103室/104室', 'Focus': 0}, {'DevPos': None, 'Linklist': [], 'SysName': '配电自动化', 'DevId': 5, 'DevName': '1设备5：', 'SPACENAME': '101室/102室/103室/104室/105室', 'Focus': 0}, {'DevPos': None, 'Linklist': [], 'SysName': '配电自动化', 'DevId': 6, 'DevName': '1设备6：', 'SPACENAME': '101室/102室/103室/104室/105室/106室', 'Focus': 0}, {'DevPos': None, 'Linklist': [], 'SysName': '配电自动化', 'DevId': 7, 'DevName': '1设备7：', 'SPACENAME': '101室/102室/103室/104室/105室/106室/107室', 'Focus': 0}, {'DevPos': None, 'Linklist': [], 'SysName': '配电自动化', 'DevId': 8, 'DevName': '1设备8：', 'SPACENAME': '101室/102室/103室/104室/105室/106室/107室/108室', 'Focus': 0}, {'DevPos': None, 'Linklist': [], 'SysName': '配电自动化', 'DevId': 9, 'DevName': '1设备9：', 'SPACENAME': '101室/102室/103室/104室/105室/106室/107室/108室/109室', 'Focus': 0}, {'DevPos': None, 'Linklist': [], 'SysName': '配电自动化', 'DevId': 10, 'DevName': '1设备10：', 'SPACENAME': '101室/102室/103室/104室/105室/106室/107室/108室/109室/110室', 'Focus': 0}]}}</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "<font color='red'>请求URL: </font> http://192.168.40.234:5000/action.ashx?action=GetDeviceBySysAndName<Br/><font color='red'>请求类型: </font>POST<Br/><font color='red'>期望结果: </font>Page': {'Current': 1, 'Total': 10}<Br/><font color='red'>实际结果: </font>{'code': 200, 'body': {'ActionInfo': {'ErrorCode': 0, 'Success': True, 'ExceptionMsg': '', 'ExtendContent': None}, 'Page': {'Current': 1, 'Total': 10}, 'list': [{'DevPos': None, 'Linklist': [{'info': None, 'pageLink': None, 'projId': 'd6156905-2134-3ef5-ecbc-c64866ceaf6f', 'pageId': 'af947599-0134-3ef5-f98c-3cab8aa0cf57', 'elementId': '194c740e-8134-3ef3-1077-2e57afe24a50', 'nodeId': '', 'x': 0.0, 'y': 0.0, 'devId': '1', 'deviceLab': '1设备1：', 'type': 0, 'recordName': None, 'CallIndex': 'monitor_airConditioner', 'PageName': '弹窗2#', 'Url': 'monitor_airConditioner.html?projId=d6156905-2134-3ef5-ecbc-c64866ceaf6f&pageId=af947599-0134-3ef5-f98c-3cab8aa0cf57&elementId=194c740e-8134-3ef3-1077-2e57afe24a50&nodeId=', 'Name': '弹窗2#-1设备1：'}, {'info': None, 'pageLink': None, 'projId': 'd6156905-2134-3ef5-ecbc-c64866ceaf6f', 'pageId': '9f1812bb-f134-3ef2-a0d4-c428604b64fc', 'elementId': 'a106dbb6-f134-3ef4-103e-da9b5e22296b', 'nodeId': '17', 'x': 0.0, 'y': 0.0, 'devId': '1', 'deviceLab': '1设备1：', 'type': 0, 'recordName': None, 'CallIndex': 'monitor_airConditioner', 'PageName': '2#', 'Url': 'monitor_airConditioner.html?projId=d6156905-2134-3ef5-ecbc-c64866ceaf6f&pageId=9f1812bb-f134-3ef2-a0d4-c428604b64fc&elementId=a106dbb6-f134-3ef4-103e-da9b5e22296b&nodeId=17', 'Name': '2#-1设备1：'}, {'info': None, 'pageLink': None, 'projId': 'd6156905-2134-3ef5-ecbc-c64866ceaf6f', 'pageId': '0312ac51-5134-3ef1-a1ae-8124607193b3', 'elementId': '40cc0cd2-e134-3ef1-da5d-30362448ccc9', 'nodeId': '', 'x': 0.0, 'y': 0.0, 'devId': '1', 'deviceLab': '1设备1：', 'type': 0, 'recordName': None, 'CallIndex': 'monitor_airConditioner', 'PageName': '弹窗1#', 'Url': 'monitor_airConditioner.html?projId=d6156905-2134-3ef5-ecbc-c64866ceaf6f&pageId=0312ac51-5134-3ef1-a1ae-8124607193b3&elementId=40cc0cd2-e134-3ef1-da5d-30362448ccc9&nodeId=', 'Name': '弹窗1#-1设备1：'}], 'SysName': '配电自动化', 'DevId': 1, 'DevName': '1设备1：', 'SPACENAME': '101室', 'Focus': 0}, {'DevPos': None, 'Linklist': [{'info': None, 'pageLink': None, 'projId': 'd6156905-2134-3ef5-ecbc-c64866ceaf6f', 'pageId': 'af947599-0134-3ef5-f98c-3cab8aa0cf57', 'elementId': '61f0da97-4134-3ef4-82cb-46a2134d834e', 'nodeId': '', 'x': 0.0, 'y': 0.0, 'devId': '2', 'deviceLab': '1设备2：', 'type': 0, 'recordName': None, 'CallIndex': 'monitor_airConditioner', 'PageName': '弹窗2#', 'Url': 'monitor_airConditioner.html?projId=d6156905-2134-3ef5-ecbc-c64866ceaf6f&pageId=af947599-0134-3ef5-f98c-3cab8aa0cf57&elementId=61f0da97-4134-3ef4-82cb-46a2134d834e&nodeId=', 'Name': '弹窗2#-1设备2：'}], 'SysName': '配电自动化', 'DevId': 2, 'DevName': '1设备2：', 'SPACENAME': '101室/102室', 'Focus': 0}, {'DevPos': None, 'Linklist': [], 'SysName': '配电自动化', 'DevId': 3, 'DevName': '1设备3：', 'SPACENAME': '101室/102室/103室', 'Focus': 0}, {'DevPos': None, 'Linklist': [], 'SysName': '配电自动化', 'DevId': 4, 'DevName': '1设备4：', 'SPACENAME': '101室/102室/103室/104室', 'Focus': 0}, {'DevPos': None, 'Linklist': [], 'SysName': '配电自动化', 'DevId': 5, 'DevName': '1设备5：', 'SPACENAME': '101室/102室/103室/104室/105室', 'Focus': 0}, {'DevPos': None, 'Linklist': [], 'SysName': '配电自动化', 'DevId': 6, 'DevName': '1设备6：', 'SPACENAME': '101室/102室/103室/104室/105室/106室', 'Focus': 0}, {'DevPos': None, 'Linklist': [], 'SysName': '配电自动化', 'DevId': 7, 'DevName': '1设备7：', 'SPACENAME': '101室/102室/103室/104室/105室/106室/107室', 'Focus': 0}, {'DevPos': None, 'Linklist': [], 'SysName': '配电自动化', 'DevId': 8, 'DevName': '1设备8：', 'SPACENAME': '101室/102室/103室/104室/105室/106室/107室/108室', 'Focus': 0}, {'DevPos': None, 'Linklist': [], 'SysName': '配电自动化', 'DevId': 9, 'DevName': '1设备9：', 'SPACENAME': '101室/102室/103室/104室/105室/106室/107室/108室/109室', 'Focus': 0}, {'DevPos': None, 'Linklist': [], 'SysName': '配电自动化', 'DevId': 10, 'DevName': '1设备10：', 'SPACENAME': '101室/102室/103室/104室/105室/106室/107室/108室/109室/110室', 'Focus': 0}]}}",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "3329dd3d3a71e02b",
+      "name" : "log",
+      "source" : "3329dd3d3a71e02b.txt",
+      "type" : "text/plain",
+      "size" : 52
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "IMS前台接口自动化测试"
+  }, {
+    "name" : "story",
+    "value" : "全局搜索"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "Test_excel_case"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestExcel"
+  }, {
+    "name" : "host",
+    "value" : "IMSIMS"
+  }, {
+    "name" : "thread",
+    "value" : "11724-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.Test_excel_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "{'用例ID': 'test036', '模块': '全局搜索', '接口名称': '查询系统模块为变配电的设备', '请求URL': '/action.ashx?action=GetDeviceBySysAndName', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\": \"{strMcode:\\'M009\\',strName:\\'\\',PageCurrent:1,PageSize:10}\"}', '预期结果': \"Page': {'Current': 1, 'Total': 10}\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': '', '备注': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "949f1705dfa739bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609725745928,
+        "stop" : 1609725745967,
+        "duration" : 39
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3920e73f9e352cd4.json",
+  "parameterValues" : [ "{'用例ID': 'test036', '模块': '全局搜索', '接口名称': '查询系统模块为变配电的设备', '请求URL': '/action.ashx?action=GetDeviceBySysAndName', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\": \"{strMcode:\\'M009\\',strName:\\'\\',PageCurrent:1,PageSize:10}\"}', '预期结果': \"Page': {'Current': 1, 'Total': 10}\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': '', '备注': ''}" ]
+}

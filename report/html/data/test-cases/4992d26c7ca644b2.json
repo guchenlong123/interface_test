@@ -1,0 +1,83 @@
+{
+  "uid" : "4992d26c7ca644b2",
+  "name" : "test058启用场景",
+  "fullName" : "testcase.Test_excel_case.TestExcel#test_run",
+  "historyId" : "033f7addfd1ede60d32f5d33f4e20808",
+  "time" : {
+    "start" : 1609725748887,
+    "stop" : 1609725748955,
+    "duration" : 68
+  },
+  "description" : "<font color='red'>请求URL: </font> http://192.168.40.234:5000/admin/action.ashx?prefix=admin&action=Updateimplement<Br/><font color='red'>请求类型: </font>POST<Br/><font color='red'>期望结果: </font>ExceptionMeg': '操作成功!'<Br/><font color='red'>实际结果: </font>{'code': 200, 'body': {'IsSucess': True, 'TreeName': None, 'ExceptionMeg': '操作成功!'}}",
+  "descriptionHtml" : "<p><font color='red'>请求URL: </font> http://192.168.40.234:5000/admin/action.ashx?prefix=admin&amp;action=Updateimplement<Br/><font color='red'>请求类型: </font>POST<Br/><font color='red'>期望结果: </font>ExceptionMeg': '操作成功!'<Br/><font color='red'>实际结果: </font>{'code': 200, 'body': {'IsSucess': True, 'TreeName': None, 'ExceptionMeg': '操作成功!'}}</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "<font color='red'>请求URL: </font> http://192.168.40.234:5000/admin/action.ashx?prefix=admin&action=Updateimplement<Br/><font color='red'>请求类型: </font>POST<Br/><font color='red'>期望结果: </font>ExceptionMeg': '操作成功!'<Br/><font color='red'>实际结果: </font>{'code': 200, 'body': {'IsSucess': True, 'TreeName': None, 'ExceptionMeg': '操作成功!'}}",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "b21139cd9da295e0",
+      "name" : "log",
+      "source" : "b21139cd9da295e0.txt",
+      "type" : "text/plain",
+      "size" : 52
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "IMS后台接口自动化测试"
+  }, {
+    "name" : "story",
+    "value" : "联动场景维护"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "Test_excel_case"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestExcel"
+  }, {
+    "name" : "host",
+    "value" : "IMSIMS"
+  }, {
+    "name" : "thread",
+    "value" : "12168-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.Test_excel_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "{'用例ID': 'test058', '模块': '联动场景维护', '接口名称': '启用场景', '请求URL': '/admin/action.ashx?prefix=admin&action=Updateimplement', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{ID:1,Implement:1,ChangeTime:\\'2020-12-25T09:33:07.670Z\\',SystemId:1}\"}', '预期结果': \"ExceptionMeg': '操作成功!'\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': '', '备注': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4992d26c7ca644b2.json",
+  "parameterValues" : [ "{'用例ID': 'test058', '模块': '联动场景维护', '接口名称': '启用场景', '请求URL': '/admin/action.ashx?prefix=admin&action=Updateimplement', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{ID:1,Implement:1,ChangeTime:\\'2020-12-25T09:33:07.670Z\\',SystemId:1}\"}', '预期结果': \"ExceptionMeg': '操作成功!'\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': '', '备注': ''}" ]
+}

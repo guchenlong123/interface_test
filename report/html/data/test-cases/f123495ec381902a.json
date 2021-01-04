@@ -1,0 +1,83 @@
+{
+  "uid" : "f123495ec381902a",
+  "name" : "test056场景名称精确查询",
+  "fullName" : "testcase.Test_excel_case.TestExcel#test_run",
+  "historyId" : "94a1df778d017524b9ededab6cf6c806",
+  "time" : {
+    "start" : 1609725748801,
+    "stop" : 1609725748840,
+    "duration" : 39
+  },
+  "description" : "<font color='red'>请求URL: </font> http://192.168.40.234:5000/admin/action.ashx?prefix=admin&action=GetLinkageConfig<Br/><font color='red'>请求类型: </font>POST<Br/><font color='red'>期望结果: </font>Id': 1, 'CNAME': 'test001', 'LinkagerEffective': '有效', 'Station': '未启动'<Br/><font color='red'>实际结果: </font>{'code': 200, 'body': {'LinkagePageConfiginfoList': [{'Id': 1, 'CNAME': 'test001', 'LinkagerEffective': '有效', 'Station': '未启动', 'CarryTime': '/Date(1608888787670+0800)/', 'LinkagerEffectiveId': 1, 'StationId': 0, 'UpdateTime': '/Date(1604470412303+0800)/'}], 'GroupMaxId': 13, 'ItemIdMaxId': 14, 'Page': {'Current': 1, 'Total': 1}, 'ActionInfo': {'Success': True, 'ExceptionMsg': None, 'ExtendContent': None, 'IsExistsDevice': False, 'ActionUser': '', 'LogType': 0, 'ActionDateTime': '/Date(1609725748835+0800)/', 'ActionModel': None, 'LogParams': None, 'FunctionPoint': None}}}",
+  "descriptionHtml" : "<p><font color='red'>请求URL: </font> http://192.168.40.234:5000/admin/action.ashx?prefix=admin&amp;action=GetLinkageConfig<Br/><font color='red'>请求类型: </font>POST<Br/><font color='red'>期望结果: </font>Id': 1, 'CNAME': 'test001', 'LinkagerEffective': '有效', 'Station': '未启动'<Br/><font color='red'>实际结果: </font>{'code': 200, 'body': {'LinkagePageConfiginfoList': [{'Id': 1, 'CNAME': 'test001', 'LinkagerEffective': '有效', 'Station': '未启动', 'CarryTime': '/Date(1608888787670+0800)/', 'LinkagerEffectiveId': 1, 'StationId': 0, 'UpdateTime': '/Date(1604470412303+0800)/'}], 'GroupMaxId': 13, 'ItemIdMaxId': 14, 'Page': {'Current': 1, 'Total': 1}, 'ActionInfo': {'Success': True, 'ExceptionMsg': None, 'ExtendContent': None, 'IsExistsDevice': False, 'ActionUser': '', 'LogType': 0, 'ActionDateTime': '/Date(1609725748835+0800)/', 'ActionModel': None, 'LogParams': None, 'FunctionPoint': None}}}</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "<font color='red'>请求URL: </font> http://192.168.40.234:5000/admin/action.ashx?prefix=admin&action=GetLinkageConfig<Br/><font color='red'>请求类型: </font>POST<Br/><font color='red'>期望结果: </font>Id': 1, 'CNAME': 'test001', 'LinkagerEffective': '有效', 'Station': '未启动'<Br/><font color='red'>实际结果: </font>{'code': 200, 'body': {'LinkagePageConfiginfoList': [{'Id': 1, 'CNAME': 'test001', 'LinkagerEffective': '有效', 'Station': '未启动', 'CarryTime': '/Date(1608888787670+0800)/', 'LinkagerEffectiveId': 1, 'StationId': 0, 'UpdateTime': '/Date(1604470412303+0800)/'}], 'GroupMaxId': 13, 'ItemIdMaxId': 14, 'Page': {'Current': 1, 'Total': 1}, 'ActionInfo': {'Success': True, 'ExceptionMsg': None, 'ExtendContent': None, 'IsExistsDevice': False, 'ActionUser': '', 'LogType': 0, 'ActionDateTime': '/Date(1609725748835+0800)/', 'ActionModel': None, 'LogParams': None, 'FunctionPoint': None}}}",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "b049290d2fb577ab",
+      "name" : "log",
+      "source" : "b049290d2fb577ab.txt",
+      "type" : "text/plain",
+      "size" : 52
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "IMS后台接口自动化测试"
+  }, {
+    "name" : "story",
+    "value" : "联动场景维护"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "Test_excel_case"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestExcel"
+  }, {
+    "name" : "host",
+    "value" : "IMSIMS"
+  }, {
+    "name" : "thread",
+    "value" : "12168-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.Test_excel_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "{'用例ID': 'test056', '模块': '联动场景维护', '接口名称': '场景名称精确查询', '请求URL': '/admin/action.ashx?prefix=admin&action=GetLinkageConfig', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{pageCurrent:1,pageSize:10,CName:\\'test001\\'}\"}', '预期结果': \"Id': 1, 'CNAME': 'test001', 'LinkagerEffective': '有效', 'Station': '未启动'\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': '', '备注': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f123495ec381902a.json",
+  "parameterValues" : [ "{'用例ID': 'test056', '模块': '联动场景维护', '接口名称': '场景名称精确查询', '请求URL': '/admin/action.ashx?prefix=admin&action=GetLinkageConfig', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{pageCurrent:1,pageSize:10,CName:\\'test001\\'}\"}', '预期结果': \"Id': 1, 'CNAME': 'test001', 'LinkagerEffective': '有效', 'Station': '未启动'\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': '', '备注': ''}" ]
+}

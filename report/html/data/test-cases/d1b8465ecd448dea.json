@@ -1,0 +1,83 @@
+{
+  "uid" : "d1b8465ecd448dea",
+  "name" : "test061调出修改场景信息弹窗",
+  "fullName" : "testcase.Test_excel_case.TestExcel#test_run",
+  "historyId" : "266e84d2e640b30d89fbceef053bfe22",
+  "time" : {
+    "start" : 1609725749126,
+    "stop" : 1609725749171,
+    "duration" : 45
+  },
+  "description" : "<font color='red'>请求URL: </font> http://192.168.40.234:5000/admin/action.ashx?prefix=admin&action=GetLinkageConfigByID<Br/><font color='red'>请求类型: </font>POST<Br/><font color='red'>期望结果: </font>ID': 14, 'CName': '测试用', 'LinkageEffective': 1, 'FormulaID': 3, 'FormulaName': '配电自动化系统联动'<Br/><font color='red'>实际结果: </font>{'code': 200, 'body': {'ID': 14, 'CName': '测试用', 'LinkageEffective': 1, 'FormulaID': 3, 'FormulaName': '配电自动化系统联动', 'Formula': 'YC_20002000=10', 'DruTime': 15, 'UpdateTime': '/Date(1608876101907+0800)/', 'ContTime': 0, 'ControlItemsInfoList': [{'Id': 15, 'LinkControlGrpID': 14, 'ControlItems': '{\"IP\":\"192.168.40.180\",\"APITYPE\":\"HK\",\"PORT\":8000,\"USER\":\"admin\",\"PASSWORD\":\"12345\",\"CHANNEL\":1,\"CALLBACKCAMERAID\":\"3\",\"CALLBACKCAMERANAME\":\"海康2号\"}', 'LinkageType': 'CALLAPI', 'Value': '1', 'TRYTIMES': '1'}], 'ActionInfo': {'Success': True, 'ExceptionMsg': None, 'ExtendContent': None, 'IsExistsDevice': False, 'ActionUser': '', 'LogType': 0, 'ActionDateTime': '/Date(1609725749165+0800)/', 'ActionModel': None, 'LogParams': None, 'FunctionPoint': None}, 'ISSTART': '0', 'UPTIME': '/Date(1597307762000+0800)/', 'EXT': '{\"StartTime\":\"00:00:00\",\"EndTime\":\"23:59:59\",\"EndDate\":\"same\"}'}}",
+  "descriptionHtml" : "<p><font color='red'>请求URL: </font> http://192.168.40.234:5000/admin/action.ashx?prefix=admin&amp;action=GetLinkageConfigByID<Br/><font color='red'>请求类型: </font>POST<Br/><font color='red'>期望结果: </font>ID': 14, 'CName': '测试用', 'LinkageEffective': 1, 'FormulaID': 3, 'FormulaName': '配电自动化系统联动'<Br/><font color='red'>实际结果: </font>{'code': 200, 'body': {'ID': 14, 'CName': '测试用', 'LinkageEffective': 1, 'FormulaID': 3, 'FormulaName': '配电自动化系统联动', 'Formula': 'YC_20002000=10', 'DruTime': 15, 'UpdateTime': '/Date(1608876101907+0800)/', 'ContTime': 0, 'ControlItemsInfoList': [{'Id': 15, 'LinkControlGrpID': 14, 'ControlItems': '{&quot;IP&quot;:&quot;192.168.40.180&quot;,&quot;APITYPE&quot;:&quot;HK&quot;,&quot;PORT&quot;:8000,&quot;USER&quot;:&quot;admin&quot;,&quot;PASSWORD&quot;:&quot;12345&quot;,&quot;CHANNEL&quot;:1,&quot;CALLBACKCAMERAID&quot;:&quot;3&quot;,&quot;CALLBACKCAMERANAME&quot;:&quot;海康2号&quot;}', 'LinkageType': 'CALLAPI', 'Value': '1', 'TRYTIMES': '1'}], 'ActionInfo': {'Success': True, 'ExceptionMsg': None, 'ExtendContent': None, 'IsExistsDevice': False, 'ActionUser': '', 'LogType': 0, 'ActionDateTime': '/Date(1609725749165+0800)/', 'ActionModel': None, 'LogParams': None, 'FunctionPoint': None}, 'ISSTART': '0', 'UPTIME': '/Date(1597307762000+0800)/', 'EXT': '{&quot;StartTime&quot;:&quot;00:00:00&quot;,&quot;EndTime&quot;:&quot;23:59:59&quot;,&quot;EndDate&quot;:&quot;same&quot;}'}}</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "<font color='red'>请求URL: </font> http://192.168.40.234:5000/admin/action.ashx?prefix=admin&action=GetLinkageConfigByID<Br/><font color='red'>请求类型: </font>POST<Br/><font color='red'>期望结果: </font>ID': 14, 'CName': '测试用', 'LinkageEffective': 1, 'FormulaID': 3, 'FormulaName': '配电自动化系统联动'<Br/><font color='red'>实际结果: </font>{'code': 200, 'body': {'ID': 14, 'CName': '测试用', 'LinkageEffective': 1, 'FormulaID': 3, 'FormulaName': '配电自动化系统联动', 'Formula': 'YC_20002000=10', 'DruTime': 15, 'UpdateTime': '/Date(1608876101907+0800)/', 'ContTime': 0, 'ControlItemsInfoList': [{'Id': 15, 'LinkControlGrpID': 14, 'ControlItems': '{\"IP\":\"192.168.40.180\",\"APITYPE\":\"HK\",\"PORT\":8000,\"USER\":\"admin\",\"PASSWORD\":\"12345\",\"CHANNEL\":1,\"CALLBACKCAMERAID\":\"3\",\"CALLBACKCAMERANAME\":\"海康2号\"}', 'LinkageType': 'CALLAPI', 'Value': '1', 'TRYTIMES': '1'}], 'ActionInfo': {'Success': True, 'ExceptionMsg': None, 'ExtendContent': None, 'IsExistsDevice': False, 'ActionUser': '', 'LogType': 0, 'ActionDateTime': '/Date(1609725749165+0800)/', 'ActionModel': None, 'LogParams': None, 'FunctionPoint': None}, 'ISSTART': '0', 'UPTIME': '/Date(1597307762000+0800)/', 'EXT': '{\"StartTime\":\"00:00:00\",\"EndTime\":\"23:59:59\",\"EndDate\":\"same\"}'}}",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "f8ce52a9a732d5a5",
+      "name" : "log",
+      "source" : "f8ce52a9a732d5a5.txt",
+      "type" : "text/plain",
+      "size" : 52
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "IMS后台接口自动化测试"
+  }, {
+    "name" : "story",
+    "value" : "联动场景维护"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "Test_excel_case"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestExcel"
+  }, {
+    "name" : "host",
+    "value" : "IMSIMS"
+  }, {
+    "name" : "thread",
+    "value" : "12168-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.Test_excel_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "{'用例ID': 'test061', '模块': '联动场景维护', '接口名称': '调出修改场景信息弹窗', '请求URL': '/admin/action.ashx?prefix=admin&action=GetLinkageConfigByID', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{ID:14}\"}', '预期结果': \"ID': 14, 'CName': '测试用', 'LinkageEffective': 1, 'FormulaID': 3, 'FormulaName': '配电自动化系统联动'\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': '', '备注': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d1b8465ecd448dea.json",
+  "parameterValues" : [ "{'用例ID': 'test061', '模块': '联动场景维护', '接口名称': '调出修改场景信息弹窗', '请求URL': '/admin/action.ashx?prefix=admin&action=GetLinkageConfigByID', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{ID:14}\"}', '预期结果': \"ID': 14, 'CName': '测试用', 'LinkageEffective': 1, 'FormulaID': 3, 'FormulaName': '配电自动化系统联动'\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': '', '备注': ''}" ]
+}

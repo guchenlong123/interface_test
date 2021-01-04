@@ -1,0 +1,91 @@
+{
+  "uid" : "d71b4d88bdc5e393",
+  "name" : "test015下载月报表",
+  "fullName" : "testcase.Test_excel_case.TestExcel#test_run",
+  "historyId" : "2f64d1b5894f61f8d56f85e728a62eb0",
+  "time" : {
+    "start" : 1609726730596,
+    "stop" : 1609726730768,
+    "duration" : 172
+  },
+  "description" : "<font color='red'>请求URL: </font> http://192.168.40.234:5000/action.ashx?action=DownReportInfo<Br/><font color='red'>请求类型: </font>POST<Br/><font color='red'>期望结果: </font>status': 'success'<Br/><font color='red'>实际结果: </font>{'code': 200, 'body': {'status': 'success', 'msg': '/temp_file/20210104101850/(月报表)test01(横向)20200901.xls'}}",
+  "descriptionHtml" : "<p><font color='red'>请求URL: </font> http://192.168.40.234:5000/action.ashx?action=DownReportInfo<Br/><font color='red'>请求类型: </font>POST<Br/><font color='red'>期望结果: </font>status': 'success'<Br/><font color='red'>实际结果: </font>{'code': 200, 'body': {'status': 'success', 'msg': '/temp_file/20210104101850/(月报表)test01(横向)20200901.xls'}}</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "<font color='red'>请求URL: </font> http://192.168.40.234:5000/action.ashx?action=DownReportInfo<Br/><font color='red'>请求类型: </font>POST<Br/><font color='red'>期望结果: </font>status': 'success'<Br/><font color='red'>实际结果: </font>{'code': 200, 'body': {'status': 'success', 'msg': '/temp_file/20210104101850/(月报表)test01(横向)20200901.xls'}}",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "cacda2897d69e801",
+      "name" : "log",
+      "source" : "cacda2897d69e801.txt",
+      "type" : "text/plain",
+      "size" : 52
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "IMS前台接口自动化测试"
+  }, {
+    "name" : "story",
+    "value" : "报表管理"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "Test_excel_case"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestExcel"
+  }, {
+    "name" : "host",
+    "value" : "IMSIMS"
+  }, {
+    "name" : "thread",
+    "value" : "11724-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.Test_excel_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "{'用例ID': 'test015', '模块': '报表管理', '接口名称': '下载月报表', '请求URL': '/action.ashx?action=DownReportInfo', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\": \"{ID:12,StartTime:\\'2020.09.01 08:00:00\\',EndTime:\\'2020.09.01 08:00:00\\',TimeType:2,CName:\\'test01\\',ReportTypeName:\\'横向\\',Unite:2}\"}', '预期结果': \"status': 'success'\", '实际结果': '', '是否运行': 'y', 'headers': '{\"Content-Type\": \\n\"application/x-www-form-urlencoded; charset=UTF-8\"}', 'cookies': '', '返回状态码': '200', '数据库验证': '', '备注': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a4f95368a0adc621",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609725744856,
+        "stop" : 1609725744903,
+        "duration" : 47
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d71b4d88bdc5e393.json",
+  "parameterValues" : [ "{'用例ID': 'test015', '模块': '报表管理', '接口名称': '下载月报表', '请求URL': '/action.ashx?action=DownReportInfo', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\": \"{ID:12,StartTime:\\'2020.09.01 08:00:00\\',EndTime:\\'2020.09.01 08:00:00\\',TimeType:2,CName:\\'test01\\',ReportTypeName:\\'横向\\',Unite:2}\"}', '预期结果': \"status': 'success'\", '实际结果': '', '是否运行': 'y', 'headers': '{\"Content-Type\": \\n\"application/x-www-form-urlencoded; charset=UTF-8\"}', 'cookies': '', '返回状态码': '200', '数据库验证': '', '备注': ''}" ]
+}
