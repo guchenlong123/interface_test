@@ -2,7 +2,39 @@ import subprocess
 from utils.LogUtil import my_log
 from utils.EmailUtil import SendEmail
 from config.Conf import ConfigYaml
+from utils.AssertUtil import AssertUtil
+from utils.MysqlUtil import Mysql
 log = my_log()
+
+#1、定义init_db
+def init_db(db_alias):
+#2、初始数据化信息，通过配置
+    db_info = ConfigYaml().get_db_conf_info(db_alias)
+    host = db_info["db_host"]
+    user = db_info["db_user"]
+    password = db_info["db_password"]
+    name = db_info["db_name"]
+#3、初始化myssql对象
+    conn = Mysql(host,user,password,name)
+    print(conn)
+    return conn
+
+def assert_db(db_name,result,db_verify):
+    assert_util =  AssertUtil()
+    #sql = init_db("db_1")
+    sql = init_db(db_name)
+    # 2、查询sql，excel定义好的
+    db_res = sql.fetchone(db_verify)
+    # 3、数据库的结果与接口返回的结果验证
+    # 获取数据库结果的key
+    verify_list = list(dict(db_res).keys())
+    # 根据key获取数据库结果，接口结果
+    for line in verify_list:
+        #res_line = res["body"][line]
+        res_line = result[line]
+        res_db_line = dict(db_res)[line]
+        # 验证
+        assert_util.assert_body(res_line, res_db_line)
 
 
 def allure_report(report_path, report_html):
@@ -45,3 +77,9 @@ def send_mail(report_html_path="",content="",title=""):
         content=content,
         file=report_html_path)
     email.send_mail()
+
+
+# if __name__ =="__main":
+    # init_db("db_1")
+
+

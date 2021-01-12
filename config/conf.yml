@@ -7,5 +7,12 @@ BASE:
   url: "http://192.168.40.234:5000"
   case_file: "data.xlsx"
 #  case_sheet: "IMS前台接口自动化测试"
-  case_sheet: "IMS后台接口自动化测试"
+#  case_sheet: "IMS后台接口自动化测试"
+  case_sheet: "IMS系统接口自动化测试"
+
+email:
+ smtpserver: "smtp.qq.com"
+ username: "1570213065@qq.com"
+ password: "************"
+ receiver: "*******@qq.com"
 

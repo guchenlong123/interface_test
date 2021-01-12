@@ -1,0 +1,83 @@
+{
+  "uid" : "ae6379d8402570e7",
+  "name" : "test041查询数据",
+  "fullName" : "testcase.test_excel_case.TestExcel#test_run",
+  "historyId" : "66045ba16ad0a683f3d6f263c6a4d474",
+  "time" : {
+    "start" : 1610447451258,
+    "stop" : 1610447451508,
+    "duration" : 250
+  },
+  "description" : "<font color='red'>请求URL: </font> http://192.168.40.234:5000/action.ashx?action=GetIndexPageConfChart<Br/><font color='red'>请求类型: </font>POST<Br/><font color='red'>期望结果: </font>RowUnit': {'RowUnitList': {'对象CODE1-13': [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]}}<Br/><font color='red'>实际结果: </font>{'code': 200, 'body': {'ActionInfo': {'ErrorCode': 0, 'Success': True, 'ExceptionMsg': None, 'ActionName': None, 'ActionUser': None, 'ActionTime': '/Date(1610447451476+0800)/', 'LogType': 0, 'ActionDateTime': '/Date(1610447451492+0800)/', 'ActionModel': None, 'LogParams': None, 'FunctionPoint': None}, 'Charts': {'xAxisTime': [1610380800000, 1610384400000, 1610388000000, 1610391600000, 1610395200000, 1610398800000, 1610402400000, 1610406000000, 1610409600000, 1610413200000, 1610416800000, 1610420400000, 1610424000000, 1610427600000, 1610431200000, 1610434800000, 1610438400000, 1610442000000], 'unit': 0, 'series': [{'name': '智能照明3', 'data': [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 'dataStatus': None, 'dataAttach': None, 'yAxis': 0, 'colors': [\"'#15c7bd'\", \"'#15c7bd'\", \"'#15c7bd'\", \"'#15c7bd'\", \"'#15c7bd'\", \"'#15c7bd'\", \"'#15c7bd'\", \"'#15c7bd'\", \"'#15c7bd'\", \"'#15c7bd'\", \"'#15c7bd'\", \"'#15c7bd'\", \"'#15c7bd'\", \"'#15c7bd'\", \"'#15c7bd'\", \"'#15c7bd'\", \"'#15c7bd'\", \"'#15c7bd'\"], 'dataReal': None}], 'yAxisItems': [{'title': '配电自动化', 'Unit': ''}]}, 'OrderLst': [{'Order': 1, 'Tm': '/Date(1610380800000+0800)/', 'Obj': '智能照明3', 'Val': 0.0}, {'Order': 2, 'Tm': '/Date(1610384400000+0800)/', 'Obj': '智能照明3', 'Val': 0.0}, {'Order': 3, 'Tm': '/Date(1610388000000+0800)/', 'Obj': '智能照明3', 'Val': 0.0}, {'Order': 4, 'Tm': '/Date(1610391600000+0800)/', 'Obj': '智能照明3', 'Val': 0.0}, {'Order': 5, 'Tm': '/Date(1610395200000+0800)/', 'Obj': '智能照明3', 'Val': 0.0}, {'Order': 6, 'Tm': '/Date(1610398800000+0800)/', 'Obj': '智能照明3', 'Val': 0.0}, {'Order': 7, 'Tm': '/Date(1610402400000+0800)/', 'Obj': '智能照明3', 'Val': 0.0}, {'Order': 8, 'Tm': '/Date(1610406000000+0800)/', 'Obj': '智能照明3', 'Val': 0.0}, {'Order': 9, 'Tm': '/Date(1610409600000+0800)/', 'Obj': '智能照明3', 'Val': 0.0}, {'Order': 10, 'Tm': '/Date(1610413200000+0800)/', 'Obj': '智能照明3', 'Val': 0.0}, {'Order': 11, 'Tm': '/Date(1610416800000+0800)/', 'Obj': '智能照明3', 'Val': 0.0}, {'Order': 12, 'Tm': '/Date(1610420400000+0800)/', 'Obj': '智能照明3', 'Val': 0.0}, {'Order': 13, 'Tm': '/Date(1610424000000+0800)/', 'Obj': '智能照明3', 'Val': 0.0}, {'Order': 14, 'Tm': '/Date(1610427600000+0800)/', 'Obj': '智能照明3', 'Val': 0.0}, {'Order': 15, 'Tm': '/Date(1610431200000+0800)/', 'Obj': '智能照明3', 'Val': 0.0}, {'Order': 16, 'Tm': '/Date(1610434800000+0800)/', 'Obj': '智能照明3', 'Val': 0.0}, {'Order': 17, 'Tm': '/Date(1610438400000+0800)/', 'Obj': '智能照明3', 'Val': 0.0}, {'Order': 18, 'Tm': '/Date(1610442000000+0800)/', 'Obj': '智能照明3', 'Val': 0.0}], 'TableData': {'ColumuObj': {'ColumnObjList': ['2021-01-12 00:00:00', '2021-01-12 01:00:00', '2021-01-12 02:00:00', '2021-01-12 03:00:00', '2021-01-12 04:00:00', '2021-01-12 05:00:00', '2021-01-12 06:00:00', '2021-01-12 07:00:00', '2021-01-12 08:00:00', '2021-01-12 09:00:00', '2021-01-12 10:00:00', '2021-01-12 11:00:00', '2021-01-12 12:00:00', '2021-01-12 13:00:00', '2021-01-12 14:00:00', '2021-01-12 15:00:00', '2021-01-12 16:00:00', '2021-01-12 17:00:00']}, 'RowUnit': {'RowUnitList': {'对象CODE1-13': [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]}}}}}",
+  "descriptionHtml" : "<p><font color='red'>请求URL: </font> http://192.168.40.234:5000/action.ashx?action=GetIndexPageConfChart<Br/><font color='red'>请求类型: </font>POST<Br/><font color='red'>期望结果: </font>RowUnit': {'RowUnitList': {'对象CODE1-13': [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]}}<Br/><font color='red'>实际结果: </font>{'code': 200, 'body': {'ActionInfo': {'ErrorCode': 0, 'Success': True, 'ExceptionMsg': None, 'ActionName': None, 'ActionUser': None, 'ActionTime': '/Date(1610447451476+0800)/', 'LogType': 0, 'ActionDateTime': '/Date(1610447451492+0800)/', 'ActionModel': None, 'LogParams': None, 'FunctionPoint': None}, 'Charts': {'xAxisTime': [1610380800000, 1610384400000, 1610388000000, 1610391600000, 1610395200000, 1610398800000, 1610402400000, 1610406000000, 1610409600000, 1610413200000, 1610416800000, 1610420400000, 1610424000000, 1610427600000, 1610431200000, 1610434800000, 1610438400000, 1610442000000], 'unit': 0, 'series': [{'name': '智能照明3', 'data': [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 'dataStatus': None, 'dataAttach': None, 'yAxis': 0, 'colors': [&quot;'#15c7bd'&quot;, &quot;'#15c7bd'&quot;, &quot;'#15c7bd'&quot;, &quot;'#15c7bd'&quot;, &quot;'#15c7bd'&quot;, &quot;'#15c7bd'&quot;, &quot;'#15c7bd'&quot;, &quot;'#15c7bd'&quot;, &quot;'#15c7bd'&quot;, &quot;'#15c7bd'&quot;, &quot;'#15c7bd'&quot;, &quot;'#15c7bd'&quot;, &quot;'#15c7bd'&quot;, &quot;'#15c7bd'&quot;, &quot;'#15c7bd'&quot;, &quot;'#15c7bd'&quot;, &quot;'#15c7bd'&quot;, &quot;'#15c7bd'&quot;], 'dataReal': None}], 'yAxisItems': [{'title': '配电自动化', 'Unit': ''}]}, 'OrderLst': [{'Order': 1, 'Tm': '/Date(1610380800000+0800)/', 'Obj': '智能照明3', 'Val': 0.0}, {'Order': 2, 'Tm': '/Date(1610384400000+0800)/', 'Obj': '智能照明3', 'Val': 0.0}, {'Order': 3, 'Tm': '/Date(1610388000000+0800)/', 'Obj': '智能照明3', 'Val': 0.0}, {'Order': 4, 'Tm': '/Date(1610391600000+0800)/', 'Obj': '智能照明3', 'Val': 0.0}, {'Order': 5, 'Tm': '/Date(1610395200000+0800)/', 'Obj': '智能照明3', 'Val': 0.0}, {'Order': 6, 'Tm': '/Date(1610398800000+0800)/', 'Obj': '智能照明3', 'Val': 0.0}, {'Order': 7, 'Tm': '/Date(1610402400000+0800)/', 'Obj': '智能照明3', 'Val': 0.0}, {'Order': 8, 'Tm': '/Date(1610406000000+0800)/', 'Obj': '智能照明3', 'Val': 0.0}, {'Order': 9, 'Tm': '/Date(1610409600000+0800)/', 'Obj': '智能照明3', 'Val': 0.0}, {'Order': 10, 'Tm': '/Date(1610413200000+0800)/', 'Obj': '智能照明3', 'Val': 0.0}, {'Order': 11, 'Tm': '/Date(1610416800000+0800)/', 'Obj': '智能照明3', 'Val': 0.0}, {'Order': 12, 'Tm': '/Date(1610420400000+0800)/', 'Obj': '智能照明3', 'Val': 0.0}, {'Order': 13, 'Tm': '/Date(1610424000000+0800)/', 'Obj': '智能照明3', 'Val': 0.0}, {'Order': 14, 'Tm': '/Date(1610427600000+0800)/', 'Obj': '智能照明3', 'Val': 0.0}, {'Order': 15, 'Tm': '/Date(1610431200000+0800)/', 'Obj': '智能照明3', 'Val': 0.0}, {'Order': 16, 'Tm': '/Date(1610434800000+0800)/', 'Obj': '智能照明3', 'Val': 0.0}, {'Order': 17, 'Tm': '/Date(1610438400000+0800)/', 'Obj': '智能照明3', 'Val': 0.0}, {'Order': 18, 'Tm': '/Date(1610442000000+0800)/', 'Obj': '智能照明3', 'Val': 0.0}], 'TableData': {'ColumuObj': {'ColumnObjList': ['2021-01-12 00:00:00', '2021-01-12 01:00:00', '2021-01-12 02:00:00', '2021-01-12 03:00:00', '2021-01-12 04:00:00', '2021-01-12 05:00:00', '2021-01-12 06:00:00', '2021-01-12 07:00:00', '2021-01-12 08:00:00', '2021-01-12 09:00:00', '2021-01-12 10:00:00', '2021-01-12 11:00:00', '2021-01-12 12:00:00', '2021-01-12 13:00:00', '2021-01-12 14:00:00', '2021-01-12 15:00:00', '2021-01-12 16:00:00', '2021-01-12 17:00:00']}, 'RowUnit': {'RowUnitList': {'对象CODE1-13': [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]}}}}}</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "<font color='red'>请求URL: </font> http://192.168.40.234:5000/action.ashx?action=GetIndexPageConfChart<Br/><font color='red'>请求类型: </font>POST<Br/><font color='red'>期望结果: </font>RowUnit': {'RowUnitList': {'对象CODE1-13': [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]}}<Br/><font color='red'>实际结果: </font>{'code': 200, 'body': {'ActionInfo': {'ErrorCode': 0, 'Success': True, 'ExceptionMsg': None, 'ActionName': None, 'ActionUser': None, 'ActionTime': '/Date(1610447451476+0800)/', 'LogType': 0, 'ActionDateTime': '/Date(1610447451492+0800)/', 'ActionModel': None, 'LogParams': None, 'FunctionPoint': None}, 'Charts': {'xAxisTime': [1610380800000, 1610384400000, 1610388000000, 1610391600000, 1610395200000, 1610398800000, 1610402400000, 1610406000000, 1610409600000, 1610413200000, 1610416800000, 1610420400000, 1610424000000, 1610427600000, 1610431200000, 1610434800000, 1610438400000, 1610442000000], 'unit': 0, 'series': [{'name': '智能照明3', 'data': [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 'dataStatus': None, 'dataAttach': None, 'yAxis': 0, 'colors': [\"'#15c7bd'\", \"'#15c7bd'\", \"'#15c7bd'\", \"'#15c7bd'\", \"'#15c7bd'\", \"'#15c7bd'\", \"'#15c7bd'\", \"'#15c7bd'\", \"'#15c7bd'\", \"'#15c7bd'\", \"'#15c7bd'\", \"'#15c7bd'\", \"'#15c7bd'\", \"'#15c7bd'\", \"'#15c7bd'\", \"'#15c7bd'\", \"'#15c7bd'\", \"'#15c7bd'\"], 'dataReal': None}], 'yAxisItems': [{'title': '配电自动化', 'Unit': ''}]}, 'OrderLst': [{'Order': 1, 'Tm': '/Date(1610380800000+0800)/', 'Obj': '智能照明3', 'Val': 0.0}, {'Order': 2, 'Tm': '/Date(1610384400000+0800)/', 'Obj': '智能照明3', 'Val': 0.0}, {'Order': 3, 'Tm': '/Date(1610388000000+0800)/', 'Obj': '智能照明3', 'Val': 0.0}, {'Order': 4, 'Tm': '/Date(1610391600000+0800)/', 'Obj': '智能照明3', 'Val': 0.0}, {'Order': 5, 'Tm': '/Date(1610395200000+0800)/', 'Obj': '智能照明3', 'Val': 0.0}, {'Order': 6, 'Tm': '/Date(1610398800000+0800)/', 'Obj': '智能照明3', 'Val': 0.0}, {'Order': 7, 'Tm': '/Date(1610402400000+0800)/', 'Obj': '智能照明3', 'Val': 0.0}, {'Order': 8, 'Tm': '/Date(1610406000000+0800)/', 'Obj': '智能照明3', 'Val': 0.0}, {'Order': 9, 'Tm': '/Date(1610409600000+0800)/', 'Obj': '智能照明3', 'Val': 0.0}, {'Order': 10, 'Tm': '/Date(1610413200000+0800)/', 'Obj': '智能照明3', 'Val': 0.0}, {'Order': 11, 'Tm': '/Date(1610416800000+0800)/', 'Obj': '智能照明3', 'Val': 0.0}, {'Order': 12, 'Tm': '/Date(1610420400000+0800)/', 'Obj': '智能照明3', 'Val': 0.0}, {'Order': 13, 'Tm': '/Date(1610424000000+0800)/', 'Obj': '智能照明3', 'Val': 0.0}, {'Order': 14, 'Tm': '/Date(1610427600000+0800)/', 'Obj': '智能照明3', 'Val': 0.0}, {'Order': 15, 'Tm': '/Date(1610431200000+0800)/', 'Obj': '智能照明3', 'Val': 0.0}, {'Order': 16, 'Tm': '/Date(1610434800000+0800)/', 'Obj': '智能照明3', 'Val': 0.0}, {'Order': 17, 'Tm': '/Date(1610438400000+0800)/', 'Obj': '智能照明3', 'Val': 0.0}, {'Order': 18, 'Tm': '/Date(1610442000000+0800)/', 'Obj': '智能照明3', 'Val': 0.0}], 'TableData': {'ColumuObj': {'ColumnObjList': ['2021-01-12 00:00:00', '2021-01-12 01:00:00', '2021-01-12 02:00:00', '2021-01-12 03:00:00', '2021-01-12 04:00:00', '2021-01-12 05:00:00', '2021-01-12 06:00:00', '2021-01-12 07:00:00', '2021-01-12 08:00:00', '2021-01-12 09:00:00', '2021-01-12 10:00:00', '2021-01-12 11:00:00', '2021-01-12 12:00:00', '2021-01-12 13:00:00', '2021-01-12 14:00:00', '2021-01-12 15:00:00', '2021-01-12 16:00:00', '2021-01-12 17:00:00']}, 'RowUnit': {'RowUnitList': {'对象CODE1-13': [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]}}}}}",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e35260f8e0116905",
+      "name" : "log",
+      "source" : "e35260f8e0116905.txt",
+      "type" : "text/plain",
+      "size" : 52
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "IMS系统接口自动化测试"
+  }, {
+    "name" : "story",
+    "value" : "综合监控分析"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_excel_case"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestExcel"
+  }, {
+    "name" : "host",
+    "value" : "IMSIMS"
+  }, {
+    "name" : "thread",
+    "value" : "5964-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_excel_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "{'用例ID': 'test041', '模块': '综合监控分析', '接口名称': '查询数据', '请求URL': '/action.ashx?action=GetIndexPageConfChart', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{SystemId:1,SystemName:\\'配电自动化\\',AnalyzeType:2,AnalyzeTypeName:\\'设备指标类\\',IndexType:1,IndexTypeName:\\'总供冷量(kW)\\',SourceList:[{devType:\\'CODE1-13\\',devTypeName:\\'智能照明3\\'}],StartTime:\\'2021-01-12\\',EndTime:\\'2021-01-12\\',TimeGranule:0,DataType:0,RatioType:0}\"}', '预期结果': \"RowUnit': {'RowUnitList': {'对象CODE1-13': [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]}}\", '实际结果': '', '是否运行': 'y', 'headers': '{\"Content-Type\": \\n\"application/x-www-form-urlencoded; charset=UTF-8\"}', 'cookies': '', '返回状态码': '200', '数据库验证': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ae6379d8402570e7.json",
+  "parameterValues" : [ "{'用例ID': 'test041', '模块': '综合监控分析', '接口名称': '查询数据', '请求URL': '/action.ashx?action=GetIndexPageConfChart', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{SystemId:1,SystemName:\\'配电自动化\\',AnalyzeType:2,AnalyzeTypeName:\\'设备指标类\\',IndexType:1,IndexTypeName:\\'总供冷量(kW)\\',SourceList:[{devType:\\'CODE1-13\\',devTypeName:\\'智能照明3\\'}],StartTime:\\'2021-01-12\\',EndTime:\\'2021-01-12\\',TimeGranule:0,DataType:0,RatioType:0}\"}', '预期结果': \"RowUnit': {'RowUnitList': {'对象CODE1-13': [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]}}\", '实际结果': '', '是否运行': 'y', 'headers': '{\"Content-Type\": \\n\"application/x-www-form-urlencoded; charset=UTF-8\"}', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
+}

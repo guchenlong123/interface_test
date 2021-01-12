@@ -1,0 +1,83 @@
+{
+  "uid" : "c06b4a4fd0db8ffd",
+  "name" : "test103下载模板",
+  "fullName" : "testcase.test_excel_case.TestExcel#test_run",
+  "historyId" : "ef90821e86974d27e1bb3af67b113572",
+  "time" : {
+    "start" : 1610447460555,
+    "stop" : 1610447460727,
+    "duration" : 172
+  },
+  "description" : "<font color='red'>请求URL: </font> http://192.168.40.234:5000/admin/action.ashx?prefix=admin&action=DownloadCameraExcel<Br/><font color='red'>请求类型: </font>POST<Br/><font color='red'>期望结果: </font>msg': '/temp_file/摄像头导入.xls'<Br/><font color='red'>实际结果: </font>{'code': 200, 'body': {'status': 'success', 'msg': '/temp_file/摄像头导入.xls'}}",
+  "descriptionHtml" : "<p><font color='red'>请求URL: </font> http://192.168.40.234:5000/admin/action.ashx?prefix=admin&amp;action=DownloadCameraExcel<Br/><font color='red'>请求类型: </font>POST<Br/><font color='red'>期望结果: </font>msg': '/temp_file/摄像头导入.xls'<Br/><font color='red'>实际结果: </font>{'code': 200, 'body': {'status': 'success', 'msg': '/temp_file/摄像头导入.xls'}}</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "<font color='red'>请求URL: </font> http://192.168.40.234:5000/admin/action.ashx?prefix=admin&action=DownloadCameraExcel<Br/><font color='red'>请求类型: </font>POST<Br/><font color='red'>期望结果: </font>msg': '/temp_file/摄像头导入.xls'<Br/><font color='red'>实际结果: </font>{'code': 200, 'body': {'status': 'success', 'msg': '/temp_file/摄像头导入.xls'}}",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "86826083e7e126a6",
+      "name" : "log",
+      "source" : "86826083e7e126a6.txt",
+      "type" : "text/plain",
+      "size" : 52
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "IMS系统接口自动化测试"
+  }, {
+    "name" : "story",
+    "value" : "相机参数"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_excel_case"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestExcel"
+  }, {
+    "name" : "host",
+    "value" : "IMSIMS"
+  }, {
+    "name" : "thread",
+    "value" : "5964-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_excel_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "{'用例ID': 'test103', '模块': '相机参数', '接口名称': '下载模板', '请求URL': '/admin/action.ashx?prefix=admin&action=DownloadCameraExcel', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"inputs\":\"1\"}', '预期结果': \"msg': '/temp_file/摄像头导入.xls'\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c06b4a4fd0db8ffd.json",
+  "parameterValues" : [ "{'用例ID': 'test103', '模块': '相机参数', '接口名称': '下载模板', '请求URL': '/admin/action.ashx?prefix=admin&action=DownloadCameraExcel', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"inputs\":\"1\"}', '预期结果': \"msg': '/temp_file/摄像头导入.xls'\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
+}

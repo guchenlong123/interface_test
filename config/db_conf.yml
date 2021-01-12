@@ -1,0 +1,15 @@
+
+#数据库相关基本信息
+db_1:
+  db_host: '192.168.40.234\SQL2012'
+  db_user: 'sa'
+  db_password: 'iamnts'
+  db_name: 'NTS-9000-autotest'
+
+db_2:
+  db_host: '192.168.40.90\SQL2012'
+  db_user: 'sa'
+  db_password: 'iamnts'
+  db_name: 'NTS-IOMS'
+
+

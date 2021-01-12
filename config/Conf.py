@@ -20,12 +20,21 @@ _log_path = BASE_DIR + os.sep + "logs"
 #定义report目录的路径
 _report_path = BASE_DIR + os.sep + "report"
 
+#定义db_conf.yml路径
+_db_config_file = _config_path + os.sep +"db_conf.yml"
+
+#定义data目录的路径
+_data_path = BASE_DIR + os.sep + "data"
+
 def get_report_path():
     """
     获取report绝对路径
     :return:
     """
     return _report_path
+
+def get_data_path():
+    return _data_path
 
 
 def get_config_path():
@@ -44,6 +53,11 @@ def get_log_path():
     return _log_path
 
 
+def get_db_config_file():
+    return _db_config_file
+
+
+
 # 2、读取配置文件
 # 创建类
 class ConfigYaml:
@@ -51,6 +65,7 @@ class ConfigYaml:
 # 初始yaml读取配置文件
     def __init__(self):
         self.config = YamlReader(get_config_file()).data()
+        self.db_config = YamlReader(get_db_config_file()).data()
      # 定义方法获取需要信息
 
     def get_excel_file(self):
@@ -91,13 +106,22 @@ class ConfigYaml:
         """
         return self.config["email"]
 
+    def get_db_conf_info(self,db_alias):
+        """
+        根据db_alias获取该名称下的数据库信息
+        :param db_alias:
+        :return:
+        """
+        return self.db_config[db_alias]
 
-if __name__ == "__main__":
-    conf_read = ConfigYaml()
+
+# if __name__ == "__main__":
+#     conf_read = ConfigYaml()
     # print(conf_read.get_conf_url())
     # print(conf_read.get_conf_log())
     # print(conf_read.get_conf_log_extension())
     # print(conf_read.get_excel_file())
     # print(conf_read.get_excel_sheet())
     # print(conf_read.get_email_info())
+    # print(conf_read.get_db_conf_info("db_1"))
 

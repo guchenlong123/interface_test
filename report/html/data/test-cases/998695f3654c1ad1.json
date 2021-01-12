@@ -1,0 +1,83 @@
+{
+  "uid" : "998695f3654c1ad1",
+  "name" : "test110删除摄像头信息",
+  "fullName" : "testcase.test_excel_case.TestExcel#test_run",
+  "historyId" : "5a88d3c58a4fcf5766c307a5d1c02a23",
+  "time" : {
+    "start" : 1610447461133,
+    "stop" : 1610447461180,
+    "duration" : 47
+  },
+  "description" : "<font color='red'>请求URL: </font> http://192.168.40.234:5000/admin/action.ashx?prefix=admin&action=DeleteCamera<Br/><font color='red'>请求类型: </font>POST<Br/><font color='red'>期望结果: </font>Success': True, 'ExceptionMsg': '删除成功！'<Br/><font color='red'>实际结果: </font>{'code': 200, 'body': {'Success': True, 'ExceptionMsg': '删除成功！', 'ExtendContent': None, 'IsExistsDevice': False, 'ActionUser': '', 'LogType': 0, 'ActionDateTime': '/Date(1610447461164+0800)/', 'ActionModel': None, 'LogParams': None, 'FunctionPoint': None}}",
+  "descriptionHtml" : "<p><font color='red'>请求URL: </font> http://192.168.40.234:5000/admin/action.ashx?prefix=admin&amp;action=DeleteCamera<Br/><font color='red'>请求类型: </font>POST<Br/><font color='red'>期望结果: </font>Success': True, 'ExceptionMsg': '删除成功！'<Br/><font color='red'>实际结果: </font>{'code': 200, 'body': {'Success': True, 'ExceptionMsg': '删除成功！', 'ExtendContent': None, 'IsExistsDevice': False, 'ActionUser': '', 'LogType': 0, 'ActionDateTime': '/Date(1610447461164+0800)/', 'ActionModel': None, 'LogParams': None, 'FunctionPoint': None}}</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "<font color='red'>请求URL: </font> http://192.168.40.234:5000/admin/action.ashx?prefix=admin&action=DeleteCamera<Br/><font color='red'>请求类型: </font>POST<Br/><font color='red'>期望结果: </font>Success': True, 'ExceptionMsg': '删除成功！'<Br/><font color='red'>实际结果: </font>{'code': 200, 'body': {'Success': True, 'ExceptionMsg': '删除成功！', 'ExtendContent': None, 'IsExistsDevice': False, 'ActionUser': '', 'LogType': 0, 'ActionDateTime': '/Date(1610447461164+0800)/', 'ActionModel': None, 'LogParams': None, 'FunctionPoint': None}}",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "4cd736e1d24f5328",
+      "name" : "log",
+      "source" : "4cd736e1d24f5328.txt",
+      "type" : "text/plain",
+      "size" : 52
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "IMS系统接口自动化测试"
+  }, {
+    "name" : "story",
+    "value" : "相机参数"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_excel_case"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestExcel"
+  }, {
+    "name" : "host",
+    "value" : "IMSIMS"
+  }, {
+    "name" : "thread",
+    "value" : "5964-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_excel_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "{'用例ID': 'test110', '模块': '相机参数', '接口名称': '删除摄像头信息', '请求URL': '/admin/action.ashx?prefix=admin&action=DeleteCamera', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{Id:15}\"}', '预期结果': \"Success': True, 'ExceptionMsg': '删除成功！'\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "998695f3654c1ad1.json",
+  "parameterValues" : [ "{'用例ID': 'test110', '模块': '相机参数', '接口名称': '删除摄像头信息', '请求URL': '/admin/action.ashx?prefix=admin&action=DeleteCamera', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{Id:15}\"}', '预期结果': \"Success': True, 'ExceptionMsg': '删除成功！'\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
+}

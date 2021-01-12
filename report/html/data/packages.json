@@ -2,908 +2,1784 @@
   "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
   "name" : "packages",
   "children" : [ {
-    "name" : "testcase.Test_excel_case",
+    "name" : "testcase.test_excel_case",
     "children" : [ {
-      "name" : "test053删除设备信息",
-      "uid" : "65ee352770669c9b",
-      "parentUid" : "44c5154d819ae51159370592cbde424a",
+      "name" : "test001首页选择“新增报表”",
+      "uid" : "78384ae69c5cc9fc",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
       "status" : "passed",
       "time" : {
-        "start" : 1609725748625,
-        "stop" : 1609725748687,
+        "start" : 1610447438867,
+        "stop" : 1610447438914,
+        "duration" : 47
+      },
+      "flaky" : false,
+      "parameters" : [ "{'用例ID': 'test001', '模块': '报表管理', '接口名称': '首页选择“新增报表”', '请求URL': '/action.ashx?action=GetReportStation', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{ReportId:\\'\\',CampusList:[\\'1001\\',\\'1021\\',\\'1041\\',\\'1061\\',\\'1081\\',\\'1101\\',\\'1121\\',\\'1141\\',\\'1161\\',\\'1181\\',\\'1201\\',\\'1221\\',\\'1241\\',\\'1261\\',\\'1281\\']}\"}', '预期结果': \"DateInfoList': [{'Id': 1, 'CName': '前置厂站1', 'IsChoice': 0}]\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
+    }, {
+      "name" : "test002厂站名称选择“前置厂站1”",
+      "uid" : "924c8ff79505b3ae",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610447438914,
+        "stop" : 1610447438977,
+        "duration" : 63
+      },
+      "flaky" : false,
+      "parameters" : [ "{'用例ID': 'test002', '模块': '报表管理', '接口名称': '厂站名称选择“前置厂站1”', '请求URL': '/action.ashx?action=GetReportDevice', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{StaId:1,ReportId:\\'\\',CampusList:[\\'1001\\',\\'1021\\',\\'1041\\',\\'1061\\',\\'1081\\',\\'1101\\',\\'1121\\',\\'1141\\',\\'1161\\',\\'1181\\',\\'1201\\',\\'1221\\',\\'1241\\',\\'1261\\',\\'1281\\']}\"}', '预期结果': \"{'Id': 1, 'CName': '1设备1：', 'IsChoice': 0}\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
+    }, {
+      "name" : "test003设备名称选择“1设备1:”",
+      "uid" : "c3b6e89fc9407ae8",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610447438992,
+        "stop" : 1610447439039,
+        "duration" : 47
+      },
+      "flaky" : false,
+      "parameters" : [ "{'用例ID': 'test003', '模块': '报表管理', '接口名称': '设备名称选择“1设备1:”', '请求URL': '/action.ashx?action=GetReportSample', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{ReportId:\\'\\',DevId:1,CampusList:[\\'1001\\',\\'1021\\',\\'1041\\',\\'1061\\',\\'1081\\',\\'1101\\',\\'1121\\',\\'1141\\',\\'1161\\',\\'1181\\',\\'1201\\',\\'1221\\',\\'1241\\',\\'1261\\',\\'1281\\']}\"}', '预期结果': \"StationId': 1, 'DeviceId': 1, 'DeviceName': '1设备1：'\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
+    }, {
+      "name" : "test004新增报表",
+      "uid" : "2a375e5cc768b2b9",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610447439055,
+        "stop" : 1610447439148,
+        "duration" : 93
+      },
+      "flaky" : false,
+      "parameters" : [ "{'用例ID': 'test004', '模块': '报表管理', '接口名称': '新增报表', '请求URL': '/action.ashx?action=AddReportInfo', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{ID:0,CName:\\'test01\\',ReportType:1,ReportDesp:\\'test01\\',OptionType:0,ReDatasourceList:[{DeviceId:1,TableNum:18,SampleId:20002000}],UserName:\\'admin\\'}\"}', '预期结果': \"ErrorCode': 0, 'Success': True, 'ExceptionMsg': '保存成功！'\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
+    }, {
+      "name" : "test005刷新页面",
+      "uid" : "a4bd9f67322b049",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610447439164,
+        "stop" : 1610447439211,
+        "duration" : 47
+      },
+      "flaky" : false,
+      "parameters" : [ "{'用例ID': 'test005', '模块': '报表管理', '接口名称': '刷新页面', '请求URL': '/action.ashx?action=GetReportInfo', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{CName:\\'\\',PageCurrent:1,PageSize:10,UserName:\\'admin\\'}\"}', '预期结果': \"PageInfo': {'Current': 1, 'Total': 1}\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
+    }, {
+      "name" : "test006无效数据进行查询",
+      "uid" : "af60a9184a27412e",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610447439211,
+        "stop" : 1610447439273,
         "duration" : 62
       },
       "flaky" : false,
-      "parameters" : [ "{'用例ID': 'test053', '模块': '区域设备配置', '接口名称': '删除设备信息', '请求URL': '/admin/action.ashx?prefix=admin&action=AreaConfig_DeleteAreaDevRelationConfig', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{Id:3,tableNum:18,DeviceId:1}\"}', '预期结果': \"Success': True, 'ExceptionMsg': '', 'ExtendContent': None, 'IsExistsDevice': False,\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': '', '备注': ''}" ]
+      "parameters" : [ "{'用例ID': 'test006', '模块': '报表管理', '接口名称': '无效数据进行查询', '请求URL': '/action.ashx?action=GetReportInfo', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{CName:\\'@@@\\',pageCurrent:1,PageSize:10,UserName:\\'admin\\'}\"}', '预期结果': \"PageInfo': {'Current': 1, 'Total': 0}\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
     }, {
-      "name" : "test054区域名称精确查询",
-      "uid" : "4fa74826b0eed734",
-      "parentUid" : "44c5154d819ae51159370592cbde424a",
+      "name" : "test007有效数据进行查询",
+      "uid" : "24b739729b71b81d",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
       "status" : "passed",
       "time" : {
-        "start" : 1609725748697,
-        "stop" : 1609725748741,
-        "duration" : 44
+        "start" : 1610447439273,
+        "stop" : 1610447439320,
+        "duration" : 47
       },
       "flaky" : false,
-      "parameters" : [ "{'用例ID': 'test054', '模块': '区域设备配置', '接口名称': '区域名称精确查询', '请求URL': '/admin/action.ashx?prefix=admin&action=AreaConfig_GetAreaDeviceInfo', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{AreaName:\\'@@\\',AreaClass:\\'app\\'}\"}', '预期结果': \"AreaDeviceInfoList': []\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': '', '备注': ''}" ]
-    }, {
-      "name" : "test055查询不存在的区域名称",
-      "uid" : "6b08a1f052c3ae67",
-      "parentUid" : "44c5154d819ae51159370592cbde424a",
-      "status" : "passed",
-      "time" : {
-        "start" : 1609725748750,
-        "stop" : 1609725748792,
-        "duration" : 42
-      },
-      "flaky" : false,
-      "parameters" : [ "{'用例ID': 'test055', '模块': '区域设备配置', '接口名称': '查询不存在的区域名称', '请求URL': '/admin/action.ashx?prefix=admin&action=AreaConfig_GetAreaDeviceInfo', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{AreaName:\\'测试1#\\',AreaClass:\\'app\\'}\"}', '预期结果': \"AreaName': '测试1#', 'ParentID': 0, 'ParentName': '顶级节点', 'OrderNo': 1, 'AreaClass': '532_'\", '实际结果': '', '是否运行': 'y', 'headers': '{\"Content-Type\": \\n\"application/x-www-form-urlencoded; charset=UTF-8\"}', 'cookies': '', '返回状态码': '200', '数据库验证': '', '备注': ''}" ]
-    }, {
-      "name" : "test056场景名称精确查询",
-      "uid" : "f123495ec381902a",
-      "parentUid" : "44c5154d819ae51159370592cbde424a",
-      "status" : "passed",
-      "time" : {
-        "start" : 1609725748801,
-        "stop" : 1609725748840,
-        "duration" : 39
-      },
-      "flaky" : false,
-      "parameters" : [ "{'用例ID': 'test056', '模块': '联动场景维护', '接口名称': '场景名称精确查询', '请求URL': '/admin/action.ashx?prefix=admin&action=GetLinkageConfig', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{pageCurrent:1,pageSize:10,CName:\\'test001\\'}\"}', '预期结果': \"Id': 1, 'CNAME': 'test001', 'LinkagerEffective': '有效', 'Station': '未启动'\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': '', '备注': ''}" ]
-    }, {
-      "name" : "test057无效场景名称查询",
-      "uid" : "2bd5be333dca28e5",
-      "parentUid" : "44c5154d819ae51159370592cbde424a",
-      "status" : "passed",
-      "time" : {
-        "start" : 1609725748850,
-        "stop" : 1609725748878,
-        "duration" : 28
-      },
-      "flaky" : false,
-      "parameters" : [ "{'用例ID': 'test057', '模块': '联动场景维护', '接口名称': '无效场景名称查询', '请求URL': '/admin/action.ashx?prefix=admin&action=GetLinkageConfig', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{pageCurrent:1,pageSize:10,CName:\\'@@@\\'}\"}', '预期结果': \"Page': {'Current': 1, 'Total': 0}\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': '', '备注': ''}" ]
-    }, {
-      "name" : "test058启用场景",
-      "uid" : "4992d26c7ca644b2",
-      "parentUid" : "44c5154d819ae51159370592cbde424a",
-      "status" : "passed",
-      "time" : {
-        "start" : 1609725748887,
-        "stop" : 1609725748955,
-        "duration" : 68
-      },
-      "flaky" : false,
-      "parameters" : [ "{'用例ID': 'test058', '模块': '联动场景维护', '接口名称': '启用场景', '请求URL': '/admin/action.ashx?prefix=admin&action=Updateimplement', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{ID:1,Implement:1,ChangeTime:\\'2020-12-25T09:33:07.670Z\\',SystemId:1}\"}', '预期结果': \"ExceptionMeg': '操作成功!'\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': '', '备注': ''}" ]
-    }, {
-      "name" : "test059停用场景",
-      "uid" : "2545ffb29abb77e2",
-      "parentUid" : "44c5154d819ae51159370592cbde424a",
-      "status" : "passed",
-      "time" : {
-        "start" : 1609725748965,
-        "stop" : 1609725749034,
-        "duration" : 69
-      },
-      "flaky" : false,
-      "parameters" : [ "{'用例ID': 'test059', '模块': '联动场景维护', '接口名称': '停用场景', '请求URL': '/admin/action.ashx?prefix=admin&action=Updateimplement', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{ID:1,Implement:0,ChangeTime:\\'2020-12-25T09:33:07.670Z\\',SystemId:1}\"}', '预期结果': \"ExceptionMeg': '操作成功!'\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': '', '备注': ''}" ]
-    }, {
-      "name" : "test060新增联动场景",
-      "uid" : "e9305d2628fceac3",
-      "parentUid" : "44c5154d819ae51159370592cbde424a",
-      "status" : "passed",
-      "time" : {
-        "start" : 1609725749041,
-        "stop" : 1609725749117,
-        "duration" : 76
-      },
-      "flaky" : false,
-      "parameters" : [ "{'用例ID': 'test060', '模块': '联动场景维护', '接口名称': '新增联动场景', '请求URL': '/admin/action.ashx?prefix=admin&action=AddLinkageConfig', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{ID:14,CTime:\\'2020-12-25T06:01:41.905Z\\',FORMULAID:3,CName:\\'测试用\\',DURATIONTIME:15,LinkageEffect:1,IsStart:0,LinkageControlItemList:[{ID:15,LinkcontolGroupId:14,ControlItem:\\'{LINKAGEACTIONTYPE:\\\\\"CALLAPI\\\\\",VALUE:\\\\\"1\\\\\",TRYTIMES:\\\\\"1\\\\\",CALLAPI:{IP:\\\\\"192.168.40.180\\\\\",APITYPE:\\\\\"HK\\\\\",PORT:\\\\\"8000\\\\\",USER:\\\\\"admin\\\\\",PASSWORD:\\\\\"12345\\\\\",CHANNEL:\\\\\"1\\\\\",CALLBACKCAMERAID:\\\\\"3\\\\\",CALLBACKCAMERANAME:\\\\\"海康2号\\\\\"}}\\'}],Ext:\\'{\\\\\"StartTime\\\\\":\\\\\"00:00:00\\\\\",\\\\\"EndTime\\\\\":\\\\\"23:59:59\\\\\",\\\\\"EndDate\\\\\":\\\\\"same\\\\\"}\\'}\"}', '预期结果': \"ExceptionMeg': '保存成功!'\", '实际结果': '', '是否运行': 'y', 'headers': '{\"Content-Type\":\"application/x-www-form-urlencoded;charset=UTF-8\",\"Accept-Language\":\"zh-CN,zh;q=0.9\"}', 'cookies': '', '返回状态码': '200', '数据库验证': '', '备注': ''}" ]
-    }, {
-      "name" : "test061调出修改场景信息弹窗",
-      "uid" : "d1b8465ecd448dea",
-      "parentUid" : "44c5154d819ae51159370592cbde424a",
-      "status" : "passed",
-      "time" : {
-        "start" : 1609725749126,
-        "stop" : 1609725749171,
-        "duration" : 45
-      },
-      "flaky" : false,
-      "parameters" : [ "{'用例ID': 'test061', '模块': '联动场景维护', '接口名称': '调出修改场景信息弹窗', '请求URL': '/admin/action.ashx?prefix=admin&action=GetLinkageConfigByID', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{ID:14}\"}', '预期结果': \"ID': 14, 'CName': '测试用', 'LinkageEffective': 1, 'FormulaID': 3, 'FormulaName': '配电自动化系统联动'\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': '', '备注': ''}" ]
-    }, {
-      "name" : "test062修改联动条件并保存",
-      "uid" : "dc9f74c101b8500b",
-      "parentUid" : "44c5154d819ae51159370592cbde424a",
-      "status" : "passed",
-      "time" : {
-        "start" : 1609725749181,
-        "stop" : 1609725749259,
-        "duration" : 78
-      },
-      "flaky" : false,
-      "parameters" : [ "{'用例ID': 'test062', '模块': '联动场景维护', '接口名称': '修改联动条件并保存', '请求URL': '/admin/action.ashx?prefix=admin&action=UpdateLinkageConfig', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{ID:14,CTime:\\'2020-12-25T06:01:41.905Z\\',FORMULAID:9,CName:\\'测试用\\',DURATIONTIME:15,LinkageEffect:1,IsStart:0,LinkageControlItemList:[{ID:15,LinkcontolGroupId:14,ControlItem:\\'{LINKAGEACTIONTYPE:\\\\\"CALLAPI\\\\\",VALUE:\\\\\"1\\\\\",TRYTIMES:\\\\\"1\\\\\",CALLAPI:{IP:\\\\\"192.168.40.180\\\\\",APITYPE:\\\\\"HK\\\\\",PORT:\\\\\"8000\\\\\",USER:\\\\\"admin\\\\\",PASSWORD:\\\\\"12345\\\\\",CHANNEL:\\\\\"1\\\\\",CALLBACKCAMERAID:\\\\\"3\\\\\",CALLBACKCAMERANAME:\\\\\"海康2号\\\\\"}}\\'}],Ext:\\'{\\\\\"StartTime\\\\\":\\\\\"00:00:00\\\\\",\\\\\"EndTime\\\\\":\\\\\"23:59:59\\\\\",\\\\\"EndDate\\\\\":\\\\\"same\\\\\"}\\'}\"}', '预期结果': \"ExceptionMeg': '修改成功!'\", '实际结果': '', '是否运行': 'y', 'headers': '{\"Content-Type\":\"application/x-www-form-urlencoded;charset=UTF-8\",\"Accept-Language\":\"zh-CN,zh;q=0.9\"}', 'cookies': '', '返回状态码': '200', '数据库验证': '', '备注': ''}" ]
-    }, {
-      "name" : "test063联动场景名称已存在，新增失败",
-      "uid" : "3907458acc43dfc1",
-      "parentUid" : "44c5154d819ae51159370592cbde424a",
-      "status" : "passed",
-      "time" : {
-        "start" : 1609725749268,
-        "stop" : 1609725749345,
-        "duration" : 77
-      },
-      "flaky" : false,
-      "parameters" : [ "{'用例ID': 'test063', '模块': '联动场景维护', '接口名称': '联动场景名称已存在，新增失败', '请求URL': '/admin/action.ashx?prefix=admin&action=AddLinkageConfig', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{ID:14,CTime:\\'2020-12-25T06:01:41.905Z\\',FORMULAID:3,CName:\\'测试用\\',DURATIONTIME:15,LinkageEffect:1,IsStart:0,LinkageControlItemList:[{ID:15,LinkcontolGroupId:14,ControlItem:\\'{LINKAGEACTIONTYPE:\\\\\"CALLAPI\\\\\",VALUE:\\\\\"1\\\\\",TRYTIMES:\\\\\"1\\\\\",CALLAPI:{IP:\\\\\"192.168.40.180\\\\\",APITYPE:\\\\\"HK\\\\\",PORT:\\\\\"8000\\\\\",USER:\\\\\"admin\\\\\",PASSWORD:\\\\\"12345\\\\\",CHANNEL:\\\\\"1\\\\\",CALLBACKCAMERAID:\\\\\"3\\\\\",CALLBACKCAMERANAME:\\\\\"海康2号\\\\\"}}\\'}],Ext:\\'{\\\\\"StartTime\\\\\":\\\\\"00:00:00\\\\\",\\\\\"EndTime\\\\\":\\\\\"23:59:59\\\\\",\\\\\"EndDate\\\\\":\\\\\"same\\\\\"}\\'}\"}', '预期结果': \"IsSucess': False, 'TreeName': None\", '实际结果': '', '是否运行': 'y', 'headers': '{\"Content-Type\":\"application/x-www-form-urlencoded;charset=UTF-8\",\"Accept-Language\":\"zh-CN,zh;q=0.9\"}', 'cookies': '', '返回状态码': '200', '数据库验证': '', '备注': ''}" ]
-    }, {
-      "name" : "test064删除联动场景",
-      "uid" : "d50e8a3ab2e1948b",
-      "parentUid" : "44c5154d819ae51159370592cbde424a",
-      "status" : "passed",
-      "time" : {
-        "start" : 1609725749352,
-        "stop" : 1609725749394,
-        "duration" : 42
-      },
-      "flaky" : false,
-      "parameters" : [ "{'用例ID': 'test064', '模块': '联动场景维护', '接口名称': '删除联动场景', '请求URL': '/admin/action.ashx?prefix=admin&action=DeleteLinkageConfig', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{ID:14}\"}', '预期结果': \"ExceptionMeg': '删除成功!'\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': '', '备注': ''}" ]
-    }, {
-      "name" : "test065树节点名称精确查询",
-      "uid" : "2b9ca9ac2cc51c11",
-      "parentUid" : "44c5154d819ae51159370592cbde424a",
-      "status" : "passed",
-      "time" : {
-        "start" : 1609725749402,
-        "stop" : 1609725749437,
-        "duration" : 35
-      },
-      "flaky" : false,
-      "parameters" : [ "{'用例ID': 'test065', '模块': '树节点维护', '接口名称': '树节点名称精确查询', '请求URL': '/admin/action.ashx?prefix=admin&action=GetAreaInfoList', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{PageCurrent:1,PageSize:10,ClassId:7,CName:\\'变配电系统\\'}\"}', '预期结果': \"Isvirtual': '实设备', 'ID': 10, 'AREAID': 10, 'CNAME': '变配电系统'\", '实际结果': '', '是否运行': 'y', 'headers': '{\"Content-Type\": \\n\"application/x-www-form-urlencoded; charset=UTF-8\"}', 'cookies': '', '返回状态码': '200', '数据库验证': '', '备注': ''}" ]
-    }, {
-      "name" : "test066无效树节点名称查询",
-      "uid" : "c5a618502cbbcf70",
-      "parentUid" : "44c5154d819ae51159370592cbde424a",
-      "status" : "passed",
-      "time" : {
-        "start" : 1609725749445,
-        "stop" : 1609725749478,
-        "duration" : 33
-      },
-      "flaky" : false,
-      "parameters" : [ "{'用例ID': 'test066', '模块': '树节点维护', '接口名称': '无效树节点名称查询', '请求URL': '/admin/action.ashx?prefix=admin&action=GetAreaInfoList', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{PageCurrent:1,PageSize:10,ClassId:7,CName:\\'@@@\\'}\"}', '预期结果': \"Page': {'Current': 1, 'Total': 0}\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': '', '备注': ''}" ]
-    }, {
-      "name" : "test067获取区域树结构信息",
-      "uid" : "3efc1774693413df",
-      "parentUid" : "44c5154d819ae51159370592cbde424a",
-      "status" : "passed",
-      "time" : {
-        "start" : 1609725749487,
-        "stop" : 1609725749612,
-        "duration" : 125
-      },
-      "flaky" : false,
-      "parameters" : [ "{'用例ID': 'test067', '模块': '树节点维护', '接口名称': '获取区域树结构信息', '请求URL': '/admin/action.ashx?prefix=admin&action=GetMonitorTree', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"GetMonitorTree\"}', '预期结果': \"{'id': 10, 'name': '变配电系统', 'open': True, 'pId': '0'}, {'id': 15, 'name': '暖通空调系统', 'open': True, 'pId': '0'}\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': '', '备注': ''}" ]
-    }, {
-      "name" : "test068获取区域列表信息",
-      "uid" : "3f4630d1e990a965",
-      "parentUid" : "44c5154d819ae51159370592cbde424a",
-      "status" : "passed",
-      "time" : {
-        "start" : 1609725749621,
-        "stop" : 1609725749681,
-        "duration" : 60
-      },
-      "flaky" : false,
-      "parameters" : [ "{'用例ID': 'test068', '模块': '树节点维护', '接口名称': '获取区域列表信息', '请求URL': '/admin/action.ashx?prefix=admin&action=GetAreaInfoList', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{PageCurrent:1,PageSize:10,ClassId:7,CName:\\'\\'}\"}', '预期结果': \"Page': {'Current': 1, 'Total': 6}\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': '', '备注': ''}" ]
-    }, {
-      "name" : "test069调出新增区域信息弹窗",
-      "uid" : "1808aee4486ff55a",
-      "parentUid" : "44c5154d819ae51159370592cbde424a",
-      "status" : "passed",
-      "time" : {
-        "start" : 1609725749691,
-        "stop" : 1609725749731,
-        "duration" : 40
-      },
-      "flaky" : false,
-      "parameters" : [ "{'用例ID': 'test069', '模块': '树节点维护', '接口名称': '调出新增区域信息弹窗', '请求URL': '/admin/action.ashx?prefix=admin&action=GetTreeTypeLst', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"7\"}', '预期结果': \"Id': 7, 'Cname': '配电自动化-拓扑', 'ClassId': 7, 'Success': False\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': '', '备注': ''}" ]
-    }, {
-      "name" : "test070同一层节点名称重复，新增失败",
-      "uid" : "1a3db4118551b721",
-      "parentUid" : "44c5154d819ae51159370592cbde424a",
-      "status" : "passed",
-      "time" : {
-        "start" : 1609725749740,
-        "stop" : 1609725749801,
-        "duration" : 61
-      },
-      "flaky" : false,
-      "parameters" : [ "{'用例ID': 'test070', '模块': '树节点维护', '接口名称': '同一层节点名称重复，新增失败', '请求URL': '/admin/action.ashx?prefix=admin&action=UpdateAreaInfo', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{ID:-1,CNAME:\\'变配电系统\\',PARENTID:0,AREANUM:1,PERSONNUM:1,CLASSID:7,TREETYPE:7,ISDISPLAY:1,WaterNum:1,isvirtualName:0,itemCodes:\\'\\',otherName:\\'\\',ratedcapacity:\\'\\',Areaorder:0,IsTransGroup:0,UnitType:\\'\\'}\"}', '预期结果': \"ExceptionMeg': '同一层节点出现名称重复，请重设！'\", '实际结果': '', '是否运行': 'y', 'headers': '{\"Content-Type\": \\n\"application/x-www-form-urlencoded; charset=UTF-8\"}', 'cookies': '', '返回状态码': '200', '数据库验证': '', '备注': ''}" ]
-    }, {
-      "name" : "test071新增视频监控树节点",
-      "uid" : "ee2b96b6a69633a9",
-      "parentUid" : "44c5154d819ae51159370592cbde424a",
-      "status" : "passed",
-      "time" : {
-        "start" : 1609725749809,
-        "stop" : 1609725752118,
-        "duration" : 2309
-      },
-      "flaky" : false,
-      "parameters" : [ "{'用例ID': 'test071', '模块': '树节点维护', '接口名称': '新增视频监控树节点', '请求URL': '/admin/action.ashx?prefix=admin&action=UpdateAreaInfo', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{ID:-1,CNAME:\\'视频监控\\',PARENTID:0,AREANUM:1,PERSONNUM:1,CLASSID:7,TREETYPE:7,ISDISPLAY:1,WaterNum:1,isvirtualName:0,itemCodes:\\'\\',otherName:\\'\\',ratedcapacity:\\'\\',Areaorder:0,IsTransGroup:0,UnitType:\\'\\'}\"}', '预期结果': \"IsSucess': True, 'TreeName': None\", '实际结果': '', '是否运行': 'y', 'headers': '{\"Content-Type\": \\n\"application/x-www-form-urlencoded; charset=UTF-8\"}', 'cookies': '', '返回状态码': '200', '数据库验证': '', '备注': ''}" ]
-    }, {
-      "name" : "test072树节点下再新增节点",
-      "uid" : "140cc439077a2e6",
-      "parentUid" : "44c5154d819ae51159370592cbde424a",
-      "status" : "passed",
-      "time" : {
-        "start" : 1609725752126,
-        "stop" : 1609725754932,
-        "duration" : 2806
-      },
-      "flaky" : false,
-      "parameters" : [ "{'用例ID': 'test072', '模块': '树节点维护', '接口名称': '树节点下再新增节点', '请求URL': '/admin/action.ashx?prefix=admin&action=UpdateAreaInfo', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{ID:-1,CNAME:\\'A区监控\\',PARENTID:18,AREANUM:1,PERSONNUM:1,CLASSID:12,TREETYPE:7,ISDISPLAY:1,WaterNum:1,isvirtualName:0,itemCodes:\\'\\',otherName:\\'\\',ratedcapacity:\\'\\',Areaorder:0,IsTransGroup:0,UnitType:\\'\\'}\"}', '预期结果': \"IsSucess': True, 'TreeName': None\", '实际结果': '', '是否运行': 'y', 'headers': '{\"Content-Type\": \\n\"application/x-www-form-urlencoded; charset=UTF-8\"}', 'cookies': '', '返回状态码': '200', '数据库验证': '', '备注': ''}" ]
-    }, {
-      "name" : "test073校验是否新增成功",
-      "uid" : "8cec25c38cf50b5e",
-      "parentUid" : "44c5154d819ae51159370592cbde424a",
-      "status" : "passed",
-      "time" : {
-        "start" : 1609725754941,
-        "stop" : 1609725755017,
-        "duration" : 76
-      },
-      "flaky" : false,
-      "parameters" : [ "{'用例ID': 'test073', '模块': '树节点维护', '接口名称': '校验是否新增成功', '请求URL': '/admin/action.ashx?prefix=admin&action=GetAreaInfoList', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{PageCurrent:1,PageSize:10,ClassId:7,CName:\\'\\'}\"}', '预期结果': \"Page': {'Current': 1, 'Total': 8}\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': '', '备注': ''}" ]
-    }, {
-      "name" : "test074删除视频监控树节点",
-      "uid" : "60c2299ee25f3f65",
-      "parentUid" : "44c5154d819ae51159370592cbde424a",
-      "status" : "passed",
-      "time" : {
-        "start" : 1609725755027,
-        "stop" : 1609725755077,
-        "duration" : 50
-      },
-      "flaky" : false,
-      "parameters" : [ "{'用例ID': 'test074', '模块': '树节点维护', '接口名称': '删除视频监控树节点', '请求URL': '/admin/action.ashx?prefix=admin&action=DeleteAreaInfo', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{ID:18}\"}', '预期结果': \"IsSucess': True, 'TreeName': None\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': '', '备注': ''}" ]
-    }, {
-      "name" : "test075检验是否删除成功",
-      "uid" : "ee5d4e3877328873",
-      "parentUid" : "44c5154d819ae51159370592cbde424a",
-      "status" : "passed",
-      "time" : {
-        "start" : 1609725755085,
-        "stop" : 1609725755140,
-        "duration" : 55
-      },
-      "flaky" : false,
-      "parameters" : [ "{'用例ID': 'test075', '模块': '树节点维护', '接口名称': '检验是否删除成功', '请求URL': '/admin/action.ashx?prefix=admin&action=GetAreaInfoList', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{PageCurrent:1,PageSize:10,ClassId:7,CName:\\'\\'}\"}', '预期结果': \"Page': {'Current': 1, 'Total': 6}\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': '', '备注': ''}" ]
-    }, {
-      "name" : "test001首页选择“新增报表”",
-      "uid" : "988a75ebc023ba6a",
-      "parentUid" : "44c5154d819ae51159370592cbde424a",
-      "status" : "passed",
-      "time" : {
-        "start" : 1609726724955,
-        "stop" : 1609726725033,
-        "duration" : 78
-      },
-      "flaky" : true,
-      "parameters" : [ "{'用例ID': 'test001', '模块': '报表管理', '接口名称': '首页选择“新增报表”', '请求URL': '/action.ashx?action=GetReportStation', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{ReportId:\\'\\',CampusList:[\\'1001\\',\\'1021\\',\\'1041\\',\\'1061\\',\\'1081\\',\\'1101\\',\\'1121\\',\\'1141\\',\\'1161\\',\\'1181\\',\\'1201\\',\\'1221\\',\\'1241\\',\\'1261\\',\\'1281\\']}\"}', '预期结果': \"DateInfoList': [{'Id': 1, 'CName': '前置厂站1', 'IsChoice': 0}]\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': '', '备注': ''}" ]
-    }, {
-      "name" : "test002刷新页面",
-      "uid" : "6d04b9eaa432c6e4",
-      "parentUid" : "44c5154d819ae51159370592cbde424a",
-      "status" : "passed",
-      "time" : {
-        "start" : 1609726725049,
-        "stop" : 1609726725112,
-        "duration" : 63
-      },
-      "flaky" : false,
-      "parameters" : [ "{'用例ID': 'test002', '模块': '报表管理', '接口名称': '刷新页面', '请求URL': '/action.ashx?action=GetReportInfo', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{CName:\\'\\',PageCurrent:1,PageSize:10,UserName:\\'admin\\'}\"}', '预期结果': \"PageInfo': {'Current': 1, 'Total': 15}\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': '', '备注': ''}" ]
-    }, {
-      "name" : "test003无效数据进行查询",
-      "uid" : "417a53aecd0a35a1",
-      "parentUid" : "44c5154d819ae51159370592cbde424a",
-      "status" : "passed",
-      "time" : {
-        "start" : 1609726725112,
-        "stop" : 1609726725158,
-        "duration" : 46
-      },
-      "flaky" : false,
-      "parameters" : [ "{'用例ID': 'test003', '模块': '报表管理', '接口名称': '无效数据进行查询', '请求URL': '/action.ashx?action=GetReportInfo', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{CName:\\'@@@\\',pageCurrent:1,PageSize:10,UserName:\\'admin\\'}\"}', '预期结果': \"PageInfo': {'Current': 1, 'Total': 0}\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': '', '备注': ''}" ]
-    }, {
-      "name" : "test004有效数据进行查询",
-      "uid" : "44b0933bf49faa6d",
-      "parentUid" : "44c5154d819ae51159370592cbde424a",
-      "status" : "passed",
-      "time" : {
-        "start" : 1609726725158,
-        "stop" : 1609726725190,
-        "duration" : 32
-      },
-      "flaky" : false,
-      "parameters" : [ "{'用例ID': 'test004', '模块': '报表管理', '接口名称': '有效数据进行查询', '请求URL': '/action.ashx?action=GetReportInfo', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{CName:\\'test02\\',pageCurrent:1,PageSize:10,UserName:\\'admin\\'}\"}', '预期结果': \"PageInfo': {'Current': 1, 'Total': 1}\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': '', '备注': ''}" ]
-    }, {
-      "name" : "test005厂站名称选择“前置厂站1”",
-      "uid" : "b1d0e44003639413",
-      "parentUid" : "44c5154d819ae51159370592cbde424a",
-      "status" : "passed",
-      "time" : {
-        "start" : 1609726725205,
-        "stop" : 1609726725315,
-        "duration" : 110
-      },
-      "flaky" : false,
-      "parameters" : [ "{'用例ID': 'test005', '模块': '报表管理', '接口名称': '厂站名称选择“前置厂站1”', '请求URL': '/action.ashx?action=GetReportDevice', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{StaId:1,ReportId:\\'\\',CampusList:[\\'1001\\',\\'1021\\',\\'1041\\',\\'1061\\',\\'1081\\',\\'1101\\',\\'1121\\',\\'1141\\',\\'1161\\',\\'1181\\',\\'1201\\',\\'1221\\',\\'1241\\',\\'1261\\',\\'1281\\']}\"}', '预期结果': \"{'Id': 1, 'CName': '1设备1：', 'IsChoice': 0}\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': '', '备注': ''}" ]
-    }, {
-      "name" : "test006设备名称选择“1设备1:”",
-      "uid" : "6136f0d015ad0fa7",
-      "parentUid" : "44c5154d819ae51159370592cbde424a",
-      "status" : "passed",
-      "time" : {
-        "start" : 1609726725330,
-        "stop" : 1609726725408,
-        "duration" : 78
-      },
-      "flaky" : false,
-      "parameters" : [ "{'用例ID': 'test006', '模块': '报表管理', '接口名称': '设备名称选择“1设备1:”', '请求URL': '/action.ashx?action=GetReportSample', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{ReportId:\\'\\',DevId:1,CampusList:[\\'1001\\',\\'1021\\',\\'1041\\',\\'1061\\',\\'1081\\',\\'1101\\',\\'1121\\',\\'1141\\',\\'1161\\',\\'1181\\',\\'1201\\',\\'1221\\',\\'1241\\',\\'1261\\',\\'1281\\']}\"}', '预期结果': \"StationId': 1, 'DeviceId': 1, 'DeviceName': '1设备1：'\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': '', '备注': ''}" ]
-    }, {
-      "name" : "test007新增报表",
-      "uid" : "d5da742fceb3221",
-      "parentUid" : "44c5154d819ae51159370592cbde424a",
-      "status" : "passed",
-      "time" : {
-        "start" : 1609726725408,
-        "stop" : 1609726725502,
-        "duration" : 94
-      },
-      "flaky" : false,
-      "parameters" : [ "{'用例ID': 'test007', '模块': '报表管理', '接口名称': '新增报表', '请求URL': '/action.ashx?action=AddReportInfo', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{ID:0,CName:\\'test18\\',ReportType:1,ReportDesp:\\'test18\\',OptionType:0,ReDatasourceList:[{DeviceId:1,TableNum:18,SampleId:20002000}],UserName:\\'admin\\'}\"}', '预期结果': \"ErrorCode': 0, 'Success': True, 'ExceptionMsg': '保存成功！'\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': '', '备注': ''}" ]
+      "parameters" : [ "{'用例ID': 'test007', '模块': '报表管理', '接口名称': '有效数据进行查询', '请求URL': '/action.ashx?action=GetReportInfo', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{CName:\\'test01\\',pageCurrent:1,PageSize:10,UserName:\\'admin\\'}\"}', '预期结果': \"PageInfo': {'Current': 1, 'Total': 1}\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
     }, {
       "name" : "test008新增相同名称报表",
-      "uid" : "98eaea8076c18cf3",
-      "parentUid" : "44c5154d819ae51159370592cbde424a",
+      "uid" : "1dc5576763afb61c",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
       "status" : "passed",
       "time" : {
-        "start" : 1609726725502,
-        "stop" : 1609726725518,
-        "duration" : 16
-      },
-      "flaky" : false,
-      "parameters" : [ "{'用例ID': 'test008', '模块': '报表管理', '接口名称': '新增相同名称报表', '请求URL': '/action.ashx?action=AddReportInfo', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{ID:0,CName:\\'test02\\',ReportType:1,ReportDesp:\\'test02\\',OptionType:0,ReDatasourceList:[{DeviceId:1,TableNum:18,SampleId:20002000}],UserName:\\'admin\\'}\"}', '预期结果': \"Success': False, 'ExceptionMsg': '报表名称：test02,已经被其他用户配置报表类型是横向的配置！'\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': '', '备注': ''}" ]
-    }, {
-      "name" : "test009报表预览页面，查询",
-      "uid" : "fe43d6a58c9da90f",
-      "parentUid" : "44c5154d819ae51159370592cbde424a",
-      "status" : "passed",
-      "time" : {
-        "start" : 1609726725533,
-        "stop" : 1609726729690,
-        "duration" : 4157
-      },
-      "flaky" : true,
-      "parameters" : [ "{'用例ID': 'test009', '模块': '报表管理', '接口名称': '报表预览页面，查询', '请求URL': '/action.ashx?action=PreviewReportInfo', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\": \"{ID:12,StartTime:\\'2020-8-30 08:00:00\\',EndTime:\\'2020-8-31 07:00:00\\',TimeType:2,CName:\\'test01\\',ReportTypeName:\\'横向\\',Unite:1}\"}', '预期结果': \"ErrorCode': 0, 'Success': True, 'ExceptionMsg': None, '\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': '', '备注': ''}" ]
-    }, {
-      "name" : "test010修改报表",
-      "uid" : "20fe07ab1d3ed38c",
-      "parentUid" : "44c5154d819ae51159370592cbde424a",
-      "status" : "passed",
-      "time" : {
-        "start" : 1609726729705,
-        "stop" : 1609726729752,
-        "duration" : 47
-      },
-      "flaky" : false,
-      "parameters" : [ "{'用例ID': 'test010', '模块': '报表管理', '接口名称': '修改报表', '请求URL': '/action.ashx?action=GetReportSelectedInfo', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\": \"{ReportId:12}\"}', '预期结果': \"list': [{'DeviceId': 1, 'TableNum': 18, 'SampleId': 20002001}]\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': '', '备注': ''}" ]
-    }, {
-      "name" : "test011删除报表",
-      "uid" : "6145e59b7fba7cfa",
-      "parentUid" : "44c5154d819ae51159370592cbde424a",
-      "status" : "passed",
-      "time" : {
-        "start" : 1609726729768,
-        "stop" : 1609726729846,
-        "duration" : 78
-      },
-      "flaky" : false,
-      "parameters" : [ "{'用例ID': 'test011', '模块': '报表管理', '接口名称': '删除报表', '请求URL': '/action.ashx?action=DeleteReportInfo', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\": \"{ID:58}\"}', '预期结果': \"ErrorCode': 0, 'Success': True, 'ExceptionMsg': '删除成功！'\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': '', '备注': '执行脚本后，入参ID需要+1'}" ]
-    }, {
-      "name" : "test012日报表查询",
-      "uid" : "51f1a366c5ed2804",
-      "parentUid" : "44c5154d819ae51159370592cbde424a",
-      "status" : "failed",
-      "time" : {
-        "start" : 1609726729862,
-        "stop" : 1609726729971,
-        "duration" : 109
-      },
-      "flaky" : false,
-      "parameters" : [ "{'用例ID': 'test012', '模块': '报表管理', '接口名称': '日报表查询', '请求URL': '/action.ashx?action=GetReportName', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{UserName:\\'admin\\',DateTime:\\'2020.09.01\\',Unite:1}\"}', '预期结果': \"(日报表)test182020-09-01', 'ReportType': 1, 'RoleNo': None}], 'PageInfo': {'Current': 0, 'Total': 16}\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': '', '备注': ''}" ]
-    }, {
-      "name" : "test013月报表查询",
-      "uid" : "467c28186400543c",
-      "parentUid" : "44c5154d819ae51159370592cbde424a",
-      "status" : "failed",
-      "time" : {
-        "start" : 1609726730143,
-        "stop" : 1609726730190,
-        "duration" : 47
-      },
-      "flaky" : false,
-      "parameters" : [ "{'用例ID': 'test013', '模块': '报表管理', '接口名称': '月报表查询', '请求URL': '/action.ashx?action=GetReportName', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{UserName:\\'admin\\',DateTime:\\'2020.09.01\\',Unite:2}\"}', '预期结果': \"Desp': '(月报表)test182020-09', 'ReportType': 1, 'RoleNo': None}], 'PageInfo': {'Current': 0, 'Total': 16}\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': '', '备注': ''}" ]
-    }, {
-      "name" : "test014下载日报表",
-      "uid" : "80b9340b71f37496",
-      "parentUid" : "44c5154d819ae51159370592cbde424a",
-      "status" : "passed",
-      "time" : {
-        "start" : 1609726730221,
-        "stop" : 1609726730580,
-        "duration" : 359
-      },
-      "flaky" : false,
-      "parameters" : [ "{'用例ID': 'test014', '模块': '报表管理', '接口名称': '下载日报表', '请求URL': '/action.ashx?action=DownReportInfo', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\": \"{ID:12,StartTime:\\'2020.8.31 08:00:00\\',EndTime:\\'2020.9.1 07:00:00\\',TimeType:2,CName:\\'test01\\',ReportTypeName:\\'横向\\',Unite:1}\"}', '预期结果': \"status': 'success'\", '实际结果': '', '是否运行': 'y', 'headers': '{\"Content-Type\": \\n\"application/x-www-form-urlencoded; charset=UTF-8\"}', 'cookies': '', '返回状态码': '200', '数据库验证': '', '备注': ''}" ]
-    }, {
-      "name" : "test015下载月报表",
-      "uid" : "d71b4d88bdc5e393",
-      "parentUid" : "44c5154d819ae51159370592cbde424a",
-      "status" : "passed",
-      "time" : {
-        "start" : 1609726730596,
-        "stop" : 1609726730768,
-        "duration" : 172
-      },
-      "flaky" : false,
-      "parameters" : [ "{'用例ID': 'test015', '模块': '报表管理', '接口名称': '下载月报表', '请求URL': '/action.ashx?action=DownReportInfo', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\": \"{ID:12,StartTime:\\'2020.09.01 08:00:00\\',EndTime:\\'2020.09.01 08:00:00\\',TimeType:2,CName:\\'test01\\',ReportTypeName:\\'横向\\',Unite:2}\"}', '预期结果': \"status': 'success'\", '实际结果': '', '是否运行': 'y', 'headers': '{\"Content-Type\": \\n\"application/x-www-form-urlencoded; charset=UTF-8\"}', 'cookies': '', '返回状态码': '200', '数据库验证': '', '备注': ''}" ]
-    }, {
-      "name" : "test016首页跳转至第二页",
-      "uid" : "d78635c18f29f170",
-      "parentUid" : "44c5154d819ae51159370592cbde424a",
-      "status" : "failed",
-      "time" : {
-        "start" : 1609726730768,
-        "stop" : 1609726730815,
-        "duration" : 47
-      },
-      "flaky" : false,
-      "parameters" : [ "{'用例ID': 'test016', '模块': '报表管理', '接口名称': '首页跳转至第二页', '请求URL': '/action.ashx?action=GetReportInfo', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{CName:\\'\\',PageCurrent:2,PageSize:10,UserName:\\'admin\\'}\"}', '预期结果': \"PageInfo': {'Current': 2, 'Total': 16}\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': '', '备注': ''}" ]
-    }, {
-      "name" : "test017一页展示20条数据",
-      "uid" : "44b770d3c54fbfc3",
-      "parentUid" : "44c5154d819ae51159370592cbde424a",
-      "status" : "failed",
-      "time" : {
-        "start" : 1609726730846,
-        "stop" : 1609726730877,
+        "start" : 1610447439336,
+        "stop" : 1610447439367,
         "duration" : 31
       },
       "flaky" : false,
-      "parameters" : [ "{'用例ID': 'test017', '模块': '报表管理', '接口名称': '一页展示20条数据', '请求URL': '/action.ashx?action=GetReportInfo', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{CName:\\'\\',PageCurrent:2,PageSize:20,UserName:\\'admin\\',PageCurrent:1}\"}', '预期结果': \"PageInfo': {'Current': 1, 'Total': 16}\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': '', '备注': ''}" ]
+      "parameters" : [ "{'用例ID': 'test008', '模块': '报表管理', '接口名称': '新增相同名称报表', '请求URL': '/action.ashx?action=AddReportInfo', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{ID:0,CName:\\'test01\\',ReportType:1,ReportDesp:\\'test02\\',OptionType:0,ReDatasourceList:[{DeviceId:1,TableNum:18,SampleId:20002000}],UserName:\\'admin\\'}\"}', '预期结果': \"Success': False, 'ExceptionMsg': '报表名称：test01,已经被其他用户配置报表类型是横向的配置！'\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
     }, {
-      "name" : "test018无效设备名称查询",
-      "uid" : "233cf4562de5b906",
-      "parentUid" : "44c5154d819ae51159370592cbde424a",
+      "name" : "test009日报表查询",
+      "uid" : "cbbf40131dab92a",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
       "status" : "passed",
       "time" : {
-        "start" : 1609726730908,
-        "stop" : 1609726731237,
-        "duration" : 329
+        "start" : 1610447439367,
+        "stop" : 1610447439414,
+        "duration" : 47
       },
       "flaky" : false,
-      "parameters" : [ "{'用例ID': 'test018', '模块': '运行数据', '接口名称': '无效设备名称查询', '请求URL': '/action.ashx?action=GetSampleDeviceAndPoint', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{CName:11111,MCode:0,pageCurrent:1,PageSize:10}\"}', '预期结果': \"{'Current': 1, 'Total': 0}, 'list': []\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': '', '备注': ''}" ]
+      "parameters" : [ "{'用例ID': 'test009', '模块': '报表管理', '接口名称': '日报表查询', '请求URL': '/action.ashx?action=GetReportName', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{UserName:\\'admin\\',DateTime:\\'2021.01.11\\',Unite:1}\"}', '预期结果': \"PageInfo': {'Current': 0, 'Total': 1}\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
     }, {
-      "name" : "test019变配电有效设备名称查询",
-      "uid" : "f361de4982590c97",
-      "parentUid" : "44c5154d819ae51159370592cbde424a",
+      "name" : "test010月报表查询",
+      "uid" : "a35f456be95a4478",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
       "status" : "passed",
       "time" : {
-        "start" : 1609726731252,
-        "stop" : 1609726731502,
-        "duration" : 250
+        "start" : 1610447439414,
+        "stop" : 1610447439461,
+        "duration" : 47
       },
       "flaky" : false,
-      "parameters" : [ "{'用例ID': 'test019', '模块': '运行数据', '接口名称': '变配电有效设备名称查询', '请求URL': '/action.ashx?action=GetSampleDeviceAndPoint', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{CName:\\'1设备1\\',MCode:\\'M009\\',pageCurrent:1,PageSize:10}\"}', '预期结果': \"Page': {'Current': 1, 'Total': 2}\", '实际结果': '', '是否运行': 'y', 'headers': '{\"Content-Type\": \\n\"application/x-www-form-urlencoded; charset=UTF-8\"}', 'cookies': '', '返回状态码': '200', '数据库验证': '', '备注': ''}" ]
+      "parameters" : [ "{'用例ID': 'test010', '模块': '报表管理', '接口名称': '月报表查询', '请求URL': '/action.ashx?action=GetReportName', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{UserName:\\'admin\\',DateTime:\\'2021.01.11\\',Unite:2}\"}', '预期结果': \"PageInfo': {'Current': 0, 'Total': 1}\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
     }, {
-      "name" : "test020智能照明有效设备名称查询",
-      "uid" : "356d50b0596d327a",
-      "parentUid" : "44c5154d819ae51159370592cbde424a",
+      "name" : "test011下载日报表",
+      "uid" : "319d8b3ca7bb305d",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
       "status" : "passed",
       "time" : {
-        "start" : 1609726731518,
-        "stop" : 1609726731768,
-        "duration" : 250
+        "start" : 1610447439461,
+        "stop" : 1610447439586,
+        "duration" : 125
       },
       "flaky" : false,
-      "parameters" : [ "{'用例ID': 'test020', '模块': '运行数据', '接口名称': '智能照明有效设备名称查询', '请求URL': '/action.ashx?action=GetSampleDeviceAndPoint', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{CName:\\'1设备11\\',MCode:\\'M014\\',pageCurrent:1,PageSize:10}\"}', '预期结果': \"Page': {'Current': 1, 'Total': 1}\", '实际结果': '', '是否运行': 'y', 'headers': '{\"Content-Type\": \\n\"application/x-www-form-urlencoded; charset=UTF-8\"}', 'cookies': '', '返回状态码': '200', '数据库验证': '', '备注': ''}" ]
+      "parameters" : [ "{'用例ID': 'test011', '模块': '报表管理', '接口名称': '下载日报表', '请求URL': '/action.ashx?action=DownReportInfo', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\": \"{ID:1,StartTime:\\'2021.1.10 08:00:00\\',EndTime:\\'2021.1.11 07:00:00\\',TimeType:2,CName:\\'test01\\',ReportTypeName:\\'横向\\',Unite:1}\"}', '预期结果': \"status': 'success'\", '实际结果': '', '是否运行': 'y', 'headers': '{\"Content-Type\": \\n\"application/x-www-form-urlencoded; charset=UTF-8\"}', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
     }, {
-      "name" : "test021刷新运行数据页面",
-      "uid" : "66ff2ca04f0ae255",
-      "parentUid" : "44c5154d819ae51159370592cbde424a",
+      "name" : "test012下载月报表",
+      "uid" : "3ce867d828222ca8",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
       "status" : "passed",
       "time" : {
-        "start" : 1609726731783,
-        "stop" : 1609726732143,
-        "duration" : 360
+        "start" : 1610447439586,
+        "stop" : 1610447439711,
+        "duration" : 125
       },
       "flaky" : false,
-      "parameters" : [ "{'用例ID': 'test021', '模块': '运行数据', '接口名称': '刷新运行数据页面', '请求URL': '/action.ashx?action=GetSampleDeviceAndPoint', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{CName:\\'\\',MCode:0,pageCurrent:1,PageSize:10}\"}', '预期结果': \"Page': {'Current': 1, 'Total': 150}\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': '', '备注': ''}" ]
+      "parameters" : [ "{'用例ID': 'test012', '模块': '报表管理', '接口名称': '下载月报表', '请求URL': '/action.ashx?action=DownReportInfo', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\": \"{ID:1,StartTime:\\'2021/01/01 08:00:00\\',EndTime:\\'2021/01/01 08:00:00\\',TimeType:2,CName:\\'test01\\',ReportTypeName:\\'横向\\',Unite:2}\"}', '预期结果': \"status': 'success'\", '实际结果': '', '是否运行': 'y', 'headers': '{\"Content-Type\": \\n\"application/x-www-form-urlencoded; charset=UTF-8\"}', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
     }, {
-      "name" : "test022数据导出，时间颗粒度为10分钟",
-      "uid" : "923f3328b4fb0e13",
-      "parentUid" : "44c5154d819ae51159370592cbde424a",
+      "name" : "test013报表预览页面，查询",
+      "uid" : "f1948010bc9a32de",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
       "status" : "passed",
       "time" : {
-        "start" : 1609726732143,
-        "stop" : 1609726732643,
-        "duration" : 500
+        "start" : 1610447439711,
+        "stop" : 1610447439758,
+        "duration" : 47
       },
       "flaky" : false,
-      "parameters" : [ "{'用例ID': 'test022', '模块': '运行数据', '接口名称': '数据导出，时间颗粒度为10分钟', '请求URL': '/action.ashx?action=ExportDeviceHistoryData', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{Unit:0,StartTime:\\'2020-09-08 00:00\\',EndTime:\\'2020-09-08 11:09\\',MinutesNum:10,DeviceList:[{DeviceId:1,DeviceName:\\'1设备1：\\',NumList:[{SampleType:18,RecordNo:20002000}]}]}\"}', '预期结果': \"status': 'success'\", '实际结果': '', '是否运行': 'y', 'headers': '{\"Content-Type\": \\n\"application/x-www-form-urlencoded; charset=UTF-8\"}', 'cookies': '', '返回状态码': '200', '数据库验证': '', '备注': ''}" ]
+      "parameters" : [ "{'用例ID': 'test013', '模块': '报表管理', '接口名称': '报表预览页面，查询', '请求URL': '/action.ashx?action=PreviewReportInfo', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\": \"{ID:1,StartTime:\\'2021-01-10 08:00:00\\',EndTime:\\'2020-01-11 07:00:00\\',TimeType:2,CName:\\'test01\\',ReportTypeName:\\'横向\\',Unite:1}\"}', '预期结果': \"ErrorCode': 0, 'Success': True, 'ExceptionMsg': None, '\", '实际结果': '', '是否运行': 'y', 'headers': '{\"Content-Type\": \\n\"application/x-www-form-urlencoded; charset=UTF-8\"}', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
     }, {
-      "name" : "test023数据导出，时间颗粒度为小时",
-      "uid" : "88b2b37cc3807cc7",
-      "parentUid" : "44c5154d819ae51159370592cbde424a",
+      "name" : "test014修改报表",
+      "uid" : "9b52c7e05b62321a",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
       "status" : "passed",
       "time" : {
-        "start" : 1609726732658,
-        "stop" : 1609726732815,
+        "start" : 1610447439773,
+        "stop" : 1610447439805,
+        "duration" : 32
+      },
+      "flaky" : false,
+      "parameters" : [ "{'用例ID': 'test014', '模块': '报表管理', '接口名称': '修改报表', '请求URL': '/action.ashx?action=GetReportSelectedInfo', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\": \"{ReportId:1}\"}', '预期结果': \"list': [{'DeviceId': 1, 'TableNum': 18, 'SampleId': 20002000}]\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
+    }, {
+      "name" : "test015删除报表",
+      "uid" : "d8705ca6e89e3c68",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610447439820,
+        "stop" : 1610447439867,
+        "duration" : 47
+      },
+      "flaky" : false,
+      "parameters" : [ "{'用例ID': 'test015', '模块': '报表管理', '接口名称': '删除报表', '请求URL': '/action.ashx?action=DeleteReportInfo', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\": \"{ID:1}\"}', '预期结果': \"ErrorCode': 0, 'Success': True, 'ExceptionMsg': '删除成功！'\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
+    }, {
+      "name" : "test016无效设备名称查询",
+      "uid" : "60ff61b9b25d0ddf",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610447439883,
+        "stop" : 1610447439945,
+        "duration" : 62
+      },
+      "flaky" : false,
+      "parameters" : [ "{'用例ID': 'test016', '模块': '运行数据', '接口名称': '无效设备名称查询', '请求URL': '/action.ashx?action=GetSampleDeviceAndPoint', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{CName:11111,MCode:0,pageCurrent:1,PageSize:10}\"}', '预期结果': \"{'Current': 1, 'Total': 0}, 'list': []\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
+    }, {
+      "name" : "test017变配电有效设备名称查询",
+      "uid" : "3fc756fc208b419b",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610447439961,
+        "stop" : 1610447440086,
+        "duration" : 125
+      },
+      "flaky" : false,
+      "parameters" : [ "{'用例ID': 'test017', '模块': '运行数据', '接口名称': '变配电有效设备名称查询', '请求URL': '/action.ashx?action=GetSampleDeviceAndPoint', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{CName:\\'1设备1\\',MCode:\\'M009\\',pageCurrent:1,PageSize:10}\"}', '预期结果': \"Page': {'Current': 1, 'Total': 2}\", '实际结果': '', '是否运行': 'y', 'headers': '{\"Content-Type\": \\n\"application/x-www-form-urlencoded; charset=UTF-8\"}', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
+    }, {
+      "name" : "test018智能照明有效设备名称查询",
+      "uid" : "c71acf8e6ca98234",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610447440086,
+        "stop" : 1610447440211,
+        "duration" : 125
+      },
+      "flaky" : false,
+      "parameters" : [ "{'用例ID': 'test018', '模块': '运行数据', '接口名称': '智能照明有效设备名称查询', '请求URL': '/action.ashx?action=GetSampleDeviceAndPoint', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{CName:\\'1设备11\\',MCode:\\'M014\\',pageCurrent:1,PageSize:10}\"}', '预期结果': \"Page': {'Current': 1, 'Total': 1}\", '实际结果': '', '是否运行': 'y', 'headers': '{\"Content-Type\": \\n\"application/x-www-form-urlencoded; charset=UTF-8\"}', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
+    }, {
+      "name" : "test019刷新运行数据页面",
+      "uid" : "49d69f334e84252b",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610447440227,
+        "stop" : 1610447440398,
+        "duration" : 171
+      },
+      "flaky" : false,
+      "parameters" : [ "{'用例ID': 'test019', '模块': '运行数据', '接口名称': '刷新运行数据页面', '请求URL': '/action.ashx?action=GetSampleDeviceAndPoint', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{CName:\\'\\',MCode:0,pageCurrent:1,PageSize:10}\"}', '预期结果': \"Page': {'Current': 1, 'Total': 150}\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
+    }, {
+      "name" : "test020数据导出，时间颗粒度为10分钟",
+      "uid" : "479f56195730569b",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610447440398,
+        "stop" : 1610447440555,
         "duration" : 157
       },
       "flaky" : false,
-      "parameters" : [ "{'用例ID': 'test023', '模块': '运行数据', '接口名称': '数据导出，时间颗粒度为小时', '请求URL': '/action.ashx?action=ExportDeviceHistoryData', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{Unit:1,StartTime:\\'2020-09-08 00:00\\',EndTime:\\'2020-09-08 11:09\\',MinutesNum:10,DeviceList:[{DeviceId:1,DeviceName:\\'1设备1：\\',NumList:[{SampleType:18,RecordNo:20002000}]}]}\"}', '预期结果': \"status': 'success'\", '实际结果': '', '是否运行': 'y', 'headers': '{\"Content-Type\": \\n\"application/x-www-form-urlencoded; charset=UTF-8\"}', 'cookies': '', '返回状态码': '200', '数据库验证': '', '备注': ''}" ]
+      "parameters" : [ "{'用例ID': 'test020', '模块': '运行数据', '接口名称': '数据导出，时间颗粒度为10分钟', '请求URL': '/action.ashx?action=ExportDeviceHistoryData', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{Unit:0,StartTime:\\'2020-09-08 00:00\\',EndTime:\\'2020-09-08 11:09\\',MinutesNum:10,DeviceList:[{DeviceId:1,DeviceName:\\'1设备1：\\',NumList:[{SampleType:18,RecordNo:20002000}]}]}\"}', '预期结果': \"status': 'success'\", '实际结果': '', '是否运行': 'y', 'headers': '{\"Content-Type\": \\n\"application/x-www-form-urlencoded; charset=UTF-8\"}', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
     }, {
-      "name" : "test024数据导出，时间颗粒度为天",
-      "uid" : "c804dbe78de4d9e2",
-      "parentUid" : "44c5154d819ae51159370592cbde424a",
+      "name" : "test021数据导出，时间颗粒度为小时",
+      "uid" : "9b344c549154254b",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
       "status" : "passed",
       "time" : {
-        "start" : 1609726732830,
-        "stop" : 1609726732955,
-        "duration" : 125
+        "start" : 1610447440555,
+        "stop" : 1610447440695,
+        "duration" : 140
       },
       "flaky" : false,
-      "parameters" : [ "{'用例ID': 'test024', '模块': '运行数据', '接口名称': '数据导出，时间颗粒度为天', '请求URL': '/action.ashx?action=ExportDeviceHistoryData', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{Unit:2,StartTime:\\'2020-09-08 00:00\\',EndTime:\\'2020-09-08 11:09\\',MinutesNum:10,DeviceList:[{DeviceId:1,DeviceName:\\'1设备1：\\',NumList:[{SampleType:18,RecordNo:20002000}]}]}\"}', '预期结果': \"status': 'success'\", '实际结果': '', '是否运行': 'y', 'headers': '{\"Content-Type\": \\n\"application/x-www-form-urlencoded; charset=UTF-8\"}', 'cookies': '', '返回状态码': '200', '数据库验证': '', '备注': ''}" ]
+      "parameters" : [ "{'用例ID': 'test021', '模块': '运行数据', '接口名称': '数据导出，时间颗粒度为小时', '请求URL': '/action.ashx?action=ExportDeviceHistoryData', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{Unit:1,StartTime:\\'2020-09-08 00:00\\',EndTime:\\'2020-09-08 11:09\\',MinutesNum:10,DeviceList:[{DeviceId:1,DeviceName:\\'1设备1：\\',NumList:[{SampleType:18,RecordNo:20002000}]}]}\"}', '预期结果': \"status': 'success'\", '实际结果': '', '是否运行': 'y', 'headers': '{\"Content-Type\": \\n\"application/x-www-form-urlencoded; charset=UTF-8\"}', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
     }, {
-      "name" : "test025无效设备名称数据查询",
-      "uid" : "7bb062b88de43960",
-      "parentUid" : "44c5154d819ae51159370592cbde424a",
+      "name" : "test022数据导出，时间颗粒度为天",
+      "uid" : "473e0f37658c6ef8",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
       "status" : "passed",
       "time" : {
-        "start" : 1609726732955,
-        "stop" : 1609726733987,
+        "start" : 1610447440695,
+        "stop" : 1610447440789,
+        "duration" : 94
+      },
+      "flaky" : false,
+      "parameters" : [ "{'用例ID': 'test022', '模块': '运行数据', '接口名称': '数据导出，时间颗粒度为天', '请求URL': '/action.ashx?action=ExportDeviceHistoryData', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{Unit:2,StartTime:\\'2020-09-08 00:00\\',EndTime:\\'2020-09-08 11:09\\',MinutesNum:10,DeviceList:[{DeviceId:1,DeviceName:\\'1设备1：\\',NumList:[{SampleType:18,RecordNo:20002000}]}]}\"}', '预期结果': \"status': 'success'\", '实际结果': '', '是否运行': 'y', 'headers': '{\"Content-Type\": \\n\"application/x-www-form-urlencoded; charset=UTF-8\"}', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
+    }, {
+      "name" : "test023无效设备名称数据查询",
+      "uid" : "c11860385c5c6410",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610447440805,
+        "stop" : 1610447441680,
+        "duration" : 875
+      },
+      "flaky" : false,
+      "parameters" : [ "{'用例ID': 'test023', '模块': '运行状态', '接口名称': '无效设备名称数据查询', '请求URL': '/action.ashx?action=GetDeviceRunInfo', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{Start_StopState:0,DeviceType:1,DevName:\\'@@@@\\',strMcode:0,On_Offline:0,RunState:0,pageCurrent:1,PageSize:10,CampusInfo:1001}\"}', '预期结果': \"Page': {'Current': 1, 'Total': 0}, 'SysId': 0, 'SysName': '全系统'\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
+    }, {
+      "name" : "test024有效设备名称数据查询",
+      "uid" : "4333b460c8a35e82",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610447441695,
+        "stop" : 1610447442727,
         "duration" : 1032
       },
       "flaky" : false,
-      "parameters" : [ "{'用例ID': 'test025', '模块': '运行状态', '接口名称': '无效设备名称数据查询', '请求URL': '/action.ashx?action=GetDeviceRunInfo', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{Start_StopState:0,DeviceType:1,DevName:\\'@@@@\\',strMcode:0,On_Offline:0,RunState:0,pageCurrent:1,PageSize:10,CampusInfo:1001}\"}', '预期结果': \"Page': {'Current': 1, 'Total': 0}, 'SysId': 0, 'SysName': '全系统'\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': '', '备注': ''}" ]
+      "parameters" : [ "{'用例ID': 'test024', '模块': '运行状态', '接口名称': '有效设备名称数据查询', '请求URL': '/action.ashx?action=GetDeviceRunInfo', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{Start_StopState:0,DeviceType:1,DevName:\\'配电设备\\',strMcode:0,On_Offline:0,RunState:0,pageCurrent:1,PageSize:10,CampusInfo:1001}\"}', '预期结果': \"Page': {'Current': 1, 'Total': 10}, 'SysId': 0, 'SysName': '全系统'\", '实际结果': '', '是否运行': 'y', 'headers': '{\"Content-Type\": \\n\"application/x-www-form-urlencoded; charset=UTF-8\"}', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
     }, {
-      "name" : "test026有效设备名称数据查询",
-      "uid" : "ede8fe0b3f294a90",
-      "parentUid" : "44c5154d819ae51159370592cbde424a",
+      "name" : "test025有效空间位置信息查询",
+      "uid" : "e459d72a2519ee8a",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
       "status" : "passed",
       "time" : {
-        "start" : 1609726734002,
-        "stop" : 1609726734987,
-        "duration" : 985
+        "start" : 1610447442742,
+        "stop" : 1610447443758,
+        "duration" : 1016
       },
       "flaky" : false,
-      "parameters" : [ "{'用例ID': 'test026', '模块': '运行状态', '接口名称': '有效设备名称数据查询', '请求URL': '/action.ashx?action=GetDeviceRunInfo', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{Start_StopState:0,DeviceType:1,DevName:\\'配电设备\\',strMcode:0,On_Offline:0,RunState:0,pageCurrent:1,PageSize:10,CampusInfo:1001}\"}', '预期结果': \"Page': {'Current': 1, 'Total': 10}, 'SysId': 0, 'SysName': '全系统'\", '实际结果': '', '是否运行': 'y', 'headers': '{\"Content-Type\": \\n\"application/x-www-form-urlencoded; charset=UTF-8\"}', 'cookies': '', '返回状态码': '200', '数据库验证': '', '备注': ''}" ]
+      "parameters" : [ "{'用例ID': 'test025', '模块': '运行状态', '接口名称': '有效空间位置信息查询', '请求URL': '/action.ashx?action=GetDeviceRunInfo', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{Start_StopState:0,DeviceType:1,DevName:\\'101室\\',strMcode:0,On_Offline:0,RunState:0,pageCurrent:1,PageSize:10,CampusInfo:1001}\"}', '预期结果': \"Page': {'Current': 1, 'Total': 20}, 'SysId': 0, 'SysName': '全系统'\", '实际结果': '', '是否运行': 'y', 'headers': '{\"Content-Type\": \\n\"application/x-www-form-urlencoded; charset=UTF-8\"}', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
     }, {
-      "name" : "test032查询通讯状态为在线的测量设备",
-      "uid" : "d4e538473b8541eb",
-      "parentUid" : "44c5154d819ae51159370592cbde424a",
+      "name" : "test026查询在线设备",
+      "uid" : "ed72a3e6d14fca7e",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
       "status" : "passed",
       "time" : {
-        "start" : 1609726735002,
-        "stop" : 1609726736190,
-        "duration" : 1188
+        "start" : 1610447443773,
+        "stop" : 1610447444820,
+        "duration" : 1047
       },
       "flaky" : false,
-      "parameters" : [ "{'用例ID': 'test032', '模块': '运行状态', '接口名称': '查询通讯状态为在线的测量设备', '请求URL': '/action.ashx?action=GetDevStateBySysAndName', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{Start_StopState:0,DeviceType:2,DevName:\\'\\',strMcode:0,On_Offline:1,RunState:0,pageCurrent:1,PageSize:10,CampusInfo:1001}\"}', '预期结果': \"Page': {'Current': 1, 'Total': 5}\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': '', '备注': ''}" ]
+      "parameters" : [ "{'用例ID': 'test026', '模块': '运行状态', '接口名称': '查询在线设备', '请求URL': '/action.ashx?action=GetDeviceRunInfo', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{Start_StopState:0,DeviceType:1,DevName:\\'\\',strMcode:0,On_Offline:1,RunState:0,pageCurrent:1,PageSize:10,CampusInfo:\\'1061\\'}\"}', '预期结果': \"Page': {'Current': 1, 'Total': 4}\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
     }, {
-      "name" : "test033查询通讯状态为离线的测量设备",
-      "uid" : "de142814e02f2e60",
-      "parentUid" : "44c5154d819ae51159370592cbde424a",
+      "name" : "test027查询故障设备",
+      "uid" : "27dad73ce1d211af",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
       "status" : "passed",
       "time" : {
-        "start" : 1609726736190,
-        "stop" : 1609726737284,
-        "duration" : 1094
+        "start" : 1610447444820,
+        "stop" : 1610447445836,
+        "duration" : 1016
       },
       "flaky" : false,
-      "parameters" : [ "{'用例ID': 'test033', '模块': '运行状态', '接口名称': '查询通讯状态为离线的测量设备', '请求URL': '/action.ashx?action=GetDevStateBySysAndName', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{Start_StopState:0,DeviceType:2,DevName:\\'\\',strMcode:0,On_Offline:2,RunState:0,pageCurrent:1,PageSize:10,CampusInfo:1001}\"}', '预期结果': \"Page': {'Current': 1, 'Total': 15}\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': '', '备注': ''}" ]
+      "parameters" : [ "{'用例ID': 'test027', '模块': '运行状态', '接口名称': '查询故障设备', '请求URL': '/action.ashx?action=GetDeviceRunInfo', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{Start_StopState:0,DeviceType:1,DevName:\\'\\',strMcode:0,On_Offline:0,RunState:2,pageCurrent:1,PageSize:10,CampusInfo:\\'1061\\'}\"}', '预期结果': \"Page': {'Current': 1, 'Total': 2}\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
     }, {
-      "name" : "test034查询系统模块为变配电的在线测量设备",
-      "uid" : "2cefdf966fc94df",
-      "parentUid" : "44c5154d819ae51159370592cbde424a",
+      "name" : "test028查询运行设备",
+      "uid" : "921579ecdfc55796",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
       "status" : "passed",
       "time" : {
-        "start" : 1609726737299,
-        "stop" : 1609726738330,
+        "start" : 1610447445852,
+        "stop" : 1610447446898,
+        "duration" : 1046
+      },
+      "flaky" : false,
+      "parameters" : [ "{'用例ID': 'test028', '模块': '运行状态', '接口名称': '查询运行设备', '请求URL': '/action.ashx?action=GetDeviceRunInfo', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{Start_StopState:1,DeviceType:1,DevName:\\'\\',strMcode:0,On_Offline:0,RunState:0,pageCurrent:1,PageSize:10,CampusInfo:\\'1061\\'}\"}', '预期结果': \"Page': {'Current': 1, 'Total': 2}\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
+    }, {
+      "name" : "test029查询通讯状态为在线的测量设备",
+      "uid" : "997418a77eb22d17",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610447446914,
+        "stop" : 1610447448023,
+        "duration" : 1109
+      },
+      "flaky" : false,
+      "parameters" : [ "{'用例ID': 'test029', '模块': '运行状态', '接口名称': '查询通讯状态为在线的测量设备', '请求URL': '/action.ashx?action=GetDevStateBySysAndName', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{Start_StopState:0,DeviceType:2,DevName:\\'\\',strMcode:0,On_Offline:1,RunState:0,pageCurrent:1,PageSize:10,CampusInfo:1001}\"}', '预期结果': \"Page': {'Current': 1, 'Total': 5}\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
+    }, {
+      "name" : "test030查询通讯状态为离线的测量设备",
+      "uid" : "a9592c3f0baa863a",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610447448039,
+        "stop" : 1610447449070,
         "duration" : 1031
       },
       "flaky" : false,
-      "parameters" : [ "{'用例ID': 'test034', '模块': '运行状态', '接口名称': '查询系统模块为变配电的在线测量设备', '请求URL': '/action.ashx?action=GetDevStateBySysAndName', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{Start_StopState:0,DeviceType:2,DevName:\\'\\',strMcode:\\'M009\\',On_Offline:1,RunState:0,pageCurrent:1,PageSize:10,CampusInfo:1001}\"}', '预期结果': \"Page': {'Current': 1, 'Total': 5}\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': '', '备注': ''}" ]
+      "parameters" : [ "{'用例ID': 'test030', '模块': '运行状态', '接口名称': '查询通讯状态为离线的测量设备', '请求URL': '/action.ashx?action=GetDevStateBySysAndName', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{Start_StopState:0,DeviceType:2,DevName:\\'\\',strMcode:0,On_Offline:2,RunState:0,pageCurrent:1,PageSize:10,CampusInfo:1001}\"}', '预期结果': \"Page': {'Current': 1, 'Total': 15}\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
     }, {
-      "name" : "test035无效数据查询",
-      "uid" : "5ad70571644b39cb",
-      "parentUid" : "44c5154d819ae51159370592cbde424a",
+      "name" : "test031查询系统模块为变配电的在线测量设备",
+      "uid" : "d697b66d56af1927",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
       "status" : "passed",
       "time" : {
-        "start" : 1609726738346,
-        "stop" : 1609726738627,
-        "duration" : 281
+        "start" : 1610447449086,
+        "stop" : 1610447450195,
+        "duration" : 1109
       },
       "flaky" : false,
-      "parameters" : [ "{'用例ID': 'test035', '模块': '全局搜索', '接口名称': '无效数据查询', '请求URL': '/action.ashx?action=GetDeviceBySysAndName', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\": \"{strMcode:0,strName:\\'@@@@\\',PageCurrent:1,PageSize:10}\"}', '预期结果': \"Page': {'Current': 1, 'Total': 0}, 'list': []\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': '', '备注': ''}" ]
+      "parameters" : [ "{'用例ID': 'test031', '模块': '运行状态', '接口名称': '查询系统模块为变配电的在线测量设备', '请求URL': '/action.ashx?action=GetDevStateBySysAndName', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{Start_StopState:0,DeviceType:2,DevName:\\'\\',strMcode:\\'M009\\',On_Offline:1,RunState:0,pageCurrent:1,PageSize:10,CampusInfo:1001}\"}', '预期结果': \"Page': {'Current': 1, 'Total': 5}\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
     }, {
-      "name" : "test036查询系统模块为变配电的设备",
-      "uid" : "3920e73f9e352cd4",
-      "parentUid" : "44c5154d819ae51159370592cbde424a",
+      "name" : "test032无效数据查询",
+      "uid" : "84882282dabef321",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
       "status" : "passed",
       "time" : {
-        "start" : 1609726738627,
-        "stop" : 1609726738877,
-        "duration" : 250
+        "start" : 1610447450211,
+        "stop" : 1610447450430,
+        "duration" : 219
       },
       "flaky" : false,
-      "parameters" : [ "{'用例ID': 'test036', '模块': '全局搜索', '接口名称': '查询系统模块为变配电的设备', '请求URL': '/action.ashx?action=GetDeviceBySysAndName', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\": \"{strMcode:\\'M009\\',strName:\\'\\',PageCurrent:1,PageSize:10}\"}', '预期结果': \"Page': {'Current': 1, 'Total': 10}\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': '', '备注': ''}" ]
+      "parameters" : [ "{'用例ID': 'test032', '模块': '全局搜索', '接口名称': '无效数据查询', '请求URL': '/action.ashx?action=GetDeviceBySysAndName', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\": \"{strMcode:0,strName:\\'@@@@\\',PageCurrent:1,PageSize:10}\"}', '预期结果': \"Page': {'Current': 1, 'Total': 0}, 'list': []\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
     }, {
-      "name" : "test037实时数据，点位未配置越线量",
-      "uid" : "c213c9e30b622795",
-      "parentUid" : "44c5154d819ae51159370592cbde424a",
+      "name" : "test033查询系统模块为变配电的设备",
+      "uid" : "a27c059ee29c1883",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
       "status" : "passed",
       "time" : {
-        "start" : 1609726738893,
-        "stop" : 1609726739018,
-        "duration" : 125
+        "start" : 1610447450430,
+        "stop" : 1610447450617,
+        "duration" : 187
       },
       "flaky" : false,
-      "parameters" : [ "{'用例ID': 'test037', '模块': '全局搜索', '接口名称': '实时数据，点位未配置越线量', '请求URL': '/action.ashx?prefix=admin&action=GetDeviceLimit', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{DateType:0,List:[{TableNum:18,Num:1,RecordNo:null,DeviceId:1}]}\"}', '预期结果': \"ActionInfo': {'Success': False, 'ExceptionMsg': '当前点位未配置越限量！'\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': '', '备注': ''}" ]
+      "parameters" : [ "{'用例ID': 'test033', '模块': '全局搜索', '接口名称': '查询系统模块为变配电的设备', '请求URL': '/action.ashx?action=GetDeviceBySysAndName', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\": \"{strMcode:\\'M009\\',strName:\\'\\',PageCurrent:1,PageSize:10}\"}', '预期结果': \"Page': {'Current': 1, 'Total': 10}\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
     }, {
-      "name" : "test038实时数据，点位已配置越线量",
-      "uid" : "1ab5ecca8ebc8e0f",
-      "parentUid" : "44c5154d819ae51159370592cbde424a",
+      "name" : "test034实时数据，点位未配置越线量",
+      "uid" : "b5f88d59c7b3e8d3",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
       "status" : "passed",
       "time" : {
-        "start" : 1609726739018,
-        "stop" : 1609726739065,
-        "duration" : 47
-      },
-      "flaky" : false,
-      "parameters" : [ "{'用例ID': 'test038', '模块': '全局搜索', '接口名称': '实时数据，点位已配置越线量', '请求URL': '/action.ashx?prefix=admin&action=GetDeviceLimit', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{DateType:0,List:[{TableNum:18,Num:0,RecordNo:null,DeviceId:1}]}\"}', '预期结果': \"ResLimitList': {'18_0': {'UpperLimit': '2', 'LowerLimit': '1', 'DeadZoneValue': '0'}}\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': '', '备注': ''}" ]
-    }, {
-      "name" : "test039历史数据，点位未配置越线量",
-      "uid" : "1ef12fcfef7160ab",
-      "parentUid" : "44c5154d819ae51159370592cbde424a",
-      "status" : "passed",
-      "time" : {
-        "start" : 1609726739080,
-        "stop" : 1609726739112,
-        "duration" : 32
-      },
-      "flaky" : false,
-      "parameters" : [ "{'用例ID': 'test039', '模块': '全局搜索', '接口名称': '历史数据，点位未配置越线量', '请求URL': '/action.ashx?prefix=admin&action=GetDeviceLimit', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{DateType:1,List:[{TableNum:18,Num:null,RecordNo:20002001,DeviceId:1}]}\"}', '预期结果': \"ActionInfo': {'Success': False, 'ExceptionMsg': '当前点位未配置越限量！'\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': '', '备注': ''}" ]
-    }, {
-      "name" : "test040历史数据，点位已配置越线量",
-      "uid" : "e081b8259ebee4a0",
-      "parentUid" : "44c5154d819ae51159370592cbde424a",
-      "status" : "passed",
-      "time" : {
-        "start" : 1609726739112,
-        "stop" : 1609726739143,
+        "start" : 1610447450633,
+        "stop" : 1610447450664,
         "duration" : 31
       },
       "flaky" : false,
-      "parameters" : [ "{'用例ID': 'test040', '模块': '全局搜索', '接口名称': '历史数据，点位已配置越线量', '请求URL': '/action.ashx?prefix=admin&action=GetDeviceLimit', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{DateType:1,List:[{TableNum:18,Num:null,RecordNo:20002000,DeviceId:1}]}\"}', '预期结果': \"ResLimitList': {'18_20002000': {'UpperLimit': '2', 'LowerLimit': '1', 'DeadZoneValue': '0'}}\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': '', '备注': ''}" ]
+      "parameters" : [ "{'用例ID': 'test034', '模块': '全局搜索', '接口名称': '实时数据，点位未配置越线量', '请求URL': '/action.ashx?prefix=admin&action=GetDeviceLimit', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{DateType:0,List:[{TableNum:18,Num:1,RecordNo:null,DeviceId:1}]}\"}', '预期结果': \"ActionInfo': {'Success': False, 'ExceptionMsg': '当前点位未配置越限量！'\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
     }, {
-      "name" : "test041最大值，10分钟颗粒度查询历史数据",
-      "uid" : "2adccec44ce94090",
-      "parentUid" : "44c5154d819ae51159370592cbde424a",
+      "name" : "test035实时数据，点位已配置越线量",
+      "uid" : "610b6c3476bace5b",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
       "status" : "passed",
       "time" : {
-        "start" : 1609726739158,
-        "stop" : 1609726739892,
-        "duration" : 734
+        "start" : 1610447450680,
+        "stop" : 1610447450727,
+        "duration" : 47
       },
       "flaky" : false,
-      "parameters" : [ "{'用例ID': 'test041', '模块': '全局搜索', '接口名称': '最大值，10分钟颗粒度查询历史数据', '请求URL': '/action.ashx?action=GetHistoryMonitor', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{particle:1,Unit:0,MinutesNum:10,QueryType:\\'max\\',StartTime:\\'2020-09-09 00:00:00\\',EndTime:\\'2020-09-09 09:51:59\\',DeviceId:1,SampleType:1,NumList:[\\'20002000\\']}\"}', '预期结果': \"Items': [{'ItemName': '模拟量点1', 'ItemValue': 10.0, 'Unit': 'V'}]\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': '', '备注': ''}" ]
+      "parameters" : [ "{'用例ID': 'test035', '模块': '全局搜索', '接口名称': '实时数据，点位已配置越线量', '请求URL': '/action.ashx?prefix=admin&action=GetDeviceLimit', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{DateType:0,List:[{TableNum:18,Num:0,RecordNo:null,DeviceId:1}]}\"}', '预期结果': \"ResLimitList': {'18_0': {'UpperLimit': '2', 'LowerLimit': '1', 'DeadZoneValue': '0'}}\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
     }, {
-      "name" : "test042平均值，一小时颗粒度查询历史数据",
-      "uid" : "84b704066127ec23",
-      "parentUid" : "44c5154d819ae51159370592cbde424a",
+      "name" : "test036历史数据，点位未配置越线量",
+      "uid" : "b5ac578163d151c9",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
       "status" : "passed",
       "time" : {
-        "start" : 1609726739892,
-        "stop" : 1609726740017,
+        "start" : 1610447450727,
+        "stop" : 1610447450774,
+        "duration" : 47
+      },
+      "flaky" : false,
+      "parameters" : [ "{'用例ID': 'test036', '模块': '全局搜索', '接口名称': '历史数据，点位未配置越线量', '请求URL': '/action.ashx?prefix=admin&action=GetDeviceLimit', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{DateType:1,List:[{TableNum:18,Num:null,RecordNo:20002001,DeviceId:1}]}\"}', '预期结果': \"ActionInfo': {'Success': False, 'ExceptionMsg': '当前点位未配置越限量！'\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
+    }, {
+      "name" : "test037历史数据，点位已配置越线量",
+      "uid" : "bb6fe0a594b46482",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610447450789,
+        "stop" : 1610447450820,
+        "duration" : 31
+      },
+      "flaky" : false,
+      "parameters" : [ "{'用例ID': 'test037', '模块': '全局搜索', '接口名称': '历史数据，点位已配置越线量', '请求URL': '/action.ashx?prefix=admin&action=GetDeviceLimit', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{DateType:1,List:[{TableNum:18,Num:null,RecordNo:20002000,DeviceId:1}]}\"}', '预期结果': \"ResLimitList': {'18_20002000': {'UpperLimit': '2', 'LowerLimit': '1', 'DeadZoneValue': '0'}}\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
+    }, {
+      "name" : "test038最大值，10分钟颗粒度查询历史数据",
+      "uid" : "d747e0fdeb408f07",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610447450836,
+        "stop" : 1610447450961,
         "duration" : 125
       },
       "flaky" : false,
-      "parameters" : [ "{'用例ID': 'test042', '模块': '全局搜索', '接口名称': '平均值，一小时颗粒度查询历史数据', '请求URL': '/action.ashx?action=GetHistoryMonitor', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{particle:1,Unit:1,QueryType:\\'avg\\',StartTime:\\'2020-09-09 00:00:00\\',EndTime:\\'2020-09-09 10:51:59\\',DeviceId:1,SampleType:1,NumList:[\\'20002000\\']}\"}', '预期结果': \"Items': [{'ItemName': '模拟量点1', 'ItemValue': 10.0, 'Unit': 'V'}]\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': '', '备注': ''}" ]
+      "parameters" : [ "{'用例ID': 'test038', '模块': '全局搜索', '接口名称': '最大值，10分钟颗粒度查询历史数据', '请求URL': '/action.ashx?action=GetHistoryMonitor', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{particle:1,Unit:0,MinutesNum:10,QueryType:\\'max\\',StartTime:\\'2020-09-09 00:00:00\\',EndTime:\\'2020-09-09 09:51:59\\',DeviceId:1,SampleType:1,NumList:[\\'20002000\\']}\"}', '预期结果': \"Items': [{'ItemName': '模拟量点1', 'ItemValue': 10.0, 'Unit': 'V'}]\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
     }, {
-      "name" : "test043导出历史数据",
-      "uid" : "3c0bf9d0b184dd39",
-      "parentUid" : "44c5154d819ae51159370592cbde424a",
+      "name" : "test039平均值，一小时颗粒度查询历史数据",
+      "uid" : "17cc7424a035e973",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
       "status" : "passed",
       "time" : {
-        "start" : 1609726740017,
-        "stop" : 1609726740419,
-        "duration" : 402
+        "start" : 1610447450961,
+        "stop" : 1610447451039,
+        "duration" : 78
       },
       "flaky" : false,
-      "parameters" : [ "{'用例ID': 'test043', '模块': '全局搜索', '接口名称': '导出历史数据', '请求URL': '/action.ashx?action=ExportExcelMonitorHistory', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{particle:1,Unit:0,MinutesNum:10,StartTime:\\'2020-09-09 00:00\\',EndTime:\\'2020-09-09 11:05\\',DeviceId:1,SampleType:1,NumList:[\\'20002000\\']}\"}', '预期结果': \"status': 'success'\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': '', '备注': ''}" ]
+      "parameters" : [ "{'用例ID': 'test039', '模块': '全局搜索', '接口名称': '平均值，一小时颗粒度查询历史数据', '请求URL': '/action.ashx?action=GetHistoryMonitor', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{particle:1,Unit:1,QueryType:\\'avg\\',StartTime:\\'2020-09-09 00:00:00\\',EndTime:\\'2020-09-09 10:51:59\\',DeviceId:1,SampleType:1,NumList:[\\'20002000\\']}\"}', '预期结果': \"Items': [{'ItemName': '模拟量点1', 'ItemValue': 10.0, 'Unit': 'V'}]\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
     }, {
-      "name" : "test044导出数据",
-      "uid" : "74fb86218c7a9288",
-      "parentUid" : "44c5154d819ae51159370592cbde424a",
+      "name" : "test040导出历史数据",
+      "uid" : "78de879991bb4275",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
       "status" : "passed",
       "time" : {
-        "start" : 1609726740435,
-        "stop" : 1609726741075,
-        "duration" : 640
+        "start" : 1610447451055,
+        "stop" : 1610447451242,
+        "duration" : 187
       },
       "flaky" : false,
-      "parameters" : [ "{'用例ID': 'test044', '模块': '综合监控分析', '接口名称': '导出数据', '请求URL': '/action.ashx?action=ExportMonitorAnalyze', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{SystemId:1,SystemName:\\'配电自动化\\',AnalyzeType:2,AnalyzeTypeName:\\'设备指标类\\',IndexType:1,IndexTypeName:\\'总供冷量(kW)\\',SourceList:[{devType:\\'CODE1-1\\',devTypeName:\\'配电设备1\\'}],StartTime:\\'2020-09-09\\',EndTime:\\'2020-09-09\\',TimeGranule:0,DataType:0,RatioType:0}\"}', '预期结果': \"status': 'success'\", '实际结果': '', '是否运行': 'y', 'headers': '{\"Content-Type\": \\n\"application/x-www-form-urlencoded; charset=UTF-8\"}', 'cookies': '', '返回状态码': '200', '数据库验证': '', '备注': ''}" ]
+      "parameters" : [ "{'用例ID': 'test040', '模块': '全局搜索', '接口名称': '导出历史数据', '请求URL': '/action.ashx?action=ExportExcelMonitorHistory', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{particle:1,Unit:0,MinutesNum:10,StartTime:\\'2020-09-09 00:00\\',EndTime:\\'2020-09-09 11:05\\',DeviceId:1,SampleType:1,NumList:[\\'20002000\\']}\"}', '预期结果': \"status': 'success'\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
     }, {
-      "name" : "test045无效数据的告警查询",
-      "uid" : "e4fbbee2650051f6",
-      "parentUid" : "44c5154d819ae51159370592cbde424a",
+      "name" : "test041查询数据",
+      "uid" : "ae6379d8402570e7",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
       "status" : "passed",
       "time" : {
-        "start" : 1609726741091,
-        "stop" : 1609726741969,
-        "duration" : 878
+        "start" : 1610447451258,
+        "stop" : 1610447451508,
+        "duration" : 250
       },
       "flaky" : false,
-      "parameters" : [ "{'用例ID': 'test045', '模块': '告警查询', '接口名称': '无效数据的告警查询', '请求URL': '/action.ashx?action=GetAlarms', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{ObjName:\\'@@@@\\',IsAlarmPage:\\'alarm\\',StartTime:\\'2020-09-14 00:00\\',EndTime:\\'2020-09-14 16:59\\',PageSize:10,CampusIds:1001,PageIndex:1,SrcType:0,Flag:-1}\"}', '预期结果': \"ExceptionMsg': '没有数据', 'ActionName': '获取告警'\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': '', '备注': ''}" ]
+      "parameters" : [ "{'用例ID': 'test041', '模块': '综合监控分析', '接口名称': '查询数据', '请求URL': '/action.ashx?action=GetIndexPageConfChart', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{SystemId:1,SystemName:\\'配电自动化\\',AnalyzeType:2,AnalyzeTypeName:\\'设备指标类\\',IndexType:1,IndexTypeName:\\'总供冷量(kW)\\',SourceList:[{devType:\\'CODE1-13\\',devTypeName:\\'智能照明3\\'}],StartTime:\\'2021-01-12\\',EndTime:\\'2021-01-12\\',TimeGranule:0,DataType:0,RatioType:0}\"}', '预期结果': \"RowUnit': {'RowUnitList': {'对象CODE1-13': [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]}}\", '实际结果': '', '是否运行': 'y', 'headers': '{\"Content-Type\": \\n\"application/x-www-form-urlencoded; charset=UTF-8\"}', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
     }, {
-      "name" : "test046通过设备名称查询告警",
-      "uid" : "41cc88a41083d4e5",
-      "parentUid" : "44c5154d819ae51159370592cbde424a",
+      "name" : "test042导出数据",
+      "uid" : "241772ea645d730d",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
       "status" : "passed",
       "time" : {
-        "start" : 1609726741969,
-        "stop" : 1609726742594,
-        "duration" : 625
+        "start" : 1610447451524,
+        "stop" : 1610447451711,
+        "duration" : 187
       },
       "flaky" : false,
-      "parameters" : [ "{'用例ID': 'test046', '模块': '告警查询', '接口名称': '通过设备名称查询告警', '请求URL': '/action.ashx?action=GetAlarms', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{ObjName:\\'模拟量1\\',IsAlarmPage:\\'alarm\\',StartTime:\\'2020-09-14 00:00\\',EndTime:\\'2020-09-14 17:21\\',PageSize:10,CampusIds:1001,PageIndex:1,SrcType:0,Flag:-1}\"}', '预期结果': \"total': 1, 'current': 1, 'Count': 2\", '实际结果': '', '是否运行': 'y', 'headers': '{\"Content-Type\": \\n\"application/x-www-form-urlencoded; charset=UTF-8\"}', 'cookies': '', '返回状态码': '200', '数据库验证': '', '备注': ''}" ]
+      "parameters" : [ "{'用例ID': 'test042', '模块': '综合监控分析', '接口名称': '导出数据', '请求URL': '/action.ashx?action=ExportMonitorAnalyze', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{SystemId:1,SystemName:\\'配电自动化\\',AnalyzeType:2,AnalyzeTypeName:\\'设备指标类\\',IndexType:1,IndexTypeName:\\'总供冷量(kW)\\',SourceList:[{devType:\\'CODE1-13\\',devTypeName:\\'智能照明3\\'}],StartTime:\\'2021-01-01 00:00:00\\',EndTime:\\'2021-01-12 23:59:59\\',TimeGranule:1,DataType:0,RatioType:0}\"}', '预期结果': \"status': 'success'\", '实际结果': '', '是否运行': 'y', 'headers': '{\"Content-Type\": \\n\"application/x-www-form-urlencoded; charset=UTF-8\"}', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
     }, {
-      "name" : "test047查询等级为次要的告警记录",
-      "uid" : "4d59e157fb6de83f",
-      "parentUid" : "44c5154d819ae51159370592cbde424a",
+      "name" : "test043无效数据的告警查询",
+      "uid" : "226fe2ed2a09137c",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
       "status" : "passed",
       "time" : {
-        "start" : 1609726742594,
-        "stop" : 1609726743172,
-        "duration" : 578
-      },
-      "flaky" : false,
-      "parameters" : [ "{'用例ID': 'test047', '模块': '告警查询', '接口名称': '查询等级为次要的告警记录', '请求URL': '/action.ashx?action=GetAlarms', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{AlarmLevel:3,IsAlarmPage:\\'alarm\\',StartTime:\\'2020-09-14 00:00\\',EndTime:\\'2020-09-14 19:00\\',PageSize:10,CampusIds:1001,PageIndex:1,SrcType:0,Flag:-1}\"}', '预期结果': \"total': 1, 'current': 1, 'Count': 9\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': '', '备注': ''}" ]
-    }, {
-      "name" : "test048查询状态为正在告警的告警记录",
-      "uid" : "133bde6ce73ef928",
-      "parentUid" : "44c5154d819ae51159370592cbde424a",
-      "status" : "passed",
-      "time" : {
-        "start" : 1609726743172,
-        "stop" : 1609726743719,
-        "duration" : 547
-      },
-      "flaky" : false,
-      "parameters" : [ "{'用例ID': 'test048', '模块': '告警查询', '接口名称': '查询状态为正在告警的告警记录', '请求URL': '/action.ashx?action=GetAlarms', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{AlarmStatus:0,IsAlarmPage:\\'alarm\\',StartTime:\\'2020-09-14 00:00\\',EndTime:\\'2020-09-14 19:00\\',PageSize:10,CampusIds:1001,PageIndex:1,SrcType:0,Flag:-1}\"}', '预期结果': \"total': 1, 'current': 1, 'Count': 8\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': '', '备注': ''}" ]
-    }, {
-      "name" : "test049查询状态为已确认的告警记录",
-      "uid" : "a055fd7b00e4a4ce",
-      "parentUid" : "44c5154d819ae51159370592cbde424a",
-      "status" : "passed",
-      "time" : {
-        "start" : 1609726743719,
-        "stop" : 1609726744250,
-        "duration" : 531
-      },
-      "flaky" : false,
-      "parameters" : [ "{'用例ID': 'test049', '模块': '告警查询', '接口名称': '查询状态为已确认的告警记录', '请求URL': '/action.ashx?action=GetAlarms', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{AlarmStatus:1,IsAlarmPage:\\'alarm\\',StartTime:\\'2020-09-14 00:00\\',EndTime:\\'2020-09-14 19:00\\',PageSize:10,CampusIds:1001,PageIndex:1,SrcType:0,Flag:-1}\"}', '预期结果': \"total': 1, 'current': 1, 'Count': 1\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': '', '备注': ''}" ]
-    }, {
-      "name" : "test050用户未登录",
-      "uid" : "73212ecd87d1769d",
-      "parentUid" : "44c5154d819ae51159370592cbde424a",
-      "status" : "failed",
-      "time" : {
-        "start" : 1609726744266,
-        "stop" : 1609726744532,
-        "duration" : 266
-      },
-      "flaky" : false,
-      "parameters" : [ "{'用例ID': 'test050', '模块': '告警查询', '接口名称': '用户未登录', '请求URL': '/action.ashx?action=ExportSelectedAlarms', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{AlarmIds:[\\'e815175d-3051-4d8e-a52e-c97d498bed7e\\'],PageSize:10,PageIndex:1,AllAlarm:true,CampusIds:1001}\"}', '预期结果': \"Success': False, 'Msg': '登录超时，请重新登录'\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': '', '备注': ''}" ]
-    }, {
-      "name" : "test051选中导出告警记录",
-      "uid" : "dc4c6030477d7d8",
-      "parentUid" : "44c5154d819ae51159370592cbde424a",
-      "status" : "passed",
-      "time" : {
-        "start" : 1609726744563,
-        "stop" : 1609726748594,
-        "duration" : 4031
-      },
-      "flaky" : false,
-      "parameters" : [ "{'用例ID': 'test051', '模块': '告警查询', '接口名称': '选中导出告警记录', '请求URL': '/action.ashx?action=ExportSelectedAlarms', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{AlarmIds:[\\'e815175d-3051-4d8e-a52e-c97d498bed7e\\'],PageSize:10,PageIndex:1,AllAlarm:true,CampusIds:1001}\"}', '预期结果': \"ErrorCode': 0, 'Success': True\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '{\"userid\":\"admin\"}', '返回状态码': '200', '数据库验证': '', '备注': ''}" ]
-    }, {
-      "name" : "test052全部导出告警记录",
-      "uid" : "8f8eff0e630f019a",
-      "parentUid" : "44c5154d819ae51159370592cbde424a",
-      "status" : "passed",
-      "time" : {
-        "start" : 1609726748610,
-        "stop" : 1609726749235,
-        "duration" : 625
-      },
-      "flaky" : false,
-      "parameters" : [ "{'用例ID': 'test052', '模块': '告警查询', '接口名称': '全部导出告警记录', '请求URL': '/action.ashx?action=ExportSelectedAlarms', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{IsAlarmPage:\\'alarm\\',StartTime:\\'2020-09-14 00:00\\',EndTime:\\'2020-09-14 19:11\\',PageSize:10,CampusIds:1001,AllAlarm:true}\"}', '预期结果': \"ErrorCode': 0, 'Success': True\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '{\"userid\":\"admin\"}', '返回状态码': '200', '数据库验证': '', '备注': ''}" ]
-    }, {
-      "name" : "test053查看告警记录详情",
-      "uid" : "6468ebd475f44356",
-      "parentUid" : "44c5154d819ae51159370592cbde424a",
-      "status" : "passed",
-      "time" : {
-        "start" : 1609726749235,
-        "stop" : 1609726749719,
-        "duration" : 484
-      },
-      "flaky" : false,
-      "parameters" : [ "{'用例ID': 'test053', '模块': '告警查询', '接口名称': '查看告警记录详情', '请求URL': '/action.ashx?action=GetDevicePDRData', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{alarmId:\\'e815175d-3051-4d8e-a52e-c97d498bed7e\\'}\"}', '预期结果': \"Success': False, 'ExceptionMsg': '没有数据', 'ActionName': '获取告警曲线数据'\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '{\"userid\":\"admin\"}', '返回状态码': '200', '数据库验证': '', '备注': ''}" ]
-    }, {
-      "name" : "test054查看告警实时/历史数据",
-      "uid" : "11f207b5623d05da",
-      "parentUid" : "44c5154d819ae51159370592cbde424a",
-      "status" : "passed",
-      "time" : {
-        "start" : 1609726749719,
-        "stop" : 1609726749782,
-        "duration" : 63
-      },
-      "flaky" : false,
-      "parameters" : [ "{'用例ID': 'test054', '模块': '告警查询', '接口名称': '查看告警实时/历史数据', '请求URL': '/action.ashx?action=GetAlarmTablenum', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{Id:\\'e815175d-3051-4d8e-a52e-c97d498bed7e\\'}\"}', '预期结果': \"TableNum': 19, 'IsDeviceAlarm': '0'\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '{\"userid\":\"admin\"}', '返回状态码': '200', '数据库验证': '', '备注': ''}" ]
-    }, {
-      "name" : "test055告警类别为告警等级",
-      "uid" : "ee9c669953cf7958",
-      "parentUid" : "44c5154d819ae51159370592cbde424a",
-      "status" : "passed",
-      "time" : {
-        "start" : 1609726749797,
-        "stop" : 1609726750266,
-        "duration" : 469
-      },
-      "flaky" : false,
-      "parameters" : [ "{'用例ID': 'test055', '模块': '告警统计', '接口名称': '告警类别为告警等级', '请求URL': '/action.ashx?action=GetAlarmCountInfo', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{StartTime:\\'2020-08-15\\',EndTime:\\'2020-09-14\\',CampusInfo:1001,AlarmClass:0}\"}', '预期结果': \"{'AlarmType': 4, 'AlarmTypeName': '提示', 'Count': 0}\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '{\"userid\":\"admin\"}', '返回状态码': '200', '数据库验证': '', '备注': ''}" ]
-    }, {
-      "name" : "test056告警类别为告警类型",
-      "uid" : "9efd1754a223a2d7",
-      "parentUid" : "44c5154d819ae51159370592cbde424a",
-      "status" : "passed",
-      "time" : {
-        "start" : 1609726750266,
-        "stop" : 1609726750407,
-        "duration" : 141
-      },
-      "flaky" : false,
-      "parameters" : [ "{'用例ID': 'test056', '模块': '告警统计', '接口名称': '告警类别为告警类型', '请求URL': '/action.ashx?action=GetAlarmCountInfo', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{StartTime:\\'2020-08-15\\',EndTime:\\'2020-09-14\\',CampusInfo:1001,AlarmClass:1}\"}', '预期结果': \"{'NodeNo': '2', 'NodeName': '智能照明', 'MaxCount': 0, 'AlarmList': [], 'NodeList': []}\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '{\"userid\":\"admin\"}', '返回状态码': '200', '数据库验证': '', '备注': ''}" ]
-    }, {
-      "name" : "test057获取告警统计弹窗数据",
-      "uid" : "732a644a60d79391",
-      "parentUid" : "44c5154d819ae51159370592cbde424a",
-      "status" : "passed",
-      "time" : {
-        "start" : 1609726750407,
-        "stop" : 1609726750797,
+        "start" : 1610447451727,
+        "stop" : 1610447452117,
         "duration" : 390
       },
       "flaky" : false,
-      "parameters" : [ "{'用例ID': 'test057', '模块': '告警统计', '接口名称': '获取告警统计弹窗数据', '请求URL': '/action.ashx?action=GetAlarmsByAlarmCount', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{StartTime:\\'2020-08-15\\',EndTime:\\'2020-09-14\\',CampusInfo:1001,AlarmClass:0,PageIndex:1,PageSize:10,AlarmLevel:3,SysId:1}\"}', '预期结果': \"Success': True, 'ExceptionMsg': None, 'ActionName': '获取告警统计弹窗数据'\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '{\"userid\":\"admin\"}', '返回状态码': '200', '数据库验证': '', '备注': ''}" ]
+      "parameters" : [ "{'用例ID': 'test043', '模块': '告警查询', '接口名称': '无效数据的告警查询', '请求URL': '/action.ashx?action=GetAlarms', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{ObjName:\\'@@@@\\',IsAlarmPage:\\'alarm\\',StartTime:\\'2020-09-14 00:00\\',EndTime:\\'2020-09-14 16:59\\',PageSize:10,CampusIds:1001,PageIndex:1,SrcType:0,Flag:-1}\"}', '预期结果': \"ExceptionMsg': '没有数据', 'ActionName': '获取告警'\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
+    }, {
+      "name" : "test044通过设备名称查询告警",
+      "uid" : "aacfa50c7f698ac9",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610447452117,
+        "stop" : 1610447452524,
+        "duration" : 407
+      },
+      "flaky" : false,
+      "parameters" : [ "{'用例ID': 'test044', '模块': '告警查询', '接口名称': '通过设备名称查询告警', '请求URL': '/action.ashx?action=GetAlarms', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{ObjName:\\'模拟量1\\',IsAlarmPage:\\'alarm\\',StartTime:\\'2020-09-14 00:00\\',EndTime:\\'2020-09-14 17:21\\',PageSize:10,CampusIds:1001,PageIndex:1,SrcType:0,Flag:-1}\"}', '预期结果': \"total': 1, 'current': 1, 'Count': 2\", '实际结果': '', '是否运行': 'y', 'headers': '{\"Content-Type\": \\n\"application/x-www-form-urlencoded; charset=UTF-8\"}', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
+    }, {
+      "name" : "test045查询等级为次要的告警记录",
+      "uid" : "7542339c544dd295",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610447452539,
+        "stop" : 1610447452867,
+        "duration" : 328
+      },
+      "flaky" : false,
+      "parameters" : [ "{'用例ID': 'test045', '模块': '告警查询', '接口名称': '查询等级为次要的告警记录', '请求URL': '/action.ashx?action=GetAlarms', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{AlarmLevel:3,IsAlarmPage:\\'alarm\\',StartTime:\\'2020-09-14 00:00\\',EndTime:\\'2020-09-14 19:00\\',PageSize:10,CampusIds:1001,PageIndex:1,SrcType:0,Flag:-1}\"}', '预期结果': \"total': 1, 'current': 1, 'Count': 9\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
+    }, {
+      "name" : "test046查询状态为正在告警的告警记录",
+      "uid" : "5d2afd38595afa10",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610447452867,
+        "stop" : 1610447453195,
+        "duration" : 328
+      },
+      "flaky" : false,
+      "parameters" : [ "{'用例ID': 'test046', '模块': '告警查询', '接口名称': '查询状态为正在告警的告警记录', '请求URL': '/action.ashx?action=GetAlarms', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{AlarmStatus:0,IsAlarmPage:\\'alarm\\',StartTime:\\'2020-09-14 00:00\\',EndTime:\\'2020-09-14 19:00\\',PageSize:10,CampusIds:1001,PageIndex:1,SrcType:0,Flag:-1}\"}', '预期结果': \"total': 1, 'current': 1, 'Count': 8\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
+    }, {
+      "name" : "test047查询状态为已确认的告警记录",
+      "uid" : "4370949070bba983",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610447453195,
+        "stop" : 1610447453383,
+        "duration" : 188
+      },
+      "flaky" : false,
+      "parameters" : [ "{'用例ID': 'test047', '模块': '告警查询', '接口名称': '查询状态为已确认的告警记录', '请求URL': '/action.ashx?action=GetAlarms', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{AlarmStatus:1,IsAlarmPage:\\'alarm\\',StartTime:\\'2020-09-14 00:00\\',EndTime:\\'2020-09-14 19:00\\',PageSize:10,CampusIds:1001,PageIndex:1,SrcType:0,Flag:-1}\"}', '预期结果': \"total': 1, 'current': 1, 'Count': 1\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
+    }, {
+      "name" : "test048用户未登录",
+      "uid" : "245b9fd24676b176",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610447453383,
+        "stop" : 1610447453445,
+        "duration" : 62
+      },
+      "flaky" : false,
+      "parameters" : [ "{'用例ID': 'test048', '模块': '告警查询', '接口名称': '用户未登录', '请求URL': '/action.ashx?action=ExportSelectedAlarms', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{AlarmIds:[\\'e815175d-3051-4d8e-a52e-c97d498bed7e\\'],PageSize:10,PageIndex:1,AllAlarm:true,CampusIds:1001}\"}', '预期结果': \"Success': False, 'ExceptionMsg': '登录超时，请重新登录'\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
+    }, {
+      "name" : "test049选中导出告警记录",
+      "uid" : "fc45ac3e47533308",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610447453461,
+        "stop" : 1610447453742,
+        "duration" : 281
+      },
+      "flaky" : false,
+      "parameters" : [ "{'用例ID': 'test049', '模块': '告警查询', '接口名称': '选中导出告警记录', '请求URL': '/action.ashx?action=ExportSelectedAlarms', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{AlarmIds:[\\'e815175d-3051-4d8e-a52e-c97d498bed7e\\'],PageSize:10,PageIndex:1,AllAlarm:true,CampusIds:1001}\"}', '预期结果': \"ErrorCode': 0, 'Success': True\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '{\"userid\":\"admin\"}', '返回状态码': '200', '数据库验证': ''}" ]
+    }, {
+      "name" : "test050全部导出告警记录",
+      "uid" : "e4c3c507fa49bc4",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610447453742,
+        "stop" : 1610447454070,
+        "duration" : 328
+      },
+      "flaky" : false,
+      "parameters" : [ "{'用例ID': 'test050', '模块': '告警查询', '接口名称': '全部导出告警记录', '请求URL': '/action.ashx?action=ExportSelectedAlarms', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{IsAlarmPage:\\'alarm\\',StartTime:\\'2020-09-14 00:00\\',EndTime:\\'2020-09-14 19:11\\',PageSize:10,CampusIds:1001,AllAlarm:true}\"}', '预期结果': \"ErrorCode': 0, 'Success': True\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '{\"userid\":\"admin\"}', '返回状态码': '200', '数据库验证': ''}" ]
+    }, {
+      "name" : "test051查看告警记录详情",
+      "uid" : "5dd4342d330133e9",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610447454086,
+        "stop" : 1610447454117,
+        "duration" : 31
+      },
+      "flaky" : false,
+      "parameters" : [ "{'用例ID': 'test051', '模块': '告警查询', '接口名称': '查看告警记录详情', '请求URL': '/action.ashx?action=GetDevicePDRData', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{alarmId:\\'e815175d-3051-4d8e-a52e-c97d498bed7e\\'}\"}', '预期结果': \"Success': False, 'ExceptionMsg': '没有数据', 'ActionName': '获取告警曲线数据'\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '{\"userid\":\"admin\"}', '返回状态码': '200', '数据库验证': ''}" ]
+    }, {
+      "name" : "test052查看告警实时/历史数据",
+      "uid" : "feeb9c8512eabefc",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610447454133,
+        "stop" : 1610447454180,
+        "duration" : 47
+      },
+      "flaky" : false,
+      "parameters" : [ "{'用例ID': 'test052', '模块': '告警查询', '接口名称': '查看告警实时/历史数据', '请求URL': '/action.ashx?action=GetAlarmTablenum', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{Id:\\'e815175d-3051-4d8e-a52e-c97d498bed7e\\'}\"}', '预期结果': \"TableNum': 19, 'IsDeviceAlarm': '0'\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '{\"userid\":\"admin\"}', '返回状态码': '200', '数据库验证': ''}" ]
+    }, {
+      "name" : "test053告警类别为告警等级",
+      "uid" : "d555820ea9b95a1d",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610447454180,
+        "stop" : 1610447454274,
+        "duration" : 94
+      },
+      "flaky" : false,
+      "parameters" : [ "{'用例ID': 'test053', '模块': '告警统计', '接口名称': '告警类别为告警等级', '请求URL': '/action.ashx?action=GetAlarmCountInfo', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{StartTime:\\'2020-08-15\\',EndTime:\\'2020-09-14\\',CampusInfo:1001,AlarmClass:0}\"}', '预期结果': \"{'AlarmType': 4, 'AlarmTypeName': '提示', 'Count': 0}\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '{\"userid\":\"admin\"}', '返回状态码': '200', '数据库验证': ''}" ]
+    }, {
+      "name" : "test054告警类别为告警类型",
+      "uid" : "12d4cb578f2cb506",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610447454305,
+        "stop" : 1610447454399,
+        "duration" : 94
+      },
+      "flaky" : false,
+      "parameters" : [ "{'用例ID': 'test054', '模块': '告警统计', '接口名称': '告警类别为告警类型', '请求URL': '/action.ashx?action=GetAlarmCountInfo', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{StartTime:\\'2020-08-15\\',EndTime:\\'2020-09-14\\',CampusInfo:1001,AlarmClass:1}\"}', '预期结果': \"{'NodeNo': '2', 'NodeName': '智能照明', 'MaxCount': 0, 'AlarmList': [], 'NodeList': []}\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '{\"userid\":\"admin\"}', '返回状态码': '200', '数据库验证': ''}" ]
+    }, {
+      "name" : "test055获取告警统计弹窗数据",
+      "uid" : "aa4876ab6d987cdd",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610447454414,
+        "stop" : 1610447454492,
+        "duration" : 78
+      },
+      "flaky" : false,
+      "parameters" : [ "{'用例ID': 'test055', '模块': '告警统计', '接口名称': '获取告警统计弹窗数据', '请求URL': '/action.ashx?action=GetAlarmsByAlarmCount', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{StartTime:\\'2020-08-15\\',EndTime:\\'2020-09-14\\',CampusInfo:1001,AlarmClass:0,PageIndex:1,PageSize:10,AlarmLevel:3,SysId:1}\"}', '预期结果': \"DeviceName': '设备2', 'AlarmObjName': '模拟量点1', 'AlarmContent': '模拟量1 置数5成功'\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '{\"userid\":\"admin\"}', '返回状态码': '200', '数据库验证': ''}" ]
+    }, {
+      "name" : "test056新增实时告警类(越下限)",
+      "uid" : "42d3d07d55599b03",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610447454508,
+        "stop" : 1610447454602,
+        "duration" : 94
+      },
+      "flaky" : false,
+      "parameters" : [ "{'用例ID': 'test056', '模块': '基础公式配置\\n(实时告警类)', '接口名称': '新增实时告警类(越下限)', '请求URL': '/admin/action.ashx?prefix=admin&action=AddMonitorIndexFormula', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{IndexFormulaList:[{OprationType:0,ID:null,\\'SystemId\\':1,FormulaName:\\'配电自动化(1)1设备1：越下限\\',AnalyzeType:5,SourceName:\\'\\',SourceID:1,IndexType:\\'405\\',IndexFormula:\\'YC_20002000=10\\',FormulaParm:0,IsExeute:1,isPushEAM:0,BounceTime:15,ClassType:0,Ext:\\'{\\\\\"StartTime\\\\\":\\\\\"00:00:00\\\\\",\\\\\"EndTime\\\\\":\\\\\"23:59:59\\\\\",\\\\\"EndDate\\\\\":\\\\\"same\\\\\"}\\',Description:\\'测试告警\\',UpdateTime:\\'2020-12-31 10:24:51\\'}]}\"}', '预期结果': \"IsSucess': True\", '实际结果': '', '是否运行': 'y', 'headers': '{\"Content-Type\":\"application/x-www-form-urlencoded;charset=UTF-8\",\"Accept-Language\":\"zh-CN,zh;q=0.9\"}', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
+    }, {
+      "name" : "test057新增实时告警类(越上限)",
+      "uid" : "7eeee08f9dd54a9f",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610447454617,
+        "stop" : 1610447454711,
+        "duration" : 94
+      },
+      "flaky" : false,
+      "parameters" : [ "{'用例ID': 'test057', '模块': '基础公式配置\\n(实时告警类)', '接口名称': '新增实时告警类(越上限)', '请求URL': '/admin/action.ashx?prefix=admin&action=AddMonitorIndexFormula', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{IndexFormulaList:[{OprationType:0,ID:null,\\'SystemId\\':1,FormulaName:\\'配电自动化(1)1设备1：越上限\\',AnalyzeType:5,SourceName:\\'\\',SourceID:1,IndexType:\\'405\\',IndexFormula:\\'YC_20002000=10\\',FormulaParm:0,IsExeute:1,isPushEAM:0,BounceTime:15,ClassType:0,Ext:\\'{\\\\\"StartTime\\\\\":\\\\\"00:00:00\\\\\",\\\\\"EndTime\\\\\":\\\\\"23:59:59\\\\\",\\\\\"EndDate\\\\\":\\\\\"same\\\\\"}\\',Description:\\'测试告警\\',UpdateTime:\\'2020-12-31 10:24:51\\'}]}\"}', '预期结果': \"IsSucess': True\", '实际结果': '', '是否运行': 'y', 'headers': '{\"Content-Type\":\"application/x-www-form-urlencoded;charset=UTF-8\",\"Accept-Language\":\"zh-CN,zh;q=0.9\"}', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
+    }, {
+      "name" : "test058新增实时告警类(告警事件)",
+      "uid" : "9bb18eac1a3bc578",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610447454711,
+        "stop" : 1610447454805,
+        "duration" : 94
+      },
+      "flaky" : false,
+      "parameters" : [ "{'用例ID': 'test058', '模块': '基础公式配置\\n(实时告警类)', '接口名称': '新增实时告警类(告警事件)', '请求URL': '/admin/action.ashx?prefix=admin&action=AddMonitorIndexFormula', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{IndexFormulaList:[{OprationType:0,ID:null,\\'SystemId\\':1,FormulaName:\\'配电自动化(1)1设备1：告警事件\\',AnalyzeType:5,SourceName:\\'\\',SourceID:1,IndexType:\\'401\\',IndexFormula:\\'YC_20002000=10\\',FormulaParm:0,IsExeute:1,isPushEAM:0,BounceTime:15,ClassType:0,Ext:\\'{\\\\\"StartTime\\\\\":\\\\\"00:00:00\\\\\",\\\\\"EndTime\\\\\":\\\\\"23:59:59\\\\\",\\\\\"EndDate\\\\\":\\\\\"same\\\\\"}\\',Description:\\'测试告警\\',UpdateTime:\\'2020-12-31 10:24:51\\'}]}\"}', '预期结果': \"IsSucess': True\", '实际结果': '', '是否运行': 'y', 'headers': '{\"Content-Type\":\"application/x-www-form-urlencoded;charset=UTF-8\",\"Accept-Language\":\"zh-CN,zh;q=0.9\"}', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
+    }, {
+      "name" : "test059校验是否新增成功",
+      "uid" : "2f334109e96c40ef",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610447454805,
+        "stop" : 1610447454867,
+        "duration" : 62
+      },
+      "flaky" : false,
+      "parameters" : [ "{'用例ID': 'test059', '模块': '基础公式配置\\n(实时告警类)', '接口名称': '校验是否新增成功', '请求URL': '/admin/action.ashx?prefix=admin&action=GetMonitorIndexFormulaList', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{SubSystemId:1,AnalyzeType:5,FormulaName:\\'\\',PageSize:10,PageCurrent:1}\"}', '预期结果': \"SystemName': '配电自动化', 'FormulaName': '配电自动化(1)1设备1：越下限'\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
+    }, {
+      "name" : "test060重复提交，新增失败",
+      "uid" : "82771533501440e2",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610447454867,
+        "stop" : 1610447454930,
+        "duration" : 63
+      },
+      "flaky" : false,
+      "parameters" : [ "{'用例ID': 'test060', '模块': '基础公式配置\\n(实时告警类)', '接口名称': '重复提交，新增失败', '请求URL': '/admin/action.ashx?prefix=admin&action=AddMonitorIndexFormula', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"inputs\":\"{IndexFormulaList:[{OprationType:0,ID:null,\\'SystemId\\':1,FormulaName:\\'配电自动化(1)1设备1：越下限\\',AnalyzeType:5,SourceName:\\'\\',SourceID:1,IndexType:\\'404\\',IndexFormula:\\'YC_20002000=10\\',FormulaParm:0,IsExeute:1,isPushEAM:0,BounceTime:15,ClassType:0,Ext:\\'{\\\\\"StartTime\\\\\":\\\\\"00:00:00\\\\\",\\\\\"EndTime\\\\\":\\\\\"23:59:59\\\\\",\\\\\"EndDate\\\\\":\\\\\"same\\\\\"}\\',Description:\\'测试告警\\',UpdateTime:\\'2020-12-31 10:24:51\\'}]}\"}', '预期结果': \"IsSucess': False\", '实际结果': '', '是否运行': 'y', 'headers': '{\"Content-Type\":\"application/x-www-form-urlencoded;charset=UTF-8\",\"Accept-Language\":\"zh-CN,zh;q=0.9\"}', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
+    }, {
+      "name" : "test061实时告警类名称精确查询",
+      "uid" : "dd568640841a8b55",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610447454945,
+        "stop" : 1610447454992,
+        "duration" : 47
+      },
+      "flaky" : false,
+      "parameters" : [ "{'用例ID': 'test061', '模块': '基础公式配置\\n(实时告警类)', '接口名称': '实时告警类名称精确查询', '请求URL': '/admin/action.ashx?prefix=admin&action=GetMonitorIndexFormulaList', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{FormulaName:\\'配电自动化\\',PageSize:10,PageCurrent:1,AnalyzeType:5}\"}', '预期结果': \"Page': {'Current': 1, 'Total': 3}\", '实际结果': '', '是否运行': 'y', 'headers': '{\"Content-Type\": \\n\"application/x-www-form-urlencoded; charset=UTF-8\"}', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
+    }, {
+      "name" : "test062查询无效的告警类",
+      "uid" : "853a0b34c5eb295",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610447454992,
+        "stop" : 1610447455039,
+        "duration" : 47
+      },
+      "flaky" : false,
+      "parameters" : [ "{'用例ID': 'test062', '模块': '基础公式配置\\n(实时告警类)', '接口名称': '查询无效的告警类', '请求URL': '/admin/action.ashx?prefix=admin&action=GetMonitorIndexFormulaList', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{FormulaName:\\'@@@\\',PageSize:10,PageCurrent:1,AnalyzeType:5}\"}', '预期结果': \"Page': {'Current': 1, 'Total': 0}\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
+    }, {
+      "name" : "test063修改实时告警类信息",
+      "uid" : "94e05d607350fdbd",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610447455055,
+        "stop" : 1610447455149,
+        "duration" : 94
+      },
+      "flaky" : false,
+      "parameters" : [ "{'用例ID': 'test063', '模块': '基础公式配置\\n(实时告警类)', '接口名称': '修改实时告警类信息', '请求URL': '/admin/action.ashx?prefix=admin&action=UpdateMonitorIndexFormula', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"inputs\":\"{IndexFormulaList:[{OprationType:1,ID:3,SystemId:1,FormulaName:\\'配电自动化(1)1设备1：告警事件\\',AnalyzeType:5,SourceID:1,IndexType:\\'401\\',IndexFormula:\\'YC_20002000=10\\',FormulaParm:0,IsExeute:1,isPushEAM:0,BounceTime:15,ClassType:0,Ext:\\'{\\\\\"StartTime\\\\\":\\\\\"00:00:00\\\\\",\\\\\"EndTime\\\\\":\\\\\"23:59:59\\\\\",\\\\\"EndDate\\\\\":\\\\\"same\\\\\"}\\',Description:\\'测试告警\\',UpdateTime:\\'2020-12-31 11:26:6\\'}]}\"}', '预期结果': \"IsSucess': True\", '实际结果': '', '是否运行': 'y', 'headers': '{\"Content-Type\":\"application/x-www-form-urlencoded;charset=UTF-8\",\"Accept-Language\":\"zh-CN,zh;q=0.9\"}', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
+    }, {
+      "name" : "test064删除实时告警类",
+      "uid" : "49a1967da209e0b1",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610447455164,
+        "stop" : 1610447455211,
+        "duration" : 47
+      },
+      "flaky" : false,
+      "parameters" : [ "{'用例ID': 'test064', '模块': '基础公式配置\\n(实时告警类)', '接口名称': '删除实时告警类', '请求URL': '/admin/action.ashx?prefix=admin&action=DeleteMonitorIndexFormula', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"inputs\":\"{IndexFormulaList:[{OprationType:2,ID:3,SystemId:null,FormulaName:null,AnalyzeType:null,SourceID:0,IndexType:null,IndexFormula:null,FormulaParm:null,IsExeute:1,Description:null}]}\"}', '预期结果': \"IsSucess': True\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
+    }, {
+      "name" : "test065新增设备指标类(供冷量)",
+      "uid" : "7d138e9b681be206",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610447455227,
+        "stop" : 1610447455305,
+        "duration" : 78
+      },
+      "flaky" : false,
+      "parameters" : [ "{'用例ID': 'test065', '模块': '基础公式配置\\n(设备指标类)', '接口名称': '新增设备指标类(供冷量)', '请求URL': '/admin/action.ashx?prefix=admin&action=AddMonitorIndexFormula', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"inputs\":\"{IndexFormulaList:[{OprationType:0,ID:null,SystemId:1,FormulaName:\\'智能照明3(CODE1-13)总供冷量(kW)\\',AnalyzeType:2,SourceName:\\'智能照明3(CODE1-13)\\',SourceID:\\'CODE1-13\\',IndexType:1,IndexFormula:\\'YC_20026000=10\\',FormulaParm:0,IsExeute:1,isPushEAM:null,BounceTime:null,ClassType:null,Ext:\\'\\',Description:\\'\\',UpdateTime:\\'2020-12-31 16:7:11\\'}]}\"}', '预期结果': \"IsSucess': True\", '实际结果': '', '是否运行': 'y', 'headers': '{\"Content-Type\":\"application/x-www-form-urlencoded;charset=UTF-8\",\"Accept-Language\":\"zh-CN,zh;q=0.9\"}', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
+    }, {
+      "name" : "test066新增设备指标类(排热量)",
+      "uid" : "d4e7399f1049da0b",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610447455320,
+        "stop" : 1610447455414,
+        "duration" : 94
+      },
+      "flaky" : false,
+      "parameters" : [ "{'用例ID': 'test066', '模块': '基础公式配置\\n(设备指标类)', '接口名称': '新增设备指标类(排热量)', '请求URL': '/admin/action.ashx?prefix=admin&action=AddMonitorIndexFormula', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"inputs\":\"{IndexFormulaList:[{OprationType:0,ID:null,SystemId:1,FormulaName:\\'智能照明6(CODE1-16)总供冷量(kW)\\',AnalyzeType:2,SourceName:\\'智能照明6(CODE1-16)\\',SourceID:\\'CODE1-16\\',IndexType:2,IndexFormula:\\'YC_20026000=10\\',FormulaParm:0,IsExeute:1,isPushEAM:null,BounceTime:null,ClassType:null,Ext:\\'\\',Description:\\'\\',UpdateTime:\\'2020-12-31 16:7:11\\'}]}\"}', '预期结果': \"IsSucess': True\", '实际结果': '', '是否运行': 'y', 'headers': '{\"Content-Type\":\"application/x-www-form-urlencoded;charset=UTF-8\",\"Accept-Language\":\"zh-CN,zh;q=0.9\"}', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
+    }, {
+      "name" : "test067重复提交，新增失败",
+      "uid" : "e50aa2b27e7e3889",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610447455430,
+        "stop" : 1610447455477,
+        "duration" : 47
+      },
+      "flaky" : false,
+      "parameters" : [ "{'用例ID': 'test067', '模块': '基础公式配置\\n(设备指标类)', '接口名称': '重复提交，新增失败', '请求URL': '/admin/action.ashx?prefix=admin&action=AddMonitorIndexFormula', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"inputs\":\"{IndexFormulaList:[{OprationType:0,ID:null,SystemId:1,FormulaName:\\'智能照明3(CODE1-13)总供冷量(kW)\\',AnalyzeType:2,SourceName:\\'智能照明3(CODE1-13)\\',SourceID:\\'CODE1-13\\',IndexType:1,IndexFormula:\\'YC_20026000=10\\',FormulaParm:0,IsExeute:1,isPushEAM:null,BounceTime:null,ClassType:null,Ext:\\'\\',Description:\\'\\',UpdateTime:\\'2020-12-31 16:7:11\\'}]}\"}', '预期结果': \"IsSucess': False\", '实际结果': '', '是否运行': 'y', 'headers': '{\"Content-Type\":\"application/x-www-form-urlencoded;charset=UTF-8\",\"Accept-Language\":\"zh-CN,zh;q=0.9\"}', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
+    }, {
+      "name" : "test068校验是否新增成功",
+      "uid" : "796e1548ebcd2900",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610447455492,
+        "stop" : 1610447455539,
+        "duration" : 47
+      },
+      "flaky" : false,
+      "parameters" : [ "{'用例ID': 'test068', '模块': '基础公式配置\\n(设备指标类)', '接口名称': '校验是否新增成功', '请求URL': '/admin/action.ashx?prefix=admin&action=GetMonitorIndexFormulaList', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{FormulaName:\\'\\',PageSize:10,PageCurrent:1,AnalyzeType:2}\"}', '预期结果': \"Page': {'Current': 1, 'Total': 2}\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
+    }, {
+      "name" : "test069设备指标类名称精确查询",
+      "uid" : "35195f33027b9fce",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610447455555,
+        "stop" : 1610447455602,
+        "duration" : 47
+      },
+      "flaky" : false,
+      "parameters" : [ "{'用例ID': 'test069', '模块': '基础公式配置\\n(设备指标类)', '接口名称': '设备指标类名称精确查询', '请求URL': '/admin/action.ashx?prefix=admin&action=GetMonitorIndexFormulaList', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"inputs\":\"{FormulaName:\\'智能照明\\',PageSize:10,PageCurrent:1,AnalyzeType:2}\"}', '预期结果': \"SystemName': '配电自动化', 'FormulaName': '智能照明3(CODE1-13)总供冷量(kW)'\", '实际结果': '', '是否运行': 'y', 'headers': '{\"Content-Type\": \\n\"application/x-www-form-urlencoded; charset=UTF-8\"}', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
+    }, {
+      "name" : "test070查询无效设备指标类",
+      "uid" : "454db81d104f5a1b",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610447455617,
+        "stop" : 1610447455664,
+        "duration" : 47
+      },
+      "flaky" : false,
+      "parameters" : [ "{'用例ID': 'test070', '模块': '基础公式配置\\n(设备指标类)', '接口名称': '查询无效设备指标类', '请求URL': '/admin/action.ashx?prefix=admin&action=GetMonitorIndexFormulaList', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{FormulaName:\\'@@@\\',PageSize:10,PageCurrent:1,AnalyzeType:2}\"}', '预期结果': \"Page': {'Current': 1, 'Total': 0}\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
+    }, {
+      "name" : "test071修改设备指标信息",
+      "uid" : "2c38fb149bcc8095",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610447455680,
+        "stop" : 1610447455774,
+        "duration" : 94
+      },
+      "flaky" : false,
+      "parameters" : [ "{'用例ID': 'test071', '模块': '基础公式配置\\n(设备指标类)', '接口名称': '修改设备指标信息', '请求URL': '/admin/action.ashx?prefix=admin&action=UpdateMonitorIndexFormula', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"inputs\":\"{IndexFormulaList:[{OprationType:1,ID:5,SystemId:1,FormulaName:\\'智能照明6(CODE1-16)总供冷量(kW)\\',AnalyzeType:2,SourceID:\\'CODE1-16\\',IndexType:2,IndexFormula:\\'YC_20026000=20\\',FormulaParm:0,IsExeute:1,isPushEAM:null,BounceTime:null,ClassType:null,Ext:\\'{\\\\\"StartTime\\\\\":\\\\\"00:00:00\\\\\",\\\\\"EndTime\\\\\":\\\\\"23:59:59\\\\\",\\\\\"EndDate\\\\\":\\\\\"same\\\\\"}\\',Description:\\'\\',UpdateTime:\\'2020-12-31 16:20:21\\'}]}\"}', '预期结果': \"IsSucess': True\", '实际结果': '', '是否运行': 'y', 'headers': '{\"Content-Type\":\"application/x-www-form-urlencoded;charset=UTF-8\",\"Accept-Language\":\"zh-CN,zh;q=0.9\"}', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
+    }, {
+      "name" : "test072删除设备指标信息",
+      "uid" : "b7072d22274be1c9",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610447455789,
+        "stop" : 1610447455836,
+        "duration" : 47
+      },
+      "flaky" : false,
+      "parameters" : [ "{'用例ID': 'test072', '模块': '基础公式配置\\n(设备指标类)', '接口名称': '删除设备指标信息', '请求URL': '/admin/action.ashx?prefix=admin&action=DeleteMonitorIndexFormula', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"inputs\":\"{IndexFormulaList:[{OprationType:2,ID:5,SystemId:null,FormulaName:null,AnalyzeType:null,SourceID:0,IndexType:null,IndexFormula:null,FormulaParm:null,IsExeute:1,Description:null}]}\"}', '预期结果': \"ExceptionMeg': '删除成功！'\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
+    }, {
+      "name" : "test073编辑计算公式",
+      "uid" : "65489f4f0442a93",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610447455836,
+        "stop" : 1610447455883,
+        "duration" : 47
+      },
+      "flaky" : false,
+      "parameters" : [ "{'用例ID': 'test073', '模块': '基础公式配置\\n(系统联动类)', '接口名称': '编辑计算公式', '请求URL': '/admin/action.ashx?prefix=admin&action=GetFormulaStation', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{PrimaryDeviceNo:\\'\\',SearchInfo:\\'\\'}\"}', '预期结果': \"StationList': [{'StationId': 0, 'StationName': '管理机厂站'}, {'StationId': 1, 'StationName': '前置厂站1'}, {'StationId': 8, 'StationName': 'PLC'}]\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
+    }, {
+      "name" : "test074获取设备信息",
+      "uid" : "963438335980b79b",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610447455899,
+        "stop" : 1610447455961,
+        "duration" : 62
+      },
+      "flaky" : false,
+      "parameters" : [ "{'用例ID': 'test074', '模块': '基础公式配置\\n(系统联动类)', '接口名称': '获取设备信息', '请求URL': '/admin/action.ashx?prefix=admin&action=GetFormulaDevice', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{PrimaryDeviceNo:\\'\\',StationId:1,SearchInfo:\\'\\'}\"}', '预期结果': \"{'DeviceId': 300, 'DeviceName': '1设备300：'}\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
+    }, {
+      "name" : "test075获取点位信息",
+      "uid" : "763773d2906351c3",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610447455961,
+        "stop" : 1610447456024,
+        "duration" : 63
+      },
+      "flaky" : false,
+      "parameters" : [ "{'用例ID': 'test075', '模块': '基础公式配置\\n(系统联动类)', '接口名称': '获取点位信息', '请求URL': '/admin/action.ashx?prefix=admin&action=GetFormulaPoint', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{PrimaryDeviceNo:\\'\\',DeviceId:1,SearchInfo:\\'\\'}\"}', '预期结果': \"{'PointId': 20002014, 'PointType': 20, 'PointTypeName': '脉冲量', 'PointName': '脉冲量点15'}\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
+    }, {
+      "name" : "test076新增公式(系统联动1)",
+      "uid" : "e62f929160b18b6f",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610447456024,
+        "stop" : 1610447456133,
+        "duration" : 109
+      },
+      "flaky" : false,
+      "parameters" : [ "{'用例ID': 'test076', '模块': '基础公式配置\\n(系统联动类)', '接口名称': '新增公式(系统联动1)', '请求URL': '/admin/action.ashx?prefix=admin&action=AddMonitorIndexFormula', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{IndexFormulaList:[{OprationType:0,ID:null,SystemId:1,FormulaName:\\'配电自动化系统联动5\\',AnalyzeType:6,SourceName:\\'\\',SourceID:1,IndexType:301,IndexFormula:\\'YC_20002000=20\\',FormulaParm:0,IsExeute:1,isPushEAM:null,BounceTime:null,ClassType:null,Ext:\\'\\',Description:\\'\\',UpdateTime:\\'2020-12-17 18:47:17\\'}]}\"}', '预期结果': \"IsSucess': True\", '实际结果': '', '是否运行': 'y', 'headers': '{\"Content-Type\":\"application/x-www-form-urlencoded;charset=UTF-8\",\"Accept-Language\":\"zh-CN,zh;q=0.9\"}', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
+    }, {
+      "name" : "test077新增公式(系统联动2)",
+      "uid" : "a101289219738554",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610447456133,
+        "stop" : 1610447456242,
+        "duration" : 109
+      },
+      "flaky" : false,
+      "parameters" : [ "{'用例ID': 'test077', '模块': '基础公式配置\\n(系统联动类)', '接口名称': '新增公式(系统联动2)', '请求URL': '/admin/action.ashx?prefix=admin&action=AddMonitorIndexFormula', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{IndexFormulaList:[{OprationType:0,ID:null,SystemId:1,FormulaName:\\'配电自动化系统联动\\',AnalyzeType:6,SourceName:\\'\\',SourceID:1,IndexType:301,IndexFormula:\\'YC_20002000=10\\',FormulaParm:0,IsExeute:1,isPushEAM:null,BounceTime:null,ClassType:null,Ext:\\'\\',Description:\\'\\',UpdateTime:\\'2020-12-17 18:47:17\\'}]}\"}', '预期结果': \"IsSucess': True\", '实际结果': '', '是否运行': 'y', 'headers': '{\"Content-Type\":\"application/x-www-form-urlencoded;charset=UTF-8\",\"Accept-Language\":\"zh-CN,zh;q=0.9\"}', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
+    }, {
+      "name" : "test078新增公式(告警联动)",
+      "uid" : "52f1c12db6483ff6",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610447456258,
+        "stop" : 1610447456352,
+        "duration" : 94
+      },
+      "flaky" : false,
+      "parameters" : [ "{'用例ID': 'test078', '模块': '基础公式配置\\n(系统联动类)', '接口名称': '新增公式(告警联动)', '请求URL': '/admin/action.ashx?prefix=admin&action=AddMonitorIndexFormula', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{IndexFormulaList:[{OprationType:0,ID:null,SystemId:1,FormulaName:\\'配电自动化告警联动\\',AnalyzeType:6,SourceName:\\'\\',SourceID:1,IndexType:302,IndexFormula:\\'(YC_20004000+1)\\',FormulaParm:0,IsExeute:1,isPushEAM:null,BounceTime:null,ClassType:null,Ext:\\'\\',Description:\\'\\',UpdateTime:\\'2020-12-17 18:47:17\\'}]}\"}', '预期结果': '', '实际结果': '', '是否运行': 'y', 'headers': '{\"Content-Type\":\"application/x-www-form-urlencoded;charset=UTF-8\",\"Accept-Language\":\"zh-CN,zh;q=0.9\"}', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
+    }, {
+      "name" : "test079公式编辑错误，新增失败",
+      "uid" : "fdf47b5091205261",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610447456367,
+        "stop" : 1610447456399,
+        "duration" : 32
+      },
+      "flaky" : false,
+      "parameters" : [ "{'用例ID': 'test079', '模块': '基础公式配置\\n(系统联动类)', '接口名称': '公式编辑错误，新增失败', '请求URL': '/admin/action.ashx?prefix=admin&action=AddMonitorIndexFormula', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{IndexFormulaList:[{OprationType:0,ID:null,SystemId:1,FormulaName:\\'配电自动化告警联动\\',AnalyzeType:6,SourceName:\\'\\',SourceID:1,IndexType:302,IndexFormula:\\'(YC_20004000+1)=10\\',FormulaParm:0,IsExeute:1,isPushEAM:null,BounceTime:null,ClassType:null,Ext:\\'\\',Description:\\'\\',UpdateTime:\\'2020-12-17 18:47:17\\'}]}\"}', '预期结果': 'ExceptionMeg\\': \"公式名称为\\'配电自动化告警联动\\'的公式内容编辑错误\\\\n\"', '实际结果': '', '是否运行': 'y', 'headers': '{\"Content-Type\":\"application/x-www-form-urlencoded;charset=UTF-8\",\"Accept-Language\":\"zh-CN,zh;q=0.9\"}', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
+    }, {
+      "name" : "test080公式重复，新增失败",
+      "uid" : "c1ed0f2e8b0fa757",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610447456414,
+        "stop" : 1610447456461,
+        "duration" : 47
+      },
+      "flaky" : false,
+      "parameters" : [ "{'用例ID': 'test080', '模块': '基础公式配置\\n(系统联动类)', '接口名称': '公式重复，新增失败', '请求URL': '/admin/action.ashx?prefix=admin&action=AddMonitorIndexFormula', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{IndexFormulaList:[{OprationType:0,ID:null,SystemId:1,FormulaName:\\'配电自动化系统联动\\',AnalyzeType:6,SourceName:\\'\\',SourceID:1,IndexType:301,IndexFormula:\\'YC_20002000=10\\',FormulaParm:0,IsExeute:1,isPushEAM:null,BounceTime:null,ClassType:null,Ext:\\'\\',Description:\\'\\',UpdateTime:\\'2020-12-17 18:47:17\\'}]}\"}', '预期结果': \"IsSucess': False\", '实际结果': '', '是否运行': 'y', 'headers': '{\"Content-Type\":\"application/x-www-form-urlencoded;charset=UTF-8\",\"Accept-Language\":\"zh-CN,zh;q=0.9\"}', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
+    }, {
+      "name" : "test081名称重复，新增失败",
+      "uid" : "8c54d366b5032592",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610447456477,
+        "stop" : 1610447456524,
+        "duration" : 47
+      },
+      "flaky" : false,
+      "parameters" : [ "{'用例ID': 'test081', '模块': '基础公式配置\\n(系统联动类)', '接口名称': '名称重复，新增失败', '请求URL': '/admin/action.ashx?prefix=admin&action=AddMonitorIndexFormula', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{IndexFormulaList:[{OprationType:0,ID:null,SystemId:1,FormulaName:\\'配电自动化系统联动\\',AnalyzeType:6,SourceName:\\'\\',SourceID:1,IndexType:301,IndexFormula:\\'YC_20002000=30\\',FormulaParm:0,IsExeute:1,isPushEAM:null,BounceTime:null,ClassType:null,Ext:\\'\\',Description:\\'\\',UpdateTime:\\'2020-12-17 18:47:17\\'}]}\"}', '预期结果': \"IsSucess': False\", '实际结果': '', '是否运行': 'y', 'headers': '{\"Content-Type\":\"application/x-www-form-urlencoded;charset=UTF-8\",\"Accept-Language\":\"zh-CN,zh;q=0.9\"}', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
+    }, {
+      "name" : "test082基础公式名称精确查询",
+      "uid" : "65a83f4061cc5be9",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610447456539,
+        "stop" : 1610447456586,
+        "duration" : 47
+      },
+      "flaky" : false,
+      "parameters" : [ "{'用例ID': 'test082', '模块': '基础公式配置\\n(系统联动类)', '接口名称': '基础公式名称精确查询', '请求URL': '/admin/action.ashx?prefix=admin&action=GetMonitorIndexFormulaList', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{FormulaName:\\'配电自动化告警联动\\',PageSize:10,PageCurrent:1,AnalyzeType:6}\"}', '预期结果': \"IndexName': '告警联动', 'IndexFormula': '(YC_20004000+1)'\", '实际结果': '', '是否运行': 'y', 'headers': '{\"Content-Type\":\"application/x-www-form-urlencoded;charset=UTF-8\",\"Accept-Language\":\"zh-CN,zh;q=0.9\"}', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
+    }, {
+      "name" : "test083查询无效的基础公式",
+      "uid" : "2a8e981cb419b230",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610447456602,
+        "stop" : 1610447456649,
+        "duration" : 47
+      },
+      "flaky" : false,
+      "parameters" : [ "{'用例ID': 'test083', '模块': '基础公式配置\\n(系统联动类)', '接口名称': '查询无效的基础公式', '请求URL': '/admin/action.ashx?prefix=admin&action=GetMonitorIndexFormulaList', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{FormulaName:\\\\\"###\\\\\",PageSize:10,PageCurrent:1,AnalyzeType:6}\"}', '预期结果': \"MonitorIndexFormulaList': [], 'Page': {'Current': 1, 'Total': 0}\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
+    }, {
+      "name" : "test084修改公式",
+      "uid" : "ab91f1049f8dfa0e",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610447456664,
+        "stop" : 1610447456758,
+        "duration" : 94
+      },
+      "flaky" : false,
+      "parameters" : [ "{'用例ID': 'test084', '模块': '基础公式配置\\n(系统联动类)', '接口名称': '修改公式', '请求URL': '/admin/action.ashx?prefix=admin&action=UpdateMonitorIndexFormula', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"inputs\":\"{IndexFormulaList:[{OprationType:1,ID:7,SystemId:1,FormulaName:\\'配电自动化系统联动\\',AnalyzeType:6,SourceID:1,IndexType:301,IndexFormula:\\'YC_20002000=10\\',FormulaParm:0,IsExeute:1,isPushEAM:null,BounceTime:null,ClassType:null,Ext:\\'{\\\\\"StartTime\\\\\":\\\\\"00:00:00\\\\\",\\\\\"EndTime\\\\\":\\\\\"23:59:59\\\\\",\\\\\"EndDate\\\\\":\\\\\"same\\\\\"}\\',Description:\\'测试\\',UpdateTime:\\'2020-12-31 17:2:18\\'}]}\"}', '预期结果': \"IsSucess': True\", '实际结果': '', '是否运行': 'y', 'headers': '{\"Content-Type\":\"application/x-www-form-urlencoded;charset=UTF-8\",\"Accept-Language\":\"zh-CN,zh;q=0.9\"}', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
+    }, {
+      "name" : "test085删除公式",
+      "uid" : "fc5b7e699a9b11fc",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610447456758,
+        "stop" : 1610447456805,
+        "duration" : 47
+      },
+      "flaky" : false,
+      "parameters" : [ "{'用例ID': 'test085', '模块': '基础公式配置\\n(系统联动类)', '接口名称': '删除公式', '请求URL': '/admin/action.ashx?prefix=admin&action=DeleteMonitorIndexFormula', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{IndexFormulaList:[{OprationType:2,ID:7,SystemId:null,FormulaName:null,AnalyzeType:null,SourceID:0,IndexType:null,IndexFormula:null,FormulaParm:null,IsExeute:1,Description:null}]}\"}', '预期结果': \"IsSucess': True\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
+    }, {
+      "name" : "test086获取超时配置信息",
+      "uid" : "bf04d113d8d2f54a",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610447456820,
+        "stop" : 1610447456852,
+        "duration" : 32
+      },
+      "flaky" : false,
+      "parameters" : [ "{'用例ID': 'test086', '模块': '超时配置', '接口名称': '获取超时配置信息', '请求URL': '/admin/action.ashx?prefix=admin&action=GetMonitorTimeoutList', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{ModularId:0,PageCurrent:1,PageSize:10}\"}', '预期结果': \"{'SysNo': 1, 'ModularId': 1, 'OperationId': 1, 'Seconds': 15}\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
+    }, {
+      "name" : "test087编辑超时时间",
+      "uid" : "358765f6556778f8",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610447456867,
+        "stop" : 1610447456914,
+        "duration" : 47
+      },
+      "flaky" : false,
+      "parameters" : [ "{'用例ID': 'test087', '模块': '超时配置', '接口名称': '编辑超时时间', '请求URL': '/admin/action.ashx?prefix=admin&action=UpdateMonitorTimeout', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{Id:1,ModularId:1,OperationId:1,Seconds:15}\"}', '预期结果': \"IsSucess': True, '\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
+    }, {
+      "name" : "test088网关名称精确查询",
+      "uid" : "d60a7a2594edc3a5",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610447456930,
+        "stop" : 1610447456945,
+        "duration" : 15
+      },
+      "flaky" : false,
+      "parameters" : [ "{'用例ID': 'test088', '模块': '网关配置', '接口名称': '网关名称精确查询', '请求URL': '/admin/action.ashx?prefix=admin&action=GetGateway', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{GatewayName:\\'网关1\\',PaddingInfo:{Page:1,PageSize:10}}\"}', '预期结果': \"ItemList': [{'Id': 1, 'Cname': '网关1', 'Ipaddress': '192.168.40.91', 'Portno': 80, 'Description': '11'}]\", '实际结果': '', '是否运行': 'y', 'headers': '{\"Content-Type\": \\n\"application/x-www-form-urlencoded; charset=UTF-8\"}', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
+    }, {
+      "name" : "test089查询不存在的网关",
+      "uid" : "169ac0438536fc6c",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610447456961,
+        "stop" : 1610447457024,
+        "duration" : 63
+      },
+      "flaky" : false,
+      "parameters" : [ "{'用例ID': 'test089', '模块': '网关配置', '接口名称': '查询不存在的网关', '请求URL': '/admin/action.ashx?prefix=admin&action=GetGateway', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{GatewayName:\\'###\\',PaddingInfo:{Page:1,PageSize:10}}\"}', '预期结果': \"Page': {'Current': 1, 'Total': 0}}\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
+    }, {
+      "name" : "test090网关名称重复，新增失败",
+      "uid" : "73e02a29752e8121",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610447457039,
+        "stop" : 1610447457086,
+        "duration" : 47
+      },
+      "flaky" : false,
+      "parameters" : [ "{'用例ID': 'test090', '模块': '网关配置', '接口名称': '网关名称重复，新增失败', '请求URL': '/admin/action.ashx?prefix=admin&action=InsertGateway', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{Cname:\\'网关4\\',Ipaddress:\\'192.168.40.95\\',Portno:80,Description:111}\"}', '预期结果': \"Success': False, 'ExceptionMsg': '新增失败！出现重复的名称或IP地址'\", '实际结果': '', '是否运行': 'y', 'headers': '{\"Content-Type\": \\n\"application/x-www-form-urlencoded; charset=UTF-8\"}', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
+    }, {
+      "name" : "test091网关ip重复，新增失败",
+      "uid" : "a33ed926bc283902",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610447457102,
+        "stop" : 1610447457149,
+        "duration" : 47
+      },
+      "flaky" : false,
+      "parameters" : [ "{'用例ID': 'test091', '模块': '网关配置', '接口名称': '网关ip重复，新增失败', '请求URL': '/admin/action.ashx?prefix=admin&action=InsertGateway', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{Cname:\\'网关5\\',Ipaddress:\\'192.168.40.94\\',Portno:80,Description:111}\"}', '预期结果': \"Success': False, 'ExceptionMsg': '新增失败！出现重复的名称或IP地址'\", '实际结果': '', '是否运行': 'y', 'headers': '{\"Content-Type\": \\n\"application/x-www-form-urlencoded; charset=UTF-8\"}', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
+    }, {
+      "name" : "test092网关新增成功",
+      "uid" : "abe0b9b244a59eb6",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610447457164,
+        "stop" : 1610447457211,
+        "duration" : 47
+      },
+      "flaky" : false,
+      "parameters" : [ "{'用例ID': 'test092', '模块': '网关配置', '接口名称': '网关新增成功', '请求URL': '/admin/action.ashx?prefix=admin&action=InsertGateway', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{Cname:\\'网关5\\',Ipaddress:\\'192.168.40.95\\',Portno:80,Description:111}\"}', '预期结果': \"Success': True, 'ExceptionMsg': '新增成功！'\", '实际结果': '', '是否运行': 'y', 'headers': '{\"Content-Type\": \\n\"application/x-www-form-urlencoded; charset=UTF-8\"}', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
+    }, {
+      "name" : "test093删除网关",
+      "uid" : "f14d3f186f1c9a90",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610447457227,
+        "stop" : 1610447457274,
+        "duration" : 47
+      },
+      "flaky" : false,
+      "parameters" : [ "{'用例ID': 'test093', '模块': '网关配置', '接口名称': '删除网关', '请求URL': '/admin/action.ashx?prefix=admin&action=DeleteGateway', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{Id:5}\"}', '预期结果': \"Success': True, 'ExceptionMsg': '删除成功！'\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
+    }, {
+      "name" : "test094组地址名称精确查询",
+      "uid" : "5d5b957618c4043f",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610447457274,
+        "stop" : 1610447457336,
+        "duration" : 62
+      },
+      "flaky" : false,
+      "parameters" : [ "{'用例ID': 'test094', '模块': '组地址维护', '接口名称': '组地址名称精确查询', '请求URL': '/admin/action.ashx?prefix=admin&action=GetGroupAddrInfo', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{PageCurrent:1,PageSize:10,CName:\\'组地址1\\'}\"}', '预期结果': \"GateWay': 3, 'GateWayName': '网关3'\", '实际结果': '', '是否运行': 'y', 'headers': '{\"Content-Type\": \\n\"application/x-www-form-urlencoded; charset=UTF-8\"}', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
+    }, {
+      "name" : "test095查询不存在的组地址",
+      "uid" : "433c40139d4dec27",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610447457336,
+        "stop" : 1610447457383,
+        "duration" : 47
+      },
+      "flaky" : false,
+      "parameters" : [ "{'用例ID': 'test095', '模块': '组地址维护', '接口名称': '查询不存在的组地址', '请求URL': '/admin/action.ashx?prefix=admin&action=GetGroupAddrInfo', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{PageCurrent:1,PageSize:10,CName:\\'###\\'}\"}', '预期结果': \"Page': {'Current': 1, 'Total': 0}, 'CurrentMaxId': 3\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
+    }, {
+      "name" : "test096数据源配置，获取场站",
+      "uid" : "3eb2a61d61e3b1d5",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610447457383,
+        "stop" : 1610447459274,
+        "duration" : 1891
+      },
+      "flaky" : false,
+      "parameters" : [ "{'用例ID': 'test096', '模块': '组地址维护', '接口名称': '数据源配置，获取场站', '请求URL': '/admin/action.ashx?prefix=admin&action=ser-GetDataSource', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{ProjectID:1,StationID:0}\"}', '预期结果': \"<root label='数据来源列表'/\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
+    }, {
+      "name" : "test097数据源配置，获取设备",
+      "uid" : "e1aa08e4b4a00bf7",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610447459274,
+        "stop" : 1610447459399,
+        "duration" : 125
+      },
+      "flaky" : false,
+      "parameters" : [ "{'用例ID': 'test097', '模块': '组地址维护', '接口名称': '数据源配置，获取设备', '请求URL': '/admin/action.ashx?prefix=admin&action=ser-GetDataSource', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{ProjectID:1,StationID:1}\"}', '预期结果': \"<dataSou label='1设备1：' id='1' type='NTS-240GS'/>\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
+    }, {
+      "name" : "test098数据源配置，获取点位",
+      "uid" : "6b29e0c9831c668",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610447459399,
+        "stop" : 1610447460320,
+        "duration" : 921
+      },
+      "flaky" : false,
+      "parameters" : [ "{'用例ID': 'test098', '模块': '组地址维护', '接口名称': '数据源配置，获取点位', '请求URL': '/admin/admin/action.ashx?prefix=admin&action=ser-GetDataRange', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{ProjectID:1,StationID:1,DeviceID:1,RangeID:18}\"}', '预期结果': \"<record label='模拟量点1' tabelID='18' recordID='20002000'/>\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
+    }, {
+      "name" : "test099组地址重复，新增失败",
+      "uid" : "d71b8ffcf2d67dfc",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610447460336,
+        "stop" : 1610447460367,
+        "duration" : 31
+      },
+      "flaky" : false,
+      "parameters" : [ "{'用例ID': 'test099', '模块': '组地址维护', '接口名称': '组地址重复，新增失败', '请求URL': '/admin/action.ashx?prefix=admin&action=AddGroupAddrInfo', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"[{Id:5,OperaType:\\'add\\',GateWay:1,AddressType:0,RWRight:0,DataType:1,Address:\\'1/0/1\\',Cname:\\'组地址3\\',dataSource:{BaseNo:1,PrjID:1,StationID:1,DeviceID:1,TableNo:18,FieldNo:10,RecordNo:20002000}}]\"}', '预期结果': \"Success': False, 'ExceptionMsg': '组地址名称为：组地址1--已经配置该组地址'\", '实际结果': '', '是否运行': 'y', 'headers': '{\"Content-Type\": \\n\"application/x-www-form-urlencoded; charset=UTF-8\"}', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
+    }, {
+      "name" : "test100组地址新增成功",
+      "uid" : "44f8fb23d51f5b82",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610447460383,
+        "stop" : 1610447460445,
+        "duration" : 62
+      },
+      "flaky" : false,
+      "parameters" : [ "{'用例ID': 'test100', '模块': '组地址维护', '接口名称': '组地址新增成功', '请求URL': '/admin/action.ashx?prefix=admin&action=AddGroupAddrInfo', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"[{Id:5,OperaType:\\'add\\',GateWay:1,AddressType:0,RWRight:0,DataType:1,Address:\\'1/0/4\\',Cname:\\'组地址3\\',dataSource:{BaseNo:1,PrjID:1,StationID:1,DeviceID:1,TableNo:18,FieldNo:10,RecordNo:20002000}}]\"}', '预期结果': \"Success': True, 'ExceptionMsg': '操作成功!请重启服务'\", '实际结果': '', '是否运行': 'y', 'headers': '{\"Content-Type\": \\n\"application/x-www-form-urlencoded; charset=UTF-8\"}', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
+    }, {
+      "name" : "test101删除组地址",
+      "uid" : "26ba186b25aa1baa",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610447460461,
+        "stop" : 1610447460492,
+        "duration" : 31
+      },
+      "flaky" : false,
+      "parameters" : [ "{'用例ID': 'test101', '模块': '组地址维护', '接口名称': '删除组地址', '请求URL': '/admin/action.ashx?prefix=admin&action=DeleteGroupAddrInfo', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"[{Id:5}]\"}', '预期结果': \"Success': True, 'ExceptionMsg': '删除成功!请重启服务'\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
+    }, {
+      "name" : "test102批量修改网关",
+      "uid" : "232930aba8ee6e08",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610447460508,
+        "stop" : 1610447460555,
+        "duration" : 47
+      },
+      "flaky" : false,
+      "parameters" : [ "{'用例ID': 'test102', '模块': '组地址维护', '接口名称': '批量修改网关', '请求URL': '/admin/action.ashx?prefix=admin&action=UpdateAddressInfo', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{StartAddresId:1,EndAddresId:3,GateWayId:3,AddresIdList:[1,2,3]}\"}', '预期结果': \"Success': True, 'ExceptionMsg': '修改成功!请重启服务'\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
+    }, {
+      "name" : "test103下载模板",
+      "uid" : "c06b4a4fd0db8ffd",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610447460555,
+        "stop" : 1610447460727,
+        "duration" : 172
+      },
+      "flaky" : false,
+      "parameters" : [ "{'用例ID': 'test103', '模块': '相机参数', '接口名称': '下载模板', '请求URL': '/admin/action.ashx?prefix=admin&action=DownloadCameraExcel', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"inputs\":\"1\"}', '预期结果': \"msg': '/temp_file/摄像头导入.xls'\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
+    }, {
+      "name" : "test104相机名称精确查询",
+      "uid" : "e4936fcc00f40d7d",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610447460727,
+        "stop" : 1610447460758,
+        "duration" : 31
+      },
+      "flaky" : false,
+      "parameters" : [ "{'用例ID': 'test104', '模块': '相机参数', '接口名称': '相机名称精确查询', '请求URL': '/admin/action.ashx?prefix=admin&action=GetCamera', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{CameraName:\\'海康1号\\',PaddingInfo:{Page:1,PageSize:10}}\"}', '预期结果': \"Page': {'Current': 1, 'Total': 1}\", '实际结果': '', '是否运行': 'y', 'headers': '{\"Content-Type\": \\n\"application/x-www-form-urlencoded; charset=UTF-8\"}', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
+    }, {
+      "name" : "test105查询不存在的相机设备",
+      "uid" : "54e5d04fbd596253",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610447460774,
+        "stop" : 1610447460820,
+        "duration" : 46
+      },
+      "flaky" : false,
+      "parameters" : [ "{'用例ID': 'test105', '模块': '相机参数', '接口名称': '查询不存在的相机设备', '请求URL': '/admin/action.ashx?prefix=admin&action=GetCamera', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{CameraName:\\'###\\',PaddingInfo:{Page:1,PageSize:10}}\"}', '预期结果': \"Page': {'Current': 1, 'Total': 0}\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
+    }, {
+      "name" : "test106获取所属区域信息",
+      "uid" : "1baf01fa16cda0ae",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610447460820,
+        "stop" : 1610447460914,
+        "duration" : 94
+      },
+      "flaky" : false,
+      "parameters" : [ "{'用例ID': 'test106', '模块': '相机参数', '接口名称': '获取所属区域信息', '请求URL': '/admin/action.ashx?action=GetSpaceAreaTree', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"GetSpaceAreaTree\"}', '预期结果': \"{'id': '1001', 'name': '101室', 'pId': ''}, {'id': '1002', 'name': '102室', 'pId': '1001'}\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
+    }, {
+      "name" : "test107新增相机参数",
+      "uid" : "a3d6506e107a11ea",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610447460914,
+        "stop" : 1610447460992,
+        "duration" : 78
+      },
+      "flaky" : false,
+      "parameters" : [ "{'用例ID': 'test107', '模块': '相机参数', '接口名称': '新增相机参数', '请求URL': '/admin/action.ashx?prefix=admin&action=InsertCamera', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"inputs\":\"{Id:0,Cname:\\'测试用\\',Type:0,Description:\\'\\',Channelnum:0,Limkmode:0,Multicastip:\\'0.0.0.0\\',Ips:[{Code:\\'003\\',CameraId:0,IP:\\'192.168.10.70\\',Port:\\'80\\'},{Code:\\'004\\',CameraId:0,IP:\\'192.168.10.70\\',Port:\\'7000\\'}],Username:\\'admin\\',Password:12345,Videolevel:0,Reserved:\\'\\',Campus:\\'\\'}\"}', '预期结果': \"Success': True, 'ExceptionMsg': '新增成功！'\", '实际结果': '', '是否运行': 'y', 'headers': '{\"Content-Type\": \\n\"application/x-www-form-urlencoded; charset=UTF-8\"}', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
+    }, {
+      "name" : "test108修改摄像机参数",
+      "uid" : "6dfefc1db69f69fb",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610447460992,
+        "stop" : 1610447461071,
+        "duration" : 79
+      },
+      "flaky" : false,
+      "parameters" : [ "{'用例ID': 'test108', '模块': '相机参数', '接口名称': '修改摄像机参数', '请求URL': '/admin/action.ashx?prefix=admin&action=UpdateCamera', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"inputs\":\"{Id:15,Cname:\\'测试用\\',Type:0,Description:\\'\\',Channelnum:0,Limkmode:0,Multicastip:\\'0.0.0.0\\',Ips:[{Code:\\'003\\',CameraId:0,IP:\\'192.168.10.70\\',Port:\\'80\\'},{Code:\\'004\\',CameraId:15,IP:\\'192.168.10.70\\',Port:\\'7000\\'}],Username:\\'admin\\',Password:12345,Videolevel:0,Reserved:\\'\\',Campus:1001}\"}', '预期结果': \"Success': True, 'ExceptionMsg': '修改成功！'\", '实际结果': '', '是否运行': 'y', 'headers': '{\"Content-Type\": \\n\"application/x-www-form-urlencoded; charset=UTF-8\"}', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
+    }, {
+      "name" : "test109ip重复，新增失败",
+      "uid" : "db6d3106f44c9a8c",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610447461071,
+        "stop" : 1610447461117,
+        "duration" : 46
+      },
+      "flaky" : false,
+      "parameters" : [ "{'用例ID': 'test109', '模块': '相机参数', '接口名称': 'ip重复，新增失败', '请求URL': '/admin/action.ashx?prefix=admin&action=InsertCamera', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"inputs\":\"{Id:0,Cname:01,Type:0,Description:\\'\\',Channelnum:0,Limkmode:0,Multicastip:\\'0.0.0.0\\',Ips:[{Code:\\'003\\',CameraId:0,IP:\\'192.168.10.70\\',Port:\\'80\\'},{Code:\\'004\\',CameraId:0,IP:\\'192.168.10.70\\',Port:\\'7000\\'}],Username:\\'admin\\',Password:12345,Videolevel:0,Reserved:\\'\\',Campus:\\'\\'}\"}', '预期结果': \"Success': False, 'ExceptionMsg': '摄像头IP出现重复，请重设！'\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
+    }, {
+      "name" : "test110删除摄像头信息",
+      "uid" : "998695f3654c1ad1",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610447461133,
+        "stop" : 1610447461180,
+        "duration" : 47
+      },
+      "flaky" : false,
+      "parameters" : [ "{'用例ID': 'test110', '模块': '相机参数', '接口名称': '删除摄像头信息', '请求URL': '/admin/action.ashx?prefix=admin&action=DeleteCamera', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{Id:15}\"}', '预期结果': \"Success': True, 'ExceptionMsg': '删除成功！'\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
+    }, {
+      "name" : "test111增加子节点",
+      "uid" : "4ac3602731bb5190",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610447461180,
+        "stop" : 1610447461258,
+        "duration" : 78
+      },
+      "flaky" : false,
+      "parameters" : [ "{'用例ID': 'test111', '模块': '区域设备配置', '接口名称': '增加子节点', '请求URL': '/admin/action.ashx?prefix=admin&action=AreaConfig_AddAreaConfig', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{AreaName:\\'测试4#\\',AreaClass:\\'533_\\',OrderNo:3,ParentID:0}\"}', '预期结果': \"Success': True, 'ExceptionMsg': '', 'ExtendContent': None, 'IsExistsDevice': False\", '实际结果': '', '是否运行': 'y', 'headers': '{\"Content-Type\": \\n\"application/x-www-form-urlencoded; charset=UTF-8\"}', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
+    }, {
+      "name" : "test112删除子节点",
+      "uid" : "e841e3a2167f5f41",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610447461274,
+        "stop" : 1610447461367,
+        "duration" : 93
+      },
+      "flaky" : false,
+      "parameters" : [ "{'用例ID': 'test112', '模块': '区域设备配置', '接口名称': '删除子节点', '请求URL': '/admin/action.ashx?prefix=admin&action=AreaConfig_DeleteAreaConfig', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{Id:4,AreaClass:\\'app\\',UserName:\\'admin\\'}\"}', '预期结果': \"Success': True, 'ExceptionMsg': '', 'ExtendContent': None, 'IsExistsDevice': False\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
+    }, {
+      "name" : "test113获取设备信息",
+      "uid" : "43a586962878b7bc",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610447461383,
+        "stop" : 1610447461430,
+        "duration" : 47
+      },
+      "flaky" : false,
+      "parameters" : [ "{'用例ID': 'test113', '模块': '区域设备配置', '接口名称': '获取设备信息', '请求URL': '/admin/action.ashx?prefix=admin&action=AreaConfig_GetConfigByAreaid', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{Id:3}\"}', '预期结果': \"proName': '我的工程', 'statId': 1, 'stastName': '前置厂站1', 'devName': '1设备1：'\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
+    }, {
+      "name" : "test114新增区域设备信息",
+      "uid" : "5aff80e39065f29b",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610447461430,
+        "stop" : 1610447461524,
+        "duration" : 94
+      },
+      "flaky" : false,
+      "parameters" : [ "{'用例ID': 'test114', '模块': '区域设备配置', '接口名称': '新增区域设备信息', '请求URL': '/admin/action.ashx?prefix=admin&action=AreaConfig_AddAreaDevRelationConfig', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{Id:3,tableNum:18,devArr:[{DevId:1,Desp:\\'\\',PointIdlist:[20002000]}],AreaClass:\\'532_\\'}\"}', '预期结果': \"Success': True, 'ExceptionMsg': '保存成功!'\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
+    }, {
+      "name" : "test115删除设备信息",
+      "uid" : "4b56614a7d5cc27c",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610447461539,
+        "stop" : 1610447461617,
+        "duration" : 78
+      },
+      "flaky" : false,
+      "parameters" : [ "{'用例ID': 'test115', '模块': '区域设备配置', '接口名称': '删除设备信息', '请求URL': '/admin/action.ashx?prefix=admin&action=AreaConfig_DeleteAreaDevRelationConfig', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{Id:3,tableNum:18,DeviceId:1}\"}', '预期结果': \"Success': True, 'ExceptionMsg': '', 'ExtendContent': None, 'IsExistsDevice': False,\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
+    }, {
+      "name" : "test116区域名称精确查询",
+      "uid" : "3cf61c37e13594e3",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610447461629,
+        "stop" : 1610447461668,
+        "duration" : 39
+      },
+      "flaky" : false,
+      "parameters" : [ "{'用例ID': 'test116', '模块': '区域设备配置', '接口名称': '区域名称精确查询', '请求URL': '/admin/action.ashx?prefix=admin&action=AreaConfig_GetAreaDeviceInfo', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{AreaName:\\'@@\\',AreaClass:\\'app\\'}\"}', '预期结果': \"AreaDeviceInfoList': []\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
+    }, {
+      "name" : "test117查询不存在的区域名称",
+      "uid" : "f4882765a0786465",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610447461668,
+        "stop" : 1610447461715,
+        "duration" : 47
+      },
+      "flaky" : false,
+      "parameters" : [ "{'用例ID': 'test117', '模块': '区域设备配置', '接口名称': '查询不存在的区域名称', '请求URL': '/admin/action.ashx?prefix=admin&action=AreaConfig_GetAreaDeviceInfo', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{AreaName:\\'测试1#\\',AreaClass:\\'app\\'}\"}', '预期结果': \"AreaName': '测试1#', 'ParentID': 0, 'ParentName': '顶级节点', 'OrderNo': 1, 'AreaClass': '532_'\", '实际结果': '', '是否运行': 'y', 'headers': '{\"Content-Type\": \\n\"application/x-www-form-urlencoded; charset=UTF-8\"}', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
+    }, {
+      "name" : "test118场景名称精确查询",
+      "uid" : "79957c64ef980963",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610447461731,
+        "stop" : 1610447461778,
+        "duration" : 47
+      },
+      "flaky" : false,
+      "parameters" : [ "{'用例ID': 'test118', '模块': '联动场景维护', '接口名称': '场景名称精确查询', '请求URL': '/admin/action.ashx?prefix=admin&action=GetLinkageConfig', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{pageCurrent:1,pageSize:10,CName:\\'test001\\'}\"}', '预期结果': \"Id': 1, 'CNAME': 'test001', 'LinkagerEffective': '有效', 'Station': '未启动'\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
+    }, {
+      "name" : "test119无效场景名称查询",
+      "uid" : "b948b9d3c8349d18",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610447461778,
+        "stop" : 1610447461825,
+        "duration" : 47
+      },
+      "flaky" : false,
+      "parameters" : [ "{'用例ID': 'test119', '模块': '联动场景维护', '接口名称': '无效场景名称查询', '请求URL': '/admin/action.ashx?prefix=admin&action=GetLinkageConfig', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{pageCurrent:1,pageSize:10,CName:\\'@@@\\'}\"}', '预期结果': \"Page': {'Current': 1, 'Total': 0}\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
+    }, {
+      "name" : "test120新增联动场景(调用第三方接口)",
+      "uid" : "a1307bb8d0474cdf",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610447461825,
+        "stop" : 1610447461903,
+        "duration" : 78
+      },
+      "flaky" : false,
+      "parameters" : [ "{'用例ID': 'test120', '模块': '联动场景维护', '接口名称': '新增联动场景(调用第三方接口)', '请求URL': '/admin/action.ashx?prefix=admin&action=AddLinkageConfig', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{ID:14,CTime:\\'2020-12-25T06:01:41.905Z\\',FORMULAID:6,CName:\\'调用第三方接口\\',DURATIONTIME:15,LinkageEffect:1,IsStart:0,LinkageControlItemList:[{ID:16,LinkcontolGroupId:14,ControlItem:\\'{LINKAGEACTIONTYPE:\\\\\"CALLAPI\\\\\",VALUE:\\\\\"1\\\\\",TRYTIMES:\\\\\"1\\\\\",CALLAPI:{IP:\\\\\"192.168.50.60\\\\\",APITYPE:\\\\\"HK\\\\\",PORT:\\\\\"8000\\\\\",USER:\\\\\"admin\\\\\",PASSWORD:\\\\\"12345\\\\\",CHANNEL:\\\\\"1\\\\\",CALLBACKCAMERAID:\\\\\"1\\\\\",CALLBACKCAMERANAME:\\\\\"海康1号\\\\\"}}\\'}],Ext:\\'{\\\\\"StartTime\\\\\":\\\\\"00:00:00\\\\\",\\\\\"EndTime\\\\\":\\\\\"23:59:59\\\\\",\\\\\"EndDate\\\\\":\\\\\"same\\\\\"}\\'}\"}', '预期结果': \"ExceptionMeg': '保存成功!'\", '实际结果': '', '是否运行': 'y', 'headers': '{\"Content-Type\":\"application/x-www-form-urlencoded;charset=UTF-8\",\"Accept-Language\":\"zh-CN,zh;q=0.9\"}', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
+    }, {
+      "name" : "test121调出修改场景信息弹窗",
+      "uid" : "45238ae5f1e81904",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610447461918,
+        "stop" : 1610447461965,
+        "duration" : 47
+      },
+      "flaky" : false,
+      "parameters" : [ "{'用例ID': 'test121', '模块': '联动场景维护', '接口名称': '调出修改场景信息弹窗', '请求URL': '/admin/action.ashx?prefix=admin&action=GetLinkageConfigByID', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{ID:14}\"}', '预期结果': \"ID': 14, 'CName': '调用第三方接口', 'LinkageEffective': 1, 'FormulaID': 6, 'FormulaName': '配电自动化系统联动5'\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
+    }, {
+      "name" : "test122修改联动条件并保存",
+      "uid" : "3a8ed34bafc920f8",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610447461981,
+        "stop" : 1610447462059,
+        "duration" : 78
+      },
+      "flaky" : false,
+      "parameters" : [ "{'用例ID': 'test122', '模块': '联动场景维护', '接口名称': '修改联动条件并保存', '请求URL': '/admin/action.ashx?prefix=admin&action=UpdateLinkageConfig', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{ID:14,CTime:\\'2020-12-25T06:01:41.905Z\\',FORMULAID:6,CName:\\'auto\\',DURATIONTIME:15,LinkageEffect:1,IsStart:0,LinkageControlItemList:[{ID:16,LinkcontolGroupId:14,ControlItem:\\'{LINKAGEACTIONTYPE:\\\\\"CALLAPI\\\\\",VALUE:\\\\\"1\\\\\",TRYTIMES:\\\\\"1\\\\\",CALLAPI:{IP:\\\\\"192.168.50.60\\\\\",APITYPE:\\\\\"HK\\\\\",PORT:\\\\\"8000\\\\\",USER:\\\\\"admin\\\\\",PASSWORD:\\\\\"12345\\\\\",CHANNEL:\\\\\"1\\\\\",CALLBACKCAMERAID:\\\\\"1\\\\\",CALLBACKCAMERANAME:\\\\\"海康1号\\\\\"}}\\'}],Ext:\\'{\\\\\"StartTime\\\\\":\\\\\"00:00:00\\\\\",\\\\\"EndTime\\\\\":\\\\\"23:59:59\\\\\",\\\\\"EndDate\\\\\":\\\\\"same\\\\\"}\\'}\"}', '预期结果': \"ExceptionMeg': '修改成功!'\", '实际结果': '', '是否运行': 'y', 'headers': '{\"Content-Type\":\"application/x-www-form-urlencoded;charset=UTF-8\",\"Accept-Language\":\"zh-CN,zh;q=0.9\"}', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
+    }, {
+      "name" : "test123联动场景名称已存在，新增失败",
+      "uid" : "e6a19462c897ebae",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610447462059,
+        "stop" : 1610447462137,
+        "duration" : 78
+      },
+      "flaky" : false,
+      "parameters" : [ "{'用例ID': 'test123', '模块': '联动场景维护', '接口名称': '联动场景名称已存在，新增失败', '请求URL': '/admin/action.ashx?prefix=admin&action=AddLinkageConfig', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{ID:14,CTime:\\'2020-12-25T06:01:41.905Z\\',FORMULAID:1,CName:\\'auto\\',DURATIONTIME:15,LinkageEffect:1,IsStart:0,LinkageControlItemList:[{ID:16,LinkcontolGroupId:14,ControlItem:\\'{LINKAGEACTIONTYPE:\\\\\"CALLAPI\\\\\",VALUE:\\\\\"1\\\\\",TRYTIMES:\\\\\"1\\\\\",CALLAPI:{IP:\\\\\"192.168.50.60\\\\\",APITYPE:\\\\\"HK\\\\\",PORT:\\\\\"8000\\\\\",USER:\\\\\"admin\\\\\",PASSWORD:\\\\\"12345\\\\\",CHANNEL:\\\\\"1\\\\\",CALLBACKCAMERAID:\\\\\"1\\\\\",CALLBACKCAMERANAME:\\\\\"海康1号\\\\\"}}\\'}],Ext:\\'{\\\\\"StartTime\\\\\":\\\\\"00:00:00\\\\\",\\\\\"EndTime\\\\\":\\\\\"23:59:59\\\\\",\\\\\"EndDate\\\\\":\\\\\"same\\\\\"}\\'}\"}', '预期结果': \"IsSucess': False, 'TreeName': None\", '实际结果': '', '是否运行': 'y', 'headers': '{\"Content-Type\":\"application/x-www-form-urlencoded;charset=UTF-8\",\"Accept-Language\":\"zh-CN,zh;q=0.9\"}', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
+    }, {
+      "name" : "test124启用场景",
+      "uid" : "5d42d85ebee0add8",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610447462137,
+        "stop" : 1610447462215,
+        "duration" : 78
+      },
+      "flaky" : false,
+      "parameters" : [ "{'用例ID': 'test124', '模块': '联动场景维护', '接口名称': '启用场景', '请求URL': '/admin/action.ashx?prefix=admin&action=Updateimplement', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{ID:14,Implement:1,ChangeTime:\\'2020-12-25T09:33:07.670Z\\',SystemId:1}\"}', '预期结果': \"ExceptionMeg': '操作成功!'\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
+    }, {
+      "name" : "test125停用场景",
+      "uid" : "680fc96e033430c0",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610447462215,
+        "stop" : 1610447462278,
+        "duration" : 63
+      },
+      "flaky" : false,
+      "parameters" : [ "{'用例ID': 'test125', '模块': '联动场景维护', '接口名称': '停用场景', '请求URL': '/admin/action.ashx?prefix=admin&action=Updateimplement', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{ID:14,Implement:0,ChangeTime:\\'2020-12-25T09:33:07.670Z\\',SystemId:1}\"}', '预期结果': \"ExceptionMeg': '操作成功!'\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
+    }, {
+      "name" : "test126删除联动场景(调用第三方接口)",
+      "uid" : "dc6f5600b010f521",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610447462293,
+        "stop" : 1610447462340,
+        "duration" : 47
+      },
+      "flaky" : false,
+      "parameters" : [ "{'用例ID': 'test126', '模块': '联动场景维护', '接口名称': '删除联动场景(调用第三方接口)', '请求URL': '/admin/action.ashx?prefix=admin&action=DeleteLinkageConfig', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{ID:14}\"}', '预期结果': \"ExceptionMeg': '删除成功!'\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
+    }, {
+      "name" : "test127新增联动场景(跳转系统页面)",
+      "uid" : "76b36814fb312736",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610447462356,
+        "stop" : 1610447462497,
+        "duration" : 141
+      },
+      "flaky" : false,
+      "parameters" : [ "{'用例ID': 'test127', '模块': '联动场景维护', '接口名称': '新增联动场景(跳转系统页面)', '请求URL': '/admin/action.ashx?prefix=admin&action=AddLinkageConfig', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{ID:14,CTime:\\'2021-01-05T11:24:18.594Z\\',FORMULAID:6,CName:\\'跳转系统页面\\',DURATIONTIME:15,LinkageEffect:1,IsStart:0,LinkageControlItemList:[{ID:15,LinkcontolGroupId:14,ControlItem:\\'{\\\\\"LINKAGEACTIONTYPE\\\\\":\\\\\"JUMPPAGE\\\\\",\\\\\"VALUE\\\\\":\\\\\"https://www.baidu.com/\\\\\",\\\\\"TRYTIMES\\\\\":1,\\\\\"Desp\\\\\":\\\\\"百度首页\\\\\",\\\\\"JUMPPAGE\\\\\":{\\\\\"ROLL\\\\\":\\\\\"dbbb0d51-204d-44fe-ab4a-dfe8894a790a\\\\\"}}\\'}],Ext:\\'{\\\\\"StartTime\\\\\":\\\\\"00:00:00\\\\\",\\\\\"EndTime\\\\\":\\\\\"23:59:59\\\\\",\\\\\"EndDate\\\\\":\\\\\"same\\\\\"}\\'}\"}', '预期结果': \"ExceptionMeg': '保存成功!'\", '实际结果': '', '是否运行': 'y', 'headers': '{\"Content-Type\":\"application/x-www-form-urlencoded;charset=UTF-8\",\"Accept-Language\":\"zh-CN,zh;q=0.9\"}', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
+    }, {
+      "name" : "test128删除联动场景(跳转系统页面)",
+      "uid" : "3886c0ee85a9a534",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610447462497,
+        "stop" : 1610447462559,
+        "duration" : 62
+      },
+      "flaky" : false,
+      "parameters" : [ "{'用例ID': 'test128', '模块': '联动场景维护', '接口名称': '删除联动场景(跳转系统页面)', '请求URL': '/admin/action.ashx?prefix=admin&action=DeleteLinkageConfig', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{ID:14}\"}', '预期结果': \"ExceptionMeg': '删除成功!'\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
+    }, {
+      "name" : "test129获取工程信息(下发控制命令)",
+      "uid" : "56e2287765c7b285",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610447462578,
+        "stop" : 1610447462618,
+        "duration" : 40
+      },
+      "flaky" : false,
+      "parameters" : [ "{'用例ID': 'test129', '模块': '联动场景维护', '接口名称': '获取工程信息(下发控制命令)', '请求URL': '/admin/action.ashx?prefix=admin&action=GetProject', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"GetProject\"}', '预期结果': \"ResultGeneralList': [{'Id': 1, 'CName': '我的工程'}]\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
+    }, {
+      "name" : "test130获取场站信息(下发控制命令)",
+      "uid" : "1204b204ea64083e",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610447462618,
+        "stop" : 1610447462665,
+        "duration" : 47
+      },
+      "flaky" : false,
+      "parameters" : [ "{'用例ID': 'test130', '模块': '联动场景维护', '接口名称': '获取场站信息(下发控制命令)', '请求URL': '/admin/action.ashx?prefix=admin&action=GetStation', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{ID:1}\"}', '预期结果': \"ResultGeneralList': [{'Id': 0, 'CName': '管理机厂站'}, {'Id': 1, 'CName': '前置厂站1'}, {'Id': 8, 'CName': 'PLC'}]\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
+    }, {
+      "name" : "test131获取设备信息(下发控制命令)",
+      "uid" : "53ead8b0f29250d1",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610447462665,
+        "stop" : 1610447462712,
+        "duration" : 47
+      },
+      "flaky" : false,
+      "parameters" : [ "{'用例ID': 'test131', '模块': '联动场景维护', '接口名称': '获取设备信息(下发控制命令)', '请求URL': '/admin/action.ashx?prefix=admin&action=GetAppAlarmDeviceInfo', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{ProjectId:1,StationID:8,ControlType:\\'CONTROLSWITCH\\'}\"}', '预期结果': \"ResultLabConfigDeviceInfoList': [{'Id': 928, 'CName': '1215C'}]\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
+    }, {
+      "name" : "test132新增联动场景(下发遥控命令)",
+      "uid" : "d6fc60c87b0882af",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610447462712,
+        "stop" : 1610447462790,
+        "duration" : 78
+      },
+      "flaky" : false,
+      "parameters" : [ "{'用例ID': 'test132', '模块': '联动场景维护', '接口名称': '新增联动场景(下发遥控命令)', '请求URL': '/admin/action.ashx?prefix=admin&action=AddLinkageConfig', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{ID:14,CTime:\\'2021-01-07T03:28:46.029Z\\',FORMULAID:6,CName:\\'下发遥控命令\\',DURATIONTIME:15,LinkageEffect:1,IsStart:0,LinkageControlItemList:[{ID:15,LinkcontolGroupId:14,ControlItem:\\'{\\\\\"LINKAGEACTIONTYPE\\\\\":\\\\\"CONTROLCOMMAND\\\\\",\\\\\"VALUE\\\\\":\\\\\"CLOSE\\\\\",\\\\\"TRYTIMES\\\\\":1,\\\\\"CONTROLCOMMAND\\\\\":{\\\\\"CONTROLTYPE\\\\\":\\\\\"CONTROLSWITCH\\\\\",\\\\\"CONTROLITEMTYPE\\\\\":\\\\\"YX\\\\\",\\\\\"CONTROLITEMID\\\\\":194570000,\\\\\"PROJECTID\\\\\":1,\\\\\"STATIONID\\\\\":8,\\\\\"DEVICEID\\\\\":928}}\\'}],Ext:\\'{\\\\\"StartTime\\\\\":\\\\\"00:00:00\\\\\",\\\\\"EndTime\\\\\":\\\\\"23:59:59\\\\\",\\\\\"EndDate\\\\\":\\\\\"same\\\\\"}\\'}\"}', '预期结果': \"ExceptionMeg': '保存成功!'\", '实际结果': '', '是否运行': 'y', 'headers': '{\"Content-Type\":\"application/x-www-form-urlencoded;charset=UTF-8\",\"Accept-Language\":\"zh-CN,zh;q=0.9\"}', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
+    }, {
+      "name" : "test133删除联动场景(下发遥控命令)",
+      "uid" : "f07da2827cc3122e",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610447462806,
+        "stop" : 1610447462852,
+        "duration" : 46
+      },
+      "flaky" : false,
+      "parameters" : [ "{'用例ID': 'test133', '模块': '联动场景维护', '接口名称': '删除联动场景(下发遥控命令)', '请求URL': '/admin/action.ashx?prefix=admin&action=DeleteLinkageConfig', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{ID:14}\"}', '预期结果': \"ExceptionMeg': '删除成功!'\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
+    }, {
+      "name" : "test134新增联动场景(下发摇调命令)",
+      "uid" : "eddfda076ea9be45",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610447462852,
+        "stop" : 1610447462931,
+        "duration" : 79
+      },
+      "flaky" : false,
+      "parameters" : [ "{'用例ID': 'test134', '模块': '联动场景维护', '接口名称': '新增联动场景(下发摇调命令)', '请求URL': '/admin/action.ashx?prefix=admin&action=AddLinkageConfig', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{ID:14,CTime:\\'2021-01-07T03:34:37.232Z\\',FORMULAID:6,CName:\\'下发摇调命令\\',DURATIONTIME:15,LinkageEffect:1,IsStart:0,LinkageControlItemList:[{ID:15,LinkcontolGroupId:14,ControlItem:\\'{\\\\\"LINKAGEACTIONTYPE\\\\\":\\\\\"CONTROLCOMMAND\\\\\",\\\\\"VALUE\\\\\":\\\\\"10\\\\\",\\\\\"TRYTIMES\\\\\":1,\\\\\"CONTROLCOMMAND\\\\\":{\\\\\"CONTROLTYPE\\\\\":\\\\\"CONTROLADJUST\\\\\",\\\\\"CONTROLITEMTYPE\\\\\":\\\\\"YC\\\\\",\\\\\"CONTROLITEMID\\\\\":20022000,\\\\\"PROJECTID\\\\\":1,\\\\\"STATIONID\\\\\":1,\\\\\"DEVICEID\\\\\":11}}\\'}],Ext:\\'{\\\\\"StartTime\\\\\":\\\\\"00:00:00\\\\\",\\\\\"EndTime\\\\\":\\\\\"23:59:59\\\\\",\\\\\"EndDate\\\\\":\\\\\"same\\\\\"}\\'}\"}', '预期结果': \"ExceptionMeg': '保存成功!'\", '实际结果': '', '是否运行': 'y', 'headers': '{\"Content-Type\":\"application/x-www-form-urlencoded;charset=UTF-8\",\"Accept-Language\":\"zh-CN,zh;q=0.9\"}', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
+    }, {
+      "name" : "test135删除联动场景(下发摇调命令)",
+      "uid" : "f429439796a95c6e",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610447462931,
+        "stop" : 1610447462977,
+        "duration" : 46
+      },
+      "flaky" : false,
+      "parameters" : [ "{'用例ID': 'test135', '模块': '联动场景维护', '接口名称': '删除联动场景(下发摇调命令)', '请求URL': '/admin/action.ashx?prefix=admin&action=DeleteLinkageConfig', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{ID:14}\"}', '预期结果': \"ExceptionMeg': '删除成功!'\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
+    }, {
+      "name" : "test136树节点名称精确查询",
+      "uid" : "15c2d222f7f19662",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610447462993,
+        "stop" : 1610447463024,
+        "duration" : 31
+      },
+      "flaky" : false,
+      "parameters" : [ "{'用例ID': 'test136', '模块': '树节点维护', '接口名称': '树节点名称精确查询', '请求URL': '/admin/action.ashx?prefix=admin&action=GetAreaInfoList', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{PageCurrent:1,PageSize:10,ClassId:7,CName:\\'变配电系统\\'}\"}', '预期结果': \"Isvirtual': '实设备', 'ID': 10, 'AREAID': 10, 'CNAME': '变配电系统'\", '实际结果': '', '是否运行': 'y', 'headers': '{\"Content-Type\": \\n\"application/x-www-form-urlencoded; charset=UTF-8\"}', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
+    }, {
+      "name" : "test137无效树节点名称查询",
+      "uid" : "eedec5fa0b191793",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610447463040,
+        "stop" : 1610447463071,
+        "duration" : 31
+      },
+      "flaky" : false,
+      "parameters" : [ "{'用例ID': 'test137', '模块': '树节点维护', '接口名称': '无效树节点名称查询', '请求URL': '/admin/action.ashx?prefix=admin&action=GetAreaInfoList', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{PageCurrent:1,PageSize:10,ClassId:7,CName:\\'@@@\\'}\"}', '预期结果': \"Page': {'Current': 1, 'Total': 0}\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
+    }, {
+      "name" : "test138获取区域树结构信息",
+      "uid" : "baf97a1a585e3b0c",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610447463087,
+        "stop" : 1610447463196,
+        "duration" : 109
+      },
+      "flaky" : false,
+      "parameters" : [ "{'用例ID': 'test138', '模块': '树节点维护', '接口名称': '获取区域树结构信息', '请求URL': '/admin/action.ashx?prefix=admin&action=GetMonitorTree', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"GetMonitorTree\"}', '预期结果': \"{'id': 10, 'name': '变配电系统', 'open': True, 'pId': '0'}, {'id': 15, 'name': '暖通空调系统', 'open': True, 'pId': '0'}\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
+    }, {
+      "name" : "test139获取区域列表信息",
+      "uid" : "c7fbe52dc2531ee4",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610447463212,
+        "stop" : 1610447463274,
+        "duration" : 62
+      },
+      "flaky" : false,
+      "parameters" : [ "{'用例ID': 'test139', '模块': '树节点维护', '接口名称': '获取区域列表信息', '请求URL': '/admin/action.ashx?prefix=admin&action=GetAreaInfoList', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{PageCurrent:1,PageSize:10,ClassId:7,CName:\\'\\'}\"}', '预期结果': \"Page': {'Current': 1, 'Total': 6}\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
+    }, {
+      "name" : "test140调出新增区域信息弹窗",
+      "uid" : "a6f4d07ef2d672c0",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610447463290,
+        "stop" : 1610447463352,
+        "duration" : 62
+      },
+      "flaky" : false,
+      "parameters" : [ "{'用例ID': 'test140', '模块': '树节点维护', '接口名称': '调出新增区域信息弹窗', '请求URL': '/admin/action.ashx?prefix=admin&action=GetTreeTypeLst', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"7\"}', '预期结果': \"Id': 7, 'Cname': '配电自动化-拓扑', 'ClassId': 7, 'Success': False\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
+    }, {
+      "name" : "test141同一层节点名称重复，新增失败",
+      "uid" : "b33e54cef24d9038",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610447463352,
+        "stop" : 1610447463415,
+        "duration" : 63
+      },
+      "flaky" : false,
+      "parameters" : [ "{'用例ID': 'test141', '模块': '树节点维护', '接口名称': '同一层节点名称重复，新增失败', '请求URL': '/admin/action.ashx?prefix=admin&action=UpdateAreaInfo', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{ID:-1,CNAME:\\'变配电系统\\',PARENTID:0,AREANUM:1,PERSONNUM:1,CLASSID:7,TREETYPE:7,ISDISPLAY:1,WaterNum:1,isvirtualName:0,itemCodes:\\'\\',otherName:\\'\\',ratedcapacity:\\'\\',Areaorder:0,IsTransGroup:0,UnitType:\\'\\'}\"}', '预期结果': \"ExceptionMeg': '同一层节点出现名称重复，请重设！'\", '实际结果': '', '是否运行': 'y', 'headers': '{\"Content-Type\": \\n\"application/x-www-form-urlencoded; charset=UTF-8\"}', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
+    }, {
+      "name" : "test142新增视频监控树节点",
+      "uid" : "47a1f6aab310b8c8",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610447463431,
+        "stop" : 1610447465571,
+        "duration" : 2140
+      },
+      "flaky" : false,
+      "parameters" : [ "{'用例ID': 'test142', '模块': '树节点维护', '接口名称': '新增视频监控树节点', '请求URL': '/admin/action.ashx?prefix=admin&action=UpdateAreaInfo', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{ID:-1,CNAME:\\'视频监控\\',PARENTID:0,AREANUM:1,PERSONNUM:1,CLASSID:7,TREETYPE:7,ISDISPLAY:1,WaterNum:1,isvirtualName:0,itemCodes:\\'\\',otherName:\\'\\',ratedcapacity:\\'\\',Areaorder:0,IsTransGroup:0,UnitType:\\'\\'}\"}', '预期结果': \"IsSucess': True, 'TreeName': None\", '实际结果': '', '是否运行': 'y', 'headers': '{\"Content-Type\": \\n\"application/x-www-form-urlencoded; charset=UTF-8\"}', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
+    }, {
+      "name" : "test143树节点下再新增节点",
+      "uid" : "36d99dca4a213fea",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610447465587,
+        "stop" : 1610447467274,
+        "duration" : 1687
+      },
+      "flaky" : false,
+      "parameters" : [ "{'用例ID': 'test143', '模块': '树节点维护', '接口名称': '树节点下再新增节点', '请求URL': '/admin/action.ashx?prefix=admin&action=UpdateAreaInfo', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{ID:-1,CNAME:\\'A区监控\\',PARENTID:18,AREANUM:1,PERSONNUM:1,CLASSID:12,TREETYPE:7,ISDISPLAY:1,WaterNum:1,isvirtualName:0,itemCodes:\\'\\',otherName:\\'\\',ratedcapacity:\\'\\',Areaorder:0,IsTransGroup:0,UnitType:\\'\\'}\"}', '预期结果': \"IsSucess': True, 'TreeName': None\", '实际结果': '', '是否运行': 'y', 'headers': '{\"Content-Type\": \\n\"application/x-www-form-urlencoded; charset=UTF-8\"}', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
+    }, {
+      "name" : "test144校验是否新增成功",
+      "uid" : "a89b7f72e7bf898f",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610447467290,
+        "stop" : 1610447467352,
+        "duration" : 62
+      },
+      "flaky" : false,
+      "parameters" : [ "{'用例ID': 'test144', '模块': '树节点维护', '接口名称': '校验是否新增成功', '请求URL': '/admin/action.ashx?prefix=admin&action=GetAreaInfoList', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{PageCurrent:1,PageSize:10,ClassId:7,CName:\\'\\'}\"}', '预期结果': \"Page': {'Current': 1, 'Total': 8}\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
+    }, {
+      "name" : "test145删除视频监控树节点",
+      "uid" : "a9fea4c63b101323",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610447467368,
+        "stop" : 1610447467415,
+        "duration" : 47
+      },
+      "flaky" : false,
+      "parameters" : [ "{'用例ID': 'test145', '模块': '树节点维护', '接口名称': '删除视频监控树节点', '请求URL': '/admin/action.ashx?prefix=admin&action=DeleteAreaInfo', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{ID:18}\"}', '预期结果': \"IsSucess': True, 'TreeName': None\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
+    }, {
+      "name" : "test146检验是否删除成功",
+      "uid" : "c02a31c9fc425f59",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610447467431,
+        "stop" : 1610447467493,
+        "duration" : 62
+      },
+      "flaky" : false,
+      "parameters" : [ "{'用例ID': 'test146', '模块': '树节点维护', '接口名称': '检验是否删除成功', '请求URL': '/admin/action.ashx?prefix=admin&action=GetAreaInfoList', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{PageCurrent:1,PageSize:10,ClassId:7,CName:\\'\\'}\"}', '预期结果': \"Page': {'Current': 1, 'Total': 6}\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
+    }, {
+      "name" : "test147越线量有效名称精确查询",
+      "uid" : "f6e2d04d71b48b49",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610447467509,
+        "stop" : 1610447467556,
+        "duration" : 47
+      },
+      "flaky" : false,
+      "parameters" : [ "{'用例ID': 'test147', '模块': '越线量配置', '接口名称': '越线量有效名称精确查询', '请求URL': '/admin/action.ashx?prefix=admin&action=GetLimit', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"inputs\":\"{PageCurrent:1,PageSize:20,strName:\\'测试数据01\\'}\"}', '预期结果': \"strDataSource': '[我的工程.前置厂站1.模拟量表.VALUE]模拟量点1'\", '实际结果': '', '是否运行': 'y', 'headers': '{\"Content-Type\": \\n\"application/x-www-form-urlencoded; charset=UTF-8\"}', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
+    }, {
+      "name" : "test148无效越线量名称查询",
+      "uid" : "b4086436c9c309c5",
+      "parentUid" : "645ef3e19a3f503b7938566dde4922e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610447467571,
+        "stop" : 1610447467618,
+        "duration" : 47
+      },
+      "flaky" : false,
+      "parameters" : [ "{'用例ID': 'test148', '模块': '越线量配置', '接口名称': '无效越线量名称查询', '请求URL': '/admin/action.ashx?prefix=admin&action=GetLimit', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"inputs\":\"{PageCurrent:1,PageSize:20,strName:\\'@@@\\'}\"}', '预期结果': \"Page': {'Current': 1, 'Total': 0}\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
     } ],
-    "uid" : "testcase.Test_excel_case"
+    "uid" : "testcase.test_excel_case"
   } ]
 }

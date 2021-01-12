@@ -1,0 +1,86 @@
+2021-01-07 10:46:05,339 Requests DEBUG 发送post请求 
+2021-01-07 10:46:05,683 Requests DEBUG 发送post请求 
+2021-01-07 11:08:01,498 Requests DEBUG 发送post请求 
+2021-01-07 11:09:51,066 Requests DEBUG 发送post请求 
+2021-01-07 11:13:02,259 Requests DEBUG 发送post请求 
+2021-01-07 11:13:19,169 Requests DEBUG 发送post请求 
+2021-01-07 11:32:07,562 Requests DEBUG 发送post请求 
+2021-01-07 11:37:53,781 Requests DEBUG 发送post请求 
+2021-01-07 11:40:02,959 Requests DEBUG 发送post请求 
+2021-01-07 11:40:03,053 Requests DEBUG 发送post请求 
+2021-01-07 11:40:03,125 Requests DEBUG 发送post请求 
+2021-01-07 11:40:03,180 Requests DEBUG 发送post请求 
+2021-01-07 11:40:03,257 Requests DEBUG 发送post请求 
+2021-01-07 11:40:03,366 AssertUtil ERROR 不包含或者body是错误，body is {'IsSucess': False, 'TreeName': None, 'ExceptionMeg': '违反了 PRIMARY KEY 约束“PK__TB_IMS_L__3214EC27B8F5ECF4”。不能在对象“dbo.TB_IMS_LINKAGECONTROLGROUP”中插入重复键。重复键值为 (14)。\r\n语句已终止。'},expected_body is ExceptionMeg': '保存成功!' 
+2021-01-07 11:40:03,534 Requests DEBUG 发送post请求 
+2021-01-07 11:40:03,601 Requests DEBUG 发送post请求 
+2021-01-07 11:40:03,674 AssertUtil ERROR 不包含或者body是错误，body is <script>top.window.location.href='http://192.168.40.234:8080/onesite'</script>,expected_body is ExceptionMeg': '保存成功!' 
+2021-01-07 11:40:03,710 Requests DEBUG 发送post请求 
+2021-01-07 11:40:03,751 AssertUtil ERROR 不包含或者body是错误，body is {'IsSucess': False, 'TreeName': None, 'ExceptionMeg': '删除失败,因为该数据具有推送记录!'},expected_body is ExceptionMeg': '删除成功!' 
+2021-01-07 11:40:51,083 Requests DEBUG 发送post请求 
+2021-01-07 11:40:51,181 Requests DEBUG 发送post请求 
+2021-01-07 11:40:51,226 Requests DEBUG 发送post请求 
+2021-01-07 11:40:51,257 Requests DEBUG 发送post请求 
+2021-01-07 11:40:51,296 Requests DEBUG 发送post请求 
+2021-01-07 11:40:51,472 AssertUtil ERROR 不包含或者body是错误，body is {'IsSucess': False, 'TreeName': None, 'ExceptionMeg': '违反了 PRIMARY KEY 约束“PK__TB_IMS_L__3214EC27B8F5ECF4”。不能在对象“dbo.TB_IMS_LINKAGECONTROLGROUP”中插入重复键。重复键值为 (14)。\r\n语句已终止。'},expected_body is ExceptionMeg': '保存成功!' 
+2021-01-07 11:40:51,597 Requests DEBUG 发送post请求 
+2021-01-07 11:40:51,663 Requests DEBUG 发送post请求 
+2021-01-07 11:40:51,694 AssertUtil ERROR 不包含或者body是错误，body is <script>top.window.location.href='http://192.168.40.234:8080/onesite'</script>,expected_body is ExceptionMeg': '保存成功!' 
+2021-01-07 11:40:51,835 Requests DEBUG 发送post请求 
+2021-01-07 11:40:51,866 AssertUtil ERROR 不包含或者body是错误，body is {'IsSucess': False, 'TreeName': None, 'ExceptionMeg': '删除失败,因为该数据具有推送记录!'},expected_body is ExceptionMeg': '删除成功!' 
+2021-01-07 11:40:51,944 D:\Users\Administrator\PycharmProjects\InterfaceTest\utils\LogUtil.py INFO 报告地址 
+2021-01-07 11:43:03,034 Requests DEBUG 发送post请求 
+2021-01-07 11:43:03,129 Requests DEBUG 发送post请求 
+2021-01-07 11:43:03,203 Requests DEBUG 发送post请求 
+2021-01-07 11:43:03,247 Requests DEBUG 发送post请求 
+2021-01-07 11:43:03,286 Requests DEBUG 发送post请求 
+2021-01-07 11:43:03,341 Requests DEBUG 发送post请求 
+2021-01-07 11:43:03,430 Requests DEBUG 发送post请求 
+2021-01-07 11:43:03,492 Requests DEBUG 发送post请求 
+2021-01-07 11:43:03,536 AssertUtil ERROR 不包含或者body是错误，body is <script>top.window.location.href='http://192.168.40.234:8080/onesite'</script>,expected_body is ExceptionMeg': '保存成功!' 
+2021-01-07 11:43:03,679 Requests DEBUG 发送post请求 
+2021-01-07 11:43:03,714 AssertUtil ERROR 不包含或者body是错误，body is {'IsSucess': False, 'TreeName': None, 'ExceptionMeg': '删除失败,因为该数据具有推送记录!'},expected_body is ExceptionMeg': '删除成功!' 
+2021-01-07 11:44:44,169 Requests DEBUG 发送post请求 
+2021-01-07 11:44:44,263 Requests DEBUG 发送post请求 
+2021-01-07 11:44:44,331 Requests DEBUG 发送post请求 
+2021-01-07 11:44:44,375 Requests DEBUG 发送post请求 
+2021-01-07 11:44:44,425 Requests DEBUG 发送post请求 
+2021-01-07 11:45:36,102 Requests DEBUG 发送post请求 
+2021-01-07 11:45:36,219 Requests DEBUG 发送post请求 
+2021-01-07 11:45:36,281 Requests DEBUG 发送post请求 
+2021-01-07 11:45:36,324 AssertUtil ERROR 不包含或者body是错误，body is <script>top.window.location.href='http://192.168.40.234:8080/onesite'</script>,expected_body is ExceptionMeg': '保存成功!' 
+2021-01-07 11:45:36,469 Requests DEBUG 发送post请求 
+2021-01-07 11:45:36,506 AssertUtil ERROR 不包含或者body是错误，body is {'IsSucess': False, 'TreeName': None, 'ExceptionMeg': '删除失败,因为该数据具有推送记录!'},expected_body is ExceptionMeg': '删除成功!' 
+2021-01-07 12:06:26,894 Requests DEBUG 发送post请求 
+2021-01-07 12:06:26,986 Requests DEBUG 发送post请求 
+2021-01-07 12:06:27,047 Requests DEBUG 发送post请求 
+2021-01-07 12:06:27,149 AssertUtil ERROR 不包含或者body是错误，body is {'ResultLabConfigDeviceInfoList': None, 'ActionInfo': {'Success': False, 'ExceptionMsg': '无设备!', 'ExtendContent': None, 'IsExistsDevice': False, 'ActionUser': '', 'LogType': 0, 'ActionDateTime': '/Date(1609992387144+0800)/', 'ActionModel': None, 'LogParams': None, 'FunctionPoint': None}},expected_body is ExceptionMeg': '保存成功!' 
+2021-01-07 12:06:27,293 Requests DEBUG 发送post请求 
+2021-01-07 12:06:27,336 AssertUtil ERROR 不包含或者body是错误，body is {'IsSucess': False, 'TreeName': None, 'ExceptionMeg': '删除失败,因为该数据具有推送记录!'},expected_body is ExceptionMeg': '删除成功!' 
+2021-01-07 12:07:25,851 Requests DEBUG 发送post请求 
+2021-01-07 12:08:38,545 Requests DEBUG 发送post请求 
+2021-01-07 12:08:38,631 Requests DEBUG 发送post请求 
+2021-01-07 12:09:06,814 Requests DEBUG 发送post请求 
+2021-01-07 12:09:06,914 AssertUtil ERROR 不包含或者body是错误，body is {'ResultLabConfigDeviceInfoList': None, 'ActionInfo': {'Success': False, 'ExceptionMsg': '无设备!', 'ExtendContent': None, 'IsExistsDevice': False, 'ActionUser': '', 'LogType': 0, 'ActionDateTime': '/Date(1609992546907+0800)/', 'ActionModel': None, 'LogParams': None, 'FunctionPoint': None}},expected_body is ExceptionMeg': '保存成功!' 
+2021-01-07 12:09:07,061 Requests DEBUG 发送post请求 
+2021-01-07 12:09:07,106 AssertUtil ERROR 不包含或者body是错误，body is {'IsSucess': False, 'TreeName': None, 'ExceptionMeg': '删除失败,因为该数据具有推送记录!'},expected_body is ExceptionMeg': '删除成功!' 
+2021-01-07 12:09:52,478 Requests DEBUG 发送post请求 
+2021-01-07 12:09:52,572 Requests DEBUG 发送post请求 
+2021-01-07 12:11:09,448 Requests DEBUG 发送post请求 
+2021-01-07 12:11:09,509 Requests DEBUG 发送post请求 
+2021-01-07 12:11:09,563 Requests DEBUG 发送post请求 
+2021-01-07 12:11:09,726 Requests DEBUG 发送post请求 
+2021-01-07 12:11:09,797 Requests DEBUG 发送post请求 
+2021-01-07 12:11:09,893 Requests DEBUG 发送post请求 
+2021-01-07 12:11:09,948 Requests DEBUG 发送post请求 
+2021-01-07 12:11:10,069 Requests DEBUG 发送post请求 
+2021-01-07 12:11:10,158 Requests DEBUG 发送post请求 
+2021-01-07 12:11:10,219 Requests DEBUG 发送post请求 
+2021-01-07 12:11:10,316 Requests DEBUG 发送post请求 
+2021-01-07 12:11:10,381 Requests DEBUG 发送post请求 
+2021-01-07 12:11:10,430 Requests DEBUG 发送post请求 
+2021-01-07 12:11:10,475 Requests DEBUG 发送post请求 
+2021-01-07 12:11:10,547 Requests DEBUG 发送post请求 
+2021-01-07 12:11:10,638 Requests DEBUG 发送post请求 
+2021-01-07 12:11:10,717 Requests DEBUG 发送post请求 
+2021-01-07 12:11:10,803 Requests DEBUG 发送post请求 

@@ -1,0 +1,83 @@
+{
+  "uid" : "997418a77eb22d17",
+  "name" : "test029查询通讯状态为在线的测量设备",
+  "fullName" : "testcase.test_excel_case.TestExcel#test_run",
+  "historyId" : "f3081c26e4cbf6e1312c7438ae582220",
+  "time" : {
+    "start" : 1610447446914,
+    "stop" : 1610447448023,
+    "duration" : 1109
+  },
+  "description" : "<font color='red'>请求URL: </font> http://192.168.40.234:5000/action.ashx?action=GetDevStateBySysAndName<Br/><font color='red'>请求类型: </font>POST<Br/><font color='red'>期望结果: </font>Page': {'Current': 1, 'Total': 5}<Br/><font color='red'>实际结果: </font>{'code': 200, 'body': {'ActionInfo': {'ErrorCode': 0, 'Success': True, 'ExceptionMsg': '', 'ExtendContent': None}, 'Page': {'Current': 1, 'Total': 5}, 'totalRun': 0, 'TotalBreakDown': 0, 'TotalOnline': 0, 'TotalOffline': 0, 'list': [{'ID': 1, 'DevName': '1设备1：', 'StationName': '前置厂站1', 'SysName': '全系统', 'On_OffState': '在线', 'RunState': None, 'DevideSapce': '101室'}, {'ID': 2, 'DevName': '1设备2：', 'StationName': '前置厂站1', 'SysName': '全系统', 'On_OffState': '在线', 'RunState': None, 'DevideSapce': '101室/102室'}, {'ID': 3, 'DevName': '1设备3：', 'StationName': '前置厂站1', 'SysName': '全系统', 'On_OffState': '在线', 'RunState': None, 'DevideSapce': '101室/102室/103室'}, {'ID': 5, 'DevName': '1设备5：', 'StationName': '前置厂站1', 'SysName': '全系统', 'On_OffState': '在线', 'RunState': None, 'DevideSapce': '101室/102室/103室/104室/105室'}, {'ID': 7, 'DevName': '1设备7：', 'StationName': '前置厂站1', 'SysName': '全系统', 'On_OffState': '在线', 'RunState': None, 'DevideSapce': '101室/102室/103室/104室/105室/106室/107室'}]}}",
+  "descriptionHtml" : "<p><font color='red'>请求URL: </font> http://192.168.40.234:5000/action.ashx?action=GetDevStateBySysAndName<Br/><font color='red'>请求类型: </font>POST<Br/><font color='red'>期望结果: </font>Page': {'Current': 1, 'Total': 5}<Br/><font color='red'>实际结果: </font>{'code': 200, 'body': {'ActionInfo': {'ErrorCode': 0, 'Success': True, 'ExceptionMsg': '', 'ExtendContent': None}, 'Page': {'Current': 1, 'Total': 5}, 'totalRun': 0, 'TotalBreakDown': 0, 'TotalOnline': 0, 'TotalOffline': 0, 'list': [{'ID': 1, 'DevName': '1设备1：', 'StationName': '前置厂站1', 'SysName': '全系统', 'On_OffState': '在线', 'RunState': None, 'DevideSapce': '101室'}, {'ID': 2, 'DevName': '1设备2：', 'StationName': '前置厂站1', 'SysName': '全系统', 'On_OffState': '在线', 'RunState': None, 'DevideSapce': '101室/102室'}, {'ID': 3, 'DevName': '1设备3：', 'StationName': '前置厂站1', 'SysName': '全系统', 'On_OffState': '在线', 'RunState': None, 'DevideSapce': '101室/102室/103室'}, {'ID': 5, 'DevName': '1设备5：', 'StationName': '前置厂站1', 'SysName': '全系统', 'On_OffState': '在线', 'RunState': None, 'DevideSapce': '101室/102室/103室/104室/105室'}, {'ID': 7, 'DevName': '1设备7：', 'StationName': '前置厂站1', 'SysName': '全系统', 'On_OffState': '在线', 'RunState': None, 'DevideSapce': '101室/102室/103室/104室/105室/106室/107室'}]}}</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "<font color='red'>请求URL: </font> http://192.168.40.234:5000/action.ashx?action=GetDevStateBySysAndName<Br/><font color='red'>请求类型: </font>POST<Br/><font color='red'>期望结果: </font>Page': {'Current': 1, 'Total': 5}<Br/><font color='red'>实际结果: </font>{'code': 200, 'body': {'ActionInfo': {'ErrorCode': 0, 'Success': True, 'ExceptionMsg': '', 'ExtendContent': None}, 'Page': {'Current': 1, 'Total': 5}, 'totalRun': 0, 'TotalBreakDown': 0, 'TotalOnline': 0, 'TotalOffline': 0, 'list': [{'ID': 1, 'DevName': '1设备1：', 'StationName': '前置厂站1', 'SysName': '全系统', 'On_OffState': '在线', 'RunState': None, 'DevideSapce': '101室'}, {'ID': 2, 'DevName': '1设备2：', 'StationName': '前置厂站1', 'SysName': '全系统', 'On_OffState': '在线', 'RunState': None, 'DevideSapce': '101室/102室'}, {'ID': 3, 'DevName': '1设备3：', 'StationName': '前置厂站1', 'SysName': '全系统', 'On_OffState': '在线', 'RunState': None, 'DevideSapce': '101室/102室/103室'}, {'ID': 5, 'DevName': '1设备5：', 'StationName': '前置厂站1', 'SysName': '全系统', 'On_OffState': '在线', 'RunState': None, 'DevideSapce': '101室/102室/103室/104室/105室'}, {'ID': 7, 'DevName': '1设备7：', 'StationName': '前置厂站1', 'SysName': '全系统', 'On_OffState': '在线', 'RunState': None, 'DevideSapce': '101室/102室/103室/104室/105室/106室/107室'}]}}",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e2d0b0e4581a1bf3",
+      "name" : "log",
+      "source" : "e2d0b0e4581a1bf3.txt",
+      "type" : "text/plain",
+      "size" : 52
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "IMS系统接口自动化测试"
+  }, {
+    "name" : "story",
+    "value" : "运行状态"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_excel_case"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestExcel"
+  }, {
+    "name" : "host",
+    "value" : "IMSIMS"
+  }, {
+    "name" : "thread",
+    "value" : "5964-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_excel_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "{'用例ID': 'test029', '模块': '运行状态', '接口名称': '查询通讯状态为在线的测量设备', '请求URL': '/action.ashx?action=GetDevStateBySysAndName', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{Start_StopState:0,DeviceType:2,DevName:\\'\\',strMcode:0,On_Offline:1,RunState:0,pageCurrent:1,PageSize:10,CampusInfo:1001}\"}', '预期结果': \"Page': {'Current': 1, 'Total': 5}\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "997418a77eb22d17.json",
+  "parameterValues" : [ "{'用例ID': 'test029', '模块': '运行状态', '接口名称': '查询通讯状态为在线的测量设备', '请求URL': '/action.ashx?action=GetDevStateBySysAndName', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{Start_StopState:0,DeviceType:2,DevName:\\'\\',strMcode:0,On_Offline:1,RunState:0,pageCurrent:1,PageSize:10,CampusInfo:1001}\"}', '预期结果': \"Page': {'Current': 1, 'Total': 5}\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
+}

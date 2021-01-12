@@ -1,0 +1,83 @@
+{
+  "uid" : "f6e2d04d71b48b49",
+  "name" : "test147越线量有效名称精确查询",
+  "fullName" : "testcase.test_excel_case.TestExcel#test_run",
+  "historyId" : "e2027459edaeae4d4f6f693b98fab9b0",
+  "time" : {
+    "start" : 1610447467509,
+    "stop" : 1610447467556,
+    "duration" : 47
+  },
+  "description" : "<font color='red'>请求URL: </font> http://192.168.40.234:5000/admin/action.ashx?prefix=admin&action=GetLimit<Br/><font color='red'>请求类型: </font>POST<Br/><font color='red'>期望结果: </font>strDataSource': '[我的工程.前置厂站1.模拟量表.VALUE]模拟量点1'<Br/><font color='red'>实际结果: </font>{'code': 200, 'body': {'ActionInfo': {'Success': True, 'ExceptionMsg': '', 'ExtendContent': None, 'IsExistsDevice': False, 'ActionUser': '', 'LogType': 0, 'ActionDateTime': '/Date(1610447467555+0800)/', 'ActionModel': None, 'LogParams': None, 'FunctionPoint': None}, 'LimitList': [{'nId': 1, 'strName': '测试数据01', 'dataSource': {'BaseNo': 1, 'TableNo': 18, 'FieldNo': 10, 'RecordNo': 20002000, 'PrjID': 1, 'StationID': 1, 'DeviceID': 1}, 'strDataSource': '[我的工程.前置厂站1.模拟量表.VALUE]模拟量点1', 'dbUpperLimitPlusPeak': 99999.0, 'dbUpperLimitPeak': 2.0, 'dbLowerLimitPeak': 1.0, 'dbLowerLimitPlusPeak': -99999.0, 'dbDeadZoneTime': 0, 'dbDeadZoneValue': 0.0, 'dbJogTime': 0}], 'Page': {'Current': 1, 'Total': 1}, 'CurrentMaxId': 4}}",
+  "descriptionHtml" : "<p><font color='red'>请求URL: </font> http://192.168.40.234:5000/admin/action.ashx?prefix=admin&amp;action=GetLimit<Br/><font color='red'>请求类型: </font>POST<Br/><font color='red'>期望结果: </font>strDataSource': '[我的工程.前置厂站1.模拟量表.VALUE]模拟量点1'<Br/><font color='red'>实际结果: </font>{'code': 200, 'body': {'ActionInfo': {'Success': True, 'ExceptionMsg': '', 'ExtendContent': None, 'IsExistsDevice': False, 'ActionUser': '', 'LogType': 0, 'ActionDateTime': '/Date(1610447467555+0800)/', 'ActionModel': None, 'LogParams': None, 'FunctionPoint': None}, 'LimitList': [{'nId': 1, 'strName': '测试数据01', 'dataSource': {'BaseNo': 1, 'TableNo': 18, 'FieldNo': 10, 'RecordNo': 20002000, 'PrjID': 1, 'StationID': 1, 'DeviceID': 1}, 'strDataSource': '[我的工程.前置厂站1.模拟量表.VALUE]模拟量点1', 'dbUpperLimitPlusPeak': 99999.0, 'dbUpperLimitPeak': 2.0, 'dbLowerLimitPeak': 1.0, 'dbLowerLimitPlusPeak': -99999.0, 'dbDeadZoneTime': 0, 'dbDeadZoneValue': 0.0, 'dbJogTime': 0}], 'Page': {'Current': 1, 'Total': 1}, 'CurrentMaxId': 4}}</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "<font color='red'>请求URL: </font> http://192.168.40.234:5000/admin/action.ashx?prefix=admin&action=GetLimit<Br/><font color='red'>请求类型: </font>POST<Br/><font color='red'>期望结果: </font>strDataSource': '[我的工程.前置厂站1.模拟量表.VALUE]模拟量点1'<Br/><font color='red'>实际结果: </font>{'code': 200, 'body': {'ActionInfo': {'Success': True, 'ExceptionMsg': '', 'ExtendContent': None, 'IsExistsDevice': False, 'ActionUser': '', 'LogType': 0, 'ActionDateTime': '/Date(1610447467555+0800)/', 'ActionModel': None, 'LogParams': None, 'FunctionPoint': None}, 'LimitList': [{'nId': 1, 'strName': '测试数据01', 'dataSource': {'BaseNo': 1, 'TableNo': 18, 'FieldNo': 10, 'RecordNo': 20002000, 'PrjID': 1, 'StationID': 1, 'DeviceID': 1}, 'strDataSource': '[我的工程.前置厂站1.模拟量表.VALUE]模拟量点1', 'dbUpperLimitPlusPeak': 99999.0, 'dbUpperLimitPeak': 2.0, 'dbLowerLimitPeak': 1.0, 'dbLowerLimitPlusPeak': -99999.0, 'dbDeadZoneTime': 0, 'dbDeadZoneValue': 0.0, 'dbJogTime': 0}], 'Page': {'Current': 1, 'Total': 1}, 'CurrentMaxId': 4}}",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "da45caf22194be42",
+      "name" : "log",
+      "source" : "da45caf22194be42.txt",
+      "type" : "text/plain",
+      "size" : 52
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "IMS系统接口自动化测试"
+  }, {
+    "name" : "story",
+    "value" : "越线量配置"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_excel_case"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestExcel"
+  }, {
+    "name" : "host",
+    "value" : "IMSIMS"
+  }, {
+    "name" : "thread",
+    "value" : "5964-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_excel_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "{'用例ID': 'test147', '模块': '越线量配置', '接口名称': '越线量有效名称精确查询', '请求URL': '/admin/action.ashx?prefix=admin&action=GetLimit', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"inputs\":\"{PageCurrent:1,PageSize:20,strName:\\'测试数据01\\'}\"}', '预期结果': \"strDataSource': '[我的工程.前置厂站1.模拟量表.VALUE]模拟量点1'\", '实际结果': '', '是否运行': 'y', 'headers': '{\"Content-Type\": \\n\"application/x-www-form-urlencoded; charset=UTF-8\"}', 'cookies': '', '返回状态码': '200', '数据库验证': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f6e2d04d71b48b49.json",
+  "parameterValues" : [ "{'用例ID': 'test147', '模块': '越线量配置', '接口名称': '越线量有效名称精确查询', '请求URL': '/admin/action.ashx?prefix=admin&action=GetLimit', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"inputs\":\"{PageCurrent:1,PageSize:20,strName:\\'测试数据01\\'}\"}', '预期结果': \"strDataSource': '[我的工程.前置厂站1.模拟量表.VALUE]模拟量点1'\", '实际结果': '', '是否运行': 'y', 'headers': '{\"Content-Type\": \\n\"application/x-www-form-urlencoded; charset=UTF-8\"}', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
+}

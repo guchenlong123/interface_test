@@ -14,7 +14,8 @@ from common import Base
 
 # 1、初始化信息
 # 1）.初始化测试用例文件
-case_file = os.path.join("../data", ConfigYaml().get_excel_file())
+# case_file = os.path.join("../data", ConfigYaml().get_excel_file())
+case_file = os.path.join(Conf.get_data_path(), ConfigYaml().get_excel_file())
 
 # 2）.测试用例sheet名称
 sheet_name = ConfigYaml().get_excel_sheet()
@@ -96,17 +97,17 @@ class TestExcel:
         # 状态码，返回结果内容，数据库相关的结果的验证
         # 状态码
         assert_util = AssertUtil()
-        assert_util.assert_code(res["code"], status_code)
+        assert_util.assert_code(int(res["code"]), int(status_code))
 
         # 返回结果内容
         assert_util.assert_in_body(str(res["body"]), str(expect_result))
 
 
-if __name__ == '__main__':
-    # pass
-    report_path = Conf.get_report_path() + os.sep + "result"
-    report_html_path = Conf.get_report_path() + os.sep + "html"
-    pytest.main(["-s", "Test_excel_case.py", "--alluredir", report_path])
+# if __name__ == '__main__':
+#     # pass
+#     report_path = Conf.get_report_path() + os.sep + "result"
+#     report_html_path = Conf.get_report_path() + os.sep + "html"
+#     pytest.main(["-s", "test_excel_case.py", "--alluredir", report_path])
 
     # Base.allure_report(report_path, report_html_path)
     # Base.send_mail(title="ims自动化测试报告结果",content=report_html_path)

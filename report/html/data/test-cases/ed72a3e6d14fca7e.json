@@ -1,0 +1,83 @@
+{
+  "uid" : "ed72a3e6d14fca7e",
+  "name" : "test026查询在线设备",
+  "fullName" : "testcase.test_excel_case.TestExcel#test_run",
+  "historyId" : "2aa922961a6f6ee779710ef2abef3c41",
+  "time" : {
+    "start" : 1610447443773,
+    "stop" : 1610447444820,
+    "duration" : 1047
+  },
+  "description" : "<font color='red'>请求URL: </font> http://192.168.40.234:5000/action.ashx?action=GetDeviceRunInfo<Br/><font color='red'>请求类型: </font>POST<Br/><font color='red'>期望结果: </font>Page': {'Current': 1, 'Total': 4}<Br/><font color='red'>实际结果: </font>{'code': 200, 'body': {'ActionInfo': {'ErrorCode': 0, 'Success': True, 'ExceptionMsg': '', 'ExtendContent': None}, 'Page': {'Current': 1, 'Total': 4}, 'SysId': 0, 'SysName': '全系统', 'ShowName': None, 'SysMcode': '0', 'PrimaryCount': {'TotalCount': 20, 'StartCount': 2, 'StopCount': 2, 'RunCount': 2, 'BreakDownCount': 2, 'OnLineCount': 4, 'OffLineCount': 16}, 'SecondaryCount': {'TotalCount': 0, 'StartCount': 0, 'StopCount': 0, 'RunCount': 0, 'BreakDownCount': 0, 'OnLineCount': 0, 'OffLineCount': 0}, 'DeviceInfo': [{'StationId': '', 'StationName': '--', 'DeviceId': 'CODE61-61', 'DeviceName': '给排水1', 'SysName': '给排水', 'DeviceType': '重大设备', 'Start_StopState': '运行', 'RunState': '正常', 'On_OfflineState': '在线', 'RelationDeviceInfo': None, 'DevideSapce': '401室'}, {'StationId': '', 'StationName': '--', 'DeviceId': 'CODE61-62', 'DeviceName': '给排水2', 'SysName': '给排水', 'DeviceType': '重大设备', 'Start_StopState': '停止', 'RunState': '正常', 'On_OfflineState': '在线', 'RelationDeviceInfo': None, 'DevideSapce': '401室/402室'}, {'StationId': '', 'StationName': '--', 'DeviceId': 'CODE61-71', 'DeviceName': '能耗监管1', 'SysName': '能耗监管', 'DeviceType': '重大设备', 'Start_StopState': '停止', 'RunState': '故障', 'On_OfflineState': '在线', 'RelationDeviceInfo': None, 'DevideSapce': '401室/402室/403室/404室/405室/406室/407室/408室/409室/410室/411室'}, {'StationId': '', 'StationName': '--', 'DeviceId': 'CODE61-72', 'DeviceName': '能耗监管2', 'SysName': '能耗监管', 'DeviceType': '重大设备', 'Start_StopState': '运行', 'RunState': '故障', 'On_OfflineState': '在线', 'RelationDeviceInfo': None, 'DevideSapce': '401室/402室/403室/404室/405室/406室/407室/408室/409室/410室/411室/412室'}]}}",
+  "descriptionHtml" : "<p><font color='red'>请求URL: </font> http://192.168.40.234:5000/action.ashx?action=GetDeviceRunInfo<Br/><font color='red'>请求类型: </font>POST<Br/><font color='red'>期望结果: </font>Page': {'Current': 1, 'Total': 4}<Br/><font color='red'>实际结果: </font>{'code': 200, 'body': {'ActionInfo': {'ErrorCode': 0, 'Success': True, 'ExceptionMsg': '', 'ExtendContent': None}, 'Page': {'Current': 1, 'Total': 4}, 'SysId': 0, 'SysName': '全系统', 'ShowName': None, 'SysMcode': '0', 'PrimaryCount': {'TotalCount': 20, 'StartCount': 2, 'StopCount': 2, 'RunCount': 2, 'BreakDownCount': 2, 'OnLineCount': 4, 'OffLineCount': 16}, 'SecondaryCount': {'TotalCount': 0, 'StartCount': 0, 'StopCount': 0, 'RunCount': 0, 'BreakDownCount': 0, 'OnLineCount': 0, 'OffLineCount': 0}, 'DeviceInfo': [{'StationId': '', 'StationName': '--', 'DeviceId': 'CODE61-61', 'DeviceName': '给排水1', 'SysName': '给排水', 'DeviceType': '重大设备', 'Start_StopState': '运行', 'RunState': '正常', 'On_OfflineState': '在线', 'RelationDeviceInfo': None, 'DevideSapce': '401室'}, {'StationId': '', 'StationName': '--', 'DeviceId': 'CODE61-62', 'DeviceName': '给排水2', 'SysName': '给排水', 'DeviceType': '重大设备', 'Start_StopState': '停止', 'RunState': '正常', 'On_OfflineState': '在线', 'RelationDeviceInfo': None, 'DevideSapce': '401室/402室'}, {'StationId': '', 'StationName': '--', 'DeviceId': 'CODE61-71', 'DeviceName': '能耗监管1', 'SysName': '能耗监管', 'DeviceType': '重大设备', 'Start_StopState': '停止', 'RunState': '故障', 'On_OfflineState': '在线', 'RelationDeviceInfo': None, 'DevideSapce': '401室/402室/403室/404室/405室/406室/407室/408室/409室/410室/411室'}, {'StationId': '', 'StationName': '--', 'DeviceId': 'CODE61-72', 'DeviceName': '能耗监管2', 'SysName': '能耗监管', 'DeviceType': '重大设备', 'Start_StopState': '运行', 'RunState': '故障', 'On_OfflineState': '在线', 'RelationDeviceInfo': None, 'DevideSapce': '401室/402室/403室/404室/405室/406室/407室/408室/409室/410室/411室/412室'}]}}</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "<font color='red'>请求URL: </font> http://192.168.40.234:5000/action.ashx?action=GetDeviceRunInfo<Br/><font color='red'>请求类型: </font>POST<Br/><font color='red'>期望结果: </font>Page': {'Current': 1, 'Total': 4}<Br/><font color='red'>实际结果: </font>{'code': 200, 'body': {'ActionInfo': {'ErrorCode': 0, 'Success': True, 'ExceptionMsg': '', 'ExtendContent': None}, 'Page': {'Current': 1, 'Total': 4}, 'SysId': 0, 'SysName': '全系统', 'ShowName': None, 'SysMcode': '0', 'PrimaryCount': {'TotalCount': 20, 'StartCount': 2, 'StopCount': 2, 'RunCount': 2, 'BreakDownCount': 2, 'OnLineCount': 4, 'OffLineCount': 16}, 'SecondaryCount': {'TotalCount': 0, 'StartCount': 0, 'StopCount': 0, 'RunCount': 0, 'BreakDownCount': 0, 'OnLineCount': 0, 'OffLineCount': 0}, 'DeviceInfo': [{'StationId': '', 'StationName': '--', 'DeviceId': 'CODE61-61', 'DeviceName': '给排水1', 'SysName': '给排水', 'DeviceType': '重大设备', 'Start_StopState': '运行', 'RunState': '正常', 'On_OfflineState': '在线', 'RelationDeviceInfo': None, 'DevideSapce': '401室'}, {'StationId': '', 'StationName': '--', 'DeviceId': 'CODE61-62', 'DeviceName': '给排水2', 'SysName': '给排水', 'DeviceType': '重大设备', 'Start_StopState': '停止', 'RunState': '正常', 'On_OfflineState': '在线', 'RelationDeviceInfo': None, 'DevideSapce': '401室/402室'}, {'StationId': '', 'StationName': '--', 'DeviceId': 'CODE61-71', 'DeviceName': '能耗监管1', 'SysName': '能耗监管', 'DeviceType': '重大设备', 'Start_StopState': '停止', 'RunState': '故障', 'On_OfflineState': '在线', 'RelationDeviceInfo': None, 'DevideSapce': '401室/402室/403室/404室/405室/406室/407室/408室/409室/410室/411室'}, {'StationId': '', 'StationName': '--', 'DeviceId': 'CODE61-72', 'DeviceName': '能耗监管2', 'SysName': '能耗监管', 'DeviceType': '重大设备', 'Start_StopState': '运行', 'RunState': '故障', 'On_OfflineState': '在线', 'RelationDeviceInfo': None, 'DevideSapce': '401室/402室/403室/404室/405室/406室/407室/408室/409室/410室/411室/412室'}]}}",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "5a801b687ecdd1e2",
+      "name" : "log",
+      "source" : "5a801b687ecdd1e2.txt",
+      "type" : "text/plain",
+      "size" : 52
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "IMS系统接口自动化测试"
+  }, {
+    "name" : "story",
+    "value" : "运行状态"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_excel_case"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestExcel"
+  }, {
+    "name" : "host",
+    "value" : "IMSIMS"
+  }, {
+    "name" : "thread",
+    "value" : "5964-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_excel_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "{'用例ID': 'test026', '模块': '运行状态', '接口名称': '查询在线设备', '请求URL': '/action.ashx?action=GetDeviceRunInfo', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{Start_StopState:0,DeviceType:1,DevName:\\'\\',strMcode:0,On_Offline:1,RunState:0,pageCurrent:1,PageSize:10,CampusInfo:\\'1061\\'}\"}', '预期结果': \"Page': {'Current': 1, 'Total': 4}\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ed72a3e6d14fca7e.json",
+  "parameterValues" : [ "{'用例ID': 'test026', '模块': '运行状态', '接口名称': '查询在线设备', '请求URL': '/action.ashx?action=GetDeviceRunInfo', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{Start_StopState:0,DeviceType:1,DevName:\\'\\',strMcode:0,On_Offline:1,RunState:0,pageCurrent:1,PageSize:10,CampusInfo:\\'1061\\'}\"}', '预期结果': \"Page': {'Current': 1, 'Total': 4}\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
+}

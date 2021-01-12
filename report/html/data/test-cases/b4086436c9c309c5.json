@@ -1,0 +1,83 @@
+{
+  "uid" : "b4086436c9c309c5",
+  "name" : "test148无效越线量名称查询",
+  "fullName" : "testcase.test_excel_case.TestExcel#test_run",
+  "historyId" : "13407cbe7171a1d41071fe11c4c09ab2",
+  "time" : {
+    "start" : 1610447467571,
+    "stop" : 1610447467618,
+    "duration" : 47
+  },
+  "description" : "<font color='red'>请求URL: </font> http://192.168.40.234:5000/admin/action.ashx?prefix=admin&action=GetLimit<Br/><font color='red'>请求类型: </font>POST<Br/><font color='red'>期望结果: </font>Page': {'Current': 1, 'Total': 0}<Br/><font color='red'>实际结果: </font>{'code': 200, 'body': {'ActionInfo': {'Success': True, 'ExceptionMsg': '', 'ExtendContent': None, 'IsExistsDevice': False, 'ActionUser': '', 'LogType': 0, 'ActionDateTime': '/Date(1610447467602+0800)/', 'ActionModel': None, 'LogParams': None, 'FunctionPoint': None}, 'LimitList': [], 'Page': {'Current': 1, 'Total': 0}, 'CurrentMaxId': 4}}",
+  "descriptionHtml" : "<p><font color='red'>请求URL: </font> http://192.168.40.234:5000/admin/action.ashx?prefix=admin&amp;action=GetLimit<Br/><font color='red'>请求类型: </font>POST<Br/><font color='red'>期望结果: </font>Page': {'Current': 1, 'Total': 0}<Br/><font color='red'>实际结果: </font>{'code': 200, 'body': {'ActionInfo': {'Success': True, 'ExceptionMsg': '', 'ExtendContent': None, 'IsExistsDevice': False, 'ActionUser': '', 'LogType': 0, 'ActionDateTime': '/Date(1610447467602+0800)/', 'ActionModel': None, 'LogParams': None, 'FunctionPoint': None}, 'LimitList': [], 'Page': {'Current': 1, 'Total': 0}, 'CurrentMaxId': 4}}</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "<font color='red'>请求URL: </font> http://192.168.40.234:5000/admin/action.ashx?prefix=admin&action=GetLimit<Br/><font color='red'>请求类型: </font>POST<Br/><font color='red'>期望结果: </font>Page': {'Current': 1, 'Total': 0}<Br/><font color='red'>实际结果: </font>{'code': 200, 'body': {'ActionInfo': {'Success': True, 'ExceptionMsg': '', 'ExtendContent': None, 'IsExistsDevice': False, 'ActionUser': '', 'LogType': 0, 'ActionDateTime': '/Date(1610447467602+0800)/', 'ActionModel': None, 'LogParams': None, 'FunctionPoint': None}, 'LimitList': [], 'Page': {'Current': 1, 'Total': 0}, 'CurrentMaxId': 4}}",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "cce8cb7845ca09f9",
+      "name" : "log",
+      "source" : "cce8cb7845ca09f9.txt",
+      "type" : "text/plain",
+      "size" : 52
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "IMS系统接口自动化测试"
+  }, {
+    "name" : "story",
+    "value" : "越线量配置"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_excel_case"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestExcel"
+  }, {
+    "name" : "host",
+    "value" : "IMSIMS"
+  }, {
+    "name" : "thread",
+    "value" : "5964-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_excel_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "{'用例ID': 'test148', '模块': '越线量配置', '接口名称': '无效越线量名称查询', '请求URL': '/admin/action.ashx?prefix=admin&action=GetLimit', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"inputs\":\"{PageCurrent:1,PageSize:20,strName:\\'@@@\\'}\"}', '预期结果': \"Page': {'Current': 1, 'Total': 0}\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b4086436c9c309c5.json",
+  "parameterValues" : [ "{'用例ID': 'test148', '模块': '越线量配置', '接口名称': '无效越线量名称查询', '请求URL': '/admin/action.ashx?prefix=admin&action=GetLimit', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"inputs\":\"{PageCurrent:1,PageSize:20,strName:\\'@@@\\'}\"}', '预期结果': \"Page': {'Current': 1, 'Total': 0}\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
+}

@@ -1,0 +1,83 @@
+{
+  "uid" : "42d3d07d55599b03",
+  "name" : "test056新增实时告警类(越下限)",
+  "fullName" : "testcase.test_excel_case.TestExcel#test_run",
+  "historyId" : "99e63e65930ca8a401e0e1ba07ae3501",
+  "time" : {
+    "start" : 1610447454508,
+    "stop" : 1610447454602,
+    "duration" : 94
+  },
+  "description" : "<font color='red'>请求URL: </font> http://192.168.40.234:5000/admin/action.ashx?prefix=admin&action=AddMonitorIndexFormula<Br/><font color='red'>请求类型: </font>POST<Br/><font color='red'>期望结果: </font>IsSucess': True<Br/><font color='red'>实际结果: </font>{'code': 200, 'body': {'IsSucess': True, 'TreeName': None, 'ExceptionMeg': ''}}",
+  "descriptionHtml" : "<p><font color='red'>请求URL: </font> http://192.168.40.234:5000/admin/action.ashx?prefix=admin&amp;action=AddMonitorIndexFormula<Br/><font color='red'>请求类型: </font>POST<Br/><font color='red'>期望结果: </font>IsSucess': True<Br/><font color='red'>实际结果: </font>{'code': 200, 'body': {'IsSucess': True, 'TreeName': None, 'ExceptionMeg': ''}}</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "<font color='red'>请求URL: </font> http://192.168.40.234:5000/admin/action.ashx?prefix=admin&action=AddMonitorIndexFormula<Br/><font color='red'>请求类型: </font>POST<Br/><font color='red'>期望结果: </font>IsSucess': True<Br/><font color='red'>实际结果: </font>{'code': 200, 'body': {'IsSucess': True, 'TreeName': None, 'ExceptionMeg': ''}}",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "6fddabb75c3fb1e1",
+      "name" : "log",
+      "source" : "6fddabb75c3fb1e1.txt",
+      "type" : "text/plain",
+      "size" : 52
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "IMS系统接口自动化测试"
+  }, {
+    "name" : "story",
+    "value" : "基础公式配置\n(实时告警类)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_excel_case"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestExcel"
+  }, {
+    "name" : "host",
+    "value" : "IMSIMS"
+  }, {
+    "name" : "thread",
+    "value" : "5964-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_excel_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "{'用例ID': 'test056', '模块': '基础公式配置\\n(实时告警类)', '接口名称': '新增实时告警类(越下限)', '请求URL': '/admin/action.ashx?prefix=admin&action=AddMonitorIndexFormula', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{IndexFormulaList:[{OprationType:0,ID:null,\\'SystemId\\':1,FormulaName:\\'配电自动化(1)1设备1：越下限\\',AnalyzeType:5,SourceName:\\'\\',SourceID:1,IndexType:\\'405\\',IndexFormula:\\'YC_20002000=10\\',FormulaParm:0,IsExeute:1,isPushEAM:0,BounceTime:15,ClassType:0,Ext:\\'{\\\\\"StartTime\\\\\":\\\\\"00:00:00\\\\\",\\\\\"EndTime\\\\\":\\\\\"23:59:59\\\\\",\\\\\"EndDate\\\\\":\\\\\"same\\\\\"}\\',Description:\\'测试告警\\',UpdateTime:\\'2020-12-31 10:24:51\\'}]}\"}', '预期结果': \"IsSucess': True\", '实际结果': '', '是否运行': 'y', 'headers': '{\"Content-Type\":\"application/x-www-form-urlencoded;charset=UTF-8\",\"Accept-Language\":\"zh-CN,zh;q=0.9\"}', 'cookies': '', '返回状态码': '200', '数据库验证': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "42d3d07d55599b03.json",
+  "parameterValues" : [ "{'用例ID': 'test056', '模块': '基础公式配置\\n(实时告警类)', '接口名称': '新增实时告警类(越下限)', '请求URL': '/admin/action.ashx?prefix=admin&action=AddMonitorIndexFormula', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{IndexFormulaList:[{OprationType:0,ID:null,\\'SystemId\\':1,FormulaName:\\'配电自动化(1)1设备1：越下限\\',AnalyzeType:5,SourceName:\\'\\',SourceID:1,IndexType:\\'405\\',IndexFormula:\\'YC_20002000=10\\',FormulaParm:0,IsExeute:1,isPushEAM:0,BounceTime:15,ClassType:0,Ext:\\'{\\\\\"StartTime\\\\\":\\\\\"00:00:00\\\\\",\\\\\"EndTime\\\\\":\\\\\"23:59:59\\\\\",\\\\\"EndDate\\\\\":\\\\\"same\\\\\"}\\',Description:\\'测试告警\\',UpdateTime:\\'2020-12-31 10:24:51\\'}]}\"}', '预期结果': \"IsSucess': True\", '实际结果': '', '是否运行': 'y', 'headers': '{\"Content-Type\":\"application/x-www-form-urlencoded;charset=UTF-8\",\"Accept-Language\":\"zh-CN,zh;q=0.9\"}', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
+}

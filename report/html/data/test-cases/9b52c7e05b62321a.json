@@ -1,0 +1,83 @@
+{
+  "uid" : "9b52c7e05b62321a",
+  "name" : "test014修改报表",
+  "fullName" : "testcase.test_excel_case.TestExcel#test_run",
+  "historyId" : "3c1f31f8627f30dcddd8c1552f2284be",
+  "time" : {
+    "start" : 1610447439773,
+    "stop" : 1610447439805,
+    "duration" : 32
+  },
+  "description" : "<font color='red'>请求URL: </font> http://192.168.40.234:5000/action.ashx?action=GetReportSelectedInfo<Br/><font color='red'>请求类型: </font>POST<Br/><font color='red'>期望结果: </font>list': [{'DeviceId': 1, 'TableNum': 18, 'SampleId': 20002000}]<Br/><font color='red'>实际结果: </font>{'code': 200, 'body': {'ActionInfo': {'ErrorCode': 0, 'Success': True, 'ExceptionMsg': '', 'ActionName': None, 'ActionUser': None, 'ActionTime': '/Date(1610447439804+0800)/', 'LogType': 0, 'ActionDateTime': '/Date(1610447439804+0800)/', 'ActionModel': None, 'LogParams': None, 'FunctionPoint': None}, 'list': [{'DeviceId': 1, 'TableNum': 18, 'SampleId': 20002000}]}}",
+  "descriptionHtml" : "<p><font color='red'>请求URL: </font> http://192.168.40.234:5000/action.ashx?action=GetReportSelectedInfo<Br/><font color='red'>请求类型: </font>POST<Br/><font color='red'>期望结果: </font>list': [{'DeviceId': 1, 'TableNum': 18, 'SampleId': 20002000}]<Br/><font color='red'>实际结果: </font>{'code': 200, 'body': {'ActionInfo': {'ErrorCode': 0, 'Success': True, 'ExceptionMsg': '', 'ActionName': None, 'ActionUser': None, 'ActionTime': '/Date(1610447439804+0800)/', 'LogType': 0, 'ActionDateTime': '/Date(1610447439804+0800)/', 'ActionModel': None, 'LogParams': None, 'FunctionPoint': None}, 'list': [{'DeviceId': 1, 'TableNum': 18, 'SampleId': 20002000}]}}</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "<font color='red'>请求URL: </font> http://192.168.40.234:5000/action.ashx?action=GetReportSelectedInfo<Br/><font color='red'>请求类型: </font>POST<Br/><font color='red'>期望结果: </font>list': [{'DeviceId': 1, 'TableNum': 18, 'SampleId': 20002000}]<Br/><font color='red'>实际结果: </font>{'code': 200, 'body': {'ActionInfo': {'ErrorCode': 0, 'Success': True, 'ExceptionMsg': '', 'ActionName': None, 'ActionUser': None, 'ActionTime': '/Date(1610447439804+0800)/', 'LogType': 0, 'ActionDateTime': '/Date(1610447439804+0800)/', 'ActionModel': None, 'LogParams': None, 'FunctionPoint': None}, 'list': [{'DeviceId': 1, 'TableNum': 18, 'SampleId': 20002000}]}}",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "696a5eb4d0a1d41f",
+      "name" : "log",
+      "source" : "696a5eb4d0a1d41f.txt",
+      "type" : "text/plain",
+      "size" : 52
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "IMS系统接口自动化测试"
+  }, {
+    "name" : "story",
+    "value" : "报表管理"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_excel_case"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestExcel"
+  }, {
+    "name" : "host",
+    "value" : "IMSIMS"
+  }, {
+    "name" : "thread",
+    "value" : "5964-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_excel_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "{'用例ID': 'test014', '模块': '报表管理', '接口名称': '修改报表', '请求URL': '/action.ashx?action=GetReportSelectedInfo', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\": \"{ReportId:1}\"}', '预期结果': \"list': [{'DeviceId': 1, 'TableNum': 18, 'SampleId': 20002000}]\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9b52c7e05b62321a.json",
+  "parameterValues" : [ "{'用例ID': 'test014', '模块': '报表管理', '接口名称': '修改报表', '请求URL': '/action.ashx?action=GetReportSelectedInfo', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\": \"{ReportId:1}\"}', '预期结果': \"list': [{'DeviceId': 1, 'TableNum': 18, 'SampleId': 20002000}]\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
+}

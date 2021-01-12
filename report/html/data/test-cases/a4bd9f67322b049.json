@@ -1,0 +1,83 @@
+{
+  "uid" : "a4bd9f67322b049",
+  "name" : "test005刷新页面",
+  "fullName" : "testcase.test_excel_case.TestExcel#test_run",
+  "historyId" : "b7c33ea75c737dba3698df48500c1f3a",
+  "time" : {
+    "start" : 1610447439164,
+    "stop" : 1610447439211,
+    "duration" : 47
+  },
+  "description" : "<font color='red'>请求URL: </font> http://192.168.40.234:5000/action.ashx?action=GetReportInfo<Br/><font color='red'>请求类型: </font>POST<Br/><font color='red'>期望结果: </font>PageInfo': {'Current': 1, 'Total': 1}<Br/><font color='red'>实际结果: </font>{'code': 200, 'body': {'ActionInfo': {'ErrorCode': 0, 'Success': True, 'ExceptionMsg': None, 'ActionName': None, 'ActionUser': None, 'ActionTime': '/Date(1610447439195+0800)/', 'LogType': 0, 'ActionDateTime': '/Date(1610447439195+0800)/', 'ActionModel': None, 'LogParams': None, 'FunctionPoint': None}, 'ReportList': [{'Id': 1, 'CName': 'test01', 'Desp': 'test01', 'ReportType': 1, 'RoleNo': None}], 'PageInfo': {'Current': 1, 'Total': 1}}}",
+  "descriptionHtml" : "<p><font color='red'>请求URL: </font> http://192.168.40.234:5000/action.ashx?action=GetReportInfo<Br/><font color='red'>请求类型: </font>POST<Br/><font color='red'>期望结果: </font>PageInfo': {'Current': 1, 'Total': 1}<Br/><font color='red'>实际结果: </font>{'code': 200, 'body': {'ActionInfo': {'ErrorCode': 0, 'Success': True, 'ExceptionMsg': None, 'ActionName': None, 'ActionUser': None, 'ActionTime': '/Date(1610447439195+0800)/', 'LogType': 0, 'ActionDateTime': '/Date(1610447439195+0800)/', 'ActionModel': None, 'LogParams': None, 'FunctionPoint': None}, 'ReportList': [{'Id': 1, 'CName': 'test01', 'Desp': 'test01', 'ReportType': 1, 'RoleNo': None}], 'PageInfo': {'Current': 1, 'Total': 1}}}</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "<font color='red'>请求URL: </font> http://192.168.40.234:5000/action.ashx?action=GetReportInfo<Br/><font color='red'>请求类型: </font>POST<Br/><font color='red'>期望结果: </font>PageInfo': {'Current': 1, 'Total': 1}<Br/><font color='red'>实际结果: </font>{'code': 200, 'body': {'ActionInfo': {'ErrorCode': 0, 'Success': True, 'ExceptionMsg': None, 'ActionName': None, 'ActionUser': None, 'ActionTime': '/Date(1610447439195+0800)/', 'LogType': 0, 'ActionDateTime': '/Date(1610447439195+0800)/', 'ActionModel': None, 'LogParams': None, 'FunctionPoint': None}, 'ReportList': [{'Id': 1, 'CName': 'test01', 'Desp': 'test01', 'ReportType': 1, 'RoleNo': None}], 'PageInfo': {'Current': 1, 'Total': 1}}}",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ae564f61fa11c0b4",
+      "name" : "log",
+      "source" : "ae564f61fa11c0b4.txt",
+      "type" : "text/plain",
+      "size" : 52
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "IMS系统接口自动化测试"
+  }, {
+    "name" : "story",
+    "value" : "报表管理"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_excel_case"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestExcel"
+  }, {
+    "name" : "host",
+    "value" : "IMSIMS"
+  }, {
+    "name" : "thread",
+    "value" : "5964-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_excel_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "{'用例ID': 'test005', '模块': '报表管理', '接口名称': '刷新页面', '请求URL': '/action.ashx?action=GetReportInfo', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{CName:\\'\\',PageCurrent:1,PageSize:10,UserName:\\'admin\\'}\"}', '预期结果': \"PageInfo': {'Current': 1, 'Total': 1}\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a4bd9f67322b049.json",
+  "parameterValues" : [ "{'用例ID': 'test005', '模块': '报表管理', '接口名称': '刷新页面', '请求URL': '/action.ashx?action=GetReportInfo', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{CName:\\'\\',PageCurrent:1,PageSize:10,UserName:\\'admin\\'}\"}', '预期结果': \"PageInfo': {'Current': 1, 'Total': 1}\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
+}

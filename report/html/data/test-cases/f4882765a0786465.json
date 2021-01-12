@@ -1,0 +1,83 @@
+{
+  "uid" : "f4882765a0786465",
+  "name" : "test117查询不存在的区域名称",
+  "fullName" : "testcase.test_excel_case.TestExcel#test_run",
+  "historyId" : "78a1ebedfaa4849bcc6f3eeb0a08f3ad",
+  "time" : {
+    "start" : 1610447461668,
+    "stop" : 1610447461715,
+    "duration" : 47
+  },
+  "description" : "<font color='red'>请求URL: </font> http://192.168.40.234:5000/admin/action.ashx?prefix=admin&action=AreaConfig_GetAreaDeviceInfo<Br/><font color='red'>请求类型: </font>POST<Br/><font color='red'>期望结果: </font>AreaName': '测试1#', 'ParentID': 0, 'ParentName': '顶级节点', 'OrderNo': 1, 'AreaClass': '532_'<Br/><font color='red'>实际结果: </font>{'code': 200, 'body': {'ActionInfo': {'Success': True, 'ExceptionMsg': '', 'ExtendContent': None, 'IsExistsDevice': False, 'ActionUser': '', 'LogType': 0, 'ActionDateTime': '/Date(1610447461715+0800)/', 'ActionModel': None, 'LogParams': None, 'FunctionPoint': None}, 'AreaDeviceInfoList': [{'Id': 1, 'AreaName': '测试1#', 'ParentID': 0, 'ParentName': '顶级节点', 'OrderNo': 1, 'AreaClass': '532_', 'DevInfo': None, 'TableNum': None}]}}",
+  "descriptionHtml" : "<p><font color='red'>请求URL: </font> http://192.168.40.234:5000/admin/action.ashx?prefix=admin&amp;action=AreaConfig_GetAreaDeviceInfo<Br/><font color='red'>请求类型: </font>POST<Br/><font color='red'>期望结果: </font>AreaName': '测试1#', 'ParentID': 0, 'ParentName': '顶级节点', 'OrderNo': 1, 'AreaClass': '532_'<Br/><font color='red'>实际结果: </font>{'code': 200, 'body': {'ActionInfo': {'Success': True, 'ExceptionMsg': '', 'ExtendContent': None, 'IsExistsDevice': False, 'ActionUser': '', 'LogType': 0, 'ActionDateTime': '/Date(1610447461715+0800)/', 'ActionModel': None, 'LogParams': None, 'FunctionPoint': None}, 'AreaDeviceInfoList': [{'Id': 1, 'AreaName': '测试1#', 'ParentID': 0, 'ParentName': '顶级节点', 'OrderNo': 1, 'AreaClass': '532_', 'DevInfo': None, 'TableNum': None}]}}</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "<font color='red'>请求URL: </font> http://192.168.40.234:5000/admin/action.ashx?prefix=admin&action=AreaConfig_GetAreaDeviceInfo<Br/><font color='red'>请求类型: </font>POST<Br/><font color='red'>期望结果: </font>AreaName': '测试1#', 'ParentID': 0, 'ParentName': '顶级节点', 'OrderNo': 1, 'AreaClass': '532_'<Br/><font color='red'>实际结果: </font>{'code': 200, 'body': {'ActionInfo': {'Success': True, 'ExceptionMsg': '', 'ExtendContent': None, 'IsExistsDevice': False, 'ActionUser': '', 'LogType': 0, 'ActionDateTime': '/Date(1610447461715+0800)/', 'ActionModel': None, 'LogParams': None, 'FunctionPoint': None}, 'AreaDeviceInfoList': [{'Id': 1, 'AreaName': '测试1#', 'ParentID': 0, 'ParentName': '顶级节点', 'OrderNo': 1, 'AreaClass': '532_', 'DevInfo': None, 'TableNum': None}]}}",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "b0e1ea801cd0ee9",
+      "name" : "log",
+      "source" : "b0e1ea801cd0ee9.txt",
+      "type" : "text/plain",
+      "size" : 52
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "IMS系统接口自动化测试"
+  }, {
+    "name" : "story",
+    "value" : "区域设备配置"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_excel_case"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestExcel"
+  }, {
+    "name" : "host",
+    "value" : "IMSIMS"
+  }, {
+    "name" : "thread",
+    "value" : "5964-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_excel_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "{'用例ID': 'test117', '模块': '区域设备配置', '接口名称': '查询不存在的区域名称', '请求URL': '/admin/action.ashx?prefix=admin&action=AreaConfig_GetAreaDeviceInfo', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{AreaName:\\'测试1#\\',AreaClass:\\'app\\'}\"}', '预期结果': \"AreaName': '测试1#', 'ParentID': 0, 'ParentName': '顶级节点', 'OrderNo': 1, 'AreaClass': '532_'\", '实际结果': '', '是否运行': 'y', 'headers': '{\"Content-Type\": \\n\"application/x-www-form-urlencoded; charset=UTF-8\"}', 'cookies': '', '返回状态码': '200', '数据库验证': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f4882765a0786465.json",
+  "parameterValues" : [ "{'用例ID': 'test117', '模块': '区域设备配置', '接口名称': '查询不存在的区域名称', '请求URL': '/admin/action.ashx?prefix=admin&action=AreaConfig_GetAreaDeviceInfo', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{AreaName:\\'测试1#\\',AreaClass:\\'app\\'}\"}', '预期结果': \"AreaName': '测试1#', 'ParentID': 0, 'ParentName': '顶级节点', 'OrderNo': 1, 'AreaClass': '532_'\", '实际结果': '', '是否运行': 'y', 'headers': '{\"Content-Type\": \\n\"application/x-www-form-urlencoded; charset=UTF-8\"}', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
+}

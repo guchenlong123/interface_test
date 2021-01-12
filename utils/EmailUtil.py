@@ -54,3 +54,6 @@ if __name__ == "__main__":
     recv = email_info["receiver"]
     email = SendEmail(smtp_addr,username,password,recv,"测试")
     email.send_mail()
+
+
+

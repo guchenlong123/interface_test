@@ -1,0 +1,83 @@
+{
+  "uid" : "dc6f5600b010f521",
+  "name" : "test126删除联动场景(调用第三方接口)",
+  "fullName" : "testcase.test_excel_case.TestExcel#test_run",
+  "historyId" : "d4a337a7b578fb61d5088399f9484815",
+  "time" : {
+    "start" : 1610447462293,
+    "stop" : 1610447462340,
+    "duration" : 47
+  },
+  "description" : "<font color='red'>请求URL: </font> http://192.168.40.234:5000/admin/action.ashx?prefix=admin&action=DeleteLinkageConfig<Br/><font color='red'>请求类型: </font>POST<Br/><font color='red'>期望结果: </font>ExceptionMeg': '删除成功!'<Br/><font color='red'>实际结果: </font>{'code': 200, 'body': {'IsSucess': True, 'TreeName': None, 'ExceptionMeg': '删除成功!'}}",
+  "descriptionHtml" : "<p><font color='red'>请求URL: </font> http://192.168.40.234:5000/admin/action.ashx?prefix=admin&amp;action=DeleteLinkageConfig<Br/><font color='red'>请求类型: </font>POST<Br/><font color='red'>期望结果: </font>ExceptionMeg': '删除成功!'<Br/><font color='red'>实际结果: </font>{'code': 200, 'body': {'IsSucess': True, 'TreeName': None, 'ExceptionMeg': '删除成功!'}}</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "<font color='red'>请求URL: </font> http://192.168.40.234:5000/admin/action.ashx?prefix=admin&action=DeleteLinkageConfig<Br/><font color='red'>请求类型: </font>POST<Br/><font color='red'>期望结果: </font>ExceptionMeg': '删除成功!'<Br/><font color='red'>实际结果: </font>{'code': 200, 'body': {'IsSucess': True, 'TreeName': None, 'ExceptionMeg': '删除成功!'}}",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "52dc0469b2542810",
+      "name" : "log",
+      "source" : "52dc0469b2542810.txt",
+      "type" : "text/plain",
+      "size" : 52
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "IMS系统接口自动化测试"
+  }, {
+    "name" : "story",
+    "value" : "联动场景维护"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_excel_case"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestExcel"
+  }, {
+    "name" : "host",
+    "value" : "IMSIMS"
+  }, {
+    "name" : "thread",
+    "value" : "5964-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_excel_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "{'用例ID': 'test126', '模块': '联动场景维护', '接口名称': '删除联动场景(调用第三方接口)', '请求URL': '/admin/action.ashx?prefix=admin&action=DeleteLinkageConfig', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{ID:14}\"}', '预期结果': \"ExceptionMeg': '删除成功!'\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "dc6f5600b010f521.json",
+  "parameterValues" : [ "{'用例ID': 'test126', '模块': '联动场景维护', '接口名称': '删除联动场景(调用第三方接口)', '请求URL': '/admin/action.ashx?prefix=admin&action=DeleteLinkageConfig', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{ID:14}\"}', '预期结果': \"ExceptionMeg': '删除成功!'\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', '返回状态码': '200', '数据库验证': ''}" ]
+}

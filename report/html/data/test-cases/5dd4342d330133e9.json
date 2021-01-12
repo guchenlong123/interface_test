@@ -1,0 +1,83 @@
+{
+  "uid" : "5dd4342d330133e9",
+  "name" : "test051查看告警记录详情",
+  "fullName" : "testcase.test_excel_case.TestExcel#test_run",
+  "historyId" : "741e113efe2b4df3eb33bf76002ac817",
+  "time" : {
+    "start" : 1610447454086,
+    "stop" : 1610447454117,
+    "duration" : 31
+  },
+  "description" : "<font color='red'>请求URL: </font> http://192.168.40.234:5000/action.ashx?action=GetDevicePDRData<Br/><font color='red'>请求类型: </font>POST<Br/><font color='red'>期望结果: </font>Success': False, 'ExceptionMsg': '没有数据', 'ActionName': '获取告警曲线数据'<Br/><font color='red'>实际结果: </font>{'code': 200, 'body': {'ActionInfo': {'ErrorCode': 0, 'Success': False, 'ExceptionMsg': '没有数据', 'ActionName': '获取告警曲线数据', 'ActionUser': None, 'ActionTime': '/Date(1610447454117+0800)/', 'LogType': 0, 'ActionDateTime': '/Date(1610447454117+0800)/', 'ActionModel': None, 'LogParams': None, 'FunctionPoint': None}, 'data': None}}",
+  "descriptionHtml" : "<p><font color='red'>请求URL: </font> http://192.168.40.234:5000/action.ashx?action=GetDevicePDRData<Br/><font color='red'>请求类型: </font>POST<Br/><font color='red'>期望结果: </font>Success': False, 'ExceptionMsg': '没有数据', 'ActionName': '获取告警曲线数据'<Br/><font color='red'>实际结果: </font>{'code': 200, 'body': {'ActionInfo': {'ErrorCode': 0, 'Success': False, 'ExceptionMsg': '没有数据', 'ActionName': '获取告警曲线数据', 'ActionUser': None, 'ActionTime': '/Date(1610447454117+0800)/', 'LogType': 0, 'ActionDateTime': '/Date(1610447454117+0800)/', 'ActionModel': None, 'LogParams': None, 'FunctionPoint': None}, 'data': None}}</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "<font color='red'>请求URL: </font> http://192.168.40.234:5000/action.ashx?action=GetDevicePDRData<Br/><font color='red'>请求类型: </font>POST<Br/><font color='red'>期望结果: </font>Success': False, 'ExceptionMsg': '没有数据', 'ActionName': '获取告警曲线数据'<Br/><font color='red'>实际结果: </font>{'code': 200, 'body': {'ActionInfo': {'ErrorCode': 0, 'Success': False, 'ExceptionMsg': '没有数据', 'ActionName': '获取告警曲线数据', 'ActionUser': None, 'ActionTime': '/Date(1610447454117+0800)/', 'LogType': 0, 'ActionDateTime': '/Date(1610447454117+0800)/', 'ActionModel': None, 'LogParams': None, 'FunctionPoint': None}, 'data': None}}",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ed0b4e86fa7e02b2",
+      "name" : "log",
+      "source" : "ed0b4e86fa7e02b2.txt",
+      "type" : "text/plain",
+      "size" : 52
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "IMS系统接口自动化测试"
+  }, {
+    "name" : "story",
+    "value" : "告警查询"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_excel_case"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestExcel"
+  }, {
+    "name" : "host",
+    "value" : "IMSIMS"
+  }, {
+    "name" : "thread",
+    "value" : "5964-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_excel_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "{'用例ID': 'test051', '模块': '告警查询', '接口名称': '查看告警记录详情', '请求URL': '/action.ashx?action=GetDevicePDRData', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{alarmId:\\'e815175d-3051-4d8e-a52e-c97d498bed7e\\'}\"}', '预期结果': \"Success': False, 'ExceptionMsg': '没有数据', 'ActionName': '获取告警曲线数据'\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '{\"userid\":\"admin\"}', '返回状态码': '200', '数据库验证': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5dd4342d330133e9.json",
+  "parameterValues" : [ "{'用例ID': 'test051', '模块': '告警查询', '接口名称': '查看告警记录详情', '请求URL': '/action.ashx?action=GetDevicePDRData', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'JSON', '请求参数': '{\"Inputs\":\"{alarmId:\\'e815175d-3051-4d8e-a52e-c97d498bed7e\\'}\"}', '预期结果': \"Success': False, 'ExceptionMsg': '没有数据', 'ActionName': '获取告警曲线数据'\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '{\"userid\":\"admin\"}', '返回状态码': '200', '数据库验证': ''}" ]
+}
